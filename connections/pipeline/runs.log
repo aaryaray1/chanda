@@ -1,0 +1,197 @@
+2026-11-01 18:18:09  DRY discover-00-02 agent= :: Read and follow connections/pipeline/brief-discovery.md exactly. Your set: 00-02 (Foundations with Electromagnetism and Optics).
+2026-11-01 18:18:09  DRY discover-00-03 agent= :: Read and follow connections/pipeline/brief-discovery.md exactly. Your set: 00-03 (Foundations with Thermodynamics and Statistical Mechanics).
+2026-11-01 18:18:09  DRY discover-00-04 agent= :: Read and follow connections/pipeline/brief-discovery.md exactly. Your set: 00-04 (Foundations with Quantum Physics).
+2026-11-01 18:18:19  start discover-00-02
+2026-11-01 18:28:38  discover-00-02 (exit 0): discover-00-02: done (40 valid of 40 lines)
+2026-11-01 18:28:44  snapshot: interim registry of 1048 connections; map and codices rebuilt
+2026-11-01 18:30:28  start discover-00-03
+2026-11-01 18:40:15  discover-00-03 (exit 0): discover-00-03: done (45 valid of 45 lines)
+2026-11-01 18:40:15  start discover-00-04
+2026-11-01 18:48:47  discover-00-04 (exit 0): discover-00-04: done (40 valid of 40 lines)
+2026-11-01 18:48:47  start discover-00-05
+2026-11-01 18:56:09  discover-00-05 (exit 0): discover-00-05: done (40 valid of 40 lines)
+2026-11-01 18:56:09  start discover-00-06
+2026-11-01 19:05:58  discover-00-06 (exit 0): discover-00-06: done (40 valid of 40 lines)
+2026-11-01 19:06:04  snapshot: interim registry of 1213 connections; map and codices rebuilt
+2026-11-01 19:07:09  start discover-00-within
+2026-11-01 19:19:32  discover-00-within (exit 0): discover-00-within: done (35 valid of 35 lines)
+2026-11-01 19:19:32  start discover-01-02
+2026-11-01 19:19:35  discover-01-02 (exit 1): discover-01-02: failed (0 valid of 0 lines)
+2026-11-01 19:19:36  start discover-01-03
+2026-11-01 19:19:39  discover-01-03 (exit 1): discover-01-03: failed (0 valid of 0 lines)
+2026-11-01 19:19:39  start discover-01-04
+2026-11-01 19:19:42  discover-01-04 (exit 1): discover-01-04: failed (0 valid of 0 lines)
+2026-11-01 19:19:49  snapshot: interim registry of 1248 connections; map and codices rebuilt
+2026-11-02 01:07:36  start discover-01-02
+2026-11-02 04:52:31  start discover-01-02
+2026-11-02 05:07:54  discover-01-02 (exit 0): discover-01-02: done (46 valid of 46 lines)
+2026-11-02 05:07:55  start discover-01-03
+2026-11-02 05:19:08  discover-01-03 (exit 0): discover-01-03: done (41 valid of 41 lines)
+2026-11-02 05:19:08  start discover-01-04
+2026-11-02 05:32:58  discover-01-04 (exit 0): discover-01-04: done (47 valid of 47 lines)
+2026-11-02 05:32:59  start discover-01-05
+2026-11-02 05:45:55  discover-01-05 (exit 0): discover-01-05: done (40 valid of 40 lines)
+2026-11-02 05:46:15  snapshot: interim registry of 1422 connections; map and codices rebuilt
+2026-11-02 06:52:32  start discover-01-06
+2026-11-02 07:03:58  discover-01-06 (exit 0): discover-01-06: done (40 valid of 40 lines)
+2026-11-02 07:03:59  start discover-01-07
+2026-11-02 07:14:15  discover-01-07 (exit 0): discover-01-07: done (38 valid of 38 lines)
+2026-11-02 07:14:16  start discover-01-within
+2026-11-02 07:25:47  discover-01-within (exit 0): discover-01-within: done (35 valid of 35 lines)
+2026-11-02 07:25:48  start discover-02-04
+2026-11-02 07:35:27  discover-02-04 (exit 0): discover-02-04: done (43 valid of 43 lines)
+2026-11-02 07:36:02  snapshot: interim registry of 1578 connections; map and codices rebuilt
+2026-11-02 08:52:32  start discover-02-05
+2026-11-02 09:07:07  discover-02-05 (exit 0): discover-02-05: done (41 valid of 41 lines)
+2026-11-02 09:07:07  start discover-02-06
+2026-11-02 09:16:14  discover-02-06 (exit 0): discover-02-06: done (41 valid of 41 lines)
+2026-11-02 09:16:15  start discover-02-07
+2026-11-02 09:29:00  discover-02-07 (exit 0): discover-02-07: done (40 valid of 40 lines)
+2026-11-02 09:29:01  start discover-02-08
+2026-11-02 09:29:05  discover-02-08 stopped by a usage limit; cooling down until 11/02/2026 10:29:05
+2026-11-02 09:29:29  snapshot: interim registry of 1700 connections; map and codices rebuilt
+2026-11-02 10:52:32  start discover-02-08
+2026-11-02 10:52:35  discover-02-08 stopped by a usage limit; cooling down until 11/02/2026 11:52:35
+2026-11-02 10:52:42  snapshot: interim registry of 1700 connections; map and codices rebuilt
+2026-11-02 12:52:31  start discover-02-08
+2026-11-03 12:42:21  start discover-02-08
+2026-11-03 12:51:54  discover-02-08 (exit 0): discover-02-08: done (42 valid of 42 lines)
+2026-11-03 12:51:55  start discover-02-within
+2026-11-03 13:01:25  discover-02-within (exit 0): discover-02-within: done (35 valid of 35 lines)
+2026-11-03 13:01:26  start discover-03-08
+2026-11-03 13:13:41  discover-03-08 (exit 0): discover-03-08: done (40 valid of 40 lines)
+2026-11-03 13:13:42  start discover-03-09
+2026-11-03 13:24:46  discover-03-09 (exit 0): discover-03-09: done (40 valid of 40 lines)
+2026-11-03 13:25:06  snapshot: interim registry of 1857 connections; map and codices rebuilt
+2026-11-03 14:52:33  start discover-04-10
+2026-11-03 15:03:54  discover-04-10 (exit 0): discover-04-10: done (39 valid of 39 lines)
+2026-11-03 15:03:55  start discover-04-within
+2026-11-03 15:12:28  discover-04-within (exit 0): discover-04-within: done (36 valid of 36 lines)
+2026-11-03 15:12:29  start discover-05-09
+2026-11-03 15:12:33  discover-05-09 stopped by a usage limit; cooling down until 11/03/2026 16:12:33
+2026-11-03 15:12:57  snapshot: interim registry of 1932 connections; map and codices rebuilt
+2026-11-03 16:52:32  start discover-05-09
+2026-11-03 16:52:37  discover-05-09 stopped by a usage limit; cooling down until 11/03/2026 17:52:37
+2026-11-03 16:52:56  snapshot: interim registry of 1932 connections; map and codices rebuilt
+2026-11-03 18:52:32  start discover-05-09
+2026-11-03 19:02:03  discover-05-09 (exit 0): discover-05-09: done (47 valid of 47 lines)
+2026-11-03 19:02:04  start discover-05-10
+2026-11-03 19:12:30  discover-05-10 (exit 0): discover-05-10: done (37 valid of 37 lines)
+2026-11-03 19:12:31  start discover-05-11
+2026-11-03 19:21:36  discover-05-11 (exit 0): discover-05-11: done (31 valid of 31 lines)
+2026-11-03 19:21:37  start discover-05-within
+2026-11-03 19:31:16  discover-05-within (exit 0): discover-05-within: done (35 valid of 35 lines)
+2026-11-03 19:31:55  snapshot: interim registry of 2082 connections; map and codices rebuilt
+2026-11-03 20:52:32  start discover-06-09
+2026-11-03 20:52:36  discover-06-09 stopped by a usage limit; cooling down until 11/03/2026 21:52:36
+2026-11-03 20:52:55  snapshot: interim registry of 2082 connections; map and codices rebuilt
+2026-11-04 00:52:32  another run holds the lock; exiting
+2026-11-04 14:06:04  start discover-06-09
+2026-11-04 14:14:12  discover-06-09 (exit 0): discover-06-09: done (42 valid of 42 lines)
+2026-11-04 14:14:13  start discover-06-10
+2026-11-04 14:29:03  discover-06-10 (exit 0): discover-06-10: done (39 valid of 39 lines)
+2026-11-04 14:29:03  start discover-06-11
+2026-11-04 14:37:22  discover-06-11 (exit 0): discover-06-11: done (36 valid of 36 lines)
+2026-11-04 14:37:23  start discover-06-within
+2026-11-04 14:45:44  discover-06-within (exit 0): discover-06-within: done (36 valid of 36 lines)
+2026-11-04 14:46:04  snapshot: interim registry of 2235 connections; map and codices rebuilt
+2026-11-04 14:52:32  start discover-07-within
+2026-11-04 14:59:32  discover-07-within (exit 0): discover-07-within: done (35 valid of 35 lines)
+2026-11-04 14:59:32  start discover-08-within
+2026-11-04 14:59:36  discover-08-within stopped by a usage limit; cooling down until 11/04/2026 15:59:36
+2026-11-04 14:59:56  snapshot: interim registry of 2270 connections; map and codices rebuilt
+2026-11-04 16:52:36  start discover-08-within
+2026-11-04 16:52:48  discover-08-within stopped by a usage limit; cooling down until 11/04/2026 17:52:48
+2026-11-04 16:53:30  snapshot: interim registry of 2270 connections; map and codices rebuilt
+2026-11-04 18:52:32  start discover-08-within
+2026-11-04 18:52:36  discover-08-within stopped by a usage limit; cooling down until 11/04/2026 19:52:36
+2026-11-04 18:52:55  snapshot: interim registry of 2270 connections; map and codices rebuilt
+2026-11-04 19:30:39  cooling down after a usage limit until 11/04/2026 19:52:36
+2026-11-04 19:30:47  DRY discover-08-within model=sonnet effort=medium :: 23042 chars in C:\Users\aarya\OneDrive\Desktop\school\chanda\connections\pipeline\work\discover-08-within.prompt.md
+2026-11-04 19:30:47  DRY discover-09-10 model=sonnet effort=medium :: 22182 chars in C:\Users\aarya\OneDrive\Desktop\school\chanda\connections\pipeline\work\discover-09-10.prompt.md
+2026-11-04 19:30:58  start discover-08-within on sonnet at medium effort
+2026-11-04 19:31:56  discover-08-within (exit 0): discover-08-within: done (36 valid of 36 lines · 1 turns, 0k in + 18k cache-write + 3k cache-read, 9k out, ~$0.16)
+2026-11-04 19:32:02  snapshot: interim registry of 2306 connections; map and codices rebuilt
+2026-11-04 20:52:33  start discover-09-10 on sonnet at medium effort
+2026-11-04 20:52:37  discover-09-10 stopped by a usage limit; cooling down until 11/04/2026 21:52:36
+2026-11-04 20:53:24  snapshot: interim registry of 2306 connections; map and codices rebuilt
+2026-11-04 22:52:35  start discover-09-10 on sonnet at medium effort
+2026-11-05 00:52:33  another run holds the lock; exiting
+2026-11-05 01:46:20  start discover-09-11 on sonnet at medium effort
+2026-11-05 01:47:09  discover-09-11 (exit 0): discover-09-11: done (32 valid of 32 lines · 1 turns, 0k in + 17k cache-write + 3k cache-read, 8k out, ~$0.15)
+2026-11-05 01:47:10  start discover-09-00 on sonnet at medium effort
+2026-11-05 01:47:51  discover-09-00 (exit 0): discover-09-00: done (30 valid of 30 lines · 1 turns, 0k in + 15k cache-write + 5k cache-read, 7k out, ~$0.13)
+2026-11-05 01:47:51  start discover-09-01 on sonnet at medium effort
+2026-11-05 01:48:42  discover-09-01 (exit 0): discover-09-01: done (37 valid of 37 lines · 1 turns, 0k in + 16k cache-write + 5k cache-read, 9k out, ~$0.15)
+2026-11-05 01:48:43  start discover-09-02 on sonnet at medium effort
+2026-11-05 01:49:31  discover-09-02 (exit 0): discover-09-02: done (32 valid of 32 lines · 1 turns, 0k in + 15k cache-write + 5k cache-read, 8k out, ~$0.14)
+2026-11-05 01:49:47  snapshot: interim registry of 2437 connections; map and codices rebuilt
+2026-11-05 02:05:44  DRY discover-09-10 model=sonnet effort=medium budget=$1.5 timeout=45min :: 22182 chars in C:\Users\aarya\OneDrive\Desktop\school\chanda\connections\pipeline\work\discover-09-10.prompt.md
+2026-11-05 02:05:44  DRY discover-09-within model=sonnet effort=medium budget=$1.5 timeout=45min :: 15948 chars in C:\Users\aarya\OneDrive\Desktop\school\chanda\connections\pipeline\work\discover-09-within.prompt.md
+2026-11-05 02:05:56  DRY discover-09-10 model=sonnet effort=medium budget=$1.5 timeout=45min :: 22182 chars in C:\Users\aarya\OneDrive\Desktop\school\chanda\connections\pipeline\work\discover-09-10.prompt.md
+2026-11-05 02:05:58  DRY discover-09-10 model=sonnet effort=medium budget=$1.5 timeout=45min :: 22182 chars in C:\Users\aarya\OneDrive\Desktop\school\chanda\connections\pipeline\work\discover-09-10.prompt.md
+2026-11-05 02:06:13  another run is active; exiting
+2026-11-05 02:06:18  DRY discover-09-10 model=sonnet effort=medium budget=$1.5 timeout=45min :: 22182 chars in C:\Users\aarya\OneDrive\Desktop\school\chanda\connections\pipeline\work\discover-09-10.prompt.md
+2026-11-05 02:07:06  recovered discover-09-10: the previous run ended while it was running
+2026-11-05 02:07:07  start discover-09-10 on sonnet at medium effort
+2026-11-05 02:07:54  discover-09-10: done (30 valid of 31 records · 1 turns, 0k in + 16k cache-write + 5k cache-read, 8k out, ~$0.14) (exit 0)
+2026-11-05 02:07:55  start discover-09-within on sonnet at medium effort
+2026-11-05 02:08:41  discover-09-within: done (37 valid of 37 records · 1 turns, 0k in + 14k cache-write + 5k cache-read, 8k out, ~$0.13) (exit 0)
+2026-11-05 02:08:41  start discover-10-11 on sonnet at medium effort
+2026-11-05 02:09:25  discover-10-11: done (31 valid of 31 records · 1 turns, 0k in + 15k cache-write + 5k cache-read, 7k out, ~$0.13) (exit 0)
+2026-11-05 02:09:26  start discover-10-00 on sonnet at medium effort
+2026-11-05 02:10:21  discover-10-00: done (36 valid of 36 records · 1 turns, 0k in + 14k cache-write + 5k cache-read, 9k out, ~$0.15) (exit 0)
+2026-11-05 02:10:28  snapshot: interim registry of 2571 connections; map and codices rebuilt
+2026-11-05 02:13:54  start discover-10-01 on sonnet at medium effort
+2026-11-05 02:14:46  discover-10-01: done (34 valid of 34 records · 1 turns, 0k in + 16k cache-write + 5k cache-read, 9k out, ~$0.15) (exit 0)
+2026-11-05 02:14:46  start discover-10-02 on sonnet at medium effort
+2026-11-05 02:15:35  discover-10-02: done (34 valid of 35 records · 1 turns, 0k in + 15k cache-write + 5k cache-read, 8k out, ~$0.14) (exit 0)
+2026-11-05 02:15:35  start discover-10-03 on sonnet at medium effort
+2026-11-05 02:16:33  discover-10-03: done (37 valid of 37 records · 1 turns, 0k in + 15k cache-write + 5k cache-read, 10k out, ~$0.16) (exit 0)
+2026-11-05 02:16:34  start discover-10-within on sonnet at medium effort
+2026-11-05 02:17:21  discover-10-within: done (33 valid of 33 records · 1 turns, 0k in + 13k cache-write + 5k cache-read, 8k out, ~$0.13) (exit 0)
+2026-11-05 02:17:38  snapshot: interim registry of 2709 connections; map and codices rebuilt
+2026-11-05 04:13:57  start discover-11-00 on sonnet at medium effort
+2026-11-05 04:14:40  discover-11-00: done (29 valid of 35 records · 1 turns, 0k in + 15k cache-write + 3k cache-read, 7k out, ~$0.13) (exit 0)
+2026-11-05 04:14:41  start discover-11-01 on sonnet at medium effort
+2026-11-05 04:15:45  discover-11-01: done (44 valid of 45 records · 1 turns, 0k in + 16k cache-write + 5k cache-read, 11k out, ~$0.18) (exit 0)
+2026-11-05 04:15:46  start discover-11-02 on sonnet at medium effort
+2026-11-05 04:16:37  discover-11-02: done (37 valid of 38 records · 1 turns, 0k in + 15k cache-write + 5k cache-read, 8k out, ~$0.14) (exit 0)
+2026-11-05 04:16:37  start discover-11-03 on sonnet at medium effort
+2026-11-05 04:17:26  discover-11-03: done (35 valid of 35 records · 1 turns, 0k in + 16k cache-write + 5k cache-read, 8k out, ~$0.15) (exit 0)
+2026-11-05 04:18:13  snapshot: interim registry of 2854 connections; map and codices rebuilt
+2026-11-05 06:13:55  start discover-11-04 on sonnet at medium effort
+2026-11-05 06:14:42  discover-11-04: done (37 valid of 37 records · 1 turns, 0k in + 18k cache-write + 3k cache-read, 8k out, ~$0.15) (exit 0)
+2026-11-05 06:14:43  start discover-11-within on sonnet at medium effort
+2026-11-05 06:15:37  discover-11-within: done (42 valid of 42 records · 1 turns, 0k in + 11k cache-write + 5k cache-read, 9k out, ~$0.14) (exit 0)
+2026-11-05 06:15:56  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-05 08:13:55  prepared 2933 connections into 59 review packets
+2026-11-05 08:13:56  start review-00-1 at medium effort
+2026-11-05 08:15:56  review-00-1: done (100/100 verdicts, 5 additions · 1 turns, 0k in + 57k cache-write + 3k cache-read, 14k out, ~$0.73) (exit 0)
+2026-11-05 08:15:57  start review-00-2 at medium effort
+2026-11-05 08:17:49  review-00-2: done (100/100 verdicts, 5 additions · 1 turns, 0k in + 57k cache-write + 5k cache-read, 13k out, ~$0.72) (exit 0)
+2026-11-05 08:17:50  start review-00-3 at medium effort
+2026-11-05 08:19:47  review-00-3: done (100/100 verdicts, 4 additions · 1 turns, 0k in + 55k cache-write + 5k cache-read, 13k out, ~$0.71) (exit 0)
+2026-11-05 08:19:48  start review-00-4 at medium effort
+2026-11-05 08:22:06  review-00-4: done (100/100 verdicts, 5 additions · 1 turns, 0k in + 52k cache-write + 5k cache-read, 15k out, ~$0.73) (exit 0)
+2026-11-05 08:22:26  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-05 10:13:55  start review-00-5 at medium effort
+2026-11-05 10:15:39  review-00-5: done (57/57 verdicts, 7 additions · 1 turns, 0k in + 35k cache-write + 3k cache-read, 11k out, ~$0.51) (exit 0)
+2026-11-05 10:15:39  start review-01-1 at medium effort
+2026-11-05 10:17:56  review-01-1: done (100/100 verdicts, 8 additions · 1 turns, 0k in + 61k cache-write + 5k cache-read, 16k out, ~$0.81) (exit 0)
+2026-11-05 10:17:57  start review-01-2 at medium effort
+2026-11-05 10:20:31  review-01-2: done (100/100 verdicts, 5 additions · 1 turns, 0k in + 69k cache-write + 5k cache-read, 17k out, ~$0.90) (exit 0)
+2026-11-05 10:20:32  start review-01-3 at medium effort
+2026-11-05 10:23:21  review-01-3: done (100/100 verdicts, 6 additions · 1 turns, 0k in + 66k cache-write + 5k cache-read, 19k out, ~$0.91) (exit 0)
+2026-11-05 10:23:40  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-05 12:13:55  start review-01-4 at medium effort
+2026-11-05 12:16:17  review-01-4: done (100/100 verdicts, 4 additions · 1 turns, 0k in + 60k cache-write + 3k cache-read, 16k out, ~$0.81) (exit 0)
+2026-11-05 12:16:18  start review-01-5 at medium effort
+2026-11-05 12:18:39  review-01-5: done (85/85 verdicts, 3 additions · 1 turns, 0k in + 47k cache-write + 5k cache-read, 16k out, ~$0.70) (exit 0)
+2026-11-05 12:18:40  start review-02-1 at medium effort
+2026-11-05 12:20:34  review-02-1: done (100/100 verdicts, 6 additions · 1 turns, 0k in + 66k cache-write + 5k cache-read, 13k out, ~$0.79) (exit 0)
+2026-11-05 12:20:34  start review-02-2 at medium effort
+2026-11-05 12:22:43  review-02-2: done (100/100 verdicts, 6 additions · 1 turns, 0k in + 64k cache-write + 5k cache-read, 14k out, ~$0.80) (exit 0)
+2026-11-05 12:23:04  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-05 14:08:42  handoff: the review stage runs on linux, not on this win32 machine (config.json stage_gate); removing this machine's scheduled task
+2026-11-05 14:08:42  ALERT Physics pipeline handed off: the review stage runs on linux, not on this win32 machine (config.json stage_gate)

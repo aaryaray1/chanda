@@ -1,0 +1,13 @@
+[Unit]
+Description=Chanda physics agent on Discord (Claude Code session in tmux; attach with: tmux -L chanda attach)
+
+[Service]
+Type=forking
+WorkingDirectory=__ROOT__
+ExecStart=/usr/bin/tmux -L chanda new-session -d -s agent -x 220 -y 50 /bin/bash __ROOT__/scripts/server/agent.sh
+ExecStop=/usr/bin/tmux -L chanda kill-session -t agent
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=default.target

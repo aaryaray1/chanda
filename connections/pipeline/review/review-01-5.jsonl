@@ -1,0 +1,88 @@
+{"id": "C0812", "verdict": "revise", "reason": "Map equation is garbled. Restore the tight-coupling forced damped oscillator form.", "fix": {"map": "\\frac{d}{d\\eta}\\left[(1+R)\\dot\\Theta_0\\right]+\\frac{k^2}{3}\\Theta_0=-\\frac{k^2}{3}(1+R)\\Psi-\\frac{d}{d\\eta}\\left[(1+R)\\dot\\Phi\\right]"}}
+{"id": "C0813", "verdict": "revise", "reason": "Solar modes are continuum normal modes, so the coupled-oscillators/normal-modes note fits better than the single damped oscillator.", "fix": {"a": "01-classical-mechanics/oscillations-and-waves/coupled-oscillators-and-normal-modes"}}
+{"id": "C0814", "verdict": "confirm"}
+{"id": "C0815", "verdict": "confirm"}
+{"id": "C0816", "verdict": "revise", "reason": "Hyperion's chaos comes from gravity-gradient torque on an aspherical body in an eccentric orbit, not mainly intermediate-axis instability.", "fix": {"summary": "Euler's equations with gravity-gradient torque on aspherical bodies give spin-orbit resonances (Mercury 3:2) and, for eccentric orbits, chaotic tumbling (Hyperion), where the chaotic zone is also attitude-unstable (Wisdom, Peale and Mignard)."}}
+{"id": "C0817", "verdict": "confirm"}
+{"id": "C0818", "verdict": "revise", "reason": "How much the Moon stabilizes obliquity is contested: moonless-Earth simulations show smaller variations than Laskar's early estimates.", "fix": {"summary": "Torque-driven axial precession and obliquity variations (Milankovitch cycles) modulate insolation. Secular spin-orbit resonances can make obliquity chaotic; a large moon can damp this, though how much is debated."}}
+{"id": "C0819", "verdict": "confirm"}
+{"id": "C0820", "verdict": "revise", "reason": "Vlasov is the mean-field (self-consistent) one-particle reduction of Liouville, not Liouville's theorem itself.", "fix": {"summary": "The collisionless Vlasov equation is the one-particle Liouville equation with a self-consistent mean-field Hamiltonian. It conserves phase-space density along characteristics and has a Lie–Poisson Hamiltonian field structure (Morrison–Marsden–Weinstein)."}}
+{"id": "C0821", "verdict": "confirm"}
+{"id": "C0822", "verdict": "revise", "reason": "Adiabatic invariants and action variables live in the canonical-transformations note.", "fix": {"a": "01-classical-mechanics/analytical-mechanics/canonical-transformations-and-hamilton-jacobi"}}
+{"id": "C0823", "verdict": "confirm"}
+{"id": "C0824", "verdict": "confirm"}
+{"id": "C0825", "verdict": "reject", "reason": "Duplicate of C0826 (same nodes, same content); C0826 is the stronger statement."}
+{"id": "C0826", "verdict": "revise", "reason": "The vorticity–B parallel is only partial: ω=∇×u is slaved to u, while B is independent (Batchelor analogy).", "fix": {"summary": "MHD is Euler/Navier–Stokes flow coupled to the induction equation through the Lorentz force. Ideal induction has the same form as barotropic inviscid vorticity transport, though ω is tied to u while B is independent.", "breaks": "Vorticity is kinematically tied to velocity, B is not; the analogy fails for dynamo growth statistics."}}
+{"id": "C0827", "verdict": "revise", "reason": "Both the string-wave and Kelvin-circulation links are analogies, not mechanisms.", "fix": {"kind": "analogy"}}
+{"id": "C0828", "verdict": "confirm"}
+{"id": "C0829", "verdict": "confirm"}
+{"id": "C0830", "verdict": "confirm"}
+{"id": "C0831", "verdict": "confirm"}
+{"id": "C0832", "verdict": "confirm"}
+{"id": "C0833", "verdict": "revise", "reason": "The precise parallel is the Penrose criterion with Rayleigh/Fjørtoft inflection-point theorems, and Landau damping with inviscid (Orr) damping. This is an analogy.", "fix": {"summary": "The Penrose criterion for Vlasov instabilities parallels Rayleigh's and Fjørtoft's inflection-point theorems for shear flow, and Landau damping parallels inviscid (Orr) damping of vorticity perturbations; the 1D Vlasov and 2D Euler equations share a structure.", "kind": "analogy", "strength": 2}}
+{"id": "C0834", "verdict": "revise", "reason": "The name mentions ion-acoustic waves, which the summary never discusses.", "fix": {"name": "Kelvin–Helmholtz and Rayleigh–Taylor in plasmas", "strength": 2}}
+{"id": "C0835", "verdict": "revise", "reason": "The map omits the diamagnetic-drift (β-like) term that makes Hasegawa–Mima identical to the quasi-geostrophic equation.", "fix": {"map": "\\partial_t(\\nabla^2\\phi-\\phi)+\\hat z\\times\\nabla\\phi\\cdot\\nabla\\nabla^2\\phi-\\kappa\\,\\partial_y\\phi=0"}}
+{"id": "C0836", "verdict": "revise", "reason": "The summary refers to an unspecified 'shared accretion-disk paper'; remove that.", "fix": {"summary": "Turbulent flows stretch, twist and fold field lines, giving small-scale dynamos; helical turbulence gives the mean-field α-effect and turbulent diffusivity η_t."}}
+{"id": "C0837", "verdict": "revise", "reason": "Iroshnikov–Kraichnan gives k^{-3/2}, not -5/3. Merge in critical balance from the duplicate C0838.", "fix": {"summary": "Kolmogorov cascade phenomenology generalizes to MHD: Iroshnikov–Kraichnan (isotropic, k^{-3/2}) and Goldreich–Sridhar critical balance (anisotropic, E(k_⊥)∝k_⊥^{-5/3}, k_∥∝k_⊥^{2/3}), with cascades of energy and cross-helicity.", "breaks": "A strong mean field makes the cascade anisotropic, and Alfvénic collisions replace eddy turnover."}}
+{"id": "C0838", "verdict": "reject", "reason": "Duplicates C0837, and wrongly lists magnetic energy as an ideal invariant (the invariants are total energy, cross-helicity and magnetic helicity)."}
+{"id": "C0839", "verdict": "revise", "reason": "Shocks and compressible flow are in the ideal-and-viscous-flow note; the identity deserves full strength.", "fix": {"a": "01-classical-mechanics/continuum-and-fluid-mechanics/ideal-and-viscous-flow", "strength": 3}}
+{"id": "C0840", "verdict": "confirm"}
+{"id": "C0841", "verdict": "confirm"}
+{"id": "C0842", "verdict": "confirm"}
+{"id": "C0843", "verdict": "confirm"}
+{"id": "C0844", "verdict": "revise", "reason": "Wave breaking is hydrodynamic steepening, not soliton physics; the link to the soliton note is weak.", "fix": {"strength": 1}}
+{"id": "C0845", "verdict": "confirm"}
+{"id": "C0846", "verdict": "revise", "reason": "A loose analogy with no supporting literature; label it proposed.", "fix": {"confidence": "proposed"}}
+{"id": "C0847", "verdict": "revise", "reason": "Breaks is wrong: exponential Landau damping needs smooth (analytic) frequency distributions. This is established since Strogatz–Mirollo–Matthews 1992.", "fix": {"kind": "analogy", "confidence": "established", "breaks": "Kuramoto is mean-field on a circle with no spatial transport; damping of the order parameter is exponential only for analytic g(ω)."}}
+{"id": "C0848", "verdict": "revise", "reason": "Dust-lattice phonons have been measured since the late 1990s; this is established.", "fix": {"confidence": "established"}}
+{"id": "C0849", "verdict": "confirm"}
+{"id": "C0850", "verdict": "revise", "reason": "Ideal MHD waves are non-dispersive; 'dispersion from impedance-like properties' is wrong.", "fix": {"summary": "Fast magnetosonic waves are sound waves stiffened by magnetic pressure, and the Alfvén wave is a string wave with tension B²/μ0 along field lines; ideal MHD waves are non-dispersive but anisotropic."}}
+{"id": "C0851", "verdict": "confirm"}
+{"id": "C0852", "verdict": "revise", "reason": "Wrong growth-rate formula with damping: it should be (γ+Γ1)(γ+Γ2)=γ0², giving threshold γ0²=Γ1Γ2.", "fix": {"map": "(\\gamma+\\Gamma_1)(\\gamma+\\Gamma_2)=\\gamma_0^2,\\ \\text{threshold }\\gamma_0^2=\\Gamma_1\\Gamma_2"}}
+{"id": "C0853", "verdict": "confirm"}
+{"id": "C0854", "verdict": "confirm"}
+{"id": "C0855", "verdict": "confirm"}
+{"id": "C0856", "verdict": "revise", "reason": "Magnetization precession is gyroscopic, so the gyroscopes note fits. Keep this record about precession; C0888 covers resonance.", "fix": {"a": "01-classical-mechanics/rigid-body-dynamics/gyroscopes-and-precession", "name": "Magnetization precession as gyroscopic motion", "summary": "Magnetization in a field precesses like a torqued gyroscope (dM/dt=γM×B). Rotating-frame transformations, borrowed from non-inertial mechanics, make RF pulses static rotations and underlie pulse-sequence design.", "strength": 2}}
+{"id": "C0857", "verdict": "confirm"}
+{"id": "C0858", "verdict": "revise", "reason": "The summary wrongly mentions the Earth, and delay-and-sum assumes straight rays with constant sound speed.", "fix": {"summary": "Fermat's principle gives ray paths through tissue with varying sound speed. It is used in ultrasound travel-time tomography and sound-speed-corrected beamforming, which generalize straight-ray delay-and-sum."}}
+{"id": "C0859", "verdict": "confirm"}
+{"id": "C0860", "verdict": "confirm"}
+{"id": "C0861", "verdict": "revise", "reason": "Absorb duplicate C0862 (same nodes) by naming the P/S wave speeds.", "fix": {"summary": "Seismic waves, free oscillations and mantle stress response use linear elasticity: P and S speeds follow from the Lamé constants and density, and tomography inverts them. Viscoelastic extensions cover postglacial rebound."}}
+{"id": "C0862", "verdict": "reject", "reason": "Duplicate of C0861 (same nodes); its content has been merged there."}
+{"id": "C0863", "verdict": "confirm"}
+{"id": "C0864", "verdict": "confirm"}
+{"id": "C0865", "verdict": "confirm"}
+{"id": "C0866", "verdict": "revise", "reason": "Atmospheric N² uses potential temperature. The atmospheric criterion is the lapse rate (Schwarzschild), not a Rayleigh number.", "fix": {"summary": "Dry and moist atmospheric convection are buoyancy instabilities like Rayleigh–Bénard convection, but at enormous Ra the criterion is the lapse rate (dry or moist adiabatic); N² marks stable stratification.", "map": "N^2=\\frac{g}{\\theta}\\frac{d\\theta}{dz}"}}
+{"id": "C0867", "verdict": "confirm"}
+{"id": "C0868", "verdict": "reject", "reason": "Duplicate of C0869 (same nodes); the capillary-number content is merged there."}
+{"id": "C0869", "verdict": "revise", "reason": "Merge in content from duplicate C0868.", "fix": {"summary": "Cell motility, cytoplasmic flow and membrane flow occur at very low Re. Saffman–Delbrück membrane hydrodynamics, swimming under time-reversal constraints, and vesicle deformation set by the capillary number all use Stokes flow."}}
+{"id": "C0870", "verdict": "confirm"}
+{"id": "C0871", "verdict": "revise", "reason": "Synoptic scales show k^{-3} (enstrophy cascade, Nastrom–Gage); the origin of the mesoscale k^{-5/3} range is contested.", "fix": {"summary": "The atmosphere has a 3D Kolmogorov range at small scales, a k^{-3} synoptic range consistent with a quasi-2D enstrophy cascade, and a mesoscale k^{-5/3} range of debated origin (inverse cascade vs gravity waves). Eddy fluxes need closure.", "map": "E(k)\\sim k^{-3}\\ (\\text{synoptic}),\\ k^{-5/3}\\ (\\text{mesoscale})"}}
+{"id": "C0872", "verdict": "confirm"}
+{"id": "C0873", "verdict": "confirm"}
+{"id": "C0874", "verdict": "confirm"}
+{"id": "C0875", "verdict": "confirm"}
+{"id": "C0876", "verdict": "confirm"}
+{"id": "C0877", "verdict": "revise", "reason": "Energy-balance bistability is a genuine saddle-node bifurcation, so this is mechanism or method transfer, not analogy.", "fix": {"kind": "mechanism"}}
+{"id": "C0878", "verdict": "confirm"}
+{"id": "C0879", "verdict": "confirm"}
+{"id": "C0880", "verdict": "revise", "reason": "The ~2-week horizon comes from upscale error growth across scales (Lorenz 1969), not the 1963 model's Lyapunov exponent.", "fix": {"summary": "Lorenz's 1963 truncated convection model gave the first widely known strange attractor and showed sensitive dependence. The ~2-week weather horizon comes from upscale multiscale error growth (Lorenz 1969)."}}
+{"id": "C0881", "verdict": "confirm"}
+{"id": "C0882", "verdict": "revise", "reason": "Open-ocean tsunamis are nearly linear, non-dispersive long waves; KdV applies to internal solitary waves and near-shore fission.", "fix": {"summary": "KdV-type solitons describe ocean internal solitary waves and the near-shore fission of tsunami fronts into undular bores; in the open ocean tsunamis are nearly linear long waves."}}
+{"id": "C0883", "verdict": "confirm"}
+{"id": "C0884", "verdict": "revise", "reason": "Breaks overstates the problem: network and mechanochemical Turing models relax the diffusivity-ratio requirement, and digit patterning is a documented example.", "fix": {"breaks": "Minimal two-species Turing needs large diffusivity ratios (relaxed in multi-species or mechanochemical models); biological oscillators are noisy, finite and heterogeneously coupled."}}
+{"id": "C0885", "verdict": "confirm"}
+{"id": "C0886", "verdict": "revise", "reason": "Earth's free oscillations are the normal modes themselves, a shared object; it is a strong, textbook link.", "fix": {"kind": "shared object", "strength": 3}}
+{"id": "C0887", "verdict": "confirm"}
+{"id": "C0888", "verdict": "revise", "reason": "Breaks is wrong: precession of ⟨M⟩ is exact (Ehrenfest, H linear in spin). What breaks is phenomenological relaxation with T2≠T1.", "fix": {"summary": "MRI excitation is driven resonance at the Larmor frequency, and Bloch-equation relaxation gives Lorentzian linewidths like a damped driven oscillator, with T2 setting linewidth and T1 energy relaxation.", "breaks": "Precession is exact for expectation values; T1 and T2 are distinct phenomenological rates with no single damping constant."}}
+{"id": "C0889", "verdict": "revise", "reason": "The map is the finite-depth relation, not the deep-water one; state both limits.", "fix": {"summary": "Surface gravity waves, internal waves and tides obey fluid-wave dispersion relations: ω²=gk tanh(kh), with deep water ω²=gk (c_g=c_p/2) and shallow water c=√(gh) (tides, tsunamis)."}}
+{"id": "C0890", "verdict": "confirm"}
+{"id": "C0891", "verdict": "confirm"}
+{"id": "C0892", "verdict": "reject", "reason": "Duplicate of C0891 (same nodes, subset of content)."}
+{"id": "C0893", "verdict": "confirm"}
+{"id": "C0894", "verdict": "revise", "reason": "Spinning gyros use angular momentum, but optical and atom gyros use the Sagnac effect, a different principle; the link is functional and historical.", "fix": {"summary": "Mechanical gyroscopes sense rotation via angular-momentum conservation. Ring-laser and atom-interferometer gyroscopes use the Sagnac phase instead, a different principle, and atom versions reach far higher sensitivity."}}
+{"id": "C0895", "verdict": "confirm"}
+{"id": "C0896", "verdict": "revise", "reason": "Map uses r² instead of distance from the axis; for a spherical Earth C=(8π/3)∫ρr⁴dr.", "fix": {"map": "C=\\frac{8\\pi}{3}\\int_0^R\\rho(r)r^4dr=0.3307\\,MR^2"}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/newtonian-mechanics/conservation-laws", "b": "09-astrophysics-and-cosmology/galaxies/galaxy-clusters", "name": "Virial theorem and cluster masses", "kind": "method transfer", "summary": "The virial theorem 2⟨T⟩=−⟨V⟩ for self-gravitating systems gives dynamical masses of galaxy clusters from velocity dispersions; Zwicky's 1933 application revealed missing mass.", "map": "M\\sim\\frac{\\sigma^2R}{G}", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/nonlinear-dynamics-and-chaos/kam-theory-and-hamiltonian-chaos", "b": "09-astrophysics-and-cosmology/planetary-science-and-exoplanets/solar-system-dynamics", "name": "Resonance overlap and Solar System chaos", "kind": "mechanism", "summary": "Overlapping mean-motion and secular resonances produce chaotic zones that clear Kirkwood gaps and make the inner planets chaotic (Lyapunov time ~5 Myr, Laskar); KAM survival explains long-term near-stability.", "map": "", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/newtonian-mechanics/central-forces-and-orbits", "b": "09-astrophysics-and-cosmology/planetary-science-and-exoplanets/solar-system-dynamics", "name": "Kepler problem and orbital mechanics", "kind": "shared object", "summary": "Keplerian orbits, the effective potential and the Laplace–Runge–Lenz vector are the zeroth-order solution of Solar-System dynamics; perturbations cause apsidal and nodal precession, and Hohmann transfers and gravity assists follow from two-body mechanics.", "map": "T^2=\\frac{4\\pi^2a^3}{G(m_1+m_2)}", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}

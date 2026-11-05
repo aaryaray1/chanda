@@ -1,0 +1,31 @@
+Fetching papers for 29 node(s)…
+[1/29] 00-foundations/computational-physics (subfield, openalex) → 6 papers
+[2/29] 00-foundations/computational-physics/machine-learning-for-physics (topic, openalex) → 15 papers
+[3/29] 00-foundations/computational-physics/molecular-dynamics (topic, openalex) → 15 papers
+[4/29] 00-foundations/computational-physics/monte-carlo-methods (topic, openalex) → 15 papers
+[5/29] 00-foundations/computational-physics/numerical-methods-for-odes-and-pdes (topic, openalex) → 15 papers
+[6/29] 00-foundations/computational-physics/tensor-network-methods (topic, openalex) → 15 papers
+[7/29] 00-foundations/history-and-philosophy-of-physics (subfield, openalex) → 4 papers
+[8/29] 00-foundations/history-and-philosophy-of-physics/history-of-physics (topic, openalex) → 13 papers
+[9/29] 00-foundations/history-and-philosophy-of-physics/philosophy-of-physics (topic, openalex) → 15 papers
+[10/29] 00-foundations/history-and-philosophy-of-physics/physics-education-research (topic, openalex) → ERROR HTTP Error 429: Too Many Requests
+[11/29] 00-foundations/mathematical-methods (subfield, openalex) → ERROR HTTP Error 429: Too Many Requests
+[12/29] 00-foundations/mathematical-methods/complex-analysis-and-special-functions (topic, openalex) → ERROR HTTP Error 429: Too Many Requests
+[13/29] 00-foundations/mathematical-methods/differential-equations-and-greens-functions (topic, openalex) → ERROR HTTP Error 429: Too Many Requests
+[14/29] 00-foundations/mathematical-methods/linear-algebra-and-hilbert-spaces (topic, openalex) → ERROR HTTP Error 429: Too Many Requests
+[15/29] 00-foundations/mathematical-methods/tensors-and-differential-geometry (topic, openalex) → ERROR HTTP Error 429: Too Many Requests
+[16/29] 00-foundations/measurement-and-data-analysis (subfield, openalex) → ERROR HTTP Error 429: Too Many Requests
+[17/29] 00-foundations/measurement-and-data-analysis/detectors-and-instrumentation (topic, openalex) → ERROR HTTP Error 429: Too Many Requests
+[18/29] 00-foundations/measurement-and-data-analysis/statistical-inference-in-physics (topic, openalex) → ERROR HTTP Error 429: Too Many Requests
+[19/29] 00-foundations/measurement-and-data-analysis/uncertainty-and-error-propagation (topic, openalex) → ERROR HTTP Error 429: Too Many Requests
+[20/29] 00-foundations/symmetry-and-group-theory (subfield, openalex) → ERROR HTTP Error 429: Too Many Requests
+[21/29] 00-foundations/symmetry-and-group-theory/discrete-symmetries-and-cpt (topic, openalex) → ERROR HTTP Error 429: Too Many Requests
+[22/29] 00-foundations/symmetry-and-group-theory/lie-groups-and-representations (topic, openalex) → ERROR HTTP Error 429: Too Many Requests
+[23/29] 00-foundations/symmetry-and-group-theory/noethers-theorem-and-conservation-laws (topic, openalex) → ERROR HTTP Error 429: Too Many Requests
+[24/29] 00-foundations/symmetry-and-group-theory/spontaneous-symmetry-breaking (topic, openalex) → ERROR HTTP Error 429: Too Many Requests
+[25/29] 00-foundations/units-and-constants (subfield, openalex) → ERROR HTTP Error 429: Too Many Requests
+[26/29] 00-foundations/units-and-constants/dimensional-analysis-and-scaling (topic, openalex) → ERROR HTTP Error 429: Too Many Requests
+[27/29] 00-foundations/units-and-constants/fundamental-constants (topic, openalex) → ERROR HTTP Error 429: Too Many Requests
+[28/29] 00-foundations/units-and-constants/natural-units-and-planck-scale (topic, openalex) → ERROR HTTP Error 429: Too Many Requests
+[29/29] 00-foundations/units-and-constants/si-units-and-2019-redefinition (topic, openalex) → ERROR HTTP Error 429: Too Many Requests
+Done. Library now holds 1109 unique papers; 20 node(s) failed.

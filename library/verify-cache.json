@@ -1,0 +1,4508 @@
+{
+ "arxiv:0704.3011": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Many-Body Physics with Ultracold Gases",
+  "year": 2007
+ },
+ "arxiv:0707.1889": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Non-Abelian Anyons and Topological Quantum Computation",
+  "year": 2007
+ },
+ "arxiv:0708.0650": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Wannier90: A Tool for Obtaining Maximally-Localised Wannier Functions",
+  "year": 2007
+ },
+ "arxiv:0708.1324": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Thermalization and its mechanism for generic isolated quantum systems",
+  "year": 2007
+ },
+ "arxiv:0709.1163": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The electronic properties of graphene",
+  "year": 2007
+ },
+ "arxiv:0709.4301": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A bright millisecond radio burst of extragalactic origin",
+  "year": 2007
+ },
+ "arxiv:0710.0582": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Quantum Spin Hall Insulator State in HgTe Quantum Wells",
+  "year": 2007
+ },
+ "arxiv:0710.3755": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Standard Model Higgs boson as the inflaton",
+  "year": 2007
+ },
+ "arxiv:0710.3820": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A Brief Introduction to PYTHIA 8.1",
+  "year": 2007
+ },
+ "arxiv:0802.1189": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The anti-k_t jet clustering algorithm",
+  "year": 2008
+ },
+ "arxiv:0805.1367": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "High-sensitivity diamond magnetometer with nanoscale resolution",
+  "year": 2008
+ },
+ "arxiv:0805.1726": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "f(R) Theories Of Gravity",
+  "year": 2008
+ },
+ "arxiv:0808.2870": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Measuring Distance and Properties of the Milky Way's Central Supermassive Black Hole with Stellar Orbits",
+  "year": 2008
+ },
+ "arxiv:0811.1338": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Modern Theory of Nuclear Forces",
+  "year": 2008
+ },
+ "arxiv:0906.2569": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Quantum ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+  "year": 2009
+ },
+ "arxiv:0909.0948": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The chemical composition of the Sun",
+  "year": 2009
+ },
+ "arxiv:1002.3895": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Topological Insulators",
+  "year": 2010
+ },
+ "arxiv:1004.0546": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Atomically thin MoS2: A new direct-gap semiconductor",
+  "year": 2010
+ },
+ "arxiv:1004.2318": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Solar fusion cross sections II: the pp chain and CNO cycles",
+  "year": 2010
+ },
+ "arxiv:1007.1727": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Asymptotic formulae for likelihood-based tests of new physics",
+  "year": 2010
+ },
+ "arxiv:1008.2026": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Topological insulators and superconductors",
+  "year": 2010
+ },
+ "arxiv:1008.3477": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The density-matrix renormalization group in the age of matrix product states",
+  "year": 2010
+ },
+ "arxiv:1009.4203": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Moire bands in twisted double-layer graphene",
+  "year": 2010
+ },
+ "arxiv:1010.2752": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Dark Matter Annihilation in The Galactic Center As Seen by the Fermi Gamma Ray Space Telescope",
+  "year": 2010
+ },
+ "arxiv:1010.5788": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Shapiro delay measurement of a two solar mass neutron star",
+  "year": 2010
+ },
+ "arxiv:1102.4628": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Quantum Criticality",
+  "year": 2011
+ },
+ "arxiv:1105.3456": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Gravity Probe B: Final Results of a Space Experiment to Test General Relativity",
+  "year": 2011
+ },
+ "arxiv:1202.2539": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Quantum Time Crystals",
+  "year": 2012
+ },
+ "arxiv:1203.1669": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Observation of electron-antineutrino disappearance at Daya Bay",
+  "year": 2012
+ },
+ "arxiv:1205.4176": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Stochastic thermodynamics, fluctuation theorems, and molecular machines",
+  "year": 2012
+ },
+ "arxiv:1205.5556": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Formation of Galaxy Clusters",
+  "year": 2012
+ },
+ "arxiv:1207.2929": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Soft Active Matter",
+  "year": 2012
+ },
+ "arxiv:1207.7214": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+  "year": 2012
+ },
+ "arxiv:1207.7235": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Observation of a new boson at a mass of 125 GeV with the CMS experiment at the LHC",
+  "year": 2012
+ },
+ "arxiv:1208.0928": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Surface codes: Towards practical large-scale quantum computation",
+  "year": 2012
+ },
+ "arxiv:1212.1701": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Electron Ion Collider: The Next QCD Frontier - Understanding the glue that binds us all",
+  "year": 2012
+ },
+ "arxiv:1303.0733": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Cavity Optomechanics",
+  "year": 2013
+ },
+ "arxiv:1304.7762": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Coevolution (Or Not) of Supermassive Black Holes and Host Galaxies",
+  "year": 2013
+ },
+ "arxiv:1310.1528": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Post-Newtonian Theory for Gravitational Waves",
+  "year": 2013
+ },
+ "arxiv:1311.5238": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Evidence for High-Energy Extraterrestrial Neutrinos at the IceCube Detector",
+  "year": 2013
+ },
+ "arxiv:1403.0007": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Cosmic Star Formation History",
+  "year": 2014
+ },
+ "arxiv:1403.7377": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The Confrontation between General Relativity and Experiment",
+  "year": 2014
+ },
+ "arxiv:1405.0301": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The automated computation of tree-level and next-to-leading order differential cross sections, and their matching to parton shower simulations",
+  "year": 2014
+ },
+ "arxiv:1407.3493": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Optical Atomic Clocks",
+  "year": 2014
+ },
+ "arxiv:1410.3012": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "An Introduction to PYTHIA 8.2",
+  "year": 2014
+ },
+ "arxiv:1412.8366": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Black Hole Remnants and the Information Loss Paradox",
+  "year": 2014
+ },
+ "arxiv:1502.03807": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Discovery of a Weyl Fermion Semimetal and Topological Fermi Arcs",
+  "year": 2015
+ },
+ "arxiv:1503.01409": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "A bound on chaos",
+  "year": 2015
+ },
+ "arxiv:1503.02649": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "First Results from High Angular Resolution ALMA Observations Toward the HL Tau Region",
+  "year": 2015
+ },
+ "arxiv:1503.07589": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Combined Measurement of the Higgs Boson Mass in $pp$ Collisions at $\\sqrt{s}=7$ and 8 TeV with the ATLAS and CMS Experiments",
+  "year": 2015
+ },
+ "arxiv:1505.01076": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Big Bang Nucleosynthesis: 2015",
+  "year": 2015
+ },
+ "arxiv:1508.05949": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Experimental loophole-free violation of a Bell inequality using entangled electron spins separated by 1.3 km",
+  "year": 2015
+ },
+ "arxiv:1510.00621": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Observation of quantum Hawking radiation and its entanglement in an analogue black hole",
+  "year": 2015
+ },
+ "arxiv:1602.03837": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Observation of Gravitational Waves from a Binary Black Hole Merger",
+  "year": 2016
+ },
+ "arxiv:1608.06950": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Quantum Entanglement Growth Under Random Unitary Dynamics",
+  "year": 2016
+ },
+ "arxiv:1609.04153": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Gaia mission",
+  "year": 2016
+ },
+ "arxiv:1609.08684": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Observation of a Discrete Time Crystal",
+  "year": 2016
+ },
+ "arxiv:1610.08297": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Ultralight scalars as cosmological dark matter",
+  "year": 2016
+ },
+ "arxiv:1611.02427": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Quantum sensing",
+  "year": 2016
+ },
+ "arxiv:1702.00786": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Laser Interferometer Space Antenna",
+  "year": 2017
+ },
+ "arxiv:1703.02050": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Topological quantum chemistry",
+  "year": 2017
+ },
+ "arxiv:1704.05018": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Hardware-efficient Variational Quantum Eigensolver for Small Molecules and Quantum Magnets",
+  "year": 2017
+ },
+ "arxiv:1705.02358": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Dark Matter Self-interactions and Small Scale Structure",
+  "year": 2017
+ },
+ "arxiv:1707.04256": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Small-Scale Challenges to the $Λ$CDM Paradigm",
+  "year": 2017
+ },
+ "arxiv:1709.07321": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Observation of a Large-scale Anisotropy in the Arrival Directions of Cosmic Rays above $8 \\times 10^{18}$ eV",
+  "year": 2017
+ },
+ "arxiv:1710.05832": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "GW170817: Observation of Gravitational Waves from a Binary Neutron Star Inspiral",
+  "year": 2017
+ },
+ "arxiv:1710.05833": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Multi-messenger Observations of a Binary Neutron Star Merger",
+  "year": 2017
+ },
+ "arxiv:1710.05834": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Gravitational Waves and Gamma-rays from a Binary Neutron Star Merger: GW170817 and GRB 170817A",
+  "year": 2017
+ },
+ "arxiv:1710.05835": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A gravitational-wave standard siren measurement of the Hubble constant",
+  "year": 2017
+ },
+ "arxiv:1801.00862": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Quantum Computing in the NISQ era and beyond",
+  "year": 2018
+ },
+ "arxiv:1802.00553": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Correlated Insulator Behaviour at Half-Filling in Magic Angle Graphene Superlattices",
+  "year": 2018
+ },
+ "arxiv:1802.04173": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Topological Photonics",
+  "year": 2018
+ },
+ "arxiv:1803.02342": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Magic-angle graphene superlattices: a new platform for unconventional superconductivity",
+  "year": 2018
+ },
+ "arxiv:1805.11581": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "GW170817: Measurements of Neutron Star Radii and Equation of State",
+  "year": 2018
+ },
+ "arxiv:1806.05162": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Higgs boson pair production in non-linear Effective Field Theory with full $m_t$-dependence at NLO QCD",
+  "year": 2018
+ },
+ "arxiv:1807.06209": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Planck 2018 results. VI. Cosmological parameters",
+  "year": 2018
+ },
+ "arxiv:1807.08816": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Multi-messenger observations of a flaring blazar coincident with high-energy neutrino IceCube-170922A",
+  "year": 2018
+ },
+ "arxiv:1807.09409": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Detection of the gravitational redshift in the orbit of the star S2 near the Galactic centre massive black hole",
+  "year": 2018
+ },
+ "arxiv:1903.10563": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Machine learning and the physical sciences",
+  "year": 2019
+ },
+ "arxiv:1905.08255": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Entanglement Wedge Reconstruction and the Information Paradox",
+  "year": 2019
+ },
+ "arxiv:1905.08762": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The entropy of bulk quantum fields and the entanglement wedge of an evaporating black hole",
+  "year": 2019
+ },
+ "arxiv:1906.11238": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole",
+  "year": 2019
+ },
+ "arxiv:1907.05922": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Carnegie-Chicago Hubble Program. VIII. An Independent Determination of the Hubble Constant Based on the Tip of the Red Giant Branch",
+  "year": 2019
+ },
+ "arxiv:1908.10996": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Page curve of Hawking radiation from semiclassical geometry",
+  "year": 2019
+ },
+ "arxiv:1910.11333": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Supplementary information for \"Quantum supremacy using a programmable superconducting processor\"",
+  "year": 2019
+ },
+ "arxiv:1911.09666": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Entanglement islands in higher dimensions",
+  "year": 2019
+ },
+ "arxiv:2004.00598": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Page Curve for an Evaporating Black Hole",
+  "year": 2020
+ },
+ "arxiv:2005.10324": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A bright millisecond-duration radio burst from a Galactic magnetar",
+  "year": 2020
+ },
+ "arxiv:2006.04822": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The anomalous magnetic moment of the muon in the Standard Model",
+  "year": 2020
+ },
+ "arxiv:2006.04851": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Quantum Extremal Islands Made Easy, Part I: Entanglement on the Brane",
+  "year": 2020
+ },
+ "arxiv:2103.01183": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "In the Realm of the Hubble tension $-$ a Review of Solutions",
+  "year": 2021
+ },
+ "arxiv:2105.08533": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "First direct neutrino-mass measurement with sub-eV sensitivity",
+  "year": 2021
+ },
+ "arxiv:2112.04510": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A Comprehensive Measurement of the Local Value of the Hubble Constant with 1 km/s/Mpc Uncertainty from the Hubble Space Telescope and the SH0ES Team",
+  "year": 2021
+ },
+ "arxiv:2204.10844": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Emerging research landscape of altermagnetism",
+  "year": 2022
+ },
+ "arxiv:2207.03764": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "First Dark Matter Search Results from the LUX-ZEPLIN (LZ) Experiment",
+  "year": 2022
+ },
+ "arxiv:2208.11692": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Identification of carbon dioxide in an exoplanet atmosphere",
+  "year": 2022
+ },
+ "arxiv:2212.04480": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Identification and properties of intense star-forming galaxies at redshifts z>10",
+  "year": 2022
+ },
+ "arxiv:2303.14729": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "First Dark Matter Search with Nuclear Recoils from the XENONnT Experiment",
+  "year": 2023
+ },
+ "arxiv:2304.01532": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Evidence of off-shell Higgs boson production from $ZZ$ leptonic decay channels and constraints on its total width with the ATLAS detector",
+  "year": 2023
+ },
+ "arxiv:2304.05196": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Atacama Cosmology Telescope: Mitigating the impact of extragalactic foregrounds for the DR6 CMB lensing analysis",
+  "year": 2023
+ },
+ "arxiv:2306.15671": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Revisiting Recent Progress in the Karch-Randall Braneworld",
+  "year": 2023
+ },
+ "arxiv:2306.16213": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The NANOGrav 15-year Data Set: Evidence for a Gravitational-Wave Background",
+  "year": 2023
+ },
+ "arxiv:2307.04427": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Observation of high-energy neutrinos from the Galactic plane",
+  "year": 2023
+ },
+ "arxiv:2307.15110": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Seeing Beauty in the Quark-Gluon Plasma with Energy Correlators",
+  "year": 2023
+ },
+ "arxiv:2309.03501": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Evidence for the Higgs boson decay to a $Z$ boson and a photon at the LHC",
+  "year": 2023
+ },
+ "arxiv:2309.17068": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Doubly heavy tetraquark states in the constituent quark model using diffusion Monte Carlo method",
+  "year": 2023
+ },
+ "arxiv:2310.01500": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Probing the Short-Distance Structure of the Quark-Gluon Plasma with Energy Correlators",
+  "year": 2023
+ },
+ "arxiv:2311.16377": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "$5 σ$ tension between Planck cosmic microwave background and eBOSS Lyman-alpha forest and constraints on physics beyond $Λ$CDM",
+  "year": 2023
+ },
+ "arxiv:2311.18045": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Page curve entanglement dynamics in an analytically solvable model",
+  "year": 2023
+ },
+ "arxiv:2312.13336": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Graviton Mass and Entanglement Islands in Low Spacetime Dimensions",
+  "year": 2023
+ },
+ "arxiv:2401.06896": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Extracting the speed of sound in quark-gluon plasma with ultrarelativistic lead-lead collisions at the LHC",
+  "year": 2024
+ },
+ "arxiv:2401.99999": {
+  "checked": "2026-10-30",
+  "ok": false
+ },
+ "arxiv:2403.07111": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Many-Body Localization in the Age of Classical Computing",
+  "year": 2024
+ },
+ "arxiv:2404.03002": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "DESI 2024 VI: Cosmological Constraints from the Measurements of Baryon Acoustic Oscillations",
+  "year": 2024
+ },
+ "arxiv:2405.10656": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "$\\varphi$ Josephson junction induced by altermagnetism",
+  "year": 2024
+ },
+ "arxiv:2405.14872": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Replica Wormholes and Entanglement Islands in the Karch-Randall Braneworld",
+  "year": 2024
+ },
+ "arxiv:2405.20210": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Anisotropic flow in fixed-target $^{208}$Pb+$^{20}$Ne collisions as a probe of quark-gluon plasma",
+  "year": 2024
+ },
+ "arxiv:2406.06346": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Dynamical Mean-Field Theory of Complex Systems on Sparse Directed Networks",
+  "year": 2024
+ },
+ "arxiv:2406.08107": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Analytical evaluation of ground state gradients in quantum electrodynamics coupled cluster theory",
+  "year": 2024
+ },
+ "arxiv:2406.09971": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Combination of searches for Higgs boson pair production in $pp$ collisions at $\\sqrt{s}=13$ TeV with the ATLAS detector",
+  "year": 2024
+ },
+ "arxiv:2407.05658": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Random Features Hopfield Networks generalize retrieval to previously unseen examples",
+  "year": 2024
+ },
+ "arxiv:2408.06153": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Status Report on the Chicago-Carnegie Hubble Program (CCHP): Measurement of the Hubble Constant Using the Hubble and James Webb Space Telescopes",
+  "year": 2024
+ },
+ "arxiv:2408.13687": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Quantum error correction below the surface code threshold",
+  "year": 2024
+ },
+ "arxiv:2409.08591": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Model-free Rayleigh weight from x-ray Thomson scattering measurements",
+  "year": 2024
+ },
+ "arxiv:2411.06000": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Cosmology From CMB Lensing and Delensed EE Power Spectra Using 2019-2020 SPT-3G Polarization Data",
+  "year": 2024
+ },
+ "arxiv:2501.01466": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Hydride superconductivity: here to stay, or to lead astray and soon go away?",
+  "year": 2024
+ },
+ "arxiv:2503.05697": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "How pairing mechanism dictates topology in valley-polarized superconductors with Berry curvature",
+  "year": 2025
+ },
+ "arxiv:2506.04311": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "An apologia for islands",
+  "year": 2025
+ },
+ "arxiv:2506.20707": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "SPT-3G D1: CMB temperature and polarization power spectra and cosmology from 2019 and 2020 observations of the SPT-3G Main field",
+  "year": 2025
+ },
+ "arxiv:2507.20705": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Light-induced Odd-parity Magnetism in Conventional Collinear Antiferromagnets",
+  "year": 2025
+ },
+ "arxiv:2507.22594": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Anomalous dimensions and critical exponents for the Gross-Neveu-Yukawa model at five loops",
+  "year": 2025
+ },
+ "arxiv:2511.09468": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "$β^+$ radioactive nuclei created during proton therapy",
+  "year": 2025
+ },
+ "arxiv:2512.02760": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Fault-tolerant quantum computation with constant overhead for general noise",
+  "year": 2025
+ },
+ "arxiv:2512.07441": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Prospects for an independent measurement of $\\boldsymbol{\\ell}$=1,2,3 CMB anisotropy multipoles using the anisotropic Sunyaev-Zel'dovich effect",
+  "year": 2025
+ },
+ "arxiv:2512.14375": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Signatures of local acceleration of quark-gluon plasma in the dilepton production",
+  "year": 2025
+ },
+ "arxiv:2512.18644": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Kicked fluxonium with quantum strange attractor",
+  "year": 2025
+ },
+ "arxiv:2601.02729": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Future of Higgs Boson Physics",
+  "year": 2026
+ },
+ "arxiv:2601.08644": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Percentile-based probabilistic optimization for systematic and random uncertainties in radiation therapy",
+  "year": 2026
+ },
+ "arxiv:2601.11731": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Dose-LET Interactions Predict Capsular Contracture After Proton Postmastectomy Radiation Therapy",
+  "year": 2026
+ },
+ "arxiv:2602.03366": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Entanglement Islands, Page curves and Phase Transitions of Kerr-AdS Black Holes",
+  "year": 2026
+ },
+ "arxiv:2602.06543": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Seeing Page Curves and Islands with Blinders On",
+  "year": 2026
+ },
+ "arxiv:2602.07043": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Escape of quantum information across an analogue black hole horizon",
+  "year": 2026
+ },
+ "arxiv:2602.12294": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Accelerated Markov Chain Monte Carlo Simulation via Neural Network-Driven Importance Sampling",
+  "year": 2026
+ },
+ "arxiv:2602.18272": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "CMB anisotropies from cosmic (super)strings in light of ACT DR6",
+  "year": 2026
+ },
+ "arxiv:2602.21571": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Collisional-radiative data for tokamak disruption mitigation modeling",
+  "year": 2026
+ },
+ "arxiv:2603.05347": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Impact of scissors-correction schemes on first-principles calculations of second-harmonic generation in ultraviolet nonlinear-optical crystals",
+  "year": 2026
+ },
+ "arxiv:2603.06162": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Higgs boson in the CP-violating NB-LSSM",
+  "year": 2026
+ },
+ "arxiv:2603.13947": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Topological Gluon Mass and Shear Viscosity of the Quark--Gluon Plasma",
+  "year": 2026
+ },
+ "arxiv:2603.23498": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Hall Viscosity in the Quark-Gluon Plasma",
+  "year": 2026
+ },
+ "arxiv:2603.24675": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Beyond the Largest Lyapunov Exponent: Entropy-Based Diagnostics of Chaos in Henon-Heiles and N-Body Dynamics",
+  "year": 2026
+ },
+ "arxiv:2603.29872": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Microscopic Origin of Page Curve",
+  "year": 2026
+ },
+ "arxiv:2604.05311": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Spin-biased quantum spin Hall effect in altermagnetic Lieb lattice",
+  "year": 2026
+ },
+ "arxiv:2604.09334": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Improved Matlab code for Lyapunov exponents of fractional order systems",
+  "year": 2026
+ },
+ "arxiv:2604.18022": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Boltzmann Machine Learning with a Parallel, Persistent Markov chain Monte Carlo method for Estimating Evolutionary Fields and Couplings from a Protein Multiple Sequence Alignment",
+  "year": 2026
+ },
+ "arxiv:2604.23346": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Bayesian phase transition for the critical Ising model: Enlarged replica symmetry in the epsilon expansion and in 2D",
+  "year": 2026
+ },
+ "arxiv:2604.27946": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Theory of quantum decoherence in macroscopic topological insulators",
+  "year": 2026
+ },
+ "arxiv:2605.21174": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Exact expression for maximum Lyapunov exponent during transients in computationally powerful dynamical networks",
+  "year": 2026
+ },
+ "arxiv:2606.02897": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Field-level constraints on cosmic birefringence with a hybrid $E$-$B$ internal linear combination",
+  "year": 2026
+ },
+ "arxiv:2606.05309": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Interference effects in gluon-fusion Higgs boson production",
+  "year": 2026
+ },
+ "arxiv:2606.19903": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Symmetry enforced quantum spin Hall effect in Altermagnets",
+  "year": 2026
+ },
+ "arxiv:2606.23350": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Irreversibility Enhances Quantum-Enhanced Markov-Chain Monte Carlo",
+  "year": 2026
+ },
+ "arxiv:2607.00287": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Improved Particle Confinement with Resonant Magnetic Perturbations in DIII-D Tokamak H-Mode Plasmas",
+  "year": 2026
+ },
+ "arxiv:2607.00657": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Self-selected phase-matched second harmonic generation in nonlinear optical materials: from phenomenon to applications",
+  "year": 2026
+ },
+ "arxiv:2607.02804": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Fault-tolerant quantum computation with static atomic buses",
+  "year": 2026
+ },
+ "arxiv:2607.03192": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Efficient broadband second-harmonic generation in a multi-pass cell",
+  "year": 2026
+ },
+ "arxiv:2607.08737": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The mini-Page Curve in Cosmology",
+  "year": 2026
+ },
+ "arxiv:2607.13296": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Unveiling Structured Optical Coherence in Nonlinear Optics",
+  "year": 2026
+ },
+ "arxiv:2607.14211": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Non-Primordial Contribution to the Cosmic Microwave Background",
+  "year": 2026
+ },
+ "arxiv:2607.15666": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Update on the Physics of the Cosmic Microwave Background (2015-2025)",
+  "year": 2026
+ },
+ "arxiv:2607.19821": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Spatially Dispersive Second-Harmonic Generation in Ferroaxial Systems",
+  "year": 2026
+ },
+ "arxiv:2607.24602": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Implementation and verification of the avalanche source in a 3D full-f particle-in-cell model of relativistic electrons for studies of tokamak disruptions",
+  "year": 2026
+ },
+ "arxiv:2607.24679": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Sign-optimized Quantum Monte Carlo",
+  "year": 2026
+ },
+ "arxiv:2608.02853": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Thermal Control of Hysteresis and Deterministic Chaos in a Memristive MEMS Resonator",
+  "year": 2026
+ },
+ "arxiv:2608.03948": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Real-time decoding of quantum error correction codes using high-performance computing",
+  "year": 2026
+ },
+ "arxiv:2608.06342": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Vector Edge Solitons and Domain Walls in a Nonlinear Mechanical Topological Insulator",
+  "year": 2026
+ },
+ "arxiv:2608.12071": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Toward a Measurement of the Higgs Boson Mass with Natural-Width Precision at FCC-ee",
+  "year": 2026
+ },
+ "arxiv:2608.16998": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Quadruple-Higgs boson production at the high-luminosity LHC",
+  "year": 2026
+ },
+ "arxiv:2608.24059": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Composite fermions in the $ν=3$ fractional quantum spin Hall effect",
+  "year": 2026
+ },
+ "arxiv:2609.15612": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Reducing Decoding Latency in Quantum Error Correction by Early Starting Clustering",
+  "year": 2026
+ },
+ "arxiv:2609.17465": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Quantum Compiler Design for Fault-Tolerant Quantum Computing",
+  "year": 2026
+ },
+ "arxiv:2609.24443": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Horizon-Aware Early Event Prediction for Tokamak Disruption Alarms",
+  "year": 2026
+ },
+ "arxiv:2609.37623": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Using a radiopharmaceutical production cyclotron for radiobiological research",
+  "year": 2026
+ },
+ "arxiv:2609.38740": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Sign problem and criticality in world-line quantum Monte Carlo methods",
+  "year": 2026
+ },
+ "arxiv:2610.06189": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Eliminating Tokamak Disruptions with Feedback",
+  "year": 2026
+ },
+ "arxiv:2610.12882": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Undiscovering Quark-gluon Plasma",
+  "year": 2026
+ },
+ "arxiv:2610.26086": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Heavy-quark thermalization in the quark-gluon plasma via a fractional Langevin equation",
+  "year": 2026
+ },
+ "arxiv:2610.36869": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Can future reirradiation justify upfront proton therapy? An extension of model-based proton therapy selection beyond primary-course NTCP benefit",
+  "year": 2026
+ },
+ "arxiv:astro-ph/0004404": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A Flat Universe from High-Resolution Maps of the Cosmic Microwave Background Radiation",
+  "year": 2000
+ },
+ "arxiv:astro-ph/0111544": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Detection of an Extrasolar Planet Atmosphere",
+  "year": 2001
+ },
+ "arxiv:astro-ph/0205436": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Cosmological parameters from CMB and other data: a Monte-Carlo approach",
+  "year": 2002
+ },
+ "arxiv:astro-ph/0207403": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Helioseismology",
+  "year": 2002
+ },
+ "arxiv:astro-ph/0501171": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Detection of the Baryon Acoustic Peak in the Large-Scale Correlation Function of SDSS Luminous Red Galaxies",
+  "year": 2005
+ },
+ "arxiv:astro-ph/0504097": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Simulating the joint evolution of quasars, galaxies and their large-scale distribution",
+  "year": 2005
+ },
+ "arxiv:astro-ph/0605208": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Gamma-Ray Bursts",
+  "year": 2006
+ },
+ "arxiv:astro-ph/0608407": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A direct empirical proof of the existence of dark matter",
+  "year": 2006
+ },
+ "arxiv:astro-ph/9603033": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A Line of Sight Approach to Cosmic Microwave Background Anisotropies",
+  "year": 1996
+ },
+ "arxiv:astro-ph/9611107": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A Universal Density Profile from Hierarchical Clustering",
+  "year": 1996
+ },
+ "arxiv:astro-ph/9710327": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Maps of Dust IR Emission for Use in Estimation of Reddening and CMBR Foregrounds",
+  "year": 1997
+ },
+ "arxiv:astro-ph/9805201": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant",
+  "year": 1998
+ },
+ "arxiv:astro-ph/9811037": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Reconnection in a Weakly Stochastic Field",
+  "year": 1998
+ },
+ "arxiv:astro-ph/9812133": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Measurements of Omega and Lambda from 42 High-Redshift Supernovae",
+  "year": 1998
+ },
+ "arxiv:astro-ph/9911177": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Efficient Computation of CMB anisotropies in closed FRW models",
+  "year": 1999
+ },
+ "arxiv:astro-ph/9911436": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Detection of Planetary Transits Across a Sun-like Star",
+  "year": 1999
+ },
+ "arxiv:astro-ph/9912508": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Weak Gravitational Lensing",
+  "year": 1999
+ },
+ "arxiv:cond-mat/0010440": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Unpaired Majorana fermions in quantum wires",
+  "year": 2000
+ },
+ "arxiv:cond-mat/0405528": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Spintronics: Fundamentals and applications",
+  "year": 2004
+ },
+ "arxiv:cond-mat/0407325": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Circuit Quantum Electrodynamics: Coherent Coupling of a Single Photon to a Cooper Pair Box",
+  "year": 2004
+ },
+ "arxiv:cond-mat/0410445": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Doping a Mott Insulator: Physics of High Temperature Superconductivity",
+  "year": 2004
+ },
+ "arxiv:cond-mat/0503686": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Entropy production along a stochastic trajectory and an integral fluctuation theorem",
+  "year": 2005
+ },
+ "arxiv:cond-mat/0506438": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Anyons in an exactly solved model and beyond",
+  "year": 2005
+ },
+ "arxiv:cond-mat/0506581": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "$Z_2$ Topological Order and the Quantum Spin Hall Effect",
+  "year": 2005
+ },
+ "arxiv:cond-mat/0506617": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Metal-insulator transition in a weakly interacting many-electron system with localized single-particle states",
+  "year": 2005
+ },
+ "arxiv:cond-mat/0509355": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Experimental Observation of Quantum Hall Effect and Berry's Phase in Graphene",
+  "year": 2005
+ },
+ "arxiv:cond-mat/0610433": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Spins in few-electron quantum dots",
+  "year": 2006
+ },
+ "arxiv:cond-mat/0611399": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Quantum Spin Hall Effect and Topological Phase Transition in HgTe Quantum Wells",
+  "year": 2006
+ },
+ "arxiv:cond-mat/0611743": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Novel type of phase transition in a system of self-driven particles",
+  "year": 2006
+ },
+ "arxiv:cond-mat/0702595": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The rise of graphene",
+  "year": 2007
+ },
+ "arxiv:cond-mat/0703002": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Charge insensitive qubit design derived from the Cooper pair box",
+  "year": 2007
+ },
+ "arxiv:cond-mat/9403051": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Chaos and Quantum Thermalization",
+  "year": 1994
+ },
+ "arxiv:cond-mat/9701055": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Quantum Computation with Quantum Dots",
+  "year": 1997
+ },
+ "arxiv:gr-qc/0502097": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Modern tests of Lorentz invariance",
+  "year": 2005
+ },
+ "arxiv:gr-qc/0505065": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Analogue Gravity",
+  "year": 2005
+ },
+ "arxiv:gr-qc/0507014": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Evolution of Binary Black Hole Spacetimes",
+  "year": 2005
+ },
+ "arxiv:gr-qc/9411005": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Discreteness of area and volume in quantum gravity",
+  "year": 1994
+ },
+ "arxiv:hep-ex/0306033": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Search for the Standard Model Higgs Boson at LEP",
+  "year": 2003
+ },
+ "arxiv:hep-ex/9807003": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Evidence for oscillation of atmospheric neutrinos",
+  "year": 1998
+ },
+ "arxiv:hep-lat/0611014": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The order of the quantum chromodynamics transition predicted by the standard model of particle physics",
+  "year": 2006
+ },
+ "arxiv:hep-ph/0404175": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Particle Dark Matter: Evidence, Candidates and Constraints",
+  "year": 2004
+ },
+ "arxiv:hep-ph/0405066": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "What RHIC Experiments and Theory tell us about Properties of Quark-Gluon Plasma ?",
+  "year": 2004
+ },
+ "arxiv:hep-ph/9607355": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Radiative energy loss of high energy quarks and gluons in a finite volume quark-gluon plasma",
+  "year": 1996
+ },
+ "arxiv:hep-ph/9704255": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Radiative energy loss of high energy quarks in finite-size nuclear matter and quark-gluon plasma",
+  "year": 1997
+ },
+ "arxiv:hep-ph/9704448": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "HDECAY: a Program for Higgs Boson Decays in the Standard Model and its Supersymmetric Extension",
+  "year": 1997
+ },
+ "arxiv:hep-ph/9709356": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "A Supersymmetry Primer",
+  "year": 1997
+ },
+ "arxiv:hep-ph/9803315": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The Hierarchy Problem and New Dimensions at a Millimeter",
+  "year": 1998
+ },
+ "arxiv:hep-ph/9905221": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "A Large Mass Hierarchy from a Small Extra Dimension",
+  "year": 1999
+ },
+ "arxiv:hep-th/0109154": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "AdS/CFT duality and the black hole information paradox",
+  "year": 2001
+ },
+ "arxiv:hep-th/0405231": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Viscosity in Strongly Interacting Quantum Field Theories from Black Hole Physics",
+  "year": 2004
+ },
+ "arxiv:hep-th/0603001": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Holographic Derivation of Entanglement Entropy from AdS/CFT",
+  "year": 2006
+ },
+ "arxiv:hep-th/9306083": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Information in Black Hole Radiation",
+  "year": 1993
+ },
+ "arxiv:hep-th/9503124": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "String Theory Dynamics In Various Dimensions",
+  "year": 1995
+ },
+ "arxiv:hep-th/9510017": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Dirichlet-Branes and Ramond-Ramond Charges",
+  "year": 1995
+ },
+ "arxiv:hep-th/9601029": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Microscopic Origin of the Bekenstein-Hawking Entropy",
+  "year": 1996
+ },
+ "arxiv:hep-th/9711200": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The Large N Limit of Superconformal Field Theories and Supergravity",
+  "year": 1997
+ },
+ "arxiv:hep-th/9802109": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Gauge Theory Correlators from Non-Critical String Theory",
+  "year": 1998
+ },
+ "arxiv:hep-th/9802150": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Anti De Sitter Space And Holography",
+  "year": 1998
+ },
+ "arxiv:math/0011268": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "A remarkable periodic solution of the three-body problem in the case of equal masses",
+  "year": 2000
+ },
+ "arxiv:nucl-ex/0204008": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Direct Evidence for Neutrino Flavor Transformation from Neutral-Current Interactions in the Sudbury Neutrino Observatory",
+  "year": 2002
+ },
+ "arxiv:nucl-ex/0410003": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Formation of dense partonic matter in relativistic nucleus-nucleus collisions at RHIC: Experimental evaluation by the PHENIX collaboration",
+  "year": 2004
+ },
+ "arxiv:nucl-ex/0501009": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Experimental and Theoretical Challenges in the Search for the Quark Gluon Plasma: The STAR Collaboration's Critical Assessment of the Evidence from RHIC Collisions",
+  "year": 2005
+ },
+ "arxiv:nucl-th/0410079": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Globally Polarized Quark-gluon Plasma in Non-central A+A Collisions",
+  "year": 2004
+ },
+ "arxiv:physics/0611246": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Optical Magnetometry",
+  "year": 2006
+ },
+ "arxiv:physics/9711021": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "A Unified Approach to the Classical Statistical Analysis of Small Signals",
+  "year": 1997
+ },
+ "arxiv:physics/9712001": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Real Spectra in Non-Hermitian Hamiltonians Having PT Symmetry",
+  "year": 1997
+ },
+ "arxiv:physics/9905030": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "On the gravitational field of a mass point according to Einstein's theory",
+  "year": 1999
+ },
+ "arxiv:quant-ph/0105127": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Decoherence, einselection, and the quantum origins of the classical",
+  "year": 2001
+ },
+ "arxiv:quant-ph/0702225": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Quantum entanglement",
+  "year": 2007
+ },
+ "arxiv:quant-ph/9508027": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+  "year": 1995
+ },
+ "arxiv:quant-ph/9604024": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Mixed State Entanglement and Quantum Error Correction",
+  "year": 1996
+ },
+ "arxiv:quant-ph/9605043": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "A fast quantum mechanical algorithm for database search",
+  "year": 1996
+ },
+ "arxiv:quant-ph/9707021": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Fault-tolerant quantum computation by anyons",
+  "year": 1997
+ },
+ "doi:10.1002/adma.202311022": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Magnetic Skyrmions above Room Temperature in a van der Waals Ferromagnet Fe 3 GaTe 2",
+  "year": 2024
+ },
+ "doi:10.1002/adma.202415844": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Highly Mixed Index Facet Engineering Induces Defect Formation and Converts the Wave‐Transmissive Mott Insulator NiO into Electromagnetic Wave Absorbent",
+  "year": 2024
+ },
+ "doi:10.1002/andp.19053220607": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
+  "year": 1905
+ },
+ "doi:10.1002/andp.19053220806": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Über die von der molekularkinetischen Theorie der Wärme geforderte Bewegung von in ruhenden Flüssigkeiten suspendierten Teilchen",
+  "year": 1905
+ },
+ "doi:10.1002/andp.19053221004": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Zur Elektrodynamik bewegter Körper",
+  "year": 1905
+ },
+ "doi:10.1002/andp.19083300302": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Beiträge zur Optik trüber Medien, speziell kolloidaler Metallösungen",
+  "year": 1908
+ },
+ "doi:10.1002/andp.19163540702": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Die Grundlage der allgemeinen Relativitätstheorie",
+  "year": 1916
+ },
+ "doi:10.1002/andp.19263840404": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Quantisierung als Eigenwertproblem",
+  "year": 1926
+ },
+ "doi:10.1002/andp.19273892002": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Zur Quantentheorie der Molekeln",
+  "year": 1927
+ },
+ "doi:10.1002/anie.202408874": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A Mitochondria‐Targeted Photosensitizer for Combined Pyroptosis and Apoptosis with NIR‐II Imaging/Photoacoustic Imaging‐Guided Phototherapy",
+  "year": 2024
+ },
+ "doi:10.1002/cpa.3160130102": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The unreasonable effectiveness of mathematics in the natural sciences. Richard courant lecture in mathematical sciences delivered at New York University, May 11, 1959",
+  "year": 1960
+ },
+ "doi:10.1002/j.1538-7305.1948.tb01338.x": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "A Mathematical Theory of Communication",
+  "year": 1948
+ },
+ "doi:10.1006/icar.1993.1010": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Habitable Zones around Main Sequence Stars",
+  "year": 1993
+ },
+ "doi:10.1006/icar.1996.0190": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Formation of the Giant Planets by Concurrent Accretion of Solids and Gas",
+  "year": 1996
+ },
+ "doi:10.1007/978-1-4757-2063-1": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Mathematical Methods of Classical Mechanics",
+  "year": 1989
+ },
+ "doi:10.1007/bf01020332": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Quantitative universality for a class of nonlinear transformations",
+  "year": 1978
+ },
+ "doi:10.1007/bf01303701": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Possible highT c superconductivity in the Ba?La?Cu?O system",
+  "year": 1986
+ },
+ "doi:10.1007/bf01328377": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "�ber quantentheoretische Umdeutung kinematischer und mechanischer Beziehungen.",
+  "year": 1925
+ },
+ "doi:10.1007/bf01328601": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Zur Theorie des Ferromagnetismus",
+  "year": 1928
+ },
+ "doi:10.1007/bf01337700": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Zur Theorie der Kernmassen",
+  "year": 1935
+ },
+ "doi:10.1007/bf01339455": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "�ber die Quantenmechanik der Elektronen in Kristallgittern",
+  "year": 1929
+ },
+ "doi:10.1007/bf01341708": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Zur Theorie der Metalle",
+  "year": 1931
+ },
+ "doi:10.1007/bf01343196": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Zur Quantentheorie des Atomkernes",
+  "year": 1928
+ },
+ "doi:10.1007/bf01351864": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Versuch einer Theorie der ?-Strahlen. I",
+  "year": 1934
+ },
+ "doi:10.1007/bf01397394": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Wechselwirkung neutraler Atome und hom�opolare Bindung nach der Quantenmechanik",
+  "year": 1927
+ },
+ "doi:10.1007/bf01397477": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Zur Quantenmechanik der Sto�vorg�nge",
+  "year": 1926
+ },
+ "doi:10.1007/bf01504252": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Ein neuer Effekt bei Eintritt der Supraleitf�higkeit",
+  "year": 1933
+ },
+ "doi:10.1007/bf01608499": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "On the generators of quantum dynamical semigroups",
+  "year": 1976
+ },
+ "doi:10.1007/bf02345020": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Particle creation by black holes",
+  "year": 1975
+ },
+ "doi:10.1007/bf02812722": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Field theories with « Superconductor » solutions",
+  "year": 1961
+ },
+ "doi:10.1007/bf02980577": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Beitrag zur Theorie des Ferromagnetismus",
+  "year": 1925
+ },
+ "doi:10.1007/jhep01(2025)063": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Replica wormholes and entanglement islands in the Karch-Randall braneworld",
+  "year": 2025
+ },
+ "doi:10.1007/jhep03(2020)149": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Page curve of Hawking radiation from semiclassical geometry",
+  "year": 2020
+ },
+ "doi:10.1007/jhep05(2020)091": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Page curve for an evaporating black hole",
+  "year": 2020
+ },
+ "doi:10.1007/jhep09(2018)057": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Higgs boson pair production in non-linear Effective Field Theory with full mt-dependence at NLO QCD",
+  "year": 2018
+ },
+ "doi:10.1007/jhep10(2020)166": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Quantum extremal islands made easy. Part I. Entanglement on the brane",
+  "year": 2020
+ },
+ "doi:10.1007/s00214-007-0310-x": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The M06 suite of density functionals for main group thermochemistry, thermochemical kinetics, noncovalent interactions, excited states, and transition elements: two new functionals and systematic testing of four M06-class functionals and 12 other functionals",
+  "year": 2007
+ },
+ "doi:10.1007/s00339-025-08470-6": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Magnetic properties of a ferrimagnetic core–shell nanoparticle based on Monte Carlo method",
+  "year": 2025
+ },
+ "doi:10.1007/s10714-008-0707-4": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Republication of: The redshift of extragalactic nebulae",
+  "year": 2008
+ },
+ "doi:10.1007/s11214-015-0164-9": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Magnetospheric Multiscale Overview and Science Objectives",
+  "year": 2015
+ },
+ "doi:10.1016/0003-4916(58)90012-5": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Theory of the alternating-gradient synchrotron",
+  "year": 1958
+ },
+ "doi:10.1016/0025-5408(73)90167-0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Resonating valence bonds: A new kind of insulator?",
+  "year": 1973
+ },
+ "doi:10.1016/0029-5582(61": {
+  "checked": "2026-10-29",
+  "ok": false
+ },
+ "doi:10.1016/0029-5582(61)90469-2": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Partial-symmetries of weak interactions",
+  "year": 1961
+ },
+ "doi:10.1016/0030-4018(84)90105-6": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Collective instabilities and high-gain regime in a free electron laser",
+  "year": 1984
+ },
+ "doi:10.1016/0030-4018(85)90120-8": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Compression of amplified chirped optical pulses",
+  "year": 1985
+ },
+ "doi:10.1016/0031-9163(62)91369-0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Possible new effects in superconductive tunnelling",
+  "year": 1962
+ },
+ "doi:10.1016/0031-9201(81)90046-7": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Preliminary reference Earth model",
+  "year": 1981
+ },
+ "doi:10.1016/0370-1573(74": {
+  "checked": "2026-10-29",
+  "ok": false
+ },
+ "doi:10.1016/0370-1573(74)90023-4": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The renormalization group and the ε expansion",
+  "year": 1974
+ },
+ "doi:10.1016/0370-2693(78)90370-2": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Quark-gluon plasma and hadronic production of leptons, photons and psions",
+  "year": 1978
+ },
+ "doi:10.1016/0370-2693(80)90670-x": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A new type of isotropic cosmological models without singularity",
+  "year": 1980
+ },
+ "doi:10.1016/0370-2693(82)91219-9": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A new inflationary universe scenario: A possible solution of the horizon, flatness, homogeneity, isotropy and primordial monopole problems",
+  "year": 1982
+ },
+ "doi:10.1016/0370-2693(84)91565-x": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Anomaly cancellations in supersymmetric D = 10 gauge theory and superstring theory",
+  "year": 1984
+ },
+ "doi:10.1016/0370-2693(86)91404-8": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "J/ψ suppression by quark-gluon plasma formation",
+  "year": 1986
+ },
+ "doi:10.1016/0370-2693(87)91197-x": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Hybrid Monte Carlo",
+  "year": 1987
+ },
+ "doi:10.1016/0370-2693(88)91523-7": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "A measurement of the spin asymmetry and determination of the structure function g1 in deep inelastic muon-proton scattering",
+  "year": 1988
+ },
+ "doi:10.1016/0370-2693(90)90938-3": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Nuclear forces from chiral lagrangians",
+  "year": 1990
+ },
+ "doi:10.1016/0378-4371(79": {
+  "checked": "2026-10-29",
+  "ok": false
+ },
+ "doi:10.1016/0378-4371(79)90223-1": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Phenomenological Lagrangians",
+  "year": 1979
+ },
+ "doi:10.1016/0550-3213(72": {
+  "checked": "2026-10-29",
+  "ok": false
+ },
+ "doi:10.1016/0550-3213(72)90279-9": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Regularization and renormalization of gauge fields",
+  "year": 1972
+ },
+ "doi:10.1016/0550-3213(77)90384-4": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Asymptotic freedom in parton language",
+  "year": 1977
+ },
+ "doi:10.1016/0550-3213(84": {
+  "checked": "2026-10-29",
+  "ok": false
+ },
+ "doi:10.1016/0550-3213(84)90052-x": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Infinite conformal symmetry in two-dimensional quantum field theory",
+  "year": 1984
+ },
+ "doi:10.1016/0927-0256(96)00008-0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Efficiency of ab-initio total energy calculations for metals and semiconductors using a plane-wave basis set",
+  "year": 1996
+ },
+ "doi:10.1016/j.aml.2025.109615": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Inhomogeneity, magnetic auto-Bäcklund transformations and magnetic solitons for a generalized variable-coefficient Kraenkel-Manna-Merle system in a deformed ferrite",
+  "year": 2025
+ },
+ "doi:10.1016/j.cjph.2024.05.021": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Exploration of dynamic phase transition of 3D Ising model with a new long-range interaction by using the Monte Carlo method",
+  "year": 2024
+ },
+ "doi:10.1016/j.cpc.2007.11.016": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "wannier90: A tool for obtaining maximally-localised Wannier functions",
+  "year": 2008
+ },
+ "doi:10.1016/j.cpc.2008.01.036": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A brief introduction to PYTHIA 8.1",
+  "year": 2008
+ },
+ "doi:10.1016/j.cpc.2014.05.003": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "An updated version of wannier90: A tool for obtaining maximally-localised Wannier functions",
+  "year": 2014
+ },
+ "doi:10.1016/j.cpc.2015.01.024": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "An introduction to PYTHIA 8.2",
+  "year": 2015
+ },
+ "doi:10.1016/j.jcp.2018.10.045": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations",
+  "year": 2018
+ },
+ "doi:10.1016/j.jer.2026.01.028": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Heat generation and electromagnetic potential driven flow of ternary hybrid nanofluid with variable fluid properties between two parallel plates",
+  "year": 2026
+ },
+ "doi:10.1016/j.joule.2025.101888": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Harnessing triboiontronic Maxwell’s demon by triboelectric-induced polarization for efficient energy-information flow",
+  "year": 2025
+ },
+ "doi:10.1016/j.jspc.2025.100270": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Signatures of local acceleration of quark-gluon plasma in the dilepton production",
+  "year": 2026
+ },
+ "doi:10.1016/j.nds.2018.02.001": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "ENDF/B-VIII.0: The 8 th Major Release of the Nuclear Reaction Data Library with CIELO-project Cross Sections, New Standards and Thermal Scattering Data",
+  "year": 2018
+ },
+ "doi:10.1016/j.neuroimage.2004.07.051": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Advances in functional and structural MR image analysis and implementation as FSL",
+  "year": 2004
+ },
+ "doi:10.1016/j.nucengdes.2020.110767": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A review of research and development of supercritical carbon dioxide Brayton cycle technology in nuclear engineering applications",
+  "year": 2020
+ },
+ "doi:10.1016/j.nuclphysa.2004.10.022": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "What RHIC experiments and theory tell us about properties of quark–gluon plasma?",
+  "year": 2005
+ },
+ "doi:10.1016/j.physletb.2007.11.072": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Standard Model Higgs boson as the inflaton",
+  "year": 2008
+ },
+ "doi:10.1016/j.physletb.2012.08.020": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Observation of a new particle in the search for the Standard Model Higgs boson with the ATLAS detector at the LHC",
+  "year": 2012
+ },
+ "doi:10.1016/j.physletb.2024.138734": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Corrigendum to “Evidence of off-shell Higgs boson production from ZZ leptonic decay channels and constraints on its total width with the ATLAS detector” [Phys. Lett. B 846 (2023) 138223]",
+  "year": 2024
+ },
+ "doi:10.1016/j.physrep.2015.10.007": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Black hole remnants and the information loss paradox",
+  "year": 2015
+ },
+ "doi:10.1016/s0003-4916(02)00018-0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Fault-tolerant quantum computation by anyons",
+  "year": 2003
+ },
+ "doi:10.1016/s0006-3495(77)85544-6": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Physics of chemoreception",
+  "year": 1977
+ },
+ "doi:10.1016/s0009-2614(89)87395-6": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A fifth-order perturbation comparison of electron correlation theories",
+  "year": 1989
+ },
+ "doi:10.1016/s0010-4655(97)00123-9": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "HDECAY: a program for Higgs boson decays in the Standard Model and its supersymmetric extension",
+  "year": 1998
+ },
+ "doi:10.1016/s0031-8914(40)90098-2": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Brownian motion in a field of force and the diffusion model of chemical reactions",
+  "year": 1940
+ },
+ "doi:10.1016/s0031-9163(64": {
+  "checked": "2026-10-29",
+  "ok": false
+ },
+ "doi:10.1016/s0031-9163(64)92001-3": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "A schematic model of baryons and mesons",
+  "year": 1964
+ },
+ "doi:10.1016/s0167-2789(00)00094-4": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "From Kuramoto to Crawford: exploring the onset of synchronization in populations of coupled oscillators",
+  "year": 2000
+ },
+ "doi:10.1016/s0370-2693(03)00614-2": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Search for the Standard Model Higgs boson at LEP",
+  "year": 2003
+ },
+ "doi:10.1016/s0550-3213(01)00620-4": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "AdS/CFT duality and the black hole information paradox",
+  "year": 2002
+ },
+ "doi:10.1016/s0550-3213(96)00553-6": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Radiative energy loss of high energy quarks and gluons in a finite-volume quark-gluon plasma",
+  "year": 1997
+ },
+ "doi:10.1016/s1388-2457(99)00141-8": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Event-related EEG/MEG synchronization and desynchronization: basic principles",
+  "year": 1999
+ },
+ "doi:10.1017/cbo9780511976667": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Quantum Computation and Quantum Information",
+  "year": 2012
+ },
+ "doi:10.1017/s0305004100032680": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Percolation processes",
+  "year": 1957
+ },
+ "doi:10.1021/acsnano.4c02670": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Surface-Enhanced Raman Spectroscopy: Current Understanding, Challenges, and Opportunities",
+  "year": 2024
+ },
+ "doi:10.1021/ja00072a025": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Synthesis and characterization of nearly monodisperse CdE (E = sulfur, selenium, tellurium) semiconductor nanocrystallites",
+  "year": 1993
+ },
+ "doi:10.1021/ja02242a004": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "THE ADSORPTION OF GASES ON PLANE SURFACES OF GLASS, MICA AND PLATINUM.",
+  "year": 1918
+ },
+ "doi:10.1021/ja3091438": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Li-Ion Rechargeable Battery: A Perspective",
+  "year": 2013
+ },
+ "doi:10.1021/ja800073m": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Iron-Based Layered Superconductor La[O 1- x F x ]FeAs ( x = 0.05−0.12) with T c = 26 K",
+  "year": 2008
+ },
+ "doi:10.1021/ja809598r": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Organometal Halide Perovskites as Visible-Light Sensitizers for Photovoltaic Cells",
+  "year": 2009
+ },
+ "doi:10.1021/jp001460h": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Femtochemistry: Atomic-Scale Dynamics of the Chemical Bond",
+  "year": 2000
+ },
+ "doi:10.1021/ma00130a008": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Stretching DNA",
+  "year": 1995
+ },
+ "doi:10.1029/2019rg000678": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "An Assessment of Earth's Climate Sensitivity Using Multiple Lines of Evidence",
+  "year": 2020
+ },
+ "doi:10.1029/jz062i004p00509": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Sweet's mechanism for merging magnetic fields in conducting fluids",
+  "year": 1957
+ },
+ "doi:10.1038/121501c0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A New Type of Secondary Radiation",
+  "year": 1928
+ },
+ "doi:10.1038/122439a0": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Wave Mechanics and Radioactive Disintegration",
+  "year": 1928
+ },
+ "doi:10.1038/129312a0": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Possible Existence of a Neutron",
+  "year": 1932
+ },
+ "doi:10.1038/143239a0": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Disintegration of Uranium by Neutrons: a New Type of Nuclear Reaction",
+  "year": 1939
+ },
+ "doi:10.1038/150405d0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Existence of Electromagnetic-Hydrodynamic Waves",
+  "year": 1942
+ },
+ "doi:10.1038/161777a0": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "A New Microscopic Principle",
+  "year": 1948
+ },
+ "doi:10.1038/171737a0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Molecular Structure of Nucleic Acids: A Structure for Deoxyribose Nucleic Acid",
+  "year": 1953
+ },
+ "doi:10.1038/187493a0": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Stimulated Optical Radiation in Ruby",
+  "year": 1960
+ },
+ "doi:10.1038/1971040a0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "3C 273 : A Star-Like Object with Large Red-Shift",
+  "year": 1963
+ },
+ "doi:10.1038/217709a0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Observation of a Rapidly Pulsating Radio Source",
+  "year": 1968
+ },
+ "doi:10.1038/223690a0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Galactic Nuclei as Collapsed Old Quasars",
+  "year": 1969
+ },
+ "doi:10.1038/23819": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Jamming is not just cool any more",
+  "year": 1998
+ },
+ "doi:10.1038/239139a0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Laser Compression of Matter to Super-High Densities: Thermonuclear (CTR) Applications",
+  "year": 1972
+ },
+ "doi:10.1038/242190a0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Image Formation by Induced Local Interactions: Examples Employing Nuclear Magnetic Resonance",
+  "year": 1973
+ },
+ "doi:10.1038/261459a0": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Simple mathematical models with very complicated dynamics",
+  "year": 1976
+ },
+ "doi:10.1038/279381a0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "0957 + 561 A, B: twin quasistellar objects or gravitational lens?",
+  "year": 1979
+ },
+ "doi:10.1038/30918": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Collective dynamics of ‘small-world’ networks",
+  "year": 1998
+ },
+ "doi:10.1038/320340a0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Phase behaviour of concentrated suspensions of nearly hard colloidal spheres",
+  "year": 1986
+ },
+ "doi:10.1038/338237a0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A numerical experiment on the chaotic behaviour of the Solar System",
+  "year": 1989
+ },
+ "doi:10.1038/35010035": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A flat Universe from high-resolution maps of the cosmic microwave background radiation",
+  "year": 2000
+ },
+ "doi:10.1038/35051009": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "A scheme for efficient quantum computation with linear optics",
+  "year": 2001
+ },
+ "doi:10.1038/35065704": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Supercooled liquids and the glass transition",
+  "year": 2001
+ },
+ "doi:10.1038/355145a0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A planetary system around the millisecond pulsar PSR1257 + 12",
+  "year": 1992
+ },
+ "doi:10.1038/365721a0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Direct observation of kinesin stepping by optical trapping interferometry",
+  "year": 1993
+ },
+ "doi:10.1038/377203a0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A three-dimensional self-consistent computer simulation of a geomagnetic field reversal",
+  "year": 1995
+ },
+ "doi:10.1038/378355a0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A Jupiter-mass companion to a solar-type star",
+  "year": 1995
+ },
+ "doi:10.1038/415039a": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Quantum phase transition from a superfluid to a Mott insulator in a gas of ultracold atoms",
+  "year": 2002
+ },
+ "doi:10.1038/nature02851": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Strong coupling of a single photon to a superconducting qubit using circuit quantum electrodynamics",
+  "year": 2004
+ },
+ "doi:10.1038/nature02939": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Monoenergetic beams of relativistic electrons from intense laser–plasma interactions",
+  "year": 2004
+ },
+ "doi:10.1038/nature03183": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Tomographic imaging of molecular orbitals",
+  "year": 2004
+ },
+ "doi:10.1038/nature03539": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Origin of the orbital architecture of the giant planets of the Solar System",
+  "year": 2005
+ },
+ "doi:10.1038/nature03597": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Simulations of the formation, evolution and clustering of galaxies and quasars",
+  "year": 2005
+ },
+ "doi:10.1038/nature08105": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Direct observation of a widely tunable bandgap in bilayer graphene",
+  "year": 2009
+ },
+ "doi:10.1038/nature08917": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Spin liquids in frustrated magnets",
+  "year": 2010
+ },
+ "doi:10.1038/nature09250": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The size of the proton",
+  "year": 2010
+ },
+ "doi:10.1038/nature09466": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A two-solar-mass neutron star measured using Shapiro delay",
+  "year": 2010
+ },
+ "doi:10.1038/nature10872": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Experimental verification of Landauer’s principle linking information and thermodynamics",
+  "year": 2012
+ },
+ "doi:10.1038/nature13184": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Ultralow thermal conductivity and high thermoelectric figure of merit in SnSe crystals",
+  "year": 2014
+ },
+ "doi:10.1038/nature13882": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "High-efficiency acceleration of an electron beam in a plasma wakefield accelerator",
+  "year": 2014
+ },
+ "doi:10.1038/nature14165": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "From quantum matter to high-temperature superconductivity in copper oxides",
+  "year": 2015
+ },
+ "doi:10.1038/nature14964": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Conventional superconductivity at 203 kelvin at high pressures in the sulfur hydride system",
+  "year": 2015
+ },
+ "doi:10.1038/nature23879": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Hardware-efficient variational quantum eigensolver for small molecules and quantum magnets",
+  "year": 2017
+ },
+ "doi:10.1038/nature24453": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Origin of the heavy elements in binary neutron-star mergers from a gravitational-wave event",
+  "year": 2017
+ },
+ "doi:10.1038/nchem.121": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Towards the computational design of solid catalysts",
+  "year": 2009
+ },
+ "doi:10.1038/nmat2090": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Complex thermoelectric materials",
+  "year": 2008
+ },
+ "doi:10.1038/nphoton.2010.176": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "First lasing and operation of an ångstrom-wavelength free-electron laser",
+  "year": 2010
+ },
+ "doi:10.1038/nphys1270": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Topological insulators in Bi2Se3, Bi2Te3 and Sb2Te3 with a single Dirac cone on the surface",
+  "year": 2009
+ },
+ "doi:10.1038/nphys2877": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "What drives nematic order in iron-based superconductors?",
+  "year": 2014
+ },
+ "doi:10.1038/s41567-024-02479-z": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Constant-overhead fault-tolerant quantum computation with reconfigurable atom arrays",
+  "year": 2024
+ },
+ "doi:10.1038/s41586-019-1496-5": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Superconductivity in an infinite-layer nickelate",
+  "year": 2019
+ },
+ "doi:10.1038/s41586-019-1813-z": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Alfvénic velocity spikes and rotational flows in the near-Sun solar wind",
+  "year": 2019
+ },
+ "doi:10.1038/s41586-020-2964-7": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Determination of the fine-structure constant with an accuracy of 81 parts per trillion",
+  "year": 2020
+ },
+ "doi:10.1038/s41586-021-03819-2": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Highly accurate protein structure prediction with AlphaFold",
+  "year": 2021
+ },
+ "doi:10.1038/s41586-021-04281-w": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Burning plasma achieved in inertial fusion",
+  "year": 2022
+ },
+ "doi:10.1038/s41586-023-06408-7": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Signatures of superconductivity near 80 K in a nickelate under high pressure",
+  "year": 2023
+ },
+ "doi:10.1038/s41586-023-06536-0": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Observation of fractionally quantized anomalous Hall effect",
+  "year": 2023
+ },
+ "doi:10.1038/s41586-023-06868-x": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Two-dimensional heavy fermions in the van der Waals metal CeSiI",
+  "year": 2024
+ },
+ "doi:10.1038/s41586-023-06907-7": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Altermagnetic lifting of Kramers spin degeneracy",
+  "year": 2024
+ },
+ "doi:10.1038/s41586-023-07010-7": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Fractional quantum anomalous Hall effect in multilayer graphene",
+  "year": 2024
+ },
+ "doi:10.1038/s41586-024-08449-y": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Quantum error correction below the surface code threshold",
+  "year": 2024
+ },
+ "doi:10.1038/s44306-024-00023-6": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Spintronics meets orbitronics: Emergence of orbital angular momentum in solids",
+  "year": 2024
+ },
+ "doi:10.1049/piee.1966.0189": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Dielectric-fibre surface waveguides for optical frequencies",
+  "year": 1966
+ },
+ "doi:10.1051/0004-6361/202660069": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Beyond the largest Lyapunov exponent: Entropy-based diagnostics of chaos in Hénon-Heiles and N -body dynamics",
+  "year": 2026
+ },
+ "doi:10.1063/1.111832": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Candela-class high-brightness InGaN/AlGaN double-heterostructure blue-light-emitting diodes",
+  "year": 1994
+ },
+ "doi:10.1063/1.1660466": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Stimulated Emission of Bremsstrahlung in a Periodic Magnetic Field",
+  "year": 1971
+ },
+ "doi:10.1063/1.1675789": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Reptation of a Polymer Chain in the Presence of Fixed Obstacles",
+  "year": 1971
+ },
+ "doi:10.1063/1.1699114": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Equation of State Calculations by Fast Computing Machines",
+  "year": 1953
+ },
+ "doi:10.1063/1.1705883": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Stellarator Concept",
+  "year": 1958
+ },
+ "doi:10.1063/1.1721711": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A New Silicon p-n Junction Photocell for Converting Solar Radiation into Electrical Power",
+  "year": 1954
+ },
+ "doi:10.1063/1.1727484": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "On the Correlation Problem in Atomic and Molecular Systems. Calculation of Wavefunction Components in Ursell-Type Expansion Using Quantum-Field Theoretical Methods",
+  "year": 1966
+ },
+ "doi:10.1063/1.1736034": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Detailed Balance Limit of Efficiency of p-n Junction Solar Cells",
+  "year": 1961
+ },
+ "doi:10.1063/1.1742723": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "On the Theory of Oxidation-Reduction Reactions Involving Electron Transfer. I",
+  "year": 1956
+ },
+ "doi:10.1063/1.1743957": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Phase Transition for a Hard Sphere System",
+  "year": 1957
+ },
+ "doi:10.1063/1.1747243": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Configuration of Real Polymer Chains",
+  "year": 1949
+ },
+ "doi:10.1063/1.1749604": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Activated Complex in Chemical Reactions",
+  "year": 1935
+ },
+ "doi:10.1063/1.3023318": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Practical Quantum Mechanics",
+  "year": 1976
+ },
+ "doi:10.1063/1.3035549": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Introduction to Fourier Optics",
+  "year": 1969
+ },
+ "doi:10.1063/1.3061720": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Introduction to Solid State Physics",
+  "year": 1954
+ },
+ "doi:10.1063/1.3382344": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A consistent and accurate ab initio parametrization of density functional dispersion correction (DFT-D) for the 94 elements H-Pu",
+  "year": 2010
+ },
+ "doi:10.1063/1.447218": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Electron–electron and electron-hole interactions in small semiconductor crystallites: The size dependence of the lowest excited electronic state",
+  "year": 1984
+ },
+ "doi:10.1063/1.522979": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Completely positive dynamical semigroups of N -level systems",
+  "year": 1976
+ },
+ "doi:10.1063/1.871025": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Development of the indirect-drive approach to inertial confinement fusion and the target physics basis for ignition and gain",
+  "year": 1995
+ },
+ "doi:10.1063/1.873896": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Comparisons and physics basis of tokamak transport models and turbulence simulations",
+  "year": 2000
+ },
+ "doi:10.1070/pu1991v034n05abeh002497": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Violation of CP in variance, C asymmetry, and baryon asymmetry of the universe",
+  "year": 1991
+ },
+ "doi:10.1073/pnas.14.8.627": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Oscillations in Ionized Gases",
+  "year": 1928
+ },
+ "doi:10.1073/pnas.15.3.168": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A relation between distance and radial velocity among extra-galactic nebulae",
+  "year": 1929
+ },
+ "doi:10.1073/pnas.20.5.254": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "On Super-Novae",
+  "year": 1934
+ },
+ "doi:10.1073/pnas.71.10.4135": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Kinetic Proofreading: A New Mechanism for Reducing Errors in Biosynthetic Processes Requiring High Specificity",
+  "year": 1974
+ },
+ "doi:10.1073/pnas.79.8.2554": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Neural networks and physical systems with emergent collective computational abilities.",
+  "year": 1982
+ },
+ "doi:10.1073/pnas.84.21.7524": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Spin glasses and the statistical mechanics of protein folding.",
+  "year": 1987
+ },
+ "doi:10.1073/pnas.87.24.9868": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Brain magnetic resonance imaging with contrast dependent on blood oxygenation.",
+  "year": 1990
+ },
+ "doi:10.1080/00411457108231446": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Invariant variation problems",
+  "year": 1971
+ },
+ "doi:10.1080/14786440508637080": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "LXXIX. The scattering of α and β particles by matter and the structure of the atom",
+  "year": 1911
+ },
+ "doi:10.1080/14786441608635602": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "LIX. On convection currents in a horizontal layer of fluid, when the higher temperature is on the under side",
+  "year": 1916
+ },
+ "doi:10.1080/14786449608620846": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "XXXI. On the influence of carbonic acid in the air upon the temperature of the ground",
+  "year": 1896
+ },
+ "doi:10.1086/109234": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The applicability of the third integral of motion: Some numerical experiments",
+  "year": 1964
+ },
+ "doi:10.1086/143324": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Maximum Mass of Ideal White Dwarfs",
+  "year": 1931
+ },
+ "doi:10.1086/145971": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Luminosity Function and Stellar Evolution.",
+  "year": 1955
+ },
+ "doi:10.1086/146087": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Hydromagnetic Dynamo Models.",
+  "year": 1955
+ },
+ "doi:10.1086/146579": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Dynamics of the Interplanetary Gas and Magnetic Fields.",
+  "year": 1958
+ },
+ "doi:10.1086/148307": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A Measurement of Excess Antenna Temperature at 4080 Mc/s.",
+  "year": 1965
+ },
+ "doi:10.1086/148444": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "On the Density of Neutral Hydrogen in Intergalactic Space.",
+  "year": 1965
+ },
+ "doi:10.1086/149126": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "On the Synthesis of Elements at Very High Temperatures",
+  "year": 1967
+ },
+ "doi:10.1086/150317": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Rotation of the Andromeda Nebula from a Spectroscopic Survey of Emission Regions",
+  "year": 1970
+ },
+ "doi:10.1086/161130": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis",
+  "year": 1983
+ },
+ "doi:10.1086/170270": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A powerful local shear instability in weakly magnetized disks. I - Linear analysis. II - Nonlinear evolution",
+  "year": 1991
+ },
+ "doi:10.1086/173574": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Measurement of the cosmic microwave background spectrum by the COBE FIRAS instrument",
+  "year": 1994
+ },
+ "doi:10.1086/175121": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Toward a theory of interstellar turbulence. 2: Strong alfvenic turbulence",
+  "year": 1995
+ },
+ "doi:10.1086/177793": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A Line-of-Sight Integration Approach to Cosmic Microwave Background Anisotropies",
+  "year": 1996
+ },
+ "doi:10.1086/181225": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Observations of Gamma-Ray Bursts of Cosmic Origin",
+  "year": 1973
+ },
+ "doi:10.1086/181708": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Discovery of a pulsar in a binary system",
+  "year": 1975
+ },
+ "doi:10.1086/182658": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Particle acceleration by astrophysical shocks",
+  "year": 1978
+ },
+ "doi:10.1086/186504": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Structure in the COBE differential microwave radiometer first-year maps",
+  "year": 1992
+ },
+ "doi:10.1086/305772": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Maps of Dust Infrared Emission for Use in Estimation of Reddening and Cosmic Microwave Background Radiation Foregrounds",
+  "year": 1998
+ },
+ "doi:10.1086/309179": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Efficient Computation of Cosmic Microwave Background Anisotropies in Closed Friedmann‐Robertson‐Walker Models",
+  "year": 2000
+ },
+ "doi:10.1088/0022-3719/6/7/010": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Ordering, metastability and phase transitions in two-dimensional systems",
+  "year": 1973
+ },
+ "doi:10.1088/0026-1394/53/5/a46": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The watt or Kibble balance: a technique for implementing the new SI definition of the unit of mass",
+  "year": 2016
+ },
+ "doi:10.1088/0029-5515/32/4/i07": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Improved formulas for fusion cross-sections and thermal reactivities",
+  "year": 1992
+ },
+ "doi:10.1088/0029-5515/39/12/301": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Chapter 1: Overview and summary",
+  "year": 1999
+ },
+ "doi:10.1088/0031-9112/27/8/041": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Classical Electrodynamics (2nd edn)",
+  "year": 1976
+ },
+ "doi:10.1088/0305-4608/5/5/017": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Theory of spin glasses",
+  "year": 1975
+ },
+ "doi:10.1088/0370-1298/62/7/303": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Basis of the Electron Theory of Metals, with Special Reference to the Transition Metals",
+  "year": 1949
+ },
+ "doi:10.1088/0370-1301/70/1/303": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Some Criteria for a Power Producing Thermonuclear Reactor",
+  "year": 1957
+ },
+ "doi:10.1088/0954-3899/28/10/313": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Presentation of search results: the CL s technique",
+  "year": 2002
+ },
+ "doi:10.1088/0963-0252/25/5/053002": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Plasma–liquid interactions: a review and roadmap",
+  "year": 2016
+ },
+ "doi:10.1088/1361-6382/ae62ec": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Revisiting recent progress in the Karch–Randall braneworld",
+  "year": 2026
+ },
+ "doi:10.1088/1361-6463/aa76f5": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The 2017 Plasma Roadmap: Low temperature plasma science and technology",
+  "year": 2017
+ },
+ "doi:10.1088/1361-6633/ad4b9b": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Extracting the speed of sound in quark–gluon plasma with ultrarelativistic lead–lead collisions at the LHC",
+  "year": 2024
+ },
+ "doi:10.1088/1361-6668/aa6376": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "50 years of success for SRF accelerators—a review",
+  "year": 2017
+ },
+ "doi:10.1088/1674-1137/abddaf": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The AME 2020 atomic mass evaluation (II). Tables, graphs and references*",
+  "year": 2021
+ },
+ "doi:10.1088/1681-7575/ab0013": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The revision of the SI—the result of three decades of progress in metrology",
+  "year": 2019
+ },
+ "doi:10.1088/1741-4326/aa770d": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Major results from the first plasma campaign of the Wendelstein 7-X stellarator",
+  "year": 2017
+ },
+ "doi:10.1088/1748-0221/3/08/s08001": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "LHC Machine",
+  "year": 2008
+ },
+ "doi:10.1088/1748-0221/3/08/s08003": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The ATLAS Experiment at the CERN Large Hadron Collide",
+  "year": 2008
+ },
+ "doi:10.1088/1748-0221/3/08/s08004": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The CMS experiment at the CERN LHC",
+  "year": 2008
+ },
+ "doi:10.1093/acprof:oso/9780199213900.001.0001": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Theory of Open Quantum Systems",
+  "year": 2007
+ },
+ "doi:10.1093/mnras/182.2.147": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The acceleration of cosmic rays in shock fronts - I",
+  "year": 1978
+ },
+ "doi:10.1093/mnras/183.3.341": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Core condensation in heavy halos: a two-stage theory for galaxy formation and clustering",
+  "year": 1978
+ },
+ "doi:10.1093/oso/9780198517962.001.0001": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Monte Carlo Methods in Statistical Physics",
+  "year": 1999
+ },
+ "doi:10.1093/oxfclm/kgae005": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "2023 Record marine heat waves: coral reef bleaching HotSpot maps reveal global sea surface temperature extremes, coral mortality, and ocean circulation changes",
+  "year": 2024
+ },
+ "doi:10.1098/rspa.1928.0023": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The quantum theory of the electron",
+  "year": 1928
+ },
+ "doi:10.1098/rspa.1938.0124": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Classical theory of radiating electrons",
+  "year": 1938
+ },
+ "doi:10.1098/rspa.1963.0204": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Electron correlations in narrow energy bands",
+  "year": 1963
+ },
+ "doi:10.1098/rspa.1984.0023": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Quantal phase factors accompanying adiabatic changes",
+  "year": 1984
+ },
+ "doi:10.1098/rspa.1991.0075": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The local structure of turbulence in incompressible viscous fluid for very large Reynolds numbers",
+  "year": 1991
+ },
+ "doi:10.1098/rsta.1920.0009": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "IX. A determination of the deflection of light by the sun's gravitational field, from observations made at the total eclipse of May 29, 1919",
+  "year": 1920
+ },
+ "doi:10.1098/rstb.1952.0012": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The chemical basis of morphogenesis",
+  "year": 1952
+ },
+ "doi:10.1098/rstl.1834.0017": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "XV. On a general method in dynamics; by which the study of the motions of all free systems of attracting or repelling points is reduced to the search and differentiation of one central relation, or characteristic function",
+  "year": 1834
+ },
+ "doi:10.1098/rstl.1835.0009": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "VII. Second essay on a general method in dynamics",
+  "year": 1835
+ },
+ "doi:10.1098/rstl.1865.0008": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "VIII. A dynamical theory of the electromagnetic field",
+  "year": 1865
+ },
+ "doi:10.1098/rstl.1883.0029": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "XXIX. An experimental investigation of the circumstances which determine whether the motion of water shall be direct or sinuous, and of the law of resistance in parallel channels",
+  "year": 1883
+ },
+ "doi:10.1103/7wt3-9v2y": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "SPT-3G D1: CMB temperature and polarization power spectra and cosmology from 2019 and 2020 observations of the SPT-3G main field",
+  "year": 2026
+ },
+ "doi:10.1103/k4cm-pp9p": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Fault-Tolerant Quantum Computation with Constant Overhead for General Noise",
+  "year": 2025
+ },
+ "doi:10.1103/kqwx-v6jv": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Spin-biased quantum spin Hall effect in altermagnetic Lieb lattice",
+  "year": 2026
+ },
+ "doi:10.1103/physicsphysiquefizika.1.195": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "On the Einstein Podolsky Rosen paradox",
+  "year": 1964
+ },
+ "doi:10.1103/physicsphysiquefizika.2.263": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Scaling laws for ising models near Tc",
+  "year": 1966
+ },
+ "doi:10.1103/physrev.104.1189": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Bound Electron Pairs in a Degenerate Fermi Gas",
+  "year": 1956
+ },
+ "doi:10.1103/physrev.104.254": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Question of Parity Conservation in Weak Interactions",
+  "year": 1956
+ },
+ "doi:10.1103/physrev.105.1413": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Experimental Test of Parity Conservation in Beta Decay",
+  "year": 1957
+ },
+ "doi:10.1103/physrev.106.620": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Information Theory and Statistical Mechanics",
+  "year": 1957
+ },
+ "doi:10.1103/physrev.108.1175": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Theory of Superconductivity",
+  "year": 1957
+ },
+ "doi:10.1103/physrev.109.1492": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Absence of Diffusion in Certain Random Lattices",
+  "year": 1958
+ },
+ "doi:10.1103/physrev.110.936": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Possible Analogy between the Excitation Spectra of Nuclei and Those of the Superconducting Metallic State",
+  "year": 1958
+ },
+ "doi:10.1103/physrev.112.1940": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Infrared and Optical Masers",
+  "year": 1958
+ },
+ "doi:10.1103/physrev.115.485": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Significance of Electromagnetic Potentials in the Quantum Theory",
+  "year": 1959
+ },
+ "doi:10.1103/physrev.117.648": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Quasi-Particles and Gauge Invariance in the Theory of Superconductivity",
+  "year": 1960
+ },
+ "doi:10.1103/physrev.130.1605": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Exact Analysis of an Interacting Bose Gas. I. The General Solution and the Ground State",
+  "year": 1963
+ },
+ "doi:10.1103/physrev.130.2529": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The Quantum Theory of Optical Coherence",
+  "year": 1963
+ },
+ "doi:10.1103/physrev.130.439": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Plasmons, Gauge Invariance, and Mass",
+  "year": 1963
+ },
+ "doi:10.1103/physrev.136.b864": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Inhomogeneous Electron Gas",
+  "year": 1964
+ },
+ "doi:10.1103/physrev.140.a1133": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Self-Consistent Equations Including Exchange and Correlation Effects",
+  "year": 1965
+ },
+ "doi:10.1103/physrev.159.98": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Computer \"Experiments\" on Classical Fluids. I. Thermodynamical Properties of Lennard-Jones Molecules",
+  "year": 1967
+ },
+ "doi:10.1103/physrev.177.2426": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Axial-Vector Vertex in Spinor Electrodynamics",
+  "year": 1969
+ },
+ "doi:10.1103/physrev.179.1547": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Asymptotic Sum Rules at Infinite Momentum",
+  "year": 1969
+ },
+ "doi:10.1103/physrev.37.405": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Reciprocal Relations in Irreversible Processes. I.",
+  "year": 1931
+ },
+ "doi:10.1103/physrev.4.345": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "On Physically Similar Systems; Illustrations of the Use of Dimensional Equations",
+  "year": 1914
+ },
+ "doi:10.1103/physrev.40.19": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Production of High Speed Light Ions Without the Use of High Voltages",
+  "year": 1932
+ },
+ "doi:10.1103/physrev.47.777": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?",
+  "year": 1935
+ },
+ "doi:10.1103/physrev.55.374": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "On Massive Neutron Cores",
+  "year": 1939
+ },
+ "doi:10.1103/physrev.55.434": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Energy Production in Stars",
+  "year": 1939
+ },
+ "doi:10.1103/physrev.56.426": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The Mechanism of Nuclear Fission",
+  "year": 1939
+ },
+ "doi:10.1103/physrev.65.117": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Crystal Statistics. I. A Two-Dimensional Model with an Order-Disorder Transition",
+  "year": 1944
+ },
+ "doi:10.1103/physrev.69.37": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Resonance Absorption by Nuclear Magnetic Moments in a Solid",
+  "year": 1946
+ },
+ "doi:10.1103/physrev.70.460": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Nuclear Induction",
+  "year": 1946
+ },
+ "doi:10.1103/physrev.73.803": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "The Origin of Chemical Elements",
+  "year": 1948
+ },
+ "doi:10.1103/physrev.74.230": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Transistor, A Semi-Conductor Triode",
+  "year": 1948
+ },
+ "doi:10.1103/physrev.75.1169": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "On the Origin of the Cosmic Radiation",
+  "year": 1949
+ },
+ "doi:10.1103/physrev.75.1851": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Theory of Plasma Oscillations. A. Origin of Medium-Like Behavior",
+  "year": 1949
+ },
+ "doi:10.1103/physrev.75.1912": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "On the Classical Radiation of Accelerated Electrons",
+  "year": 1949
+ },
+ "doi:10.1103/physrev.75.1969": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "On Closed Shells in Nuclei. II",
+  "year": 1949
+ },
+ "doi:10.1103/physrev.76.769": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Space-Time Approach to Quantum Electrodynamics",
+  "year": 1949
+ },
+ "doi:10.1103/physrev.83.34": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Irreversibility and Generalized Noise",
+  "year": 1951
+ },
+ "doi:10.1103/physrev.85.166": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "A Suggested Interpretation of the Quantum Theory in Terms of \"Hidden\" Variables. I",
+  "year": 1952
+ },
+ "doi:10.1103/physrev.88.1190": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Strong-Focusing Synchroton—A New High Energy Accelerator",
+  "year": 1952
+ },
+ "doi:10.1103/physrev.96.191": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Conservation of Isotopic Spin and Isotopic Gauge Invariance",
+  "year": 1954
+ },
+ "doi:10.1103/physreva.109.032804": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Diffusion quantum Monte Carlo approach to the polaritonic ground state",
+  "year": 2024
+ },
+ "doi:10.1103/physreva.43.2046": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Quantum statistical mechanics in a closed system",
+  "year": 1991
+ },
+ "doi:10.1103/physreva.52.r2493": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Scheme for reducing decoherence in quantum computer memory",
+  "year": 1995
+ },
+ "doi:10.1103/physreva.54.3824": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Mixed-state entanglement and quantum error correction",
+  "year": 1996
+ },
+ "doi:10.1103/physreva.86.032324": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Surface codes: Towards practical large-scale quantum computation",
+  "year": 2012
+ },
+ "doi:10.1103/physrevb.109.224308": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Page curve entanglement dynamics in an analytically solvable model",
+  "year": 2024
+ },
+ "doi:10.1103/physrevb.37.785": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Development of the Colle-Salvetti correlation-energy formula into a functional of the electron density",
+  "year": 1988
+ },
+ "doi:10.1103/physrevb.39.4828": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Enhanced magnetoresistance in layered magnetic structures with antiferromagnetic interlayer exchange",
+  "year": 1989
+ },
+ "doi:10.1103/physrevb.4.3174": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Renormalization Group and Critical Phenomena. I. Renormalization Group and the Kadanoff Scaling Picture",
+  "year": 1971
+ },
+ "doi:10.1103/physrevc.102.045501": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Superallowed 0+→0+ nuclear β decays: 2020 critical survey, with implications for Vud and CKM unitarity",
+  "year": 2020
+ },
+ "doi:10.1103/physrevd.10.2445": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Confinement of quarks",
+  "year": 1974
+ },
+ "doi:10.1103/physrevd.109.074001": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Doubly heavy tetraquark states in the constituent quark model using diffusion Monte Carlo method",
+  "year": 2024
+ },
+ "doi:10.1103/physrevd.110.l031503": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Seeing beauty in the quark-gluon plasma with energy correlators",
+  "year": 2024
+ },
+ "doi:10.1103/physrevd.111.083534": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Cosmology from CMB lensing and delensed E E power spectra using 2019–2020 SPT-3G polarization data",
+  "year": 2025
+ },
+ "doi:10.1103/physrevd.14.2460": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Breakdown of predictability in gravitational collapse",
+  "year": 1976
+ },
+ "doi:10.1103/physrevd.14.870": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Notes on black-hole evaporation",
+  "year": 1976
+ },
+ "doi:10.1103/physrevd.16.1519": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Weak interactions at very high energies: The role of the Higgs-boson mass",
+  "year": 1977
+ },
+ "doi:10.1103/physrevd.17.2369": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Neutrino oscillations in matter",
+  "year": 1978
+ },
+ "doi:10.1103/physrevd.23.1693": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Quantum-mechanical noise in an interferometer",
+  "year": 1981
+ },
+ "doi:10.1103/physrevd.23.347": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Inflationary universe: A possible solution to the horizon and flatness problems",
+  "year": 1981
+ },
+ "doi:10.1103/physrevd.25.2951": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Neutrinoless double- β decay in SU(2)×U(1) theories",
+  "year": 1982
+ },
+ "doi:10.1103/physrevd.27.140": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Highly relativistic nucleus-nucleus collisions: The central rapidity region",
+  "year": 1983
+ },
+ "doi:10.1103/physrevd.31.3059": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Detectability of certain dark-matter candidates",
+  "year": 1985
+ },
+ "doi:10.1103/physrevd.66.103511": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Cosmological parameters from CMB and other data: A Monte Carlo approach",
+  "year": 2002
+ },
+ "doi:10.1103/physrevd.7.2333": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Black Holes and Entropy",
+  "year": 1973
+ },
+ "doi:10.1103/physreve.60.2721": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Entropy production fluctuation theorem and the nonequilibrium work relation for free energy differences",
+  "year": 1999
+ },
+ "doi:10.1103/physrevlett.104.142502": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Synthesis of a New Element with Atomic Number Z = 117",
+  "year": 2010
+ },
+ "doi:10.1103/physrevlett.11.237": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Gravitational Field of a Spinning Mass as an Example of Algebraically Special Metrics",
+  "year": 1963
+ },
+ "doi:10.1103/physrevlett.114.191803": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Combined Measurement of the Higgs Boson Mass in p p Collisions at s = 7 and 8 TeV with the ATLAS and CMS Experiments",
+  "year": 2015
+ },
+ "doi:10.1103/physrevlett.129.205001": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Improved Particle Confinement with Resonant Magnetic Perturbations in DIII-D Tokamak H-Mode Plasmas",
+  "year": 2022
+ },
+ "doi:10.1103/physrevlett.13.138": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Evidence for the 2 π Decay of the K 2 0 Meson",
+  "year": 1964
+ },
+ "doi:10.1103/physrevlett.13.184": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Collisionless Damping of Electrostatic Plasma Waves",
+  "year": 1964
+ },
+ "doi:10.1103/physrevlett.13.321": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Broken Symmetry and the Mass of Gauge Vector Mesons",
+  "year": 1964
+ },
+ "doi:10.1103/physrevlett.13.508": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Broken Symmetries and the Masses of Gauge Bosons",
+  "year": 1964
+ },
+ "doi:10.1103/physrevlett.13.789": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Fourth Test of General Relativity",
+  "year": 1964
+ },
+ "doi:10.1103/physrevlett.132.011901": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Probing the Short-Distance Structure of the Quark-Gluon Plasma with Energy Correlators",
+  "year": 2024
+ },
+ "doi:10.1103/physrevlett.132.021803": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Evidence for the Higgs Boson Decay to a Z Boson and a Photon at the LHC",
+  "year": 2024
+ },
+ "doi:10.1103/physrevlett.132.065102": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Achievement of Target Gain Larger than Unity in an Inertial Fusion Experiment",
+  "year": 2024
+ },
+ "doi:10.1103/physrevlett.133.101801": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Combination of Searches for Higgs Boson Pair Production in pp Collisions at s=13 TeV with the ATLAS Detector",
+  "year": 2024
+ },
+ "doi:10.1103/physrevlett.134.082301": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Anisotropic Flow in Fixed-Target Pb 208 + Ne 20 Collisions as a Probe of Quark-Gluon Plasma",
+  "year": 2025
+ },
+ "doi:10.1103/physrevlett.14.57": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Gravitational Collapse and Space-Time Singularities",
+  "year": 1965
+ },
+ "doi:10.1103/physrevlett.15.240": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Interaction of \"Solitons\" in a Collisionless Plasma and the Recurrence of Initial States",
+  "year": 1965
+ },
+ "doi:10.1103/physrevlett.16.748": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "End to the Cosmic-Ray Spectrum?",
+  "year": 1966
+ },
+ "doi:10.1103/physrevlett.17.1133": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Absence of Ferromagnetism or Antiferromagnetism in One- or Two-Dimensional Isotropic Heisenberg Models",
+  "year": 1966
+ },
+ "doi:10.1103/physrevlett.19.1095": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Method for Solving the Korteweg-deVries Equation",
+  "year": 1967
+ },
+ "doi:10.1103/physrevlett.19.1264": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "A Model of Leptons",
+  "year": 1967
+ },
+ "doi:10.1103/physrevlett.23.1415": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Very High-Energy Collisions of Hadrons",
+  "year": 1969
+ },
+ "doi:10.1103/physrevlett.23.880": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Proposed Experiment to Test Local Hidden-Variable Theories",
+  "year": 1969
+ },
+ "doi:10.1103/physrevlett.23.930": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "High-Energy Inelastic e − p Scattering at 6° and 10°",
+  "year": 1969
+ },
+ "doi:10.1103/physrevlett.23.935": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Observed Behavior of Highly Inelastic Electron-Proton Scattering",
+  "year": 1969
+ },
+ "doi:10.1103/physrevlett.24.156": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Acceleration and Trapping of Particles by Radiation Pressure",
+  "year": 1970
+ },
+ "doi:10.1103/physrevlett.30.1343": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Ultraviolet Behavior of Non-Abelian Gauge Theories",
+  "year": 1973
+ },
+ "doi:10.1103/physrevlett.30.1346": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Reliable Perturbative Results for Strong Interactions?",
+  "year": 1973
+ },
+ "doi:10.1103/physrevlett.32.438": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Unity of All Elementary-Particle Forces",
+  "year": 1974
+ },
+ "doi:10.1103/physrevlett.35.1792": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Solvable Model of a Spin-Glass",
+  "year": 1975
+ },
+ "doi:10.1103/physrevlett.38.1440": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "CP Conservation in the Presence of Pseudoparticles",
+  "year": 1977
+ },
+ "doi:10.1103/physrevlett.39.691": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Photon Antibunching in Resonance Fluorescence",
+  "year": 1977
+ },
+ "doi:10.1103/physrevlett.4.337": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Apparent Weight of Photons",
+  "year": 1960
+ },
+ "doi:10.1103/physrevlett.40.223": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "A New Light Boson?",
+  "year": 1978
+ },
+ "doi:10.1103/physrevlett.40.279": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Problem of Strong P and T Invariance in the Presence of Instantons",
+  "year": 1978
+ },
+ "doi:10.1103/physrevlett.43.1754": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Infinite Number of Order Parameters for Spin-Glasses",
+  "year": 1979
+ },
+ "doi:10.1103/physrevlett.43.267": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Laser Electron Accelerator",
+  "year": 1979
+ },
+ "doi:10.1103/physrevlett.45.494": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "New Method for High-Accuracy Determination of the Fine-Structure Constant Based on Quantized Hall Resistance",
+  "year": 1980
+ },
+ "doi:10.1103/physrevlett.46.1351": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Experimental Black-Hole Evaporation?",
+  "year": 1981
+ },
+ "doi:10.1103/physrevlett.48.1559": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Two-Dimensional Magnetotransport in the Extreme Quantum Limit",
+  "year": 1982
+ },
+ "doi:10.1103/physrevlett.49.1408": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Regime of Improved Confinement and High Beta in Neutral-Beam-Heated Divertor Discharges of the ASDEX Tokamak",
+  "year": 1982
+ },
+ "doi:10.1103/physrevlett.49.1804": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Experimental Test of Bell's Inequalities Using Time- Varying Analyzers",
+  "year": 1982
+ },
+ "doi:10.1103/physrevlett.49.405": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Quantized Hall Conductance in a Two-Dimensional Periodic Potential",
+  "year": 1982
+ },
+ "doi:10.1103/physrevlett.49.57": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Surface Studies by Scanning Tunneling Microscopy",
+  "year": 1982
+ },
+ "doi:10.1103/physrevlett.50.1395": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Anomalous Quantum Hall Effect: An Incompressible Quantum Fluid with Fractionally Charged Excitations",
+  "year": 1983
+ },
+ "doi:10.1103/physrevlett.52.1": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Characterization of Chaotic Quantum Spectra and Universality of Level Fluctuation Laws",
+  "year": 1984
+ },
+ "doi:10.1103/physrevlett.55.2676": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Measurements of Interaction Cross Sections and Nuclear Radii in the Light p -Shell Region",
+  "year": 1985
+ },
+ "doi:10.1103/physrevlett.56.2459": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Amplitude for n -Gluon Scattering",
+  "year": 1986
+ },
+ "doi:10.1103/physrevlett.56.889": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Dynamic Scaling of Growing Interfaces",
+  "year": 1986
+ },
+ "doi:10.1103/physrevlett.56.930": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Atomic Force Microscope",
+  "year": 1986
+ },
+ "doi:10.1103/physrevlett.57.1722": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Renormalization-Group Analysis of Turbulence",
+  "year": 1986
+ },
+ "doi:10.1103/physrevlett.57.2244": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "New Variables for Classical and Quantum Gravity",
+  "year": 1986
+ },
+ "doi:10.1103/physrevlett.58.2059": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Inhibited Spontaneous Emission in Solid-State Physics and Electronics",
+  "year": 1987
+ },
+ "doi:10.1103/physrevlett.58.908": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Superconductivity at 93 K in a new mixed-phase Y-Ba-Cu-O compound system at ambient pressure",
+  "year": 1987
+ },
+ "doi:10.1103/physrevlett.59.2044": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Measurement of subpicosecond time intervals between two photons by interference",
+  "year": 1987
+ },
+ "doi:10.1103/physrevlett.59.2631": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Trapping of Neutral Sodium Atoms with Radiation Pressure",
+  "year": 1987
+ },
+ "doi:10.1103/physrevlett.59.521": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Space-time as a causal set",
+  "year": 1987
+ },
+ "doi:10.1103/physrevlett.6.47": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Interplanetary Magnetic Field and the Auroral Zones",
+  "year": 1961
+ },
+ "doi:10.1103/physrevlett.60.848": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Quantized conductance of point contacts in a two-dimensional electron gas",
+  "year": 1988
+ },
+ "doi:10.1103/physrevlett.61.2015": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Model for a Quantum Hall Effect without Landau Levels: Condensed-Matter Realization of the \"Parity Anomaly\"",
+  "year": 1988
+ },
+ "doi:10.1103/physrevlett.61.2472": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Giant Magnetoresistance of (001)Fe/(001)Cr Magnetic Superlattices",
+  "year": 1988
+ },
+ "doi:10.1103/physrevlett.64.1196": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Controlling chaos",
+  "year": 1990
+ },
+ "doi:10.1103/physrevlett.67.661": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Quantum cryptography based on Bell’s theorem",
+  "year": 1991
+ },
+ "doi:10.1103/physrevlett.69.1383": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Absorption of ultra-intense laser pulses",
+  "year": 1992
+ },
+ "doi:10.1103/physrevlett.69.2863": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Density matrix formulation for quantum renormalization groups",
+  "year": 1992
+ },
+ "doi:10.1103/physrevlett.7.118": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Generation of Optical Harmonics",
+  "year": 1961
+ },
+ "doi:10.1103/physrevlett.70.1895": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Teleporting an unknown quantum state via dual classical and Einstein-Podolsky-Rosen channels",
+  "year": 1993
+ },
+ "doi:10.1103/physrevlett.71.2401": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Probability of second law violations in shearing steady states",
+  "year": 1993
+ },
+ "doi:10.1103/physrevlett.72.4009": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Direct observation of Coulomb crystals and liquids in strongly coupled rf dusty plasmas",
+  "year": 1994
+ },
+ "doi:10.1103/physrevlett.73.652": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Plasma Crystal: Coulomb Crystallization in a Dusty Plasma",
+  "year": 1994
+ },
+ "doi:10.1103/physrevlett.74.4091": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Quantum Computations with Cold Trapped Ions",
+  "year": 1995
+ },
+ "doi:10.1103/physrevlett.75.1226": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Novel Type of Phase Transition in a System of Self-Driven Particles",
+  "year": 1995
+ },
+ "doi:10.1103/physrevlett.75.3969": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Bose-Einstein Condensation in a Gas of Sodium Atoms",
+  "year": 1995
+ },
+ "doi:10.1103/physrevlett.77.3865": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Generalized Gradient Approximation Made Simple",
+  "year": 1996
+ },
+ "doi:10.1103/physrevlett.78.2690": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Nonequilibrium Equality for Free Energy Differences",
+  "year": 1997
+ },
+ "doi:10.1103/physrevlett.85.3966": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Negative Refraction Makes a Perfect Lens",
+  "year": 2000
+ },
+ "doi:10.1103/physrevlett.92.040403": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Observation of Resonance Condensation of Fermionic Atom Pairs",
+  "year": 2004
+ },
+ "doi:10.1103/physrevlett.94.102301": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Globally Polarized Quark-Gluon Plasma in NoncentralA+ACollisions",
+  "year": 2005
+ },
+ "doi:10.1103/physrevlett.98.065002": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Observations of Plasmons in Warm Dense Matter",
+  "year": 2007
+ },
+ "doi:10.1103/physrevresearch.7.l012018": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "5 σ tension between Planck cosmic microwave background and eBOSS Lyman-alpha forest and constraints on physics beyond Λ CDM",
+  "year": 2025
+ },
+ "doi:10.1103/revmodphys.20.367": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Space-Time Approach to Non-Relativistic Quantum Mechanics",
+  "year": 1948
+ },
+ "doi:10.1103/revmodphys.23.69": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "New Developments in Molecular Orbital Theory",
+  "year": 1951
+ },
+ "doi:10.1103/revmodphys.29.454": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "\"Relative State\" Formulation of Quantum Mechanics",
+  "year": 1957
+ },
+ "doi:10.1103/revmodphys.29.547": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Synthesis of the Elements in Stars",
+  "year": 1957
+ },
+ "doi:10.1103/revmodphys.47.773": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The renormalization group: Critical phenomena and the Kondo problem",
+  "year": 1975
+ },
+ "doi:10.1103/revmodphys.57.689": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Stochastic cooling and the accumulation of antiprotons",
+  "year": 1985
+ },
+ "doi:10.1103/revmodphys.61.1": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The cosmological constant problem",
+  "year": 1989
+ },
+ "doi:10.1103/revmodphys.64.645": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Soft matter",
+  "year": 1992
+ },
+ "doi:10.1103/revmodphys.65.851": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Pattern formation outside of equilibrium",
+  "year": 1993
+ },
+ "doi:10.1103/revmodphys.68.1259": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Granular solids, liquids, and gases",
+  "year": 1996
+ },
+ "doi:10.1103/revmodphys.68.13": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Dynamical mean-field theory of strongly correlated fermion systems and the limit of infinite dimensions",
+  "year": 1996
+ },
+ "doi:10.1103/revmodphys.71.735": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Drift waves and transport",
+  "year": 1999
+ },
+ "doi:10.1103/revmodphys.74.1015": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The evolution and explosion of massive stars",
+  "year": 2002
+ },
+ "doi:10.1103/revmodphys.75.607": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Pairing in nuclear systems: from neutron stars to finite nuclei",
+  "year": 2003
+ },
+ "doi:10.1103/revmodphys.77.977": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Microfluidics: Fluid physics at the nanoliter scale",
+  "year": 2005
+ },
+ "doi:10.1103/revmodphys.80.1083": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Non-Abelian anyons and topological quantum computation",
+  "year": 2008
+ },
+ "doi:10.1103/revmodphys.81.1229": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Physics of laser-driven plasma-based electron accelerators",
+  "year": 2009
+ },
+ "doi:10.1103/revmodphys.81.1625": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "X-ray Thomson scattering in high energy density plasmas",
+  "year": 2009
+ },
+ "doi:10.1103/revmodphys.81.163": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Attosecond physics",
+  "year": 2009
+ },
+ "doi:10.1103/revmodphys.85.1143": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Hydrodynamics of soft active matter",
+  "year": 2013
+ },
+ "doi:10.1103/revmodphys.93.025010": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "CODATA recommended values of the fundamental physical constants: 2018",
+  "year": 2021
+ },
+ "doi:10.1103/vd13-8dbj": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Prospects for an independent measurement of the ℓ = 1 , 2, 3 CMB anisotropy multipoles using the anisotropic Sunyaev-Zel’dovich effect",
+  "year": 2026
+ },
+ "doi:10.1109/jproc.1998.658762": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Cramming More Components Onto Integrated Circuits",
+  "year": 1998
+ },
+ "doi:10.1109/proc.1963.1664": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Comparison of quantum and semiclassical radiation theories with application to the beam maser",
+  "year": 1963
+ },
+ "doi:10.1111/j.2153-3490.1950.tb00336.x": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Numerical Integration of the Barotropic Vorticity Equation",
+  "year": 1950
+ },
+ "doi:10.1111/j.2153-3490.1961.tb00079.x": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Thermohaline Convection with Two Stable Regimes of Flow",
+  "year": 1961
+ },
+ "doi:10.1111/j.2153-3490.1976.tb00696.x": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Stochastic climate models Part I. Theory",
+  "year": 1976
+ },
+ "doi:10.1113/jphysiol.1952.sp004764": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A quantitative description of membrane current and its application to conduction and excitation in nerve",
+  "year": 1952
+ },
+ "doi:10.1119/1.10903": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Life at low Reynolds number",
+  "year": 1977
+ },
+ "doi:10.1119/1.18809": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Interactive-engagement versus traditional methods: A six-thousand-student survey of mechanics test data for introductory physics courses",
+  "year": 1998
+ },
+ "doi:10.1119/1.1934486": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Elements of X-Ray Diffraction",
+  "year": 1957
+ },
+ "doi:10.1119/1.1969127": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Theory of Plasma Waves",
+  "year": 1963
+ },
+ "doi:10.1119/1.2343497": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Force concept inventory",
+  "year": 1992
+ },
+ "doi:10.1126/science.1059413": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Observation of a Train of Attosecond Pulses from High Harmonic Generation",
+  "year": 2001
+ },
+ "doi:10.1126/science.1070919": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Stochastic Gene Expression in a Single Cell",
+  "year": 2002
+ },
+ "doi:10.1126/science.1102896": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Electric Field Effect in Atomically Thin Carbon Films",
+  "year": 2004
+ },
+ "doi:10.1126/science.1127344": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Imaging Intracellular Fluorescent Proteins at Nanometer Resolution",
+  "year": 2006
+ },
+ "doi:10.1126/science.1166767": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Skyrmion Lattice in a Chiral Magnet",
+  "year": 2009
+ },
+ "doi:10.1126/science.1185402": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Kepler Planet-Detection Mission: Introduction and First Results",
+  "year": 2010
+ },
+ "doi:10.1126/science.1234414": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Experimental Observation of the Quantum Anomalous Hall Effect in a Magnetic Topological Insulator",
+  "year": 2013
+ },
+ "doi:10.1126/science.124.3212.103": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Detection of the Free Neutrino: a Confirmation",
+  "year": 1956
+ },
+ "doi:10.1126/science.1439819": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Direct Mechanical Measurements of the Elasticity of Single DNA Molecules by Using Magnetic Beads",
+  "year": 1992
+ },
+ "doi:10.1126/science.177.4044.166": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Around-the-World Atomic Clocks: Predicted Relativistic Time Gains",
+  "year": 1972
+ },
+ "doi:10.1126/science.177.4047.393": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "More Is Different",
+  "year": 1972
+ },
+ "doi:10.1126/science.181.4096.223": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Principles that Govern the Folding of Protein Chains",
+  "year": 1973
+ },
+ "doi:10.1126/science.1957169": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Optical Coherence Tomography",
+  "year": 1991
+ },
+ "doi:10.1126/science.269.5221.198": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Observation of Bose-Einstein Condensation in a Dilute Atomic Vapor",
+  "year": 1995
+ },
+ "doi:10.1126/science.286.5439.509": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Emergence of Scaling in Random Networks",
+  "year": 1999
+ },
+ "doi:10.1126/science.aaf2939": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Electron-scale measurements of magnetic reconnection in space",
+  "year": 2016
+ },
+ "doi:10.1126/science.adk7560": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Logical states for fault-tolerant quantum computation with propagating light",
+  "year": 2024
+ },
+ "doi:10.1126/science.adk8680": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Fast growth of single-crystal covalent organic frameworks for laboratory x-ray diffraction",
+  "year": 2024
+ },
+ "doi:10.1126/scitranslmed.3008973": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Ultrahigh dose-rate FLASH irradiation increases the differential response between normal and tumor tissue in mice",
+  "year": 2014
+ },
+ "doi:10.1134/1.567389": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Radiative energy loss of high-energy quarks in finite-size nuclear matter and quark-gluon plasma",
+  "year": 1997
+ },
+ "doi:10.1142/9789812386199_others06": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Quantum Optics",
+  "year": 2000
+ },
+ "doi:10.1142/9789814415255_0002": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Exactly Solved Models in Statistical Mechanics",
+  "year": 1985
+ },
+ "doi:10.1142/s0217979290000139": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "TOPOLOGICAL ORDERS IN RIGID STATES",
+  "year": 1990
+ },
+ "doi:10.11429/ppmsj1919.17.0_48": {
+  "checked": "2026-10-29",
+  "note": "resolves at doi.org; no metadata",
+  "ok": true,
+  "title": null,
+  "year": null
+ },
+ "doi:10.1143/jpsj.12.570": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Statistical-Mechanical Theory of Irreversible Processes. I. General Theory and Simple Applications to Magnetic and Conduction Problems",
+  "year": 1957
+ },
+ "doi:10.1143/ptp.32.37": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Resistance Minimum in Dilute Magnetic Alloys",
+  "year": 1964
+ },
+ "doi:10.1143/ptp.49.652": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "CP-Violation in the Renormalizable Theory of Weak Interaction",
+  "year": 1973
+ },
+ "doi:10.1147/rd.13.0223": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Spatial Variation of Currents and Fields Due to Localized Scatterers in Metallic Conduction",
+  "year": 1957
+ },
+ "doi:10.1147/rd.53.0183": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Irreversibility and Heat Generation in the Computing Process",
+  "year": 1961
+ },
+ "doi:10.1148/114.1.89": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "A Positron-Emission Transaxial Tomograph for Nuclear Imaging (PETT)",
+  "year": 1975
+ },
+ "doi:10.1148/47.5.487": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Radiological Use of Fast Protons",
+  "year": 1946
+ },
+ "doi:10.1175/1520-0469(1950)007<0080:otwdoc>2.0.co;2": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "ON THE WIND-DRIVEN OCEAN CIRCULATION",
+  "year": 1950
+ },
+ "doi:10.1175/1520-0469(1963)020<0130:dnf>2.0.co;2": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Deterministic Nonperiodic Flow",
+  "year": 1963
+ },
+ "doi:10.1175/1520-0469(1967)024<0241:teotaw>2.0.co;2": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Thermal Equilibrium of the Atmosphere with a Given Distribution of Relative Humidity",
+  "year": 1967
+ },
+ "doi:10.1177/14613484251324586": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Stability analysis of a rotating rigid body: The role of external and gyroscopic torques with energy dissipation",
+  "year": 2025
+ },
+ "doi:10.1201/9780429327308": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Thermal Radiation Heat Transfer",
+  "year": 2020
+ },
+ "doi:10.1207/s15516709cog0901_7": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "A Learning Algorithm for Boltzmann Machines*",
+  "year": 1985
+ },
+ "doi:10.1259/0007-1285-46-552-1016": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Computerized transverse axial scanning (tomography): Part 1. Description of system",
+  "year": 1973
+ },
+ "doi:10.12693/aphyspola.148.s128": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "β<sup>+</sup> Radioactive Nuclei Created During Proton Therapy",
+  "year": 2026
+ },
+ "doi:10.1364/ol.19.000780": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "Breaking the diffraction resolution limit by stimulated emission: stimulated-emission-depletion fluorescence microscopy",
+  "year": 1994
+ },
+ "doi:10.1515/ntrev-2025-0179": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Activation energy and Coriolis force impact on three-dimensional dusty nanofluid flow containing gyrotactic microorganisms: Machine learning and numerical approach",
+  "year": 2025
+ },
+ "doi:10.1515/znc-1973-11-1209": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Elastic Properties of Lipid Bilayers: Theory and Possible Experiments",
+  "year": 1973
+ },
+ "doi:10.15480/882.392": {
+  "checked": "2026-10-30",
+  "note": "resolves at doi.org; no metadata",
+  "ok": true,
+  "title": null,
+  "year": null
+ },
+ "doi:10.18576/amis/190216": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Quantum Error Correction with Surface Code Analysis on Quantum Computing platform",
+  "year": 2025
+ },
+ "doi:10.21468/scipostphys.19.6.146": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Graviton mass and entanglement islands in low spacetime dimensions",
+  "year": 2025
+ },
+ "doi:10.21468/scipostphys.9.1.001": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Entanglement islands in higher dimensions",
+  "year": 2020
+ },
+ "doi:10.2307/1968551": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "On Unitary Representations of the Inhomogeneous Lorentz Group",
+  "year": 1939
+ },
+ "doi:10.2475/ajs.s3-34.203.333": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "On the relative motion of the Earth and the luminiferous ether",
+  "year": 1887
+ },
+ "doi:10.3390/physics8010022": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Kicked Fluxonium with a Quantum Strange Attractor",
+  "year": 2026
+ },
+ "doi:10.3847/1538-4357/ad2610": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "The Atacama Cosmology Telescope: Mitigating the Impact of Extragalactic Foregrounds for the DR6 Cosmic Microwave Background Lensing Analysis",
+  "year": 2024
+ },
+ "doi:10.3847/2041-8213/ac6674": {
+  "checked": "2026-10-29",
+  "ok": true,
+  "title": "First Sagittarius A* Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way",
+  "year": 2022
+ },
+ "doi:10.59717/j.xinn-mater.2024.100090": {
+  "checked": "2026-10-30",
+  "ok": true,
+  "title": "Heterogeneous catalysis for the environment",
+  "year": 2024
+ }
+}

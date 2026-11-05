@@ -1,0 +1,136 @@
+Fetching papers for 134 node(s)…
+[1/134] 00-foundations/history-and-philosophy-of-physics/physics-education-research (topic, openalex) → 5 papers (partial: API budget exhausted)
+[2/134] 00-foundations/mathematical-methods (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[3/134] 00-foundations/mathematical-methods/complex-analysis-and-special-functions (topic, openalex) → 5 papers (partial: API budget exhausted)
+[4/134] 00-foundations/mathematical-methods/differential-equations-and-greens-functions (topic, openalex) → 5 papers (partial: API budget exhausted)
+[5/134] 00-foundations/mathematical-methods/linear-algebra-and-hilbert-spaces (topic, openalex) → 5 papers (partial: API budget exhausted)
+[6/134] 00-foundations/mathematical-methods/tensors-and-differential-geometry (topic, openalex) → 5 papers (partial: API budget exhausted)
+[7/134] 00-foundations/measurement-and-data-analysis (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[8/134] 00-foundations/measurement-and-data-analysis/detectors-and-instrumentation (topic, openalex) → 5 papers (partial: API budget exhausted)
+[9/134] 00-foundations/measurement-and-data-analysis/statistical-inference-in-physics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[10/134] 00-foundations/measurement-and-data-analysis/uncertainty-and-error-propagation (topic, openalex) → 5 papers (partial: API budget exhausted)
+[11/134] 00-foundations/symmetry-and-group-theory (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[12/134] 00-foundations/symmetry-and-group-theory/discrete-symmetries-and-cpt (topic, openalex) → 5 papers (partial: API budget exhausted)
+[13/134] 00-foundations/symmetry-and-group-theory/lie-groups-and-representations (topic, openalex) → 5 papers (partial: API budget exhausted)
+[14/134] 00-foundations/symmetry-and-group-theory/noethers-theorem-and-conservation-laws (topic, openalex) → 5 papers (partial: API budget exhausted)
+[15/134] 00-foundations/symmetry-and-group-theory/spontaneous-symmetry-breaking (topic, openalex) → 5 papers (partial: API budget exhausted)
+[16/134] 00-foundations/units-and-constants (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[17/134] 00-foundations/units-and-constants/dimensional-analysis-and-scaling (topic, openalex) → 5 papers (partial: API budget exhausted)
+[18/134] 00-foundations/units-and-constants/fundamental-constants (topic, openalex) → 2 papers (partial: API budget exhausted)
+[19/134] 00-foundations/units-and-constants/natural-units-and-planck-scale (topic, openalex) → 5 papers (partial: API budget exhausted)
+[20/134] 00-foundations/units-and-constants/si-units-and-2019-redefinition (topic, openalex) → 0 papers (partial: API budget exhausted)
+[21/134] 01-classical-mechanics/analytical-mechanics (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[22/134] 01-classical-mechanics/analytical-mechanics/canonical-transformations-and-hamilton-jacobi (topic, openalex) → 5 papers (partial: API budget exhausted)
+[23/134] 01-classical-mechanics/analytical-mechanics/hamiltonian-mechanics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[24/134] 01-classical-mechanics/analytical-mechanics/lagrangian-mechanics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[25/134] 01-classical-mechanics/analytical-mechanics/variational-principles (topic, openalex) → 5 papers (partial: API budget exhausted)
+[26/134] 01-classical-mechanics/continuum-and-fluid-mechanics (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[27/134] 01-classical-mechanics/continuum-and-fluid-mechanics/elasticity (topic, openalex) → 5 papers (partial: API budget exhausted)
+[28/134] 01-classical-mechanics/continuum-and-fluid-mechanics/ideal-and-viscous-flow (topic, openalex) → 5 papers (partial: API budget exhausted)
+[29/134] 01-classical-mechanics/continuum-and-fluid-mechanics/instabilities-and-convection (topic, openalex) → 5 papers (partial: API budget exhausted)
+[30/134] 01-classical-mechanics/continuum-and-fluid-mechanics/low-reynolds-number-and-microfluidics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[31/134] 01-classical-mechanics/continuum-and-fluid-mechanics/turbulence (topic, openalex) → 5 papers (partial: API budget exhausted)
+[32/134] 01-classical-mechanics/newtonian-mechanics (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[33/134] 01-classical-mechanics/newtonian-mechanics/central-forces-and-orbits (topic, openalex) → 5 papers (partial: API budget exhausted)
+[34/134] 01-classical-mechanics/newtonian-mechanics/conservation-laws (topic, openalex) → 5 papers (partial: API budget exhausted)
+[35/134] 01-classical-mechanics/newtonian-mechanics/few-body-and-celestial-mechanics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[36/134] 01-classical-mechanics/newtonian-mechanics/kinematics-and-newtons-laws (topic, openalex) → 5 papers (partial: API budget exhausted)
+[37/134] 01-classical-mechanics/newtonian-mechanics/non-inertial-frames (topic, openalex) → 5 papers (partial: API budget exhausted)
+[38/134] 01-classical-mechanics/nonlinear-dynamics-and-chaos (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[39/134] 01-classical-mechanics/nonlinear-dynamics-and-chaos/bifurcations-and-routes-to-chaos (topic, openalex) → 5 papers (partial: API budget exhausted)
+[40/134] 01-classical-mechanics/nonlinear-dynamics-and-chaos/deterministic-chaos (topic, openalex) → 5 papers (partial: API budget exhausted)
+[41/134] 01-classical-mechanics/nonlinear-dynamics-and-chaos/kam-theory-and-hamiltonian-chaos (topic, openalex) → 5 papers (partial: API budget exhausted)
+[42/134] 01-classical-mechanics/nonlinear-dynamics-and-chaos/solitons-and-integrable-systems (topic, openalex) → 5 papers (partial: API budget exhausted)
+[43/134] 01-classical-mechanics/nonlinear-dynamics-and-chaos/synchronization-and-pattern-formation (topic, openalex) → 5 papers (partial: API budget exhausted)
+[44/134] 01-classical-mechanics/oscillations-and-waves (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[45/134] 01-classical-mechanics/oscillations-and-waves/coupled-oscillators-and-normal-modes (topic, openalex) → 5 papers (partial: API budget exhausted)
+[46/134] 01-classical-mechanics/oscillations-and-waves/harmonic-and-damped-oscillators (topic, openalex) → 5 papers (partial: API budget exhausted)
+[47/134] 01-classical-mechanics/oscillations-and-waves/mechanical-waves-and-acoustics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[48/134] 01-classical-mechanics/oscillations-and-waves/parametric-and-nonlinear-oscillations (topic, openalex) → 5 papers (partial: API budget exhausted)
+[49/134] 01-classical-mechanics/rigid-body-dynamics (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[50/134] 01-classical-mechanics/rigid-body-dynamics/euler-equations-and-tops (topic, openalex) → 0 papers (partial: API budget exhausted)
+[51/134] 01-classical-mechanics/rigid-body-dynamics/gyroscopes-and-precession (topic, openalex) → 4 papers (partial: API budget exhausted)
+[52/134] 01-classical-mechanics/rigid-body-dynamics/rotational-dynamics-and-inertia-tensor (topic, openalex) → 5 papers (partial: API budget exhausted)
+[53/134] 02-electromagnetism-and-optics/classical-optics (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[54/134] 02-electromagnetism-and-optics/classical-optics/coherence-and-statistical-optics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[55/134] 02-electromagnetism-and-optics/classical-optics/fourier-optics-and-imaging (topic, openalex) → 5 papers (partial: API budget exhausted)
+[56/134] 02-electromagnetism-and-optics/classical-optics/geometric-optics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[57/134] 02-electromagnetism-and-optics/classical-optics/interference-and-diffraction (topic, openalex) → 5 papers (partial: API budget exhausted)
+[58/134] 02-electromagnetism-and-optics/classical-optics/polarization-and-crystal-optics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[59/134] 02-electromagnetism-and-optics/electrodynamics (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[60/134] 02-electromagnetism-and-optics/electrodynamics/electromagnetic-waves-and-waveguides (topic, openalex) → 5 papers (partial: API budget exhausted)
+[61/134] 02-electromagnetism-and-optics/electrodynamics/maxwells-equations (topic, openalex) → 5 papers (partial: API budget exhausted)
+[62/134] 02-electromagnetism-and-optics/electrodynamics/potentials-and-gauge-invariance (topic, openalex) → 5 papers (partial: API budget exhausted)
+[63/134] 02-electromagnetism-and-optics/electrodynamics/relativistic-electrodynamics (topic, openalex) → 1 papers (partial: API budget exhausted)
+[64/134] 02-electromagnetism-and-optics/electrostatics-and-magnetostatics (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[65/134] 02-electromagnetism-and-optics/electrostatics-and-magnetostatics/electrostatics-and-boundary-value-problems (topic, openalex) → 5 papers (partial: API budget exhausted)
+[66/134] 02-electromagnetism-and-optics/electrostatics-and-magnetostatics/fields-in-matter (topic, openalex) → 5 papers (partial: API budget exhausted)
+[67/134] 02-electromagnetism-and-optics/electrostatics-and-magnetostatics/magnetostatics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[68/134] 02-electromagnetism-and-optics/electrostatics-and-magnetostatics/multipole-expansions (topic, openalex) → 5 papers (partial: API budget exhausted)
+[69/134] 02-electromagnetism-and-optics/photonics-and-lasers (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[70/134] 02-electromagnetism-and-optics/photonics-and-lasers/integrated-and-fiber-photonics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[71/134] 02-electromagnetism-and-optics/photonics-and-lasers/laser-physics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[72/134] 02-electromagnetism-and-optics/photonics-and-lasers/metamaterials-and-plasmonics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[73/134] 02-electromagnetism-and-optics/photonics-and-lasers/nonlinear-optics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[74/134] 02-electromagnetism-and-optics/photonics-and-lasers/topological-photonics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[75/134] 02-electromagnetism-and-optics/photonics-and-lasers/ultrafast-and-attosecond-optics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[76/134] 02-electromagnetism-and-optics/radiation-and-scattering (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[77/134] 02-electromagnetism-and-optics/radiation-and-scattering/cherenkov-and-transition-radiation (topic, openalex) → 5 papers (partial: API budget exhausted)
+[78/134] 02-electromagnetism-and-optics/radiation-and-scattering/dipole-radiation-and-antennas (topic, openalex) → 5 papers (partial: API budget exhausted)
+[79/134] 02-electromagnetism-and-optics/radiation-and-scattering/radiation-from-moving-charges (topic, openalex) → 5 papers (partial: API budget exhausted)
+[80/134] 02-electromagnetism-and-optics/radiation-and-scattering/scattering-of-light (topic, openalex) → 5 papers (partial: API budget exhausted)
+[81/134] 03-thermodynamics-and-statistical-mechanics/classical-thermodynamics (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[82/134] 03-thermodynamics-and-statistical-mechanics/classical-thermodynamics/heat-engines-and-efficiency (topic, openalex) → 5 papers (partial: API budget exhausted)
+[83/134] 03-thermodynamics-and-statistical-mechanics/classical-thermodynamics/laws-of-thermodynamics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[84/134] 03-thermodynamics-and-statistical-mechanics/classical-thermodynamics/phase-equilibria-and-chemical-potential (topic, openalex) → 5 papers (partial: API budget exhausted)
+[85/134] 03-thermodynamics-and-statistical-mechanics/classical-thermodynamics/thermodynamic-potentials-and-maxwell-relations (topic, openalex) → 5 papers (partial: API budget exhausted)
+[86/134] 03-thermodynamics-and-statistical-mechanics/disordered-and-complex-systems (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[87/134] 03-thermodynamics-and-statistical-mechanics/disordered-and-complex-systems/complex-networks (topic, openalex) → 5 papers (partial: API budget exhausted)
+[88/134] 03-thermodynamics-and-statistical-mechanics/disordered-and-complex-systems/localization-and-disorder (topic, openalex) → 5 papers (partial: API budget exhausted)
+[89/134] 03-thermodynamics-and-statistical-mechanics/disordered-and-complex-systems/percolation (topic, openalex) → 5 papers (partial: API budget exhausted)
+[90/134] 03-thermodynamics-and-statistical-mechanics/disordered-and-complex-systems/spin-glasses (topic, openalex) → 5 papers (partial: API budget exhausted)
+[91/134] 03-thermodynamics-and-statistical-mechanics/disordered-and-complex-systems/statistical-physics-of-learning (topic, openalex) → 5 papers (partial: API budget exhausted)
+[92/134] 03-thermodynamics-and-statistical-mechanics/equilibrium-statistical-mechanics (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[93/134] 03-thermodynamics-and-statistical-mechanics/equilibrium-statistical-mechanics/ensembles-and-partition-functions (topic, openalex) → 5 papers (partial: API budget exhausted)
+[94/134] 03-thermodynamics-and-statistical-mechanics/equilibrium-statistical-mechanics/entropy-and-information (topic, openalex) → 5 papers (partial: API budget exhausted)
+[95/134] 03-thermodynamics-and-statistical-mechanics/equilibrium-statistical-mechanics/exactly-solvable-models (topic, openalex) → 5 papers (partial: API budget exhausted)
+[96/134] 03-thermodynamics-and-statistical-mechanics/equilibrium-statistical-mechanics/quantum-statistics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[97/134] 03-thermodynamics-and-statistical-mechanics/non-equilibrium-statistical-mechanics (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[98/134] 03-thermodynamics-and-statistical-mechanics/non-equilibrium-statistical-mechanics/driven-systems-and-nonequilibrium-steady-states (topic, openalex) → 5 papers (partial: API budget exhausted)
+[99/134] 03-thermodynamics-and-statistical-mechanics/non-equilibrium-statistical-mechanics/kinetic-theory-and-boltzmann-equation (topic, openalex) → 5 papers (partial: API budget exhausted)
+[100/134] 03-thermodynamics-and-statistical-mechanics/non-equilibrium-statistical-mechanics/linear-response-and-fluctuation-dissipation (topic, openalex) → 5 papers (partial: API budget exhausted)
+[101/134] 03-thermodynamics-and-statistical-mechanics/non-equilibrium-statistical-mechanics/stochastic-processes-and-langevin-dynamics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[102/134] 03-thermodynamics-and-statistical-mechanics/non-equilibrium-statistical-mechanics/stochastic-thermodynamics-and-fluctuation-theorems (topic, openalex) → 5 papers (partial: API budget exhausted)
+[103/134] 03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[104/134] 03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena/critical-exponents-and-universality (topic, openalex) → 5 papers (partial: API budget exhausted)
+[105/134] 03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena/ising-model-and-lattice-models (topic, openalex) → ERROR HTTP Error 429: Unknown Error
+[106/134] 03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena/mean-field-and-landau-theory (topic, openalex) → ERROR HTTP Error 429: Unknown Error
+[107/134] 03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena/renormalization-group (topic, openalex) → ERROR HTTP Error 429: Unknown Error
+[108/134] 03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena/topological-phase-transitions-bkt (topic, openalex) → ERROR HTTP Error 429: Unknown Error
+[109/134] 05-relativity-and-gravitation/black-holes (subfield, inspire) → 6 papers
+[110/134] 05-relativity-and-gravitation/black-holes/black-hole-imaging-and-astrophysical-black-holes (topic, inspire) → ERROR HTTP Error 429: Unknown Error
+[111/134] 05-relativity-and-gravitation/black-holes/black-hole-thermodynamics-and-hawking-radiation (topic, inspire) → ERROR HTTP Error 429: Unknown Error
+[112/134] 05-relativity-and-gravitation/black-holes/information-paradox (topic, inspire) → ERROR HTTP Error 429: Unknown Error
+[113/134] 05-relativity-and-gravitation/black-holes/schwarzschild-and-kerr-black-holes (topic, inspire) → 15 papers
+[114/134] 05-relativity-and-gravitation/general-relativity (subfield, inspire) → 5 papers
+[115/134] 05-relativity-and-gravitation/general-relativity/einstein-field-equations (topic, inspire) → 15 papers
+[116/134] 05-relativity-and-gravitation/general-relativity/exact-solutions (topic, inspire) → 15 papers
+[117/134] 05-relativity-and-gravitation/general-relativity/modified-gravity (topic, inspire) → 15 papers
+[118/134] 05-relativity-and-gravitation/general-relativity/numerical-relativity (topic, inspire) → 15 papers
+[119/134] 05-relativity-and-gravitation/general-relativity/tests-of-general-relativity (topic, inspire) → 15 papers
+[120/134] 05-relativity-and-gravitation/gravitational-waves (subfield, inspire) → 6 papers
+[121/134] 05-relativity-and-gravitation/gravitational-waves/gravitational-wave-theory-and-waveforms (topic, inspire) → 15 papers
+[122/134] 05-relativity-and-gravitation/gravitational-waves/ground-based-detections (topic, inspire) → 15 papers
+[123/134] 05-relativity-and-gravitation/gravitational-waves/pulsar-timing-arrays (topic, inspire) → 15 papers
+[124/134] 05-relativity-and-gravitation/gravitational-waves/space-based-and-future-detectors (topic, inspire) → 15 papers
+[125/134] 05-relativity-and-gravitation/quantum-gravity (subfield, inspire) → 6 papers
+[126/134] 05-relativity-and-gravitation/quantum-gravity/holography-and-ads-cft (topic, inspire) → 15 papers
+[127/134] 05-relativity-and-gravitation/quantum-gravity/loop-quantum-gravity (topic, inspire) → 15 papers
+[128/134] 05-relativity-and-gravitation/quantum-gravity/other-approaches-to-quantum-gravity (topic, inspire) → 15 papers
+[129/134] 05-relativity-and-gravitation/quantum-gravity/qft-in-curved-spacetime (topic, inspire) → ERROR HTTP Error 429: Unknown Error
+[130/134] 05-relativity-and-gravitation/quantum-gravity/string-theory (topic, inspire) → ERROR HTTP Error 429: Unknown Error
+[131/134] 05-relativity-and-gravitation/special-relativity (subfield, inspire) → 6 papers
+[132/134] 05-relativity-and-gravitation/special-relativity/lorentz-transformations-and-spacetime (topic, inspire) → ERROR HTTP Error 429: Unknown Error
+[133/134] 05-relativity-and-gravitation/special-relativity/relativistic-kinematics-and-dynamics (topic, inspire) → ERROR HTTP Error 429: Unknown Error
+[134/134] 05-relativity-and-gravitation/special-relativity/tests-of-lorentz-invariance (topic, inspire) → 15 papers
+Done. Library now holds 1734 unique papers; 11 node(s) failed; 104 partial (rerun `fetch --partial` after the API budget resets or with OPENALEX_API_KEY set).

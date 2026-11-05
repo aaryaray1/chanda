@@ -1,0 +1,17 @@
+{
+  "units_per_run": 4,
+  "max_units_per_day": 30,
+  "max_attempts": 4,
+  "review_chunk": 100,
+  "model": {"discovery": "sonnet", "review": ""},
+  "effort": {"discovery": "medium", "review": "medium"},
+  "last_attempt_model": {"discovery": "opus", "review": ""},
+  "max_budget_usd": {"discovery": 1.5, "review": 8},
+  "cooldown_minutes": 60,
+  "transient_cooldown_minutes": 15,
+  "interval_hours": 2,
+  "stale_running_hours": 3,
+  "unit_timeout_minutes": 45,
+  "stall_hours": 24,
+  "stage_gate": {"review": {"platform": "linux", "not_before": "2026-11-09T00:00"}}
+}

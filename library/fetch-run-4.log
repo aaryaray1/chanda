@@ -1,0 +1,122 @@
+Fetching papers for 120 node(s)…
+[1/120] 03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena/ising-model-and-lattice-models (topic, openalex) → 5 papers (partial: API budget exhausted)
+[2/120] 03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena/mean-field-and-landau-theory (topic, openalex) → 5 papers (partial: API budget exhausted)
+[3/120] 03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena/renormalization-group (topic, openalex) → 1 papers (partial: API budget exhausted)
+[4/120] 03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena/topological-phase-transitions-bkt (topic, openalex) → 5 papers (partial: API budget exhausted)
+[5/120] 05-relativity-and-gravitation/black-holes/black-hole-imaging-and-astrophysical-black-holes (topic, inspire) → 15 papers
+[6/120] 05-relativity-and-gravitation/black-holes/black-hole-thermodynamics-and-hawking-radiation (topic, inspire) → 15 papers
+[7/120] 05-relativity-and-gravitation/black-holes/information-paradox (topic, inspire) → 15 papers
+[8/120] 05-relativity-and-gravitation/quantum-gravity/qft-in-curved-spacetime (topic, inspire) → 15 papers
+[9/120] 05-relativity-and-gravitation/quantum-gravity/string-theory (topic, inspire) → 15 papers
+[10/120] 05-relativity-and-gravitation/special-relativity/lorentz-transformations-and-spacetime (topic, inspire) → 15 papers
+[11/120] 05-relativity-and-gravitation/special-relativity/relativistic-kinematics-and-dynamics (topic, inspire) → 15 papers
+[12/120] 07-nuclear-physics/applied-nuclear-physics (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[13/120] 07-nuclear-physics/applied-nuclear-physics/nuclear-data-and-isotope-production (topic, openalex) → 5 papers (partial: API budget exhausted)
+[14/120] 07-nuclear-physics/applied-nuclear-physics/nuclear-reactors-and-energy (topic, openalex) → 4 papers (partial: API budget exhausted)
+[15/120] 07-nuclear-physics/applied-nuclear-physics/radiation-detection-and-dosimetry (topic, openalex) → 5 papers (partial: API budget exhausted)
+[16/120] 07-nuclear-physics/hadron-and-nucleon-structure (subfield, inspire) → 6 papers
+[17/120] 07-nuclear-physics/hadron-and-nucleon-structure/electron-ion-collider (topic, inspire) → 15 papers
+[18/120] 07-nuclear-physics/hadron-and-nucleon-structure/nucleon-spin-and-form-factors (topic, inspire) → 15 papers
+[19/120] 07-nuclear-physics/hadron-and-nucleon-structure/parton-distribution-functions (topic, inspire) → 15 papers
+[20/120] 07-nuclear-physics/heavy-ion-physics (subfield, inspire) → 6 papers
+[21/120] 07-nuclear-physics/heavy-ion-physics/collective-flow-and-hydrodynamics (topic, inspire) → 15 papers
+[22/120] 07-nuclear-physics/heavy-ion-physics/jet-quenching (topic, inspire) → 15 papers
+[23/120] 07-nuclear-physics/heavy-ion-physics/qcd-phase-diagram-and-critical-point (topic, inspire) → 15 papers
+[24/120] 07-nuclear-physics/heavy-ion-physics/quark-gluon-plasma (topic, inspire) → 15 papers
+[25/120] 07-nuclear-physics/nuclear-astrophysics (subfield, inspire) → 6 papers
+[26/120] 07-nuclear-physics/nuclear-astrophysics/big-bang-nucleosynthesis (topic, inspire) → 15 papers
+[27/120] 07-nuclear-physics/nuclear-astrophysics/neutron-star-equation-of-state (topic, inspire) → 15 papers
+[28/120] 07-nuclear-physics/nuclear-astrophysics/stellar-nucleosynthesis-and-the-r-process (topic, inspire) → 15 papers
+[29/120] 07-nuclear-physics/nuclear-reactions-and-decays (subfield, inspire) → 6 papers
+[30/120] 07-nuclear-physics/nuclear-reactions-and-decays/beta-decay-and-weak-interactions (topic, inspire) → 15 papers
+[31/120] 07-nuclear-physics/nuclear-reactions-and-decays/fusion-reactions (topic, inspire) → 15 papers
+[32/120] 07-nuclear-physics/nuclear-reactions-and-decays/nuclear-fission (topic, inspire) → 15 papers
+[33/120] 07-nuclear-physics/nuclear-reactions-and-decays/nuclear-reactions-and-scattering (topic, inspire) → 15 papers
+[34/120] 07-nuclear-physics/nuclear-reactions-and-decays/radioactive-decay-and-alpha-decay (topic, inspire) → 15 papers
+[35/120] 07-nuclear-physics/nuclear-structure (subfield, inspire) → 6 papers
+[36/120] 07-nuclear-physics/nuclear-structure/ab-initio-nuclear-theory (topic, inspire) → 15 papers
+[37/120] 07-nuclear-physics/nuclear-structure/exotic-nuclei-and-drip-lines (topic, inspire) → 15 papers
+[38/120] 07-nuclear-physics/nuclear-structure/nuclear-forces-and-chiral-eft (topic, inspire) → 15 papers
+[39/120] 07-nuclear-physics/nuclear-structure/shell-model-and-collective-models (topic, inspire) → 15 papers
+[40/120] 07-nuclear-physics/nuclear-structure/superheavy-elements (topic, inspire) → 15 papers
+[41/120] 08-condensed-matter/crystals-and-electronic-structure (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[42/120] 08-condensed-matter/crystals-and-electronic-structure/band-theory-and-bloch-electrons (topic, openalex) → 5 papers (partial: API budget exhausted)
+[43/120] 08-condensed-matter/crystals-and-electronic-structure/crystal-structure-and-diffraction (topic, openalex) → 5 papers (partial: API budget exhausted)
+[44/120] 08-condensed-matter/crystals-and-electronic-structure/density-functional-theory (topic, openalex) → 5 papers (partial: API budget exhausted)
+[45/120] 08-condensed-matter/crystals-and-electronic-structure/electronic-transport-and-mesoscopic-physics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[46/120] 08-condensed-matter/crystals-and-electronic-structure/phonons-and-lattice-dynamics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[47/120] 08-condensed-matter/crystals-and-electronic-structure/semiconductors (topic, openalex) → 5 papers (partial: API budget exhausted)
+[48/120] 08-condensed-matter/low-dimensional-and-quantum-materials (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[49/120] 08-condensed-matter/low-dimensional-and-quantum-materials/graphene-and-2d-materials (topic, openalex) → 5 papers (partial: API budget exhausted)
+[50/120] 08-condensed-matter/low-dimensional-and-quantum-materials/moire-materials-and-twisted-bilayers (topic, openalex) → 5 papers (partial: API budget exhausted)
+[51/120] 08-condensed-matter/low-dimensional-and-quantum-materials/quantum-dots-and-nanostructures (topic, openalex) → 5 papers (partial: API budget exhausted)
+[52/120] 08-condensed-matter/low-dimensional-and-quantum-materials/transition-metal-dichalcogenides-and-excitons (topic, openalex) → 5 papers (partial: API budget exhausted)
+[53/120] 08-condensed-matter/magnetism (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[54/120] 08-condensed-matter/magnetism/altermagnetism (topic, openalex) → 5 papers (partial: API budget exhausted)
+[55/120] 08-condensed-matter/magnetism/exchange-and-magnetic-order (topic, openalex) → 5 papers (partial: API budget exhausted)
+[56/120] 08-condensed-matter/magnetism/frustrated-magnets-and-spin-liquids (topic, openalex) → 5 papers (partial: API budget exhausted)
+[57/120] 08-condensed-matter/magnetism/magnetic-skyrmions-and-textures (topic, openalex) → 5 papers (partial: API budget exhausted)
+[58/120] 08-condensed-matter/magnetism/spintronics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[59/120] 08-condensed-matter/soft-matter (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[60/120] 08-condensed-matter/soft-matter/active-matter (topic, openalex) → 5 papers (partial: API budget exhausted)
+[61/120] 08-condensed-matter/soft-matter/colloids-and-granular-matter (topic, openalex) → 5 papers (partial: API budget exhausted)
+[62/120] 08-condensed-matter/soft-matter/glasses-and-jamming (topic, openalex) → 5 papers (partial: API budget exhausted)
+[63/120] 08-condensed-matter/soft-matter/liquid-crystals (topic, openalex) → 5 papers (partial: API budget exhausted)
+[64/120] 08-condensed-matter/soft-matter/polymers (topic, openalex) → 5 papers (partial: API budget exhausted)
+[65/120] 08-condensed-matter/strongly-correlated-electrons (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[66/120] 08-condensed-matter/strongly-correlated-electrons/fractionalization-and-topological-order (topic, openalex) → 5 papers (partial: API budget exhausted)
+[67/120] 08-condensed-matter/strongly-correlated-electrons/heavy-fermions-and-kondo-physics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[68/120] 08-condensed-matter/strongly-correlated-electrons/hubbard-model-and-mott-physics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[69/120] 08-condensed-matter/strongly-correlated-electrons/numerical-many-body-methods (topic, openalex) → 5 papers (partial: API budget exhausted)
+[70/120] 08-condensed-matter/strongly-correlated-electrons/quantum-criticality-and-strange-metals (topic, openalex) → 5 papers (partial: API budget exhausted)
+[71/120] 08-condensed-matter/superconductivity (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[72/120] 08-condensed-matter/superconductivity/bcs-theory-and-conventional-superconductors (topic, openalex) → 5 papers (partial: API budget exhausted)
+[73/120] 08-condensed-matter/superconductivity/cuprate-high-tc-superconductors (topic, openalex) → 5 papers (partial: API budget exhausted)
+[74/120] 08-condensed-matter/superconductivity/hydride-superconductors-under-pressure (topic, openalex) → 5 papers (partial: API budget exhausted)
+[75/120] 08-condensed-matter/superconductivity/iron-based-and-nickelate-superconductors (topic, openalex) → 5 papers (partial: API budget exhausted)
+[76/120] 08-condensed-matter/superconductivity/josephson-effect-and-squids (topic, openalex) → 5 papers (partial: API budget exhausted)
+[77/120] 08-condensed-matter/topological-matter (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[78/120] 08-condensed-matter/topological-matter/band-topology-and-berry-curvature (topic, openalex) → 5 papers (partial: API budget exhausted)
+[79/120] 08-condensed-matter/topological-matter/quantum-hall-effects (topic, openalex) → 5 papers (partial: API budget exhausted)
+[80/120] 08-condensed-matter/topological-matter/topological-insulators (topic, openalex) → 5 papers (partial: API budget exhausted)
+[81/120] 08-condensed-matter/topological-matter/topological-semimetals (topic, openalex) → 5 papers (partial: API budget exhausted)
+[82/120] 08-condensed-matter/topological-matter/topological-superconductors-and-majoranas (topic, openalex) → 5 papers (partial: API budget exhausted)
+[83/120] 09-astrophysics-and-cosmology/cosmology (subfield, inspire) → 6 papers
+[84/120] 09-astrophysics-and-cosmology/cosmology/cosmic-microwave-background (topic, inspire) → 15 papers
+[85/120] 09-astrophysics-and-cosmology/cosmology/dark-energy (topic, inspire) → 15 papers
+[86/120] 09-astrophysics-and-cosmology/cosmology/flrw-cosmology-and-expansion-history (topic, inspire) → 15 papers
+[87/120] 09-astrophysics-and-cosmology/cosmology/gravitational-lensing (topic, inspire) → 15 papers
+[88/120] 09-astrophysics-and-cosmology/cosmology/hubble-tension-and-cosmological-tensions (topic, inspire) → 15 papers
+[89/120] 09-astrophysics-and-cosmology/cosmology/inflation (topic, inspire) → 15 papers
+[90/120] 09-astrophysics-and-cosmology/cosmology/large-scale-structure-and-bao (topic, inspire) → 15 papers
+[91/120] 09-astrophysics-and-cosmology/dark-matter (subfield, inspire) → 6 papers
+[92/120] 09-astrophysics-and-cosmology/dark-matter/alternatives-mond-and-modified-gravity (topic, inspire) → 15 papers
+[93/120] 09-astrophysics-and-cosmology/dark-matter/astrophysical-evidence-for-dark-matter (topic, inspire) → 15 papers
+[94/120] 09-astrophysics-and-cosmology/dark-matter/dark-matter-small-scale-structure (topic, inspire) → 15 papers
+[95/120] 09-astrophysics-and-cosmology/dark-matter/direct-detection (topic, inspire) → 15 papers
+[96/120] 09-astrophysics-and-cosmology/dark-matter/indirect-detection (topic, inspire) → 15 papers
+[97/120] 09-astrophysics-and-cosmology/galaxies (subfield, inspire) → 6 papers
+[98/120] 09-astrophysics-and-cosmology/galaxies/active-galactic-nuclei-and-supermassive-black-holes (topic, inspire) → 15 papers
+[99/120] 09-astrophysics-and-cosmology/galaxies/galaxy-clusters (topic, inspire) → 15 papers
+[100/120] 09-astrophysics-and-cosmology/galaxies/galaxy-formation-and-evolution (topic, inspire) → 15 papers
+[101/120] 09-astrophysics-and-cosmology/galaxies/high-redshift-universe-and-reionization (topic, inspire) → 15 papers
+[102/120] 09-astrophysics-and-cosmology/galaxies/the-milky-way (topic, inspire) → 15 papers
+[103/120] 09-astrophysics-and-cosmology/high-energy-astrophysics-and-astroparticle (subfield, inspire) → 6 papers
+[104/120] 09-astrophysics-and-cosmology/high-energy-astrophysics-and-astroparticle/cosmic-rays (topic, inspire) → 15 papers
+[105/120] 09-astrophysics-and-cosmology/high-energy-astrophysics-and-astroparticle/fast-radio-bursts-and-magnetars (topic, inspire) → 15 papers
+[106/120] 09-astrophysics-and-cosmology/high-energy-astrophysics-and-astroparticle/gamma-ray-bursts (topic, inspire) → 15 papers
+[107/120] 09-astrophysics-and-cosmology/high-energy-astrophysics-and-astroparticle/multi-messenger-astronomy (topic, inspire) → 15 papers
+[108/120] 09-astrophysics-and-cosmology/high-energy-astrophysics-and-astroparticle/neutrino-astronomy (topic, inspire) → 15 papers
+[109/120] 09-astrophysics-and-cosmology/planetary-science-and-exoplanets (subfield, openalex) → 0 papers (partial: API budget exhausted)
+[110/120] 09-astrophysics-and-cosmology/planetary-science-and-exoplanets/astrobiology-and-habitability (topic, openalex) → 5 papers (partial: API budget exhausted)
+[111/120] 09-astrophysics-and-cosmology/planetary-science-and-exoplanets/exoplanet-atmospheres (topic, openalex) → 5 papers (partial: API budget exhausted)
+[112/120] 09-astrophysics-and-cosmology/planetary-science-and-exoplanets/exoplanet-detection (topic, openalex) → 5 papers (partial: API budget exhausted)
+[113/120] 09-astrophysics-and-cosmology/planetary-science-and-exoplanets/planet-formation-and-protoplanetary-disks (topic, openalex) → 5 papers (partial: API budget exhausted)
+[114/120] 09-astrophysics-and-cosmology/planetary-science-and-exoplanets/solar-system-dynamics (topic, openalex) → 5 papers (partial: API budget exhausted)
+[115/120] 09-astrophysics-and-cosmology/stellar-astrophysics (subfield, inspire) → 6 papers
+[116/120] 09-astrophysics-and-cosmology/stellar-astrophysics/binary-stars-and-stellar-populations (topic, inspire) → 15 papers
+[117/120] 09-astrophysics-and-cosmology/stellar-astrophysics/compact-objects (topic, inspire) → 15 papers
+[118/120] 09-astrophysics-and-cosmology/stellar-astrophysics/stellar-structure-and-evolution (topic, inspire) → 15 papers
+[119/120] 09-astrophysics-and-cosmology/stellar-astrophysics/supernovae-and-transients (topic, inspire) → 15 papers
+[120/120] 09-astrophysics-and-cosmology/stellar-astrophysics/the-sun-and-helioseismology (topic, inspire) → 12 papers
+Done. Library now holds 2784 unique papers; 0 node(s) failed; 56 partial (rerun `fetch --partial` after the API budget resets or with OPENALEX_API_KEY set).

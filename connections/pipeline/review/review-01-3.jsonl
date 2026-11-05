@@ -1,0 +1,106 @@
+{"id": "C0612", "verdict": "confirm"}
+{"id": "C0613", "verdict": "confirm"}
+{"id": "C0614", "verdict": "confirm"}
+{"id": "C0615", "verdict": "confirm"}
+{"id": "C0616", "verdict": "confirm"}
+{"id": "C0617", "verdict": "revise", "reason": "Under the branch convention ẍ+2γẋ, γ=ω₀/(2Q) is the amplitude rate. The energy decay rate κ=2γ=ω₀/Q, which is what matches the Lindblad κ.", "fix": {"summary": "Classical damping (energy decay rate κ=2γ=ω₀/Q) cannot come from a Hamiltonian for the oscillator alone. Quantum mechanically it comes from coupling to a bath (Caldeira–Leggett), which in the weak-coupling Markov limit with the rotating-wave approximation gives a Lindblad equation with jump operators a and a†. ⟨a⟩ decays at κ/2 exactly as the classical amplitude does, and fluctuation–dissipation adds thermal and zero-point noise."}}
+{"id": "C0618", "verdict": "confirm"}
+{"id": "C0619", "verdict": "confirm"}
+{"id": "C0620", "verdict": "confirm"}
+{"id": "C0621", "verdict": "confirm"}
+{"id": "C0622", "verdict": "confirm"}
+{"id": "C0623", "verdict": "revise", "reason": "The Mathieu equation appears in the phase (φ) representation. In the charge basis the transmon Hamiltonian is a tridiagonal matrix.", "fix": {"summary": "The transmon Hamiltonian is a quantum pendulum, and its Schrödinger equation in the phase representation is the Mathieu equation (Koch et al. 2007). Expanded about the minimum it is a weakly anharmonic (Duffing/Kerr) oscillator. Driven Duffing bistability gives bifurcation readout, and parametric pumping gives Josephson parametric amplifiers."}}
+{"id": "C0624", "verdict": "confirm"}
+{"id": "C0625", "verdict": "confirm"}
+{"id": "C0626", "verdict": "confirm"}
+{"id": "C0627", "verdict": "confirm"}
+{"id": "C0628", "verdict": "confirm"}
+{"id": "C0629", "verdict": "confirm"}
+{"id": "C0630", "verdict": "confirm"}
+{"id": "C0631", "verdict": "confirm"}
+{"id": "C0632", "verdict": "confirm"}
+{"id": "C0633", "verdict": "confirm"}
+{"id": "C0634", "verdict": "revise", "reason": "This is more than history: the same tidal-response coefficient is defined and generalized, so the link is a concept carried over.", "fix": {"kind": "method transfer"}}
+{"id": "C0635", "verdict": "confirm"}
+{"id": "C0636", "verdict": "confirm"}
+{"id": "C0637", "verdict": "confirm"}
+{"id": "C0638", "verdict": "confirm"}
+{"id": "C0639", "verdict": "confirm"}
+{"id": "C0640", "verdict": "confirm"}
+{"id": "C0641", "verdict": "confirm"}
+{"id": "C0642", "verdict": "revise", "reason": "The wording says simultaneity is lost in the limit. It is lost when you move away from the Newtonian limit, not in it.", "fix": {"summary": "Galilean transformations are the c→∞ contraction of Lorentz transformations, and Newton's second law, momentum and kinetic energy are the leading terms of their relativistic forms in v/c. Leaving this limit gives up absolute simultaneity and the separate conservation of mass."}}
+{"id": "C0643", "verdict": "confirm"}
+{"id": "C0644", "verdict": "confirm"}
+{"id": "C0645", "verdict": "confirm"}
+{"id": "C0646", "verdict": "revise", "reason": "Angular-momentum conservation also removes current-dipole radiation. That belongs in a complete statement of why GW emission starts at the quadrupole.", "fix": {"summary": "Mass conservation removes monopole radiation, and conservation of linear and angular momentum removes mass-dipole and current-dipole radiation, so gravitational radiation starts at the quadrupole. The waves carry away energy, angular momentum (which circularizes orbits) and linear momentum; the last gives merged black holes recoil kicks of up to thousands of km/s."}}
+{"id": "C0647", "verdict": "confirm"}
+{"id": "C0648", "verdict": "confirm"}
+{"id": "C0649", "verdict": "confirm"}
+{"id": "C0650", "verdict": "confirm"}
+{"id": "C0651", "verdict": "confirm"}
+{"id": "C0652", "verdict": "confirm"}
+{"id": "C0653", "verdict": "confirm"}
+{"id": "C0654", "verdict": "confirm"}
+{"id": "C0655", "verdict": "confirm"}
+{"id": "C0656", "verdict": "confirm"}
+{"id": "C0657", "verdict": "revise", "reason": "Lighthill's acoustic power scales as (∂t²∫T_ij)²/c⁵ (the U⁸ law), not as the third time derivative of a mass quadrupole. Only the GW side has the dddot-Q form.", "fix": {"summary": "In Lighthill's acoustic analogy, free turbulence radiates sound as a quadrupole, because mass and momentum conservation without external forces make the source a double divergence ∂i∂jT_ij. Gravitational radiation is quadrupolar for the analogous conservation reasons. Both are sourced by stress-type tensors, but acoustic power goes as (∂t²∫T_ij)², giving Lighthill's U⁸ law, while GW power goes as the squared third derivative of the mass quadrupole.", "map": "\\partial_t^2\\rho-c_0^2\\nabla^2\\rho=\\partial_i\\partial_jT_{ij}\\ \\leftrightarrow\\ \\Box\\bar h_{\\mu\\nu}=-\\frac{16\\pi G}{c^4}\\tau_{\\mu\\nu};\\ \\ P_{\\rm ac}\\propto\\frac{\\langle(\\partial_t^2\\!\\int T_{ij})^2\\rangle}{\\rho_0c_0^5},\\ P_{\\rm GW}=\\frac{G}{5c^5}\\langle\\dddot Q_{ij}^2\\rangle"}}
+{"id": "C0658", "verdict": "confirm"}
+{"id": "C0659", "verdict": "confirm"}
+{"id": "C0660", "verdict": "confirm"}
+{"id": "C0661", "verdict": "confirm"}
+{"id": "C0662", "verdict": "confirm"}
+{"id": "C0663", "verdict": "confirm"}
+{"id": "C0664", "verdict": "confirm"}
+{"id": "C0665", "verdict": "confirm"}
+{"id": "C0666", "verdict": "confirm"}
+{"id": "C0667", "verdict": "confirm"}
+{"id": "C0668", "verdict": "confirm"}
+{"id": "C0669", "verdict": "confirm"}
+{"id": "C0670", "verdict": "confirm"}
+{"id": "C0671", "verdict": "confirm"}
+{"id": "C0672", "verdict": "confirm"}
+{"id": "C0673", "verdict": "confirm"}
+{"id": "C0674", "verdict": "confirm"}
+{"id": "C0675", "verdict": "confirm"}
+{"id": "C0676", "verdict": "confirm"}
+{"id": "C0677", "verdict": "confirm"}
+{"id": "C0678", "verdict": "confirm"}
+{"id": "C0679", "verdict": "confirm"}
+{"id": "C0680", "verdict": "confirm"}
+{"id": "C0681", "verdict": "confirm"}
+{"id": "C0682", "verdict": "confirm"}
+{"id": "C0683", "verdict": "confirm"}
+{"id": "C0684", "verdict": "confirm"}
+{"id": "C0685", "verdict": "confirm"}
+{"id": "C0686", "verdict": "confirm"}
+{"id": "C0687", "verdict": "confirm"}
+{"id": "C0688", "verdict": "confirm"}
+{"id": "C0689", "verdict": "confirm"}
+{"id": "C0690", "verdict": "confirm"}
+{"id": "C0691", "verdict": "confirm"}
+{"id": "C0692", "verdict": "confirm"}
+{"id": "C0693", "verdict": "confirm"}
+{"id": "C0694", "verdict": "confirm"}
+{"id": "C0695", "verdict": "confirm"}
+{"id": "C0696", "verdict": "confirm"}
+{"id": "C0697", "verdict": "confirm"}
+{"id": "C0698", "verdict": "confirm"}
+{"id": "C0699", "verdict": "confirm"}
+{"id": "C0700", "verdict": "confirm"}
+{"id": "C0701", "verdict": "confirm"}
+{"id": "C0702", "verdict": "confirm"}
+{"id": "C0703", "verdict": "confirm"}
+{"id": "C0704", "verdict": "confirm"}
+{"id": "C0705", "verdict": "confirm"}
+{"id": "C0706", "verdict": "confirm"}
+{"id": "C0707", "verdict": "confirm"}
+{"id": "C0708", "verdict": "confirm"}
+{"id": "C0709", "verdict": "confirm"}
+{"id": "C0710", "verdict": "confirm"}
+{"id": "C0711", "verdict": "confirm"}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/analytical-mechanics/canonical-transformations-and-hamilton-jacobi", "b": "04-quantum-physics/quantum-mechanics-core/path-integrals-and-semiclassics", "name": "Action variables quantized: Bohr–Sommerfeld and EBK", "kind": "method transfer", "summary": "Action variables J=∮p dq on invariant tori become quantized as J_i=2πħ(n_i+μ_i/4), where μ_i are Maslov indices (Einstein–Brillouin–Keller). Their adiabatic invariance is why Ehrenfest proposed them as the quantities to quantize. EBK fails once the tori break up into chaos.", "map": "\\oint_{\\gamma_i}p\\,dq=2\\pi\\hbar\\Big(n_i+\\frac{\\mu_i}{4}\\Big),\\ \\ E_n=H(J_n)", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/nonlinear-dynamics-and-chaos/kam-theory-and-hamiltonian-chaos", "b": "04-quantum-physics/open-and-many-body-quantum-dynamics/quantum-chaos-and-scrambling", "name": "Integrable vs chaotic spectra: Berry–Tabor, BGS, Gutzwiller", "kind": "mechanism", "summary": "Classical integrability (invariant tori) gives Poissonian quantum level statistics (Berry–Tabor). Fully chaotic dynamics gives Wigner–Dyson random-matrix statistics (Bohigas–Giannoni–Schmit conjecture). Gutzwiller's trace formula expresses the density of states as a sum over unstable periodic orbits, weighted by their actions and stability.", "map": "\\rho(E)\\approx\\bar\\rho(E)+\\frac{1}{\\pi\\hbar}\\sum_{\\rm p.o.}\\frac{T_p}{\\sqrt{|\\det(M_p-1)|}}\\cos\\Big(\\frac{S_p}{\\hbar}-\\frac{\\pi\\mu_p}{2}\\Big)", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/newtonian-mechanics/central-forces-and-orbits", "b": "04-quantum-physics/quantum-mechanics-core/exactly-solvable-systems", "name": "Laplace–Runge–Lenz vector and hydrogen's SO(4) degeneracy", "kind": "identity", "summary": "The conserved LRL vector that closes Kepler orbits becomes, quantum mechanically, the extra symmetry generator behind hydrogen's ℓ-degeneracy. Together with L it generates SO(4), and Pauli (1926) derived the Balmer spectrum algebraically from it. Closed classical orbits (Bertrand) correspond to accidental quantum degeneracy.", "map": "\\mathbf A=\\mathbf p\\times\\mathbf L-mk\\hat{\\mathbf r},\\ \\ E_n=-\\frac{mk^2}{2\\hbar^2n^2},\\ \\ \\text{degeneracy }n^2", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/rigid-body-dynamics/euler-equations-and-tops", "b": "07-nuclear-physics/nuclear-structure/shell-model-and-collective-models", "name": "Nuclear rotors and wobbling: the quantized Euler top", "kind": "mechanism", "summary": "Deformed nuclei show rotational bands E=ħ²J(J+1)/2𝓘, with moments of inertia between the irrotational-fluid and rigid-body values. Triaxial nuclei show wobbling bands: the quantized analogue of stable free precession about the axis of largest moment, first seen in ¹⁶³Lu (2001).", "map": "E_J=\\frac{\\hbar^2J(J+1)}{2\\mathcal I},\\ \\ \\hbar\\omega_{\\rm wob}\\approx\\frac{\\hbar^2J}{\\mathcal I_1}\\sqrt{\\frac{(\\mathcal I_1-\\mathcal I_2)(\\mathcal I_1-\\mathcal I_3)}{\\mathcal I_2\\mathcal I_3}}", "breaks": "", "confidence": "established", "strength": 2, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/continuum-and-fluid-mechanics/instabilities-and-convection", "b": "07-nuclear-physics/nuclear-reactions-and-decays/nuclear-fission", "name": "Liquid-drop fission and Rayleigh's charged-drop limit", "kind": "analogy", "summary": "Bohr–Wheeler fission treats the nucleus as a charged incompressible drop. Coulomb repulsion competes with surface tension, and the drop becomes unstable to quadrupole deformation when the fissility x=E_C/(2E_S) reaches 1. This is Rayleigh's 1882 stability limit for a charged conducting droplet.", "map": "x=\\frac{E_C^{(0)}}{2E_S^{(0)}}\\approx\\frac{Z^2/A}{50};\\ \\ \\text{Rayleigh: }Q^2=64\\pi^2\\varepsilon_0\\gamma R^3", "breaks": "Nuclear charge is spread through the volume, not held on a conductor surface. Shell corrections create double-humped barriers, and spontaneous fission proceeds by quantum tunnelling, not classical growth.", "confidence": "established", "strength": 2, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/oscillations-and-waves/harmonic-and-damped-oscillators", "b": "07-nuclear-physics/nuclear-structure/shell-model-and-collective-models", "name": "Giant dipole resonance as a damped collective oscillator", "kind": "mechanism", "summary": "In the giant dipole resonance, protons oscillate against neutrons (Goldhaber–Teller, Steinwedel–Jensen). Photoabsorption therefore has the Lorentzian line of a driven damped oscillator, with width Γ~4–5 MeV from damping into many-particle states. Its integrated strength satisfies the classical TRK sum rule.", "map": "\\sigma(E)\\propto\\frac{E^2\\Gamma^2}{(E^2-E_0^2)^2+E^2\\Gamma^2},\\ \\ E_0\\approx 31A^{-1/3}+21A^{-1/6}\\,\\text{MeV},\\ \\ \\int\\sigma\\,dE=60\\frac{NZ}{A}\\,\\text{MeV mb}", "breaks": "", "confidence": "established", "strength": 2, "sources": []}}

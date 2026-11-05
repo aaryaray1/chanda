@@ -1,0 +1,638 @@
+{
+ "units": {
+  "discover-00-02": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-01T18:28:38",
+   "note": "40 valid of 40 lines"
+  },
+  "discover-00-03": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-01T18:40:15",
+   "note": "45 valid of 45 lines"
+  },
+  "discover-00-04": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-01T18:48:47",
+   "note": "40 valid of 40 lines"
+  },
+  "discover-00-05": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-01T18:56:09",
+   "note": "40 valid of 40 lines"
+  },
+  "discover-00-06": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-01T19:05:58",
+   "note": "40 valid of 40 lines"
+  },
+  "discover-00-within": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-01T19:19:32",
+   "note": "35 valid of 35 lines"
+  },
+  "discover-01-02": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-02T05:07:54",
+   "note": "46 valid of 46 lines"
+  },
+  "discover-01-03": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-02T05:19:08",
+   "note": "41 valid of 41 lines"
+  },
+  "discover-01-04": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-02T05:32:58",
+   "note": "47 valid of 47 lines"
+  },
+  "discover-01-05": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-02T05:45:55",
+   "note": "40 valid of 40 lines"
+  },
+  "discover-01-06": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-02T07:03:58",
+   "note": "40 valid of 40 lines"
+  },
+  "discover-01-07": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-02T07:14:15",
+   "note": "38 valid of 38 lines"
+  },
+  "discover-01-within": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-02T07:25:47",
+   "note": "35 valid of 35 lines"
+  },
+  "discover-02-04": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-02T07:35:27",
+   "note": "43 valid of 43 lines"
+  },
+  "discover-02-05": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-02T09:07:07",
+   "note": "41 valid of 41 lines"
+  },
+  "discover-02-06": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-02T09:16:14",
+   "note": "41 valid of 41 lines"
+  },
+  "discover-02-07": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-02T09:29:00",
+   "note": "40 valid of 40 lines"
+  },
+  "discover-02-08": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-03T12:51:54",
+   "note": "42 valid of 42 lines"
+  },
+  "discover-02-within": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-03T13:01:25",
+   "note": "35 valid of 35 lines"
+  },
+  "discover-03-08": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-03T13:13:41",
+   "note": "40 valid of 40 lines"
+  },
+  "discover-03-09": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-03T13:24:46",
+   "note": "40 valid of 40 lines"
+  },
+  "discover-04-10": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-03T15:03:54",
+   "note": "39 valid of 39 lines"
+  },
+  "discover-04-within": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-03T15:12:28",
+   "note": "36 valid of 36 lines"
+  },
+  "discover-05-09": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-03T19:02:03",
+   "note": "47 valid of 47 lines"
+  },
+  "discover-05-10": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-03T19:12:30",
+   "note": "37 valid of 37 lines"
+  },
+  "discover-05-11": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-03T19:21:36",
+   "note": "31 valid of 31 lines"
+  },
+  "discover-05-within": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-03T19:31:16",
+   "note": "35 valid of 35 lines"
+  },
+  "discover-06-09": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-04T14:14:12",
+   "note": "42 valid of 42 lines"
+  },
+  "discover-06-10": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-04T14:29:03",
+   "note": "39 valid of 39 lines"
+  },
+  "discover-06-11": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-04T14:37:22",
+   "note": "36 valid of 36 lines"
+  },
+  "discover-06-within": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-04T14:45:44",
+   "note": "36 valid of 36 lines"
+  },
+  "discover-07-within": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-04T14:59:32",
+   "note": "35 valid of 35 lines"
+  },
+  "discover-08-within": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-04T19:31:56",
+   "note": "36 valid of 36 lines · 1 turns, 0k in + 18k cache-write + 3k cache-read, 9k out, ~$0.16"
+  },
+  "discover-09-10": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T02:07:54",
+   "note": "30 valid of 31 records · 1 turns, 0k in + 16k cache-write + 5k cache-read, 8k out, ~$0.14",
+   "interrupted": 1
+  },
+  "discover-09-11": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T01:47:09",
+   "note": "32 valid of 32 lines · 1 turns, 0k in + 17k cache-write + 3k cache-read, 8k out, ~$0.15"
+  },
+  "discover-09-00": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T01:47:51",
+   "note": "30 valid of 30 lines · 1 turns, 0k in + 15k cache-write + 5k cache-read, 7k out, ~$0.13"
+  },
+  "discover-09-01": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T01:48:42",
+   "note": "37 valid of 37 lines · 1 turns, 0k in + 16k cache-write + 5k cache-read, 9k out, ~$0.15"
+  },
+  "discover-09-02": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T01:49:31",
+   "note": "32 valid of 32 lines · 1 turns, 0k in + 15k cache-write + 5k cache-read, 8k out, ~$0.14"
+  },
+  "discover-09-within": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T02:08:41",
+   "note": "37 valid of 37 records · 1 turns, 0k in + 14k cache-write + 5k cache-read, 8k out, ~$0.13"
+  },
+  "discover-10-11": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T02:09:25",
+   "note": "31 valid of 31 records · 1 turns, 0k in + 15k cache-write + 5k cache-read, 7k out, ~$0.13"
+  },
+  "discover-10-00": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T02:10:21",
+   "note": "36 valid of 36 records · 1 turns, 0k in + 14k cache-write + 5k cache-read, 9k out, ~$0.15"
+  },
+  "discover-10-01": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T02:14:46",
+   "note": "34 valid of 34 records · 1 turns, 0k in + 16k cache-write + 5k cache-read, 9k out, ~$0.15"
+  },
+  "discover-10-02": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T02:15:35",
+   "note": "34 valid of 35 records · 1 turns, 0k in + 15k cache-write + 5k cache-read, 8k out, ~$0.14"
+  },
+  "discover-10-03": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T02:16:33",
+   "note": "37 valid of 37 records · 1 turns, 0k in + 15k cache-write + 5k cache-read, 10k out, ~$0.16"
+  },
+  "discover-10-within": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T02:17:21",
+   "note": "33 valid of 33 records · 1 turns, 0k in + 13k cache-write + 5k cache-read, 8k out, ~$0.13"
+  },
+  "discover-11-00": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T04:14:40",
+   "note": "29 valid of 35 records · 1 turns, 0k in + 15k cache-write + 3k cache-read, 7k out, ~$0.13"
+  },
+  "discover-11-01": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T04:15:45",
+   "note": "44 valid of 45 records · 1 turns, 0k in + 16k cache-write + 5k cache-read, 11k out, ~$0.18"
+  },
+  "discover-11-02": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T04:16:37",
+   "note": "37 valid of 38 records · 1 turns, 0k in + 15k cache-write + 5k cache-read, 8k out, ~$0.14"
+  },
+  "discover-11-03": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T04:17:26",
+   "note": "35 valid of 35 records · 1 turns, 0k in + 16k cache-write + 5k cache-read, 8k out, ~$0.15"
+  },
+  "discover-11-04": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T06:14:42",
+   "note": "37 valid of 37 records · 1 turns, 0k in + 18k cache-write + 3k cache-read, 8k out, ~$0.15"
+  },
+  "discover-11-within": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T06:15:36",
+   "note": "42 valid of 42 records · 1 turns, 0k in + 11k cache-write + 5k cache-read, 9k out, ~$0.14"
+  },
+  "review-00-1": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T08:15:56",
+   "note": "100/100 verdicts, 5 additions · 1 turns, 0k in + 57k cache-write + 3k cache-read, 14k out, ~$0.73"
+  },
+  "review-00-2": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T08:17:49",
+   "note": "100/100 verdicts, 5 additions · 1 turns, 0k in + 57k cache-write + 5k cache-read, 13k out, ~$0.72"
+  },
+  "review-00-3": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T08:19:47",
+   "note": "100/100 verdicts, 4 additions · 1 turns, 0k in + 55k cache-write + 5k cache-read, 13k out, ~$0.71"
+  },
+  "review-00-4": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T08:22:06",
+   "note": "100/100 verdicts, 5 additions · 1 turns, 0k in + 52k cache-write + 5k cache-read, 15k out, ~$0.73"
+  },
+  "review-00-5": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T10:15:39",
+   "note": "57/57 verdicts, 7 additions · 1 turns, 0k in + 35k cache-write + 3k cache-read, 11k out, ~$0.51"
+  },
+  "review-01-1": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T10:17:56",
+   "note": "100/100 verdicts, 8 additions · 1 turns, 0k in + 61k cache-write + 5k cache-read, 16k out, ~$0.81"
+  },
+  "review-01-2": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T10:20:31",
+   "note": "100/100 verdicts, 5 additions · 1 turns, 0k in + 69k cache-write + 5k cache-read, 17k out, ~$0.90"
+  },
+  "review-01-3": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T10:23:21",
+   "note": "100/100 verdicts, 6 additions · 1 turns, 0k in + 66k cache-write + 5k cache-read, 19k out, ~$0.91"
+  },
+  "review-01-4": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T12:16:17",
+   "note": "100/100 verdicts, 4 additions · 1 turns, 0k in + 60k cache-write + 3k cache-read, 16k out, ~$0.81"
+  },
+  "review-01-5": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T12:18:39",
+   "note": "85/85 verdicts, 3 additions · 1 turns, 0k in + 47k cache-write + 5k cache-read, 16k out, ~$0.70"
+  },
+  "review-02-1": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T12:20:34",
+   "note": "100/100 verdicts, 6 additions · 1 turns, 0k in + 66k cache-write + 5k cache-read, 13k out, ~$0.79"
+  },
+  "review-02-2": {
+   "attempts": 1,
+   "status": "done",
+   "updated": "2026-11-05T12:22:43",
+   "note": "100/100 verdicts, 6 additions · 1 turns, 0k in + 64k cache-write + 5k cache-read, 14k out, ~$0.80"
+  }
+ },
+ "stage": "review",
+ "completed": [
+  {
+   "unit": "discover-00-02",
+   "at": "2026-11-01T18:28:38"
+  },
+  {
+   "unit": "discover-00-03",
+   "at": "2026-11-01T18:40:15"
+  },
+  {
+   "unit": "discover-00-04",
+   "at": "2026-11-01T18:48:47"
+  },
+  {
+   "unit": "discover-00-05",
+   "at": "2026-11-01T18:56:09"
+  },
+  {
+   "unit": "discover-00-06",
+   "at": "2026-11-01T19:05:58"
+  },
+  {
+   "unit": "discover-00-within",
+   "at": "2026-11-01T19:19:32"
+  },
+  {
+   "unit": "discover-01-02",
+   "at": "2026-11-02T05:07:54"
+  },
+  {
+   "unit": "discover-01-03",
+   "at": "2026-11-02T05:19:08"
+  },
+  {
+   "unit": "discover-01-04",
+   "at": "2026-11-02T05:32:58"
+  },
+  {
+   "unit": "discover-01-05",
+   "at": "2026-11-02T05:45:55"
+  },
+  {
+   "unit": "discover-01-06",
+   "at": "2026-11-02T07:03:58"
+  },
+  {
+   "unit": "discover-01-07",
+   "at": "2026-11-02T07:14:15"
+  },
+  {
+   "unit": "discover-01-within",
+   "at": "2026-11-02T07:25:47"
+  },
+  {
+   "unit": "discover-02-04",
+   "at": "2026-11-02T07:35:27"
+  },
+  {
+   "unit": "discover-02-05",
+   "at": "2026-11-02T09:07:07"
+  },
+  {
+   "unit": "discover-02-06",
+   "at": "2026-11-02T09:16:14"
+  },
+  {
+   "unit": "discover-02-07",
+   "at": "2026-11-02T09:29:00"
+  },
+  {
+   "unit": "discover-02-08",
+   "at": "2026-11-03T12:51:54"
+  },
+  {
+   "unit": "discover-02-within",
+   "at": "2026-11-03T13:01:25"
+  },
+  {
+   "unit": "discover-03-08",
+   "at": "2026-11-03T13:13:41"
+  },
+  {
+   "unit": "discover-03-09",
+   "at": "2026-11-03T13:24:46"
+  },
+  {
+   "unit": "discover-04-10",
+   "at": "2026-11-03T15:03:54"
+  },
+  {
+   "unit": "discover-04-within",
+   "at": "2026-11-03T15:12:28"
+  },
+  {
+   "unit": "discover-05-09",
+   "at": "2026-11-03T19:02:03"
+  },
+  {
+   "unit": "discover-05-10",
+   "at": "2026-11-03T19:12:30"
+  },
+  {
+   "unit": "discover-05-11",
+   "at": "2026-11-03T19:21:36"
+  },
+  {
+   "unit": "discover-05-within",
+   "at": "2026-11-03T19:31:16"
+  },
+  {
+   "unit": "discover-06-09",
+   "at": "2026-11-04T14:14:12"
+  },
+  {
+   "unit": "discover-06-10",
+   "at": "2026-11-04T14:29:03"
+  },
+  {
+   "unit": "discover-06-11",
+   "at": "2026-11-04T14:37:22"
+  },
+  {
+   "unit": "discover-06-within",
+   "at": "2026-11-04T14:45:44"
+  },
+  {
+   "unit": "discover-07-within",
+   "at": "2026-11-04T14:59:32"
+  },
+  {
+   "unit": "discover-08-within",
+   "at": "2026-11-04T19:31:56"
+  },
+  {
+   "unit": "discover-09-11",
+   "at": "2026-11-05T01:47:09"
+  },
+  {
+   "unit": "discover-09-00",
+   "at": "2026-11-05T01:47:51"
+  },
+  {
+   "unit": "discover-09-01",
+   "at": "2026-11-05T01:48:42"
+  },
+  {
+   "unit": "discover-09-02",
+   "at": "2026-11-05T01:49:31"
+  },
+  {
+   "unit": "discover-09-10",
+   "at": "2026-11-05T02:07:54"
+  },
+  {
+   "unit": "discover-09-within",
+   "at": "2026-11-05T02:08:41"
+  },
+  {
+   "unit": "discover-10-11",
+   "at": "2026-11-05T02:09:25"
+  },
+  {
+   "unit": "discover-10-00",
+   "at": "2026-11-05T02:10:21"
+  },
+  {
+   "unit": "discover-10-01",
+   "at": "2026-11-05T02:14:46"
+  },
+  {
+   "unit": "discover-10-02",
+   "at": "2026-11-05T02:15:35"
+  },
+  {
+   "unit": "discover-10-03",
+   "at": "2026-11-05T02:16:33"
+  },
+  {
+   "unit": "discover-10-within",
+   "at": "2026-11-05T02:17:21"
+  },
+  {
+   "unit": "discover-11-00",
+   "at": "2026-11-05T04:14:40"
+  },
+  {
+   "unit": "discover-11-01",
+   "at": "2026-11-05T04:15:45"
+  },
+  {
+   "unit": "discover-11-02",
+   "at": "2026-11-05T04:16:37"
+  },
+  {
+   "unit": "discover-11-03",
+   "at": "2026-11-05T04:17:26"
+  },
+  {
+   "unit": "discover-11-04",
+   "at": "2026-11-05T06:14:42"
+  },
+  {
+   "unit": "discover-11-within",
+   "at": "2026-11-05T06:15:36"
+  },
+  {
+   "unit": "review-00-1",
+   "at": "2026-11-05T08:15:56"
+  },
+  {
+   "unit": "review-00-2",
+   "at": "2026-11-05T08:17:49"
+  },
+  {
+   "unit": "review-00-3",
+   "at": "2026-11-05T08:19:47"
+  },
+  {
+   "unit": "review-00-4",
+   "at": "2026-11-05T08:22:06"
+  },
+  {
+   "unit": "review-00-5",
+   "at": "2026-11-05T10:15:39"
+  },
+  {
+   "unit": "review-01-1",
+   "at": "2026-11-05T10:17:56"
+  },
+  {
+   "unit": "review-01-2",
+   "at": "2026-11-05T10:20:31"
+  },
+  {
+   "unit": "review-01-3",
+   "at": "2026-11-05T10:23:21"
+  },
+  {
+   "unit": "review-01-4",
+   "at": "2026-11-05T12:16:17"
+  },
+  {
+   "unit": "review-01-5",
+   "at": "2026-11-05T12:18:39"
+  },
+  {
+   "unit": "review-02-1",
+   "at": "2026-11-05T12:20:34"
+  },
+  {
+   "unit": "review-02-2",
+   "at": "2026-11-05T12:22:43"
+  }
+ ]
+}

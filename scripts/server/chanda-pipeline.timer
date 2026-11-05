@@ -1,0 +1,10 @@
+[Unit]
+Description=Run the chanda connection pipeline every __HOURS__ h
+
+[Timer]
+OnCalendar=*-*-* 00/__HOURS__:13:00
+Persistent=true
+AccuracySec=1min
+
+[Install]
+WantedBy=timers.target

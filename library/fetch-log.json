@@ -1,0 +1,1842 @@
+{
+ "00-foundations/computational-physics": {
+  "count": 6,
+  "date": "2026-10-29"
+ },
+ "00-foundations/computational-physics/machine-learning-for-physics": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "00-foundations/computational-physics/molecular-dynamics": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "00-foundations/computational-physics/monte-carlo-methods": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "00-foundations/computational-physics/numerical-methods-for-odes-and-pdes": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "00-foundations/computational-physics/tensor-network-methods": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "00-foundations/history-and-philosophy-of-physics": {
+  "count": 4,
+  "date": "2026-10-29"
+ },
+ "00-foundations/history-and-philosophy-of-physics/history-of-physics": {
+  "count": 13,
+  "date": "2026-10-29"
+ },
+ "00-foundations/history-and-philosophy-of-physics/philosophy-of-physics": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "00-foundations/history-and-philosophy-of-physics/physics-education-research": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "00-foundations/mathematical-methods": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "00-foundations/mathematical-methods/complex-analysis-and-special-functions": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "00-foundations/mathematical-methods/differential-equations-and-greens-functions": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "00-foundations/mathematical-methods/linear-algebra-and-hilbert-spaces": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "00-foundations/mathematical-methods/tensors-and-differential-geometry": {
+  "count": 14,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "00-foundations/measurement-and-data-analysis": {
+  "count": 5,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "00-foundations/measurement-and-data-analysis/detectors-and-instrumentation": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "00-foundations/measurement-and-data-analysis/statistical-inference-in-physics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "00-foundations/measurement-and-data-analysis/uncertainty-and-error-propagation": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "00-foundations/symmetry-and-group-theory": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "00-foundations/symmetry-and-group-theory/discrete-symmetries-and-cpt": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "00-foundations/symmetry-and-group-theory/lie-groups-and-representations": {
+  "count": 14,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "00-foundations/symmetry-and-group-theory/noethers-theorem-and-conservation-laws": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "00-foundations/symmetry-and-group-theory/spontaneous-symmetry-breaking": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "00-foundations/units-and-constants": {
+  "count": 2,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "00-foundations/units-and-constants/dimensional-analysis-and-scaling": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "00-foundations/units-and-constants/fundamental-constants": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "00-foundations/units-and-constants/natural-units-and-planck-scale": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "00-foundations/units-and-constants/si-units-and-2019-redefinition": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/analytical-mechanics": {
+  "count": 1,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/analytical-mechanics/canonical-transformations-and-hamilton-jacobi": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/analytical-mechanics/hamiltonian-mechanics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/analytical-mechanics/lagrangian-mechanics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/analytical-mechanics/variational-principles": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/continuum-and-fluid-mechanics": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/continuum-and-fluid-mechanics/elasticity": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/continuum-and-fluid-mechanics/ideal-and-viscous-flow": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/continuum-and-fluid-mechanics/instabilities-and-convection": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/continuum-and-fluid-mechanics/low-reynolds-number-and-microfluidics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/continuum-and-fluid-mechanics/turbulence": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/newtonian-mechanics": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/newtonian-mechanics/central-forces-and-orbits": {
+  "count": 14,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/newtonian-mechanics/conservation-laws": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/newtonian-mechanics/few-body-and-celestial-mechanics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/newtonian-mechanics/kinematics-and-newtons-laws": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/newtonian-mechanics/non-inertial-frames": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/nonlinear-dynamics-and-chaos": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/nonlinear-dynamics-and-chaos/bifurcations-and-routes-to-chaos": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/nonlinear-dynamics-and-chaos/deterministic-chaos": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/nonlinear-dynamics-and-chaos/kam-theory-and-hamiltonian-chaos": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/nonlinear-dynamics-and-chaos/solitons-and-integrable-systems": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/nonlinear-dynamics-and-chaos/synchronization-and-pattern-formation": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/oscillations-and-waves": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/oscillations-and-waves/coupled-oscillators-and-normal-modes": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/oscillations-and-waves/harmonic-and-damped-oscillators": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/oscillations-and-waves/mechanical-waves-and-acoustics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/oscillations-and-waves/parametric-and-nonlinear-oscillations": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/rigid-body-dynamics": {
+  "count": 3,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/rigid-body-dynamics/euler-equations-and-tops": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/rigid-body-dynamics/gyroscopes-and-precession": {
+  "count": 14,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "01-classical-mechanics/rigid-body-dynamics/rotational-dynamics-and-inertia-tensor": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/classical-optics": {
+  "count": 2,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/classical-optics/coherence-and-statistical-optics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/classical-optics/fourier-optics-and-imaging": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/classical-optics/geometric-optics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/classical-optics/interference-and-diffraction": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/classical-optics/polarization-and-crystal-optics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/electrodynamics": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/electrodynamics/electromagnetic-waves-and-waveguides": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/electrodynamics/maxwells-equations": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/electrodynamics/potentials-and-gauge-invariance": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/electrodynamics/relativistic-electrodynamics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/electrostatics-and-magnetostatics": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/electrostatics-and-magnetostatics/electrostatics-and-boundary-value-problems": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/electrostatics-and-magnetostatics/fields-in-matter": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/electrostatics-and-magnetostatics/magnetostatics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/electrostatics-and-magnetostatics/multipole-expansions": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/photonics-and-lasers": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/photonics-and-lasers/integrated-and-fiber-photonics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/photonics-and-lasers/laser-physics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/photonics-and-lasers/metamaterials-and-plasmonics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/photonics-and-lasers/nonlinear-optics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/photonics-and-lasers/topological-photonics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/photonics-and-lasers/ultrafast-and-attosecond-optics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/radiation-and-scattering": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/radiation-and-scattering/cherenkov-and-transition-radiation": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/radiation-and-scattering/dipole-radiation-and-antennas": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/radiation-and-scattering/radiation-from-moving-charges": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "02-electromagnetism-and-optics/radiation-and-scattering/scattering-of-light": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/classical-thermodynamics": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/classical-thermodynamics/heat-engines-and-efficiency": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/classical-thermodynamics/laws-of-thermodynamics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/classical-thermodynamics/phase-equilibria-and-chemical-potential": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/classical-thermodynamics/thermodynamic-potentials-and-maxwell-relations": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/disordered-and-complex-systems": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/disordered-and-complex-systems/complex-networks": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/disordered-and-complex-systems/localization-and-disorder": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/disordered-and-complex-systems/percolation": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/disordered-and-complex-systems/spin-glasses": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/disordered-and-complex-systems/statistical-physics-of-learning": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/equilibrium-statistical-mechanics": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/equilibrium-statistical-mechanics/ensembles-and-partition-functions": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/equilibrium-statistical-mechanics/entropy-and-information": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/equilibrium-statistical-mechanics/exactly-solvable-models": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/equilibrium-statistical-mechanics/quantum-statistics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/non-equilibrium-statistical-mechanics": {
+  "count": 4,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/non-equilibrium-statistical-mechanics/driven-systems-and-nonequilibrium-steady-states": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/non-equilibrium-statistical-mechanics/kinetic-theory-and-boltzmann-equation": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/non-equilibrium-statistical-mechanics/linear-response-and-fluctuation-dissipation": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/non-equilibrium-statistical-mechanics/stochastic-processes-and-langevin-dynamics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/non-equilibrium-statistical-mechanics/stochastic-thermodynamics-and-fluctuation-theorems": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena/critical-exponents-and-universality": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena/ising-model-and-lattice-models": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena/mean-field-and-landau-theory": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena/renormalization-group": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena/topological-phase-transitions-bkt": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "04-quantum-physics/atomic-molecular-and-optical-physics": {
+  "count": 6,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/atomic-molecular-and-optical-physics/atomic-clocks-and-precision-measurement": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/atomic-molecular-and-optical-physics/atomic-structure-and-spectroscopy": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/atomic-molecular-and-optical-physics/bose-einstein-condensates-and-degenerate-gases": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/atomic-molecular-and-optical-physics/laser-cooling-and-trapping": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/atomic-molecular-and-optical-physics/optical-lattices-and-quantum-simulation": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/atomic-molecular-and-optical-physics/ultracold-molecules": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/foundations-of-quantum-mechanics": {
+  "count": 6,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/foundations-of-quantum-mechanics/bell-nonlocality": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/foundations-of-quantum-mechanics/contextuality": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/foundations-of-quantum-mechanics/decoherence-and-quantum-to-classical": {
+  "count": 14,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/foundations-of-quantum-mechanics/measurement-problem-and-interpretations": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/open-and-many-body-quantum-dynamics": {
+  "count": 6,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/open-and-many-body-quantum-dynamics/floquet-systems-and-time-crystals": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/open-and-many-body-quantum-dynamics/lindblad-master-equations": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/open-and-many-body-quantum-dynamics/non-hermitian-physics": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/open-and-many-body-quantum-dynamics/quantum-chaos-and-scrambling": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/open-and-many-body-quantum-dynamics/quantum-thermodynamics": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/open-and-many-body-quantum-dynamics/thermalization-and-eth": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-information-and-computation": {
+  "count": 6,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-information-and-computation/entanglement-theory": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-information-and-computation/photonic-and-spin-qubits": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-information-and-computation/quantum-algorithms-and-complexity": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-information-and-computation/quantum-communication-and-cryptography": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-information-and-computation/quantum-error-correction-and-fault-tolerance": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-information-and-computation/superconducting-qubits": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-information-and-computation/trapped-ion-and-neutral-atom-qubits": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-mechanics-core": {
+  "count": 6,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-mechanics-core/angular-momentum-and-spin": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-mechanics-core/approximation-methods": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-mechanics-core/exactly-solvable-systems": {
+  "count": 14,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-mechanics-core/geometric-phases": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-mechanics-core/path-integrals-and-semiclassics": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-mechanics-core/postulates-and-formalism": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-mechanics-core/scattering-theory": {
+  "count": 14,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-optics": {
+  "count": 6,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-optics/cavity-and-circuit-qed": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-optics/cavity-optomechanics": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-optics/quantized-light-and-photon-statistics": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-optics/single-photon-sources-and-detectors": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "04-quantum-physics/quantum-optics/squeezed-light-and-quantum-metrology": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "05-relativity-and-gravitation/black-holes": {
+  "count": 6,
+  "date": "2026-10-29",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/black-holes/black-hole-imaging-and-astrophysical-black-holes": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/black-holes/black-hole-thermodynamics-and-hawking-radiation": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/black-holes/information-paradox": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/black-holes/schwarzschild-and-kerr-black-holes": {
+  "count": 15,
+  "date": "2026-10-29",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/general-relativity": {
+  "count": 5,
+  "date": "2026-10-29",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/general-relativity/einstein-field-equations": {
+  "count": 15,
+  "date": "2026-10-29",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/general-relativity/exact-solutions": {
+  "count": 15,
+  "date": "2026-10-29",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/general-relativity/modified-gravity": {
+  "count": 15,
+  "date": "2026-10-29",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/general-relativity/numerical-relativity": {
+  "count": 15,
+  "date": "2026-10-29",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/general-relativity/tests-of-general-relativity": {
+  "count": 15,
+  "date": "2026-10-29",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/gravitational-waves": {
+  "count": 6,
+  "date": "2026-10-29",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/gravitational-waves/gravitational-wave-theory-and-waveforms": {
+  "count": 15,
+  "date": "2026-10-29",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/gravitational-waves/ground-based-detections": {
+  "count": 15,
+  "date": "2026-10-29",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/gravitational-waves/pulsar-timing-arrays": {
+  "count": 15,
+  "date": "2026-10-29",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/gravitational-waves/space-based-and-future-detectors": {
+  "count": 15,
+  "date": "2026-10-29",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/quantum-gravity": {
+  "count": 6,
+  "date": "2026-10-29",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/quantum-gravity/holography-and-ads-cft": {
+  "count": 15,
+  "date": "2026-10-29",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/quantum-gravity/loop-quantum-gravity": {
+  "count": 15,
+  "date": "2026-10-29",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/quantum-gravity/other-approaches-to-quantum-gravity": {
+  "count": 15,
+  "date": "2026-10-29",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/quantum-gravity/qft-in-curved-spacetime": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/quantum-gravity/string-theory": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/special-relativity": {
+  "count": 6,
+  "date": "2026-10-29",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/special-relativity/lorentz-transformations-and-spacetime": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/special-relativity/relativistic-kinematics-and-dynamics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "05-relativity-and-gravitation/special-relativity/tests-of-lorentz-invariance": {
+  "count": 15,
+  "date": "2026-10-29",
+  "partial": false
+ },
+ "06-particle-physics/beyond-the-standard-model": {
+  "count": 6,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/beyond-the-standard-model/axions-and-light-dark-sector": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/beyond-the-standard-model/baryogenesis-and-matter-antimatter": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/beyond-the-standard-model/dark-matter-particle-candidates": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/beyond-the-standard-model/extra-dimensions-and-hierarchy-problem": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/beyond-the-standard-model/grand-unification-and-proton-decay": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/beyond-the-standard-model/precision-anomalies-and-muon-g-2": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/beyond-the-standard-model/supersymmetry": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/collider-and-experimental-particle-physics": {
+  "count": 6,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/collider-and-experimental-particle-physics/future-colliders": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/collider-and-experimental-particle-physics/hadron-colliders-and-the-lhc": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/collider-and-experimental-particle-physics/jets-and-qcd-phenomenology": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/collider-and-experimental-particle-physics/machine-learning-in-hep": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "06-particle-physics/collider-and-experimental-particle-physics/monte-carlo-event-generators": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/collider-and-experimental-particle-physics/particle-detectors-and-triggers": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/neutrino-physics": {
+  "count": 6,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/neutrino-physics/neutrino-experiments-and-sources": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/neutrino-physics/neutrino-mass-and-double-beta-decay": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/neutrino-physics/neutrino-oscillations": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/neutrino-physics/sterile-neutrinos-and-anomalies": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/quantum-field-theory": {
+  "count": 6,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/quantum-field-theory/anomalies-instantons-and-topology": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/quantum-field-theory/canonical-and-path-integral-quantization": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/quantum-field-theory/conformal-field-theory": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/quantum-field-theory/effective-field-theory": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/quantum-field-theory/feynman-diagrams-and-scattering-amplitudes": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/quantum-field-theory/gauge-theories-and-yang-mills": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/quantum-field-theory/lattice-field-theory": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/quantum-field-theory/renormalization-and-running-couplings": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/standard-model": {
+  "count": 6,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/standard-model/cp-violation": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/standard-model/electroweak-theory": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/standard-model/flavor-physics-and-ckm": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/standard-model/hadron-spectroscopy-and-exotics": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/standard-model/higgs-boson": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "06-particle-physics/standard-model/quantum-chromodynamics": {
+  "count": 15,
+  "date": "2026-10-29"
+ },
+ "07-nuclear-physics/applied-nuclear-physics": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/applied-nuclear-physics/nuclear-data-and-isotope-production": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/applied-nuclear-physics/nuclear-reactors-and-energy": {
+  "count": 14,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/applied-nuclear-physics/radiation-detection-and-dosimetry": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/hadron-and-nucleon-structure": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/hadron-and-nucleon-structure/electron-ion-collider": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/hadron-and-nucleon-structure/nucleon-spin-and-form-factors": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/hadron-and-nucleon-structure/parton-distribution-functions": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/heavy-ion-physics": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/heavy-ion-physics/collective-flow-and-hydrodynamics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/heavy-ion-physics/jet-quenching": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/heavy-ion-physics/qcd-phase-diagram-and-critical-point": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/heavy-ion-physics/quark-gluon-plasma": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/nuclear-astrophysics": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/nuclear-astrophysics/big-bang-nucleosynthesis": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/nuclear-astrophysics/neutron-star-equation-of-state": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/nuclear-astrophysics/stellar-nucleosynthesis-and-the-r-process": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/nuclear-reactions-and-decays": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/nuclear-reactions-and-decays/beta-decay-and-weak-interactions": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/nuclear-reactions-and-decays/fusion-reactions": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/nuclear-reactions-and-decays/nuclear-fission": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/nuclear-reactions-and-decays/nuclear-reactions-and-scattering": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/nuclear-reactions-and-decays/radioactive-decay-and-alpha-decay": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/nuclear-structure": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/nuclear-structure/ab-initio-nuclear-theory": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/nuclear-structure/exotic-nuclei-and-drip-lines": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/nuclear-structure/nuclear-forces-and-chiral-eft": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/nuclear-structure/shell-model-and-collective-models": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "07-nuclear-physics/nuclear-structure/superheavy-elements": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/crystals-and-electronic-structure": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/crystals-and-electronic-structure/band-theory-and-bloch-electrons": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/crystals-and-electronic-structure/crystal-structure-and-diffraction": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/crystals-and-electronic-structure/density-functional-theory": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/crystals-and-electronic-structure/electronic-transport-and-mesoscopic-physics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/crystals-and-electronic-structure/phonons-and-lattice-dynamics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/crystals-and-electronic-structure/semiconductors": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/low-dimensional-and-quantum-materials": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/low-dimensional-and-quantum-materials/graphene-and-2d-materials": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/low-dimensional-and-quantum-materials/moire-materials-and-twisted-bilayers": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/low-dimensional-and-quantum-materials/quantum-dots-and-nanostructures": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/low-dimensional-and-quantum-materials/transition-metal-dichalcogenides-and-excitons": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/magnetism": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/magnetism/altermagnetism": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/magnetism/exchange-and-magnetic-order": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/magnetism/frustrated-magnets-and-spin-liquids": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/magnetism/magnetic-skyrmions-and-textures": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/magnetism/spintronics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/soft-matter": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/soft-matter/active-matter": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/soft-matter/colloids-and-granular-matter": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/soft-matter/glasses-and-jamming": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/soft-matter/liquid-crystals": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/soft-matter/polymers": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/strongly-correlated-electrons": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/strongly-correlated-electrons/fractionalization-and-topological-order": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/strongly-correlated-electrons/heavy-fermions-and-kondo-physics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/strongly-correlated-electrons/hubbard-model-and-mott-physics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/strongly-correlated-electrons/numerical-many-body-methods": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/strongly-correlated-electrons/quantum-criticality-and-strange-metals": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/superconductivity": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/superconductivity/bcs-theory-and-conventional-superconductors": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/superconductivity/cuprate-high-tc-superconductors": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/superconductivity/hydride-superconductors-under-pressure": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/superconductivity/iron-based-and-nickelate-superconductors": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/superconductivity/josephson-effect-and-squids": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/topological-matter": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/topological-matter/band-topology-and-berry-curvature": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/topological-matter/quantum-hall-effects": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/topological-matter/topological-insulators": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/topological-matter/topological-semimetals": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "08-condensed-matter/topological-matter/topological-superconductors-and-majoranas": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/cosmology": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/cosmology/cosmic-microwave-background": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/cosmology/dark-energy": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/cosmology/flrw-cosmology-and-expansion-history": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/cosmology/gravitational-lensing": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/cosmology/hubble-tension-and-cosmological-tensions": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/cosmology/inflation": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/cosmology/large-scale-structure-and-bao": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/dark-matter": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/dark-matter/alternatives-mond-and-modified-gravity": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/dark-matter/astrophysical-evidence-for-dark-matter": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/dark-matter/dark-matter-small-scale-structure": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/dark-matter/direct-detection": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/dark-matter/indirect-detection": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/galaxies": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/galaxies/active-galactic-nuclei-and-supermassive-black-holes": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/galaxies/galaxy-clusters": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/galaxies/galaxy-formation-and-evolution": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/galaxies/high-redshift-universe-and-reionization": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/galaxies/the-milky-way": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/high-energy-astrophysics-and-astroparticle": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/high-energy-astrophysics-and-astroparticle/cosmic-rays": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/high-energy-astrophysics-and-astroparticle/fast-radio-bursts-and-magnetars": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/high-energy-astrophysics-and-astroparticle/gamma-ray-bursts": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/high-energy-astrophysics-and-astroparticle/multi-messenger-astronomy": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/high-energy-astrophysics-and-astroparticle/neutrino-astronomy": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/planetary-science-and-exoplanets": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/planetary-science-and-exoplanets/astrobiology-and-habitability": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/planetary-science-and-exoplanets/exoplanet-atmospheres": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/planetary-science-and-exoplanets/exoplanet-detection": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/planetary-science-and-exoplanets/planet-formation-and-protoplanetary-disks": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/planetary-science-and-exoplanets/solar-system-dynamics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/stellar-astrophysics": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/stellar-astrophysics/binary-stars-and-stellar-populations": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/stellar-astrophysics/compact-objects": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/stellar-astrophysics/stellar-structure-and-evolution": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/stellar-astrophysics/supernovae-and-transients": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "09-astrophysics-and-cosmology/stellar-astrophysics/the-sun-and-helioseismology": {
+  "count": 12,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/inertial-and-laser-plasmas": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/inertial-and-laser-plasmas/high-energy-density-physics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/inertial-and-laser-plasmas/inertial-confinement-fusion": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/inertial-and-laser-plasmas/laser-plasma-interactions": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/inertial-and-laser-plasmas/plasma-wakefield-acceleration": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/low-temperature-and-applied-plasmas": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/low-temperature-and-applied-plasmas/atmospheric-pressure-plasmas-and-applications": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/low-temperature-and-applied-plasmas/plasma-discharges-and-processing": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/magnetic-confinement-fusion": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/magnetic-confinement-fusion/burning-plasmas-and-iter": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/magnetic-confinement-fusion/stellarators": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/magnetic-confinement-fusion/tokamaks": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/magnetic-confinement-fusion/turbulent-transport-and-gyrokinetics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/magnetohydrodynamics": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/magnetohydrodynamics/dynamo-theory": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/magnetohydrodynamics/ideal-mhd-and-alfven-waves": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/magnetohydrodynamics/magnetic-reconnection": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/magnetohydrodynamics/mhd-turbulence": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/plasma-fundamentals": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/plasma-fundamentals/debye-shielding-and-plasma-parameters": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/plasma-fundamentals/dusty-and-strongly-coupled-plasmas": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/plasma-fundamentals/kinetic-theory-vlasov-and-landau-damping": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/plasma-fundamentals/plasma-waves-and-instabilities": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/plasma-fundamentals/single-particle-motion-and-drifts": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/space-and-astrophysical-plasmas": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/space-and-astrophysical-plasmas/astrophysical-plasmas-and-shocks": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/space-and-astrophysical-plasmas/magnetospheres-and-space-weather": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "10-plasma-physics/space-and-astrophysical-plasmas/solar-wind-and-heliosphere": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/accelerator-physics": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/accelerator-physics/accelerator-technology": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/accelerator-physics/beam-dynamics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/accelerator-physics/synchrotron-and-fel-light-sources": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/applied-and-device-physics": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/applied-and-device-physics/energy-materials-and-thermoelectrics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/applied-and-device-physics/quantum-sensing": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/applied-and-device-physics/semiconductor-devices-and-photovoltaics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/biophysics": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/biophysics/membranes-and-cell-mechanics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/biophysics/molecular-biophysics-and-protein-folding": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/biophysics/physics-of-living-systems": {
+  "count": 13,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/biophysics/single-molecule-biophysics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/chemical-physics": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/chemical-physics/molecular-spectroscopy": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/chemical-physics/quantum-chemistry-methods": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/chemical-physics/reaction-dynamics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/chemical-physics/surface-science-and-catalysis": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/earth-atmosphere-and-climate-physics": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/earth-atmosphere-and-climate-physics/atmospheric-dynamics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/earth-atmosphere-and-climate-physics/climate-physics-and-radiative-forcing": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/earth-atmosphere-and-climate-physics/ocean-physics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/earth-atmosphere-and-climate-physics/seismology-and-earth-interior": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/medical-physics": {
+  "count": 6,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/medical-physics/medical-imaging": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/medical-physics/nuclear-medicine-and-pet": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/medical-physics/radiation-therapy": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ },
+ "11-interdisciplinary-physics/medical-physics/ultrasound-and-biomedical-optics": {
+  "count": 15,
+  "date": "2026-10-30",
+  "partial": false
+ }
+}

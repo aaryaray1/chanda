@@ -1,0 +1,105 @@
+{"id": "C0001", "verdict": "confirm"}
+{"id": "C0002", "verdict": "confirm"}
+{"id": "C0003", "verdict": "confirm"}
+{"id": "C0004", "verdict": "confirm"}
+{"id": "C0005", "verdict": "confirm"}
+{"id": "C0006", "verdict": "confirm"}
+{"id": "C0007", "verdict": "confirm"}
+{"id": "C0008", "verdict": "confirm"}
+{"id": "C0009", "verdict": "confirm"}
+{"id": "C0010", "verdict": "confirm"}
+{"id": "C0011", "verdict": "confirm"}
+{"id": "C0012", "verdict": "confirm"}
+{"id": "C0013", "verdict": "confirm"}
+{"id": "C0014", "verdict": "revise", "reason": "The emergence debate lives in the philosophy-of-physics topic note, not the subfield overview.", "fix": {"a": "00-foundations/history-and-philosophy-of-physics/philosophy-of-physics"}}
+{"id": "C0015", "verdict": "confirm"}
+{"id": "C0016", "verdict": "revise", "reason": "These theorems constrain interpretations. That is not an identity between the two nodes; 'shared object' (the projector lattice) fits better.", "fix": {"kind": "shared object"}}
+{"id": "C0017", "verdict": "confirm"}
+{"id": "C0018", "verdict": "confirm"}
+{"id": "C0019", "verdict": "confirm"}
+{"id": "C0020", "verdict": "confirm"}
+{"id": "C0021", "verdict": "confirm"}
+{"id": "C0022", "verdict": "revise", "reason": "Bode's gain–phase relation holds only for minimum-phase transfer functions. Causality alone links Re and Im, not log-gain and phase.", "fix": {"summary": "A causal, stable signal chain has a transfer function analytic in a half-plane, so its real and imaginary parts are Hilbert transforms (Kramers–Kronig). For minimum-phase systems, gain and phase are tied too (Bode). The Nyquist criterion, the argument principle applied to the loop gain, decides whether a feedback amplifier or PLL oscillates, and Bode's integrals limit feedback over a bandwidth."}}
+{"id": "C0023", "verdict": "confirm"}
+{"id": "C0024", "verdict": "confirm"}
+{"id": "C0025", "verdict": "confirm"}
+{"id": "C0026", "verdict": "confirm"}
+{"id": "C0027", "verdict": "confirm"}
+{"id": "C0028", "verdict": "confirm"}
+{"id": "C0029", "verdict": "confirm"}
+{"id": "C0030", "verdict": "confirm"}
+{"id": "C0031", "verdict": "confirm"}
+{"id": "C0032", "verdict": "confirm"}
+{"id": "C0033", "verdict": "confirm"}
+{"id": "C0034", "verdict": "confirm"}
+{"id": "C0035", "verdict": "confirm"}
+{"id": "C0036", "verdict": "confirm"}
+{"id": "C0037", "verdict": "confirm"}
+{"id": "C0038", "verdict": "confirm"}
+{"id": "C0039", "verdict": "revise", "reason": "Positive Lyapunov exponents neither imply nor prove ergodicity (KAM islands, FPU). Chaos supports mixing but does not guarantee it.", "fix": {"summary": "Many-particle MD trajectories are chaotic with positive Lyapunov exponents, so individual trajectories cannot be reproduced after picoseconds. Their time averages still estimate ensemble averages. Chaos supports mixing but does not by itself prove ergodicity (FPU, KAM-like regions)."}}
+{"id": "C0040", "verdict": "confirm"}
+{"id": "C0041", "verdict": "confirm"}
+{"id": "C0042", "verdict": "confirm"}
+{"id": "C0043", "verdict": "confirm"}
+{"id": "C0044", "verdict": "confirm"}
+{"id": "C0045", "verdict": "confirm"}
+{"id": "C0046", "verdict": "revise", "reason": "The shadowing lemma is rigorous only for (uniformly) hyperbolic systems; generic chaotic systems can fail to shadow.", "fix": {"summary": "Lyapunov exponents are computed by integrating the tangent map with repeated QR (Gram–Schmidt) reorthonormalization. For hyperbolic systems, the shadowing lemma guarantees a true orbit stays near each numerical one, which justifies statistics from chaotic simulations. Non-hyperbolic systems lack this guarantee."}}
+{"id": "C0047", "verdict": "confirm"}
+{"id": "C0048", "verdict": "confirm"}
+{"id": "C0049", "verdict": "confirm"}
+{"id": "C0050", "verdict": "confirm"}
+{"id": "C0051", "verdict": "confirm"}
+{"id": "C0052", "verdict": "confirm"}
+{"id": "C0053", "verdict": "revise", "reason": "The inverse scattering transform is a central, deep use of analytic scattering data, so strength 1 undersells it. It needs a map too.", "fix": {"strength": 2, "map": "L=-\\partial_x^2+u,\\ \\ \\text{solitons}\\leftrightarrow\\text{poles of }1/a(k)\\text{ at }k=i\\kappa_n,\\ \\ u=-2\\partial_xK(x,x)"}}
+{"id": "C0054", "verdict": "confirm"}
+{"id": "C0055", "verdict": "confirm"}
+{"id": "C0056", "verdict": "confirm"}
+{"id": "C0057", "verdict": "revise", "reason": "Sharp Huygens holds in odd spatial dimensions three and higher; d=1 is not sharp.", "fix": {"summary": "Sound radiated by sources is the source convolved with the retarded Green's function of the wave equation. Huygens' sharp-front principle holds in odd spatial dimensions d≥3; in even dimensions (and d=1) waves leave wakes."}}
+{"id": "C0058", "verdict": "confirm"}
+{"id": "C0059", "verdict": "confirm"}
+{"id": "C0060", "verdict": "confirm"}
+{"id": "C0061", "verdict": "confirm"}
+{"id": "C0062", "verdict": "confirm"}
+{"id": "C0063", "verdict": "confirm"}
+{"id": "C0064", "verdict": "revise", "reason": "Purely spatial Γ^i_jk ẋẋ cannot give Coriolis (linear in v) or centrifugal (v-independent) terms. These need time components, Γ^i_0j and Γ^i_00.", "fix": {"map": "\\ddot x^i+\\Gamma^i_{00}+2\\Gamma^i_{0j}\\dot x^j+\\Gamma^i_{jk}\\dot x^j\\dot x^k=F^i/m,\\ \\Gamma^i_{0j}\\leftrightarrow\\text{Coriolis},\\ \\Gamma^i_{00}\\leftrightarrow\\text{centrifugal}", "summary": "Coriolis and centrifugal forces are the time–space and time–time connection coefficients of rotating coordinates in flat Newtonian spacetime. Writing Newton's law covariantly (Newton–Cartan) prefigures the equivalence principle."}}
+{"id": "C0065", "verdict": "confirm"}
+{"id": "C0066", "verdict": "revise", "reason": "Legendre published least squares first (1805). Gauss claimed earlier use, applied it to Ceres in 1801 and justified it with the normal law in 1809.", "fix": {"summary": "Legendre published least squares in 1805 for cometary orbits. Gauss, who had used it to recover Ceres in 1801, gave it the normal-error justification in 1809. χ² fitting of orbital elements remains the template for parameter estimation."}}
+{"id": "C0067", "verdict": "confirm"}
+{"id": "C0068", "verdict": "confirm"}
+{"id": "C0069", "verdict": "revise", "reason": "Body-frame Lie–Poisson bracket consistent with L̇=L×ω carries a minus sign: {L_i,L_j}=−ε_ijk L_k.", "fix": {"map": "\\dot{\\mathbf L}=\\mathbf L\\times\\boldsymbol\\omega\\ (\\text{body}),\\ \\ \\{L_i,L_j\\}=-\\epsilon_{ijk}L_k"}}
+{"id": "C0070", "verdict": "confirm"}
+{"id": "C0071", "verdict": "confirm"}
+{"id": "C0072", "verdict": "confirm"}
+{"id": "C0073", "verdict": "confirm"}
+{"id": "C0074", "verdict": "confirm"}
+{"id": "C0075", "verdict": "confirm"}
+{"id": "C0076", "verdict": "confirm"}
+{"id": "C0077", "verdict": "confirm"}
+{"id": "C0078", "verdict": "confirm"}
+{"id": "C0079", "verdict": "confirm"}
+{"id": "C0080", "verdict": "confirm"}
+{"id": "C0081", "verdict": "confirm"}
+{"id": "C0082", "verdict": "confirm"}
+{"id": "C0083", "verdict": "confirm"}
+{"id": "C0084", "verdict": "confirm"}
+{"id": "C0085", "verdict": "confirm"}
+{"id": "C0086", "verdict": "confirm"}
+{"id": "C0087", "verdict": "confirm"}
+{"id": "C0088", "verdict": "confirm"}
+{"id": "C0089", "verdict": "confirm"}
+{"id": "C0090", "verdict": "confirm"}
+{"id": "C0091", "verdict": "confirm"}
+{"id": "C0092", "verdict": "confirm"}
+{"id": "C0093", "verdict": "confirm"}
+{"id": "C0094", "verdict": "confirm"}
+{"id": "C0095", "verdict": "confirm"}
+{"id": "C0096", "verdict": "confirm"}
+{"id": "C0097", "verdict": "confirm"}
+{"id": "C0098", "verdict": "confirm"}
+{"id": "C0099", "verdict": "confirm"}
+{"id": "C0100", "verdict": "confirm"}
+{"verdict": "add", "record": {"a": "00-foundations/computational-physics/machine-learning-for-physics", "b": "00-foundations/computational-physics/tensor-network-methods", "name": "Tensor networks and neural-network quantum states", "kind": "method transfer", "summary": "MPS and tree tensor networks serve as supervised and generative ML models, and the bond dimension controls the model's expressivity. Conversely, neural-network quantum states (RBMs, transformers) are variational ansätze that can carry volume-law entanglement beyond MPS reach. Both compress exponentially large amplitude tensors.", "map": "\\psi(s)=\\mathrm{Tr}\\prod_iA^{s_i}\\ \\leftrightarrow\\ \\psi_\\theta(s)=\\text{NN}_\\theta(s)", "breaks": "", "confidence": "current research", "strength": 2, "sources": []}}
+{"verdict": "add", "record": {"a": "00-foundations/measurement-and-data-analysis/statistical-inference-in-physics", "b": "00-foundations/measurement-and-data-analysis/detectors-and-instrumentation", "name": "Matched filtering: optimal detection in known noise", "kind": "method transfer", "summary": "For a known template in stationary Gaussian noise of spectral density S_n(f), the likelihood-ratio test reduces to a noise-weighted matched filter, which maximizes SNR. Parameter errors are bounded by the Fisher matrix (Cramér–Rao). This is the basis of gravitational-wave and radar searches and of pulse-shape analysis in detectors.", "map": "\\rho^2=4\\int_0^\\infty\\frac{|\\tilde h(f)|^2}{S_n(f)}df,\\quad \\Gamma_{ij}=(\\partial_ih|\\partial_jh)", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"verdict": "add", "record": {"a": "00-foundations/symmetry-and-group-theory/spontaneous-symmetry-breaking", "b": "00-foundations/symmetry-and-group-theory/lie-groups-and-representations", "name": "Vacuum manifold G/H and Goldstone counting", "kind": "identity", "summary": "When G breaks to H, the degenerate vacua form the coset G/H, and broken generators span its tangent space. The relativistic Goldstone count is dim G − dim H. Low-energy dynamics is a nonlinear sigma model on G/H, built by CCWZ from the Lie algebra; type-B counting uses commutator expectation values.", "map": "\\mathcal M_{\\rm vac}=G/H,\\ \\ n_{\\rm NG}=n_A+n_B=\\dim G/H-\\tfrac12\\mathrm{rank}\\,\\rho,\\ \\rho_{ab}\\propto\\langle[Q_a,Q_b]\\rangle", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"verdict": "add", "record": {"a": "00-foundations/units-and-constants/dimensional-analysis-and-scaling", "b": "00-foundations/units-and-constants/natural-units-and-planck-scale", "name": "Planck units as the unique dimensional combinations", "kind": "identity", "summary": "G, ħ and c have independent dimensions spanning M, L and T, so each has a unique monomial with those dimensions: the Planck units (Planck 1899). Natural-unit systems are choices that set constants to 1, which cuts the number of independent dimensions and turns dimensional analysis into power counting in energy.", "map": "\\ell_P=G^{1/2}\\hbar^{1/2}c^{-3/2},\\ \\ [\\text{length}]=[E]^{-1}\\ (\\hbar=c=1)", "breaks": "", "confidence": "established", "strength": 2, "sources": []}}
+{"verdict": "add", "record": {"a": "00-foundations/symmetry-and-group-theory/discrete-symmetries-and-cpt", "b": "00-foundations/symmetry-and-group-theory/lie-groups-and-representations", "name": "CPT from the complexified Lorentz group", "kind": "mechanism", "summary": "The Lorentz group has four components, and P and T are not reached continuously from the identity. In the complexified Lorentz group, however, −1 (PT) lies in the identity component. Jost's proof of CPT uses this together with Wightman-function analyticity. Spinor representations of SL(2,ℂ) set CPT's action on fermions.", "map": "-\\mathbb 1\\in L_+(\\mathbb C)\\Rightarrow W(x_1..x_n)=W(-x_n..-x_1)\\Rightarrow\\Theta_{CPT}", "breaks": "", "confidence": "established", "strength": 2, "sources": []}}

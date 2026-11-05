@@ -1,0 +1,44 @@
+{
+  "agent": "physics-orchestrator",
+  "permissions": {
+    "allow": [
+      "Bash(python -I scripts/physlib.py *)",
+      "Bash(python -I scripts/physlib.py)",
+      "WebFetch(domain:arxiv.org)",
+      "WebFetch(domain:export.arxiv.org)",
+      "WebFetch(domain:inspirehep.net)",
+      "WebFetch(domain:api.openalex.org)",
+      "WebFetch(domain:openalex.org)",
+      "WebFetch(domain:doi.org)",
+      "WebFetch(domain:api.crossref.org)",
+      "WebFetch(domain:physics.nist.gov)",
+      "WebFetch(domain:pdg.lbl.gov)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python -I \"$CLAUDE_PROJECT_DIR/scripts/physlib.py\" status",
+            "timeout": 20
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python -I \"$CLAUDE_PROJECT_DIR/scripts/physlib.py\" hook",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{"id": "C0036", "verdict": "confirm"}
+{"id": "C0037", "verdict": "confirm"}
+{"id": "C0038", "verdict": "confirm"}
+{"id": "C0039", "verdict": "revise", "reason": "Chaos alone does not imply ergodicity. Positive Lyapunov exponents make trajectories irreproducible and help mixing, but they don't guarantee that time averages equal ensemble averages.", "fix": {"summary": "Many-particle MD trajectories are chaotic with positive Lyapunov exponents, so individual trajectories are irreproducible after picoseconds. Chaos supports the mixing behind ensemble averaging, but ergodicity is assumed rather than proven, and robust statistics also rest on shadowing and self-averaging.", "breaks": "Chaos does not guarantee ergodicity: KAM islands, near-integrable modes (FPUT-like) and slow glassy dynamics can stop time averages from converging."}}
+{"id": "C0040", "verdict": "confirm"}
+{"id": "C0041", "verdict": "confirm"}
+{"id": "C0042", "verdict": "confirm"}
+{"id": "C0043", "verdict": "confirm"}
+{"id": "C0044", "verdict": "confirm"}
+{"id": "C0045", "verdict": "confirm"}
+{"id": "C0046", "verdict": "revise", "reason": "The shadowing lemma is proven only for (near-)hyperbolic systems. That caveat is needed before saying numerical chaotic orbits can be trusted.", "fix": {"breaks": "Shadowing is guaranteed only for uniformly hyperbolic systems. Nonhyperbolic systems, such as those with unstable-dimension variability, can have numerical orbits that no true orbit shadows."}}
+{"id": "C0047", "verdict": "confirm"}
+{"id": "C0048", "verdict": "confirm"}
+{"id": "C0049", "verdict": "confirm"}
+{"id": "C0050", "verdict": "confirm"}
+{"id": "C0051", "verdict": "confirm"}
+{"id": "C0052", "verdict": "confirm"}
+{"id": "C0053", "verdict": "confirm"}
+{"id": "C0054", "verdict": "confirm"}
+{"id": "C0055", "verdict": "confirm"}
+{"id": "C0056", "verdict": "confirm"}
+{"id": "C0057", "verdict": "confirm"}
+{"id": "C0058", "verdict": "confirm"}
+{"id": "C0059", "verdict": "confirm"}
+{"id": "C0060", "verdict": "confirm"}
+{"id": "C0061", "verdict": "confirm"}
+{"id": "C0062", "verdict": "confirm"}
+{"id": "C0063", "verdict": "confirm"}
+{"id": "C0064", "verdict": "revise", "reason": "Rotating coordinates depend on time, so the 3D Christoffel symbols of flat space vanish. Coriolis and centrifugal terms are the time components of a Newton–Cartan spacetime connection.", "fix": {"summary": "Coriolis, centrifugal and Euler forces are the components Γ^i_{0j} and Γ^i_{00} of a connection on Galilean (Newton–Cartan) spacetime in rotating coordinates. Writing Newton's law as a covariant geodesic equation in spacetime prefigures the equivalence principle.", "map": "\\ddot x^i+\\Gamma^i_{\\mu\\nu}\\dot x^\\mu\\dot x^\\nu=F^i/m,\\ x^0=t;\\ \\Gamma^i_{0j}=-\\epsilon_{ijk}\\Omega_k\\ (\\text{Coriolis}),\\ \\Gamma^i_{00}\\ (\\text{centrifugal})"}}
+{"id": "C0065", "verdict": "confirm"}
+{"id": "C0066", "verdict": "revise", "reason": "Legendre published least squares first, in 1805. Gauss's priority claim (1809) and his probabilistic justification should be stated accurately.", "fix": {"summary": "Gauss recovered the orbit of Ceres in 1801 and in 1809 published least squares with its normal-error justification; Legendre had published the method first, in 1805, also for orbits. χ² fitting of orbital elements remains the template for parameter estimation."}}
+{"id": "C0067", "verdict": "confirm"}
+{"id": "C0068", "verdict": "confirm"}
+{"id": "C0069", "verdict": "revise", "reason": "Sign error: with L̇ = L×ω for body-frame momenta, the Lie–Poisson bracket must be {L_i,L_j} = −ε_ijk L_k, as in C0467.", "fix": {"map": "\\dot{\\mathbf L}=\\mathbf L\\times\\boldsymbol\\omega,\\ \\ \\{L_i,L_j\\}=-\\epsilon_{ijk}L_k\\ (\\text{body frame})"}}
+{"id": "C0070", "verdict": "confirm"}
+{"id": "C0071", "verdict": "confirm"}
+{"id": "C0072", "verdict": "confirm"}
+{"id": "C0073", "verdict": "confirm"}
+{"id": "C0074", "verdict": "confirm"}
+{"id": "C0075", "verdict": "confirm"}
+{"id": "C0076", "verdict": "confirm"}
+{"id": "C0077", "verdict": "confirm"}
+{"id": "C0078", "verdict": "confirm"}
+{"id": "C0079", "verdict": "confirm"}
+{"id": "C0080", "verdict": "confirm"}
+{"id": "C0081", "verdict": "confirm"}
+{"id": "C0458", "verdict": "confirm"}
+{"id": "C0459", "verdict": "confirm"}
+{"id": "C0460", "verdict": "revise", "reason": "The heavy symmetric top is the subject of the tops node, which fits better than the general rigid-body subfield.", "fix": {"b": "01-classical-mechanics/rigid-body-dynamics/euler-equations-and-tops"}}
+{"id": "C0461", "verdict": "confirm"}
+{"id": "C0462", "verdict": "confirm"}
+{"id": "C0463", "verdict": "confirm"}
+{"id": "C0464", "verdict": "confirm"}
+{"id": "C0465", "verdict": "revise", "reason": "Liouville's theorem only makes the exponents sum to zero. The ± pairing follows from the full symplectic structure, which is stronger than volume preservation.", "fix": {"summary": "Hamiltonian flow preserves phase-space volume (Liouville), so the Lyapunov exponents sum to zero and attractors cannot exist. Symplecticity further forces the exponents into ± pairs, and chaos fills chaotic seas on the energy shell. Dissipative flows contract volume onto strange attractors; the Lorenz flow contracts at the constant rate σ+1+β.", "map": "\\nabla\\cdot\\dot{\\mathbf x}=0\\Rightarrow\\textstyle\\sum\\lambda_i=0;\\ M^TJM=J\\Rightarrow\\lambda_i=-\\lambda_{2n+1-i};\\quad\\text{Lorenz: }\\nabla\\cdot\\dot{\\mathbf x}=-(\\sigma+1+\\beta)"}}
+{"id": "C0466", "verdict": "confirm"}
+{"id": "C0467", "verdict": "confirm"}
+{"id": "C0468", "verdict": "confirm"}
+{"id": "C0469", "verdict": "confirm"}
+{"id": "C0470", "verdict": "confirm"}
+{"id": "C0471", "verdict": "confirm"}
+{"id": "C0472", "verdict": "confirm"}
+{"id": "C0473", "verdict": "confirm"}
+{"id": "C0474", "verdict": "confirm"}
+{"id": "C0475", "verdict": "confirm"}
+{"id": "C0476", "verdict": "revise", "reason": "Lorenz's truncation uses free-slip boundaries, so Ra_c = 27π⁴/4 ≈ 657.5, not the rigid-plate value of 1708 quoted elsewhere.", "fix": {"breaks": "The truncation assumes free-slip plates, so Ra_c = 27π⁴/4 ≈ 657.5. Real convection near ρ ≈ 28 is three-dimensional and far from three-mode. The equations are exact only for analogues such as the chaotic waterwheel and the single-mode laser."}}
+{"id": "C0477", "verdict": "confirm"}
+{"id": "C0478", "verdict": "confirm"}
+{"id": "C0479", "verdict": "confirm"}
+{"id": "C0480", "verdict": "confirm"}
+{"id": "C0481", "verdict": "confirm"}
+{"id": "C0482", "verdict": "confirm"}
+{"id": "C0483", "verdict": "confirm"}
+{"id": "C0484", "verdict": "confirm"}
+{"id": "C0485", "verdict": "confirm"}
+{"id": "C0486", "verdict": "confirm"}
+{"id": "C0487", "verdict": "confirm"}
+{"id": "C0488", "verdict": "confirm"}
+{"id": "C0489", "verdict": "confirm"}
+{"id": "C0490", "verdict": "confirm"}
+{"id": "C0491", "verdict": "confirm"}
+{"id": "C0492", "verdict": "confirm"}
+{"id": "C0493", "verdict": "confirm"}
+{"id": "C0494", "verdict": "confirm"}
+{"id": "C0495", "verdict": "confirm"}
+{"id": "C0496", "verdict": "confirm"}
+{"id": "C0497", "verdict": "confirm"}
+{"id": "C0498", "verdict": "confirm"}
+{"id": "C0499", "verdict": "confirm"}
+{"id": "C0500", "verdict": "confirm"}
+{"id": "C0501", "verdict": "confirm"}
+{"id": "C0502", "verdict": "confirm"}
+{"id": "C0503", "verdict": "confirm"}
+{"id": "C0504", "verdict": "confirm"}
+{"id": "C0505", "verdict": "confirm"}
+{"id": "C0506", "verdict": "confirm"}
+{"id": "C0507", "verdict": "confirm"}
+{"id": "C0508", "verdict": "confirm"}
+{"id": "C0509", "verdict": "confirm"}
+{"id": "C0510", "verdict": "confirm"}
+{"id": "C0511", "verdict": "confirm"}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/nonlinear-dynamics-and-chaos/bifurcations-and-routes-to-chaos", "b": "03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena/renormalization-group", "name": "Feigenbaum universality as a renormalization-group fixed point", "kind": "method transfer", "summary": "Period doubling in unimodal maps is governed by a fixed point of the doubling operator. δ is its single relevant eigenvalue and α is the rescaling factor, so the universality classes depend only on the order of the map's maximum, as in critical phenomena.", "map": "Tg(x)=-\\alpha\\,g(g(-x/\\alpha)),\\ g^*=Tg^*,\\ \\delta=\\text{relevant eigenvalue of }DT|_{g^*}", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/analytical-mechanics/canonical-transformations-and-hamilton-jacobi", "b": "04-quantum-physics/quantum-mechanics-core/path-integrals-and-semiclassics", "name": "Hamilton–Jacobi equation as the ħ→0 limit of Schrödinger", "kind": "identity", "summary": "Substituting ψ = A e^{iS/ħ} into the Schrödinger equation gives the Hamilton–Jacobi equation at leading order and the transport (continuity) equation at next order. Quantizing the action variables J with Maslov indices gives the EBK/Bohr–Sommerfeld rules.", "map": "\\psi=Ae^{iS/\\hbar}:\\ \\partial_tS+\\frac{(\\nabla S)^2}{2m}+V=O(\\hbar^2);\\ \\oint p\\,dq=2\\pi\\hbar(n+\\mu/4)", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/nonlinear-dynamics-and-chaos/kam-theory-and-hamiltonian-chaos", "b": "11-interdisciplinary-physics/accelerator-physics/beam-dynamics", "name": "Dynamic aperture: KAM tori in storage rings", "kind": "shared object", "summary": "Turn-by-turn betatron motion is a symplectic map perturbed by sextupole and octupole nonlinearities. Resonances at m Q_x + n Q_y = p form island chains, and the dynamic aperture is roughly the outermost surviving KAM torus. Long-term losses come from slow resonance-driven diffusion.", "map": "mQ_x+nQ_y=p\\ \\text{resonances};\\ \\text{dynamic aperture}\\approx\\text{last surviving invariant torus}", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/continuum-and-fluid-mechanics/instabilities-and-convection", "b": "10-plasma-physics/inertial-and-laser-plasmas/inertial-confinement-fusion", "name": "Rayleigh–Taylor growth limits ICF implosions", "kind": "mechanism", "summary": "As the shell accelerates, the light ablated plasma pushes on the dense shell, which is Rayleigh–Taylor unstable. Ablative stabilization reduces the classical growth rate √(Agk), and shell perturbations seeded by capsule and drive nonuniformity set the limits on convergence and yield.", "map": "\\sigma\\approx\\sqrt{\\frac{Agk}{1+kL}}-\\beta kV_a\\ \\ (\\text{Takabe-type ablative fit})", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/newtonian-mechanics/non-inertial-frames", "b": "11-interdisciplinary-physics/earth-atmosphere-and-climate-physics/atmospheric-dynamics", "name": "Coriolis force: geostrophic balance and Taylor–Proudman", "kind": "mechanism", "summary": "At small Rossby number, the Coriolis force balances the pressure gradient, so winds blow along isobars. In rapidly rotating fluids, the flow cannot vary along the rotation axis (Taylor columns). The thermal-wind relation and Rossby waves follow from the same balance.", "map": "f\\hat{\\mathbf z}\\times\\mathbf u=-\\nabla p/\\rho,\\ f=2\\Omega\\sin\\lambda;\\ (\\boldsymbol\\Omega\\cdot\\nabla)\\mathbf u=0;\\ Ro=U/fL\\ll1", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/continuum-and-fluid-mechanics/elasticity", "b": "01-classical-mechanics/nonlinear-dynamics-and-chaos/bifurcations-and-routes-to-chaos", "name": "Euler buckling as a pitchfork bifurcation", "kind": "identity", "summary": "The straight column loses stability at P_cr = π²EI/L² through a supercritical pitchfork bifurcation of the elastica. Initial imperfections unfold it into an imperfect bifurcation, and shells buckle subcritically, which makes them highly sensitive to imperfections (Koiter).", "map": "EI\\theta''+P\\sin\\theta=0;\\ \\text{amplitude}\\ a\\propto\\sqrt{P/P_{cr}-1}", "breaks": "", "confidence": "established", "strength": 2, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/oscillations-and-waves/parametric-and-nonlinear-oscillations", "b": "04-quantum-physics/open-and-many-body-quantum-dynamics/floquet-systems-and-time-crystals", "name": "Kapitza pendulum and high-frequency Floquet Hamiltonians", "kind": "method transfer", "summary": "Averaging over fast driving gives a time-independent effective potential that can stabilize the inverted pendulum. The quantum Floquet–Magnus high-frequency expansion generalizes this classical result and underlies Paul traps and Floquet engineering.", "map": "V_{\\rm eff}=V+\\frac{\\langle F_\\omega^2\\rangle}{4m\\omega^2};\\ \\text{inverted pendulum stable if }a^2\\omega^2>2g\\ell", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/nonlinear-dynamics-and-chaos/kam-theory-and-hamiltonian-chaos", "b": "04-quantum-physics/open-and-many-body-quantum-dynamics/quantum-chaos-and-scrambling", "name": "Quantum kicked rotor: dynamical localization", "kind": "shared object", "summary": "Above K ≈ 1, the classical standard map shows chaotic momentum diffusion. The quantized kicked rotor stops diffusing after a break time because of dynamical localization, which maps onto Anderson localization (Fishman–Grempel–Prange). Experiments with cold atoms in kicked optical lattices have observed it.", "map": "\\langle p^2\\rangle\\approx K^2n/2\\ (\\text{classical});\\ \\text{quantum: saturates at }n^*\\sim\\xi\\sim K^2/\\hbar_{\\rm eff}^2", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}

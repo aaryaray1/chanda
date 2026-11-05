@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Grep",
+      "Glob",
+      "WebSearch",
+      "WebFetch",
+      "Bash(python -I scripts/physlib.py *)",
+      "Bash(python -I scripts/connections_pipeline.py status*)",
+      "Bash(python -I scripts/connections_pipeline.py doctor*)",
+      "Bash(python3 -I scripts/connections_runner.py --health*)",
+      "mcp__plugin_discord_discord"
+    ],
+    "deny": [
+      "Read(~/.config/chanda/**)",
+      "Read(~/.claude/channels/**)",
+      "Read(~/.claude/.credentials.json)",
+      "Read(~/.ssh/**)"
+    ]
+  }
+}
