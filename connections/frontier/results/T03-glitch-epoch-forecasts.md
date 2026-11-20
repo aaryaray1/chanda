@@ -1,6 +1,6 @@
 # T03 results · The 2019 glitch-epoch forecasts
 
-**Tier T** (published forecasts scored against data collected after them). **Status:** all three forecasts pass. This is weak evidence for the model. Self-reviewed on 2026-11-21: two sentences of the reading were corrected (see `git log`).
+**Tier T** (published forecasts scored against data collected after them). **Status:** all three forecasts pass. This is weak evidence for the model. Self-reviewed on 2026-11-20: two sentences of the reading were corrected (see `git log`).
 - **Pre-registration:** `../prereg/T03-glitch-epoch-forecasts.md`, commit `883d299`.
 - **Data:** the 2026-11-20 Jodrell Bank snapshot (SHA-256 `e811419f…`), the same one T01 used.
 

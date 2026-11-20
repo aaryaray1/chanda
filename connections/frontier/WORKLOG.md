@@ -26,14 +26,14 @@
   - C2021 fixed via `apply-audit`;
   - analogue-gravity node added.
   - T03 pre-registered (`883d299`) and scored (`20a58fe`).
-- 2026-11-21: T01 referee (F6) applied (`020a9f1`); T03 reading corrected (`611eea7`).
+- 2026-11-20 (late): T01 referee (F6) applied (`020a9f1`); T03 reading corrected (`611eea7`).
 
 ## Log
 - **2026-11-20 23:50:**
   - T02 pre-registered (`ca28318`). It uses glitches unseen in the 2026-11-20 snapshot, not only glitches after that date, because southern-pulsar glitches after about 2018 are largely uncatalogued.
   - T03 (Melatos & Drummond 2019 next-glitch forecasts): all 3 pass at two sigma. The HP baseline fails on J0631+1036 (z = +5.7). Committed `883d299` and `20a58fe`.
   - Audit cap raised to 10 a day. The T01 referee is running.
-- **2026-11-21 00:30:**
+- **2026-11-20 23:58:**
   - The T01 referee returned: no fatal issues, arithmetic reproduced exactly, 8 major issues of framing, power and selective reporting. All fixed in `020a9f1`.
   - The fixes: a reproducible `posthoc` subcommand, both data snapshots archived, novelty downgraded to *partly known* (Zhu et al. 2025 on the Crab), no registry change.
   - Key new fact: one 2.2×10⁻⁹ Crab glitch at MJD 57839.8 flips the 2018 backward hint from r₋ = 0.69 to −0.07.

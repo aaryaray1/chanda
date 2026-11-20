@@ -4,7 +4,7 @@
 - **P1 survives,** though the evidence is mostly in-sample: post-2018 data come from J0537−6910 only, and the test could barely fail.
 - **P2 is inconclusive,** because the test was underpowered.
 - **Novelty:** *partly known*.
-- **Refereed** on 2026-11-21 (F6). This version applies the referee's fixes; see "Revision" at the end.
+- **Refereed** on 2026-11-20 (F6). This version applies the referee's fixes; see "Revision" at the end.
 
 **Pre-registration:** `../prereg/T01-glitch-correlations.md`, commit `bf6476f`. **Code:** `../analysis/t01_glitches.py`.
 - `run` gives the registered tests (`T01-results.json`).
@@ -106,7 +106,7 @@ These do not survive:
 ## Registry
 **No confidence change** for C2466 or C2655 (vortex pinning and glitches). The registered tests cannot distinguish vortex avalanches from starquakes, and the forward-correlation evidence is exploratory.
 
-## Revision (2026-11-21, after the F6 referee)
+## Revision (2026-11-20, after the F6 referee)
 The first version (`f752941`) overstated four things:
 - **The out-of-sample character:** it called the 2018 hints' disappearance an effect of new data. It was catalogue revision, including one Crab glitch.
 - **The power of H1b,** which it did not quantify.
