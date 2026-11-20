@@ -39,3 +39,9 @@
   - Key new fact: one 2.2×10⁻⁹ Crab glitch at MJD 57839.8 flips the 2018 backward hint from r₋ = 0.69 to −0.07.
   - T03 reading corrected (`611eea7`).
   - Lesson for later results: report every post-hoc variant, quantify power, and separate catalogue revisions from new data.
+- **2026-11-21 00:35:** audit follow-up. 6/20 packets done (237 records).
+  - **Hand-checked all 7 flags:** 3 were real and are now fixed in the registry, 4 were the auditor's mistakes.
+    - **Fixed:** C2021 (wrong factor in the Unruh formula), C0657 (Lighthill pressure missing 1/c₀²; units checked with sympy), C0064 (centrifugal sign convention).
+    - **Dismissed:** C0229 (unit slip in the auditor's expression), C0455 (order-of-magnitude claim held to a 15% tolerance), C0865 (no stated number to compare), C0245 (the auditor's group-velocity derivation was wrong; sympy).
+  - **Improvements:** `brief-audit.md` now lists those four false-alarm patterns. `audit-report` now keeps hand reviews: `audit-manual.jsonl` overrides the model, and the report lists fixed and dismissed records separately.
+  - The pipeline code changes are uncommitted, per the commit rule.
