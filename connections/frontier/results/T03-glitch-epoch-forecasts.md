@@ -1,6 +1,6 @@
 # T03 results · The 2019 glitch-epoch forecasts
 
-**Tier T** (published forecasts scored against data collected after them). **Status:** all three forecasts pass. This is weak evidence for the model.
+**Tier T** (published forecasts scored against data collected after them). **Status:** all three forecasts pass. This is weak evidence for the model. Self-reviewed on 2026-11-21: two sentences of the reading were corrected (see `git log`).
 - **Pre-registration:** `../prereg/T03-glitch-epoch-forecasts.md`, commit `883d299`.
 - **Data:** the 2026-11-20 Jodrell Bank snapshot (SHA-256 `e811419f…`), the same one T01 used.
 
@@ -14,9 +14,9 @@ Melatos & Drummond (2019) forecast the next glitch of three pulsars with a state
 | J0631+1036 | 55702 | 58341.7 | 57406 ± 1444 | +0.65 | 56096.0 ± 394.0 | **+5.70** | SDP, by 1310 d |
 
 ## Reading
-- **The SDP model widens its band after a quiet spell, because the stress state is uncertain.** That is how it absorbed J0631+1036's 7-year silence, which a memoryless process with the historical rate calls a 1-in-800 event (exp(−2640/394) ≈ 0.0012).
+- **The SDP forecast for J0631+1036 was made from data ending at MJD 55702, so it did not see the later silence.** It forecast a long wait anyway: 1704 ± 1444 days after the last glitch, against HP's 394 days. That is because the model's stress state after that glitch implied a low glitch rate. A memoryless process with the historical rate calls the observed 2640-day wait a 1-in-800 event (exp(−2640/394) ≈ 0.0012).
 - **The model's forecasts are sharp only when the stress state is pinned down.** For the Crab, the SDP band of ±1935 days was too wide to be useful, and the plain average rate did much better.
-- **J0631+1036's silence may be partly missing data.** The 2018 paper suspected unpublished glitches, so the 7-year wait is an upper bound on the true wait. A shorter true wait would hurt the SDP score less than the HP score: both forecasts were early, the HP one by far more.
+- **J0631+1036's silence may be partly missing data.** The 2018 paper suspected unpublished glitches. If any were missed, the true next epoch came earlier than MJD 58342. That would improve the HP baseline's score, and could reverse the SDP-versus-HP comparison for this pulsar.
 
 ## Deviation
 The pre-registration gives the J1740−3015 HP forecast as 57777.8. The correct value, (57469 − 47003)/34 + 57469, is 57776.8. This one-day slip changes no verdict.
