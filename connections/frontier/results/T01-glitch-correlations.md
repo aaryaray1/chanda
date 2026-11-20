@@ -101,7 +101,11 @@ These do not survive:
 ## Prior art
 - **Partly known.** The full-sample statistics were published by Melatos et al. (2018), Fuentes et al. (2019) and Carlin & Melatos (2020; data up to 2018).
 - **Not found:** a per-glitch test of P1 and P2 on post-2018 data.
-- **The screen was weak.** It covered 47 OpenAlex citers by title, plus abstracts of those that looked relevant. That missed Zhu et al. (2025), whose title does not mention correlations. A full abstract screen of the citers in INSPIRE and ADS is still to do.
+- **The first screen was weak.** It covered 47 OpenAlex citers by title, plus abstracts of those that looked relevant, and missed Zhu et al. (2025), whose title does not mention correlations.
+- **An abstract screen of all 39 INSPIRE citers (2026-11-21) confirms the narrow verdict:** no per-glitch test of P1 or P2 on post-2018 data. It adds:
+  - Liu et al. (2019): no correlation between glitch size and the preceding wait in B1737−30 (= J1740−3015), on data up to 2018. That is in-sample support for P1 in one pulsar.
+  - Carlin, Melatos & Wheatland (2023), the same group's test of the forward correlation in solar flares from individual active regions: it is broadly absent there, which makes the stress-release threshold picture a cross-domain hypothesis.
+- **Not yet screened:** ADS citers outside INSPIRE.
 
 ## Registry
 **No confidence change** for C2466 or C2655 (vortex pinning and glitches). The registered tests cannot distinguish vortex avalanches from starquakes, and the forward-correlation evidence is exploratory.
@@ -122,4 +126,6 @@ It also reported the post-hoc gap check selectively, omitting the +0.37 (p = 0.0
 - Carlin & Melatos (2019). "Autocorrelations in pulsar glitch waiting times and sizes". *MNRAS* 488, 4890. [arXiv:1907.09143](https://arxiv.org/abs/1907.09143)
 - Carlin & Melatos (2020). "Long-term statistics of pulsar glitches triggered by a Brownian stress accumulation process". *MNRAS* 494, 3383. [arXiv:2004.00168](https://arxiv.org/abs/2004.00168)
 - Ho et al. (2020). "Return of the Big Glitcher: NICER timing and glitches of PSR J0537−6910". *MNRAS* 498, 4605. [doi:10.1093/mnras/staa2640](https://doi.org/10.1093/mnras/staa2640)
+- Liu et al. (2019). "One large glitch in PSR B1737−30 detected with the TMRT". *Res. Astron. Astrophys.* 19, 73. [arXiv:1811.11403](https://arxiv.org/abs/1811.11403)
+- Carlin, Melatos & Wheatland (2023). "A Statistical Search for a Uniform Trigger Threshold in Solar Flares from Individual Active Regions". *ApJ* 948, 2. [arXiv:2303.07512](https://arxiv.org/abs/2303.07512)
 - Zhu et al. (2025). "Superfluid Angular Momentum Reservoir Effect in Pulsar Glitches and Crab Pulsar Glitch Time Prediction". *arXiv preprint*. [arXiv:2506.02925](https://arxiv.org/abs/2506.02925)

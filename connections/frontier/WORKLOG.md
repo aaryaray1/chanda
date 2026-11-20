@@ -12,10 +12,9 @@
 
 ## Queue (top = next)
 1. **Audit follow-up (recurring):** after each batch of audit packets, run `audit-report`. Check each `error`, and each arithmetic mismatch, by hand: recompute, read the source. Record each verdict in `connections/pipeline/audit/audit-manual.jsonl` and apply verified fixes with `apply-audit`.
-2. **T01 prior art, the gap the referee found:** screen the *abstracts* of all INSPIRE and ADS citers of arXiv:1809.03064, not only titles. Add anything relevant to the results' prior-art section.
-3. **Test track (lower yield; see the 00:32 log entry):** only a published *falsifiable forecast* with public data that nobody has scored yet is worth a slot. Ideas still unchecked: Millhouse et al. (2022) glitch-rate law against post-2021 glitch counts (beware catalogue lag), and Carlin & Melatos (2020) ρ₊ > 0.25 on unseen glitches (T02 machinery).
-4. **Map additions:** `map-additions.jsonl` (23 records) awaits the user's OK. Next step if approved: a pipeline path to add records (an `add-records` command, which writes and verifies sources like finalize does).
-5. **Sunday wrap-up:** a summary at the top of this file, then a final report to the user.
+2. **Test track (lower yield; see the 00:32 log entry):** only a published *falsifiable forecast* with public data that nobody has scored yet is worth a slot. Ideas still unchecked: Millhouse et al. (2022) glitch-rate law against post-2021 glitch counts (beware catalogue lag), and Carlin & Melatos (2020) ρ₊ > 0.25 on unseen glitches (T02 machinery).
+3. **Map additions:** `map-additions.jsonl` (23 records) awaits the user's OK. Next step if approved: a pipeline path to add records (an `add-records` command, which writes and verifies sources like finalize does).
+4. **Sunday wrap-up:** a summary at the top of this file, then a final report to the user.
 
 ## Done
 - 2026-11-20:
@@ -55,3 +54,7 @@
     - four analogue-gravity links (acoustic metric, BEC Hawking radiation, fibre horizons, Weyl anomaly).
 
     Every source is verified (27/27), the schema passes `connections_pipeline.py check`, and every formula was hand-checked (the Hawking–Page temperature fixed to state AdS₄ and AdS₅). Not in the registry: awaiting the user's OK.
+- **2026-11-21 00:40:** T01 prior art closed.
+  - Screened the abstracts of all 39 INSPIRE citers of arXiv:1809.03064. No per-glitch test of P1 or P2 on post-2018 data, so the narrow verdict stands.
+  - Added to the results: Liu et al. (2019), no backward correlation in B1737−30, consistent with P1 (in-sample); and Carlin, Melatos & Wheatland (2023), the forward correlation absent in solar flares.
+  - ADS citers outside INSPIRE are not screened.
