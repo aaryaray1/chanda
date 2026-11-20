@@ -23,7 +23,7 @@ def epochs(g: list, target: str) -> list[float]:
 
 
 def baseline(g: list, f: dict) -> dict | None:
-    past = [t for t in epochs(g, f["target"]) if t <= f["after_mjd"] + 1]
+    past = [t for t in epochs(g, f["target"]) if t <= f.get("anchor_catalogue_mjd", f["after_mjd"]) + 1]
     if len(past) < 3:
         return None
     gaps = np.diff(past)
@@ -32,7 +32,8 @@ def baseline(g: list, f: dict) -> dict | None:
 
 
 def score(f: dict, g: list) -> dict:
-    nxt = next((t for t in epochs(g, f["target"]) if t > f["after_mjd"] + (2 if f["after_mjd"] != f["published_mjd"] - 1 else 0)), None)
+    after = f.get("anchor_catalogue_mjd", f["after_mjd"])  # the same anchor glitch, as dated by the catalogue
+    nxt = next((t for t in epochs(g, f["target"]) if t > after + (2 if f["after_mjd"] != f["published_mjd"] - 1 else 0)), None)
     r = {"id": f["id"], "pulsar": f["pulsar"], "kind": f["kind"], "actual": nxt,
          "prospective": None if nxt is None else nxt > f["published_mjd"] - 1, "catalogued_glitches": len(g)}
     b = baseline(g, f)
@@ -80,8 +81,11 @@ def summarise(rows: list[dict]) -> dict:
 
 
 def main() -> int:
+    global SNAPSHOT_MJD
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("cmd", choices=["selftest", "run"])
+    ap.add_argument("--catalogue", default=str(t01.DATA / "gTable.html"), help="a Jodrell Bank gTable.html; default the 2026-11-20 snapshot")
+    ap.add_argument("--snapshot-mjd", type=float, default=SNAPSHOT_MJD, help="the date the catalogue was fetched, for pending/overdue")
     args = ap.parse_args()
     forecasts = json.loads(FORECASTS.read_text(encoding="utf-8"))
     if args.cmd == "selftest":
@@ -95,10 +99,12 @@ def main() -> int:
         assert r["verdict"] in ("pending", "overdue beyond 2σ (or not catalogued)"), r
         print("selftest OK")
         return 0
-    cat = t01.parse_jbo((t01.DATA / "gTable.html").read_text(encoding="utf-8", errors="replace"))
+    SNAPSHOT_MJD = args.snapshot_mjd
+    cat = t01.parse_jbo(Path(args.catalogue).read_text(encoding="utf-8", errors="replace"))
     rows = [score(f, cat.get(f["pulsar"], [])) for f in forecasts]
     res = {"snapshot_mjd": SNAPSHOT_MJD, "rows": rows, "summary": summarise(rows)}
-    (t01.RESULTS / "T04-results.json").write_text(json.dumps(res, indent=1, default=float), encoding="utf-8")
+    name = "T04-results.json" if args.catalogue == str(t01.DATA / "gTable.html") else f"T04-results-{int(SNAPSHOT_MJD)}.json"
+    (t01.RESULTS / name).write_text(json.dumps(res, indent=1, default=float), encoding="utf-8")
     for r in rows:
         extra = f"z={r['z']:+.2f}" if "z" in r else ""
         print(f"{r['id']:6} {r['pulsar']:11} actual={r['actual']} prospective={r['prospective']} {extra} -> {r['verdict']}"

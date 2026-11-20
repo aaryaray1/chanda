@@ -1,0 +1,244 @@
+{
+ "snapshot_mjd": 61364,
+ "rows": [
+  {
+   "id": "AK17a",
+   "pulsar": "J0835-4510",
+   "kind": "point",
+   "actual": 57734.4849906,
+   "prospective": true,
+   "catalogued_glitches": 26,
+   "baseline": {
+    "n_past": 17,
+    "anchor": 56556.0,
+    "mean_wait": 1017.25,
+    "sd_wait": 412.76449485809894,
+    "forecast": 57573.25
+   },
+   "z": -3.362896398780477,
+   "verdict": "outside 2\u03c3",
+   "baseline_error_days": 161.23499060000177,
+   "forecast_error_days": -551.5150093999982,
+   "baseline_z_hp": 0.1585008509216041,
+   "baseline_z_renewal": 0.3906222376404528,
+   "closer": "baseline"
+  },
+  {
+   "id": "AK17b",
+   "pulsar": "J0835-4510",
+   "kind": "point",
+   "actual": 57734.4849906,
+   "prospective": true,
+   "catalogued_glitches": 26,
+   "baseline": {
+    "n_past": 17,
+    "anchor": 56556.0,
+    "mean_wait": 1017.25,
+    "sd_wait": 412.76449485809894,
+    "forecast": 57573.25
+   },
+   "z": -0.5050497980099414,
+   "verdict": "within 1\u03c3",
+   "baseline_error_days": 161.23499060000177,
+   "forecast_error_days": -101.51500939999823,
+   "baseline_z_hp": 0.1585008509216041,
+   "baseline_z_renewal": 0.3906222376404528,
+   "closer": "forecast"
+  },
+  {
+   "id": "MD19a",
+   "pulsar": "J1740-3015",
+   "kind": "point",
+   "actual": 58241.0,
+   "prospective": false,
+   "catalogued_glitches": 38,
+   "baseline": {
+    "n_past": 35,
+    "anchor": 57468.599,
+    "mean_wait": 308.1646764705883,
+    "sd_wait": 326.196869593578,
+    "forecast": 57776.76367647059
+   },
+   "z": 1.7795950155763238,
+   "verdict": "within 2\u03c3",
+   "baseline_error_days": 464.2363235294106,
+   "forecast_error_days": 457.0,
+   "baseline_z_hp": 1.5064553434427064,
+   "baseline_z_renewal": 1.423178352716326,
+   "closer": "forecast"
+  },
+  {
+   "id": "MD19b",
+   "pulsar": "J0534+2200",
+   "kind": "point",
+   "actual": 58470.7,
+   "prospective": false,
+   "catalogued_glitches": 32,
+   "baseline": {
+    "n_past": 28,
+    "anchor": 58237.357,
+    "mean_wait": 657.2428518518519,
+    "sd_wait": 862.5907976700513,
+    "forecast": 58894.59985185185
+   },
+   "z": -1.1588113695090454,
+   "verdict": "within 2\u03c3",
+   "baseline_error_days": -423.8998518518565,
+   "forecast_error_days": -2242.300000000003,
+   "baseline_z_hp": -0.6449668500120974,
+   "baseline_z_renewal": -0.4914263553435241,
+   "closer": "baseline"
+  },
+  {
+   "id": "MD19c",
+   "pulsar": "J0631+1036",
+   "kind": "point",
+   "actual": 58341.7,
+   "prospective": false,
+   "catalogued_glitches": 17,
+   "baseline": {
+    "n_past": 15,
+    "anchor": 55702.0,
+    "mean_wait": 394.17857142857144,
+    "sd_wait": 321.2680215153967,
+    "forecast": 56096.17857142857
+   },
+   "z": 0.6479916897506905,
+   "verdict": "within 1\u03c3",
+   "baseline_error_days": 2245.5214285714246,
+   "forecast_error_days": 935.6999999999971,
+   "baseline_z_hp": 5.696711062788791,
+   "baseline_z_renewal": 6.98955787127356,
+   "closer": "forecast"
+  },
+  {
+   "id": "GU20a",
+   "pulsar": "J0835-4510",
+   "kind": "point",
+   "actual": 59417.2108,
+   "prospective": true,
+   "catalogued_glitches": 26,
+   "baseline": {
+    "n_past": 19,
+    "anchor": 58515.5929,
+    "mean_wait": 1013.0884944444447,
+    "sd_wait": 393.85470641923155,
+    "forecast": 59528.68139444445
+   },
+   "z": 1.506940909090934,
+   "verdict": "within 2\u03c3",
+   "baseline_error_days": -111.4705944444504,
+   "forecast_error_days": 132.6108000000022,
+   "baseline_z_hp": -0.11003046136219166,
+   "baseline_z_renewal": -0.28302466017962863,
+   "closer": "baseline"
+  },
+  {
+   "id": "GU20b",
+   "pulsar": "J2111+4606",
+   "kind": "point",
+   "actual": null,
+   "prospective": null,
+   "catalogued_glitches": 2,
+   "verdict": "overdue beyond 2\u03c3 (or not catalogued)"
+  },
+  {
+   "id": "GU20c",
+   "pulsar": "J2229+6114",
+   "kind": "lower_bound",
+   "actual": 59262.0,
+   "prospective": true,
+   "catalogued_glitches": 10,
+   "baseline": {
+    "n_past": 6,
+    "anchor": 58424.0,
+    "mean_wait": 1072.0,
+    "sd_wait": 416.0546839058539,
+    "forecast": 59496.0
+   },
+   "verdict": "true (after bound)"
+  },
+  {
+   "id": "GU22d",
+   "pulsar": "J1023-5746",
+   "kind": "point",
+   "actual": null,
+   "prospective": null,
+   "catalogued_glitches": 7,
+   "baseline": {
+    "n_past": 6,
+    "anchor": 58823.0,
+    "mean_wait": 756.0,
+    "sd_wait": 253.4541378632434,
+    "forecast": 59579.0
+   },
+   "verdict": "overdue beyond 2\u03c3 (or not catalogued)"
+  },
+  {
+   "id": "ZH25a",
+   "pulsar": "J0534+2200",
+   "kind": "window",
+   "actual": 60872.9,
+   "prospective": true,
+   "catalogued_glitches": 32,
+   "baseline": {
+    "n_past": 30,
+    "anchor": 58687.565,
+    "mean_wait": 627.4401724137931,
+    "sd_wait": 838.6532770567381,
+    "forecast": 59315.005172413796
+   },
+   "verdict": "true (inside window)",
+   "hp_probability_of_hit": 0.33077296934644607
+  },
+  {
+   "id": "ZH25b",
+   "pulsar": "J0534+2200",
+   "kind": "point",
+   "actual": 60872.9,
+   "prospective": true,
+   "catalogued_glitches": 32,
+   "baseline": {
+    "n_past": 30,
+    "anchor": 58687.565,
+    "mean_wait": 627.4401724137931,
+    "sd_wait": 838.6532770567381,
+    "forecast": 59315.005172413796
+   },
+   "z": 0.6393414211438501,
+   "verdict": "within 1\u03c3",
+   "baseline_error_days": 1557.8948275862058,
+   "forecast_error_days": 368.90000000000146,
+   "baseline_z_hp": 2.482937650601663,
+   "baseline_z_renewal": 1.8576149049982287,
+   "closer": "forecast"
+  },
+  {
+   "id": "GR25",
+   "pulsar": "J0835-4510",
+   "kind": "interval68",
+   "actual": null,
+   "prospective": null,
+   "catalogued_glitches": 26,
+   "baseline": {
+    "n_past": 21,
+    "anchor": 60429.9,
+    "mean_wait": 1007.4950000000001,
+    "sd_wait": 373.3818502147278,
+    "forecast": 61437.395000000004
+   },
+   "verdict": "pending"
+  }
+ ],
+ "summary": {
+  "scored_numeric": 7,
+  "within_1": 3,
+  "within_2": 6,
+  "mean_z": -0.06469836153395224,
+  "forecast_closer": 4,
+  "with_baseline": 7,
+  "prospective_numeric": 4,
+  "prospective_within_1": 2,
+  "prospective_within_2": 3
+ }
+}

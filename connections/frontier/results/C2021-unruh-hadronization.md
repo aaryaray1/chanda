@@ -1,8 +1,8 @@
-# C2021 · Hadronization as Unruh radiation: the registry formula is off by √(2π)
+# C2021 · Hadronization as Unruh radiation: the registry summary was off by √(2π)
 
-**Tier P (proof), status: correction confirmed.** This is not a new result. It is an error in the connection map that no reviewer caught, found by recomputing the claim.
+**Tier P (proof), status: correction confirmed and applied to the registry on 2026-11-20** (`apply-audit C2021`, from `connections/pipeline/audit/audit-manual.jsonl`). This is not a new result. It is an error in the connection map that no reviewer caught, found by recomputing the claim.
 
-**The registry says:** T = a/2π with a ~ √σ, giving T ≈ 160 MeV.
+**The registry said** (in `summary`): T = a/2π with a ~ √σ, giving T ≈ 160 MeV. The record's `map` field already had the correct a ≃ √(2πσ) and T ≈ √(σ/2π) ≈ 170 MeV. So the error was a summary that contradicted its own formula, the kind the audit stage now checks for.
 
 **Check:** with string tension σ = 0.16–0.20 GeV², a ~ √σ gives T = √σ/2π = **64–71 MeV**. That contradicts the record's own 160 MeV.
 

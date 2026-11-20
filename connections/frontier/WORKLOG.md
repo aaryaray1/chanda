@@ -12,9 +12,10 @@
 
 ## Queue (top = next)
 1. **Audit follow-up (recurring):** after each batch of audit packets, run `audit-report`. Check each `error`, and each arithmetic mismatch, by hand: recompute, read the source. Record each verdict in `connections/pipeline/audit/audit-manual.jsonl` and apply verified fixes with `apply-audit`.
-2. **Test track (lower yield; see the 00:32 log entry):** only a published *falsifiable forecast* with public data that nobody has scored yet is worth a slot. Ideas still unchecked: Millhouse et al. (2022) glitch-rate law against post-2021 glitch counts (beware catalogue lag), and Carlin & Melatos (2020) ρ₊ > 0.25 on unseen glitches (T02 machinery).
-3. **Map additions:** `map-additions.jsonl` (23 records) awaits the user's OK. Next step if approved: a pipeline path to add records (an `add-records` command, which writes and verifies sources like finalize does).
-4. **Sunday wrap-up:** a summary at the top of this file, then a final report to the user.
+2. **Open forecast:** after MJD 61506 (2027-04-11), score Grover et al.'s Vela window with a fresh catalogue (T04 `--catalogue`). After 2031-11-20, or once 10 pairs exist, run T02. Neither falls in this weekend.
+3. **Test track (lower yield; see the 00:32 log entry):** only a published *falsifiable forecast* with public data that nobody has scored yet is worth a slot. Ideas still unchecked: Millhouse et al. (2022) glitch-rate law against post-2021 glitch counts (beware catalogue lag), and Carlin & Melatos (2020) ρ₊ > 0.25 on unseen glitches (T02 machinery).
+4. **Map additions:** `map-additions.jsonl` (23 records) awaits the user's OK. Next step if approved: a pipeline path to add records (an `add-records` command, which writes and verifies sources like finalize does).
+5. **Sunday wrap-up:** a summary at the top of this file, then a final report to the user.
 
 ## Done
 - 2026-11-20:
@@ -24,6 +25,7 @@
   - C2021 fixed via `apply-audit`;
   - analogue-gravity node added.
   - T03 pre-registered (`883d299`) and scored (`20a58fe`).
+- 2026-11-21: T04 forecast scorecard pre-registered (`5b6f6a8`) and scored; T03 framing corrected (retrospective, not prospective).
 - 2026-11-21: map additions drafted (23 records, `map-additions.jsonl`); frontier track screened (no new claims).
 - 2026-11-20 (late): T01 referee (F6) applied (`020a9f1`); T03 reading corrected (`611eea7`).
 
@@ -58,3 +60,16 @@
   - Screened the abstracts of all 39 INSPIRE citers of arXiv:1809.03064. No per-glitch test of P1 or P2 on post-2018 data, so the narrow verdict stands.
   - Added to the results: Liu et al. (2019), no backward correlation in B1737−30, consistent with P1 (in-sample); and Carlin, Melatos & Wheatland (2023), the forward correlation absent in solar flares.
   - ADS citers outside INSPIRE are not screened.
+- **2026-11-21 01:05:** T04, a scorecard of published next-glitch forecasts.
+  - **Pool:** 12 forecasts, taken from the *first* arXiv versions of 5 papers.
+    - Akbal et al. (2017), v1, forecast 2018-06-17 ± 164 d; v3 rewrote it after the outcome.
+    - Gügercinoğlu et al. (2020), v1: Vela, J2111+4606, J2229+6114; v2 adds J1023−5746.
+    - Zhu et al. (2025), v1: Crab.
+    - Grover et al. (2025), v1: Vela, still open.
+    - Melatos & Drummond (2019).
+  - **Pre-registered** in `5b6f6a8`.
+  - **Calibration:** 3 of 7 numeric forecasts within 1σ (binomial p = 0.15), 6 of 7 within 2σ, mean z = −0.06.
+  - **Against the renewal baseline:** the forecasts were closer in 4 of 7. For Vela, the baseline beat both prospective vortex-creep forecasts.
+  - **Not scored:** two γ-ray pulsars lack catalogue coverage (unresolved). The Grover et al. Vela window is pending until 2027-04-11.
+  - **Deviation:** J2229+6114's anchor matched by identity (MJD 58396 in the paper, 58424 in the catalogue).
+  - **Correction:** found that T03's forecasts were retrospective, not prospective; T03 is corrected.
