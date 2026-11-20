@@ -238,6 +238,86 @@ def analyse(cat: dict, f1: dict) -> dict:
     return res
 
 
+def gapless(s: np.ndarray, w: np.ndarray, g: list, factor: float = 5.0) -> tuple[np.ndarray, np.ndarray]:
+    med = float(np.median(np.diff([t for t, _ in g])))  # median of all consecutive waits of the pulsar
+    keep = w <= factor * med
+    return s[keep], w[keep]
+
+
+def posthoc(cat: dict, f1: dict) -> dict:
+    """Analyses added after the run (referee, 2026-11-21); none is pre-registered."""
+    rng = np.random.default_rng(SEED + 3)
+    out: dict = {}
+    h1 = {k: g for k, g in cat.items() if n_sized(g) >= N_H1}
+    k_h1 = len(h1)
+    zcrit = 2.0 ** 0.5 * _erfcinv(2 * SIGMA3 / k_h1)  # one-sided normal quantile for alpha = 0.0027/K
+    comp, rows, zs, ws = {"pairs": 0, "post_cutoff": 0, "by_pulsar": {}}, [], [], []
+    for name, g in sorted(h1.items()):
+        s, w = pairs(g, "-")
+        sn, _ = pairs(g, "-", CUTOFF_MJD)
+        comp["pairs"] += len(s)
+        comp["post_cutoff"] += len(sn)
+        comp["by_pulsar"][name] = {"pairs": len(s), "post_cutoff": len(sn), "last_epoch": g[-1][0]}
+        r, n = corr(s, w, False), len(s)
+        r_min = math.tanh(math.atanh(0.5) + zcrit / math.sqrt(n - 3))  # smallest r- that would have refuted H1b
+        sg, wg = gapless(s, w, g)
+        sp = perm_p(sg, wg, True, rng)
+        rows.append({"pulsar": name, "n": n, "r_bwd": r, "min_detectable_r_vs_0.5": r_min,
+                     "p_vs_0.1": fisher_bound(r, n, 0.1), "gapless_rho_bwd": sp["stat"], "gapless_p_two": sp["p_two"],
+                     "gapless_r_bwd": corr(sg, wg, False), "gapless_n": len(sg)})
+        zs.append(math.atanh(r))
+        ws.append(n - 3)
+    zbar = sum(z * w for z, w in zip(zs, ws)) / sum(ws)
+    se = 1 / math.sqrt(sum(ws))
+    q = sum(w * (z - zbar) ** 2 for z, w in zip(zs, ws))
+    out["H1_composition"] = comp
+    out["H1_rows"] = rows
+    out["H1_pooled_fixed_effect"] = {"r": math.tanh(zbar), "ci95": [math.tanh(zbar - 1.96 * se), math.tanh(zbar + 1.96 * se)],
+                                     "Q": q, "df": len(zs) - 1}
+    grid = []
+    for stat in ("r", "rho"):
+        for nmin in (N_H2, N_H2_LOOSE):
+            for crab in (True, False):
+                xs, ys = [], []
+                for name, g in sorted(cat.items()):
+                    if n_sized(g) < nmin or (not crab and name == "J0534+2200") or name not in f1 or f1[name] >= 0:
+                        continue
+                    s, w = gapless(*pairs(g, "+"), g)
+                    if len(s) < 4:
+                        continue
+                    xs.append(math.log10(-f1[name] * (g[-1][0] - g[0][0]) / (len(g) - 1) * 86400.0))
+                    ys.append(corr(s, w, stat == "rho"))
+                p = perm_p(np.array(xs), np.array(ys), True, rng)
+                grid.append({"y": stat, "N_min": nmin, "crab": crab, "n": len(xs), "spearman": p["stat"], "p_pos": p["p_pos"],
+                             "p_neg": p["p_neg"]})
+    out["H2_gapless_grid"] = grid
+    xs, ys = [], []
+    for name, g in sorted(cat.items()):
+        s, w = pairs(g, "-")
+        if n_sized(g) >= N_H2 and len(s) >= 4 and name in f1 and f1[name] < 0:
+            xs.append(math.log10(-f1[name] * (g[-1][0] - g[0][0]) / (len(g) - 1) * 86400.0))
+            ys.append(corr(s, w, False))
+    p = perm_p(np.array(xs), np.array(ys), True, rng)
+    out["P1_ranking_unregistered"] = {"n": len(xs), "spearman_X_rbwd": p["stat"], "p_neg_predicted": p["p_neg"]}
+    xall = []
+    for name, g in cat.items():
+        if n_sized(g) >= 4 and name in f1 and f1[name] < 0:
+            xall.append((math.log10(-f1[name] * (g[-1][0] - g[0][0]) / (len(g) - 1) * 86400.0), name))
+    xall.sort()
+    out["X_percentiles_N4"] = {name: round(100 * i / (len(xall) - 1), 1) for i, (_, name) in enumerate(xall)
+                               if name in ("J0537-6910", "J1341-6220", "J1413-6141", "J1048-5832", "J1801-2304")}
+    out["X_percentiles_N4"]["n"] = len(xall)
+    return out
+
+
+def _erfcinv(y: float) -> float:
+    lo, hi = 0.0, 10.0
+    for _ in range(200):
+        mid = (lo + hi) / 2
+        lo, hi = (mid, hi) if math.erfc(mid) > y else (lo, mid)
+    return (lo + hi) / 2
+
+
 def fetch(url: str, path: Path) -> str:
     path.parent.mkdir(parents=True, exist_ok=True)
     req = urllib.request.Request(url, headers={"User-Agent": "chanda-frontier/1.0"})
@@ -293,7 +373,7 @@ def main() -> int:
     with __import__("contextlib").suppress(AttributeError):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("cmd", choices=["selftest", "fetch", "run"])
+    ap.add_argument("cmd", choices=["selftest", "fetch", "run", "posthoc"])
     args = ap.parse_args()
     if args.cmd == "selftest":
         jbo, atnf = synthetic(np.random.default_rng(1))
@@ -312,6 +392,11 @@ def main() -> int:
         return 0
     cat = parse_jbo((DATA / "gTable.html").read_text(encoding="utf-8", errors="replace"))
     f1 = parse_atnf((DATA / "atnf-f1.html").read_text(encoding="utf-8", errors="replace"))
+    if args.cmd == "posthoc":
+        ph = posthoc(cat, f1)
+        (RESULTS / "T01-posthoc.json").write_text(json.dumps(ph, indent=1, default=float), encoding="utf-8")
+        print(json.dumps(ph, indent=1, default=float))
+        return 0
     res = analyse(cat, f1)
     res["fetch"] = json.loads((DATA / "fetch.json").read_text(encoding="utf-8"))
     RESULTS.mkdir(parents=True, exist_ok=True)

@@ -1,6 +1,8 @@
 # T01 · Pulsar glitches: superfluid vortex avalanches or stress release?
 
-**Track:** test an existing cross-branch claim (tier T). **Status:** F3 done; F4 pre-registered in `../prereg/T01-glitch-correlations.md`; F5 run, see `../results/T01-glitch-correlations.md`.
+**Track:** test an existing cross-branch claim (tier T). **Status:** done and refereed.
+- **Result:** P1 survives (mostly in-sample); P2 inconclusive (underpowered). See `../results/T01-glitch-correlations.md`.
+- **Follow-ups:** T02 (forward correlations in unseen glitches, test later) and T03 (the 2019 epoch forecasts, all of which pass).
 **Connections:** C2466 "Pulsar glitches as vortex pinning and creep" (07×08), C2655 "Vortex pinning and creep: flux lines vs pulsar glitches" (08×09), C2459/C2630 (crust band theory and entrainment).
 
 ## Claim
@@ -17,7 +19,7 @@ The per-pulsar statistics first planned here are published:
 - size and waiting-time distributions with Monte Carlo tests in the eight most prolific pulsars: Fuentes, Espinoza & Reisenegger (2019);
 - size–waiting-time correlations: Melatos, Howitt & Fulgenzi (2018).
 
-The 2018 paper unifies the two model families: it treats glitches as a state-dependent Poisson process, in which threshold-triggered avalanches release stress. It ends with falsifiable predictions for data that did not yet exist. Of the 47 papers that cite it, none tests those predictions on post-2018 glitches. So the test was narrowed to them:
+The 2018 paper unifies the two model families: it treats glitches as a state-dependent Poisson process, in which threshold-triggered avalanches release stress. It ends with falsifiable predictions for data that did not yet exist. A title screen of its 47 citers found no test of those predictions on post-2018 glitches, so the test was narrowed to them. (The referee later added Zhu et al. (2025), whose cluster-level Crab analysis reports a backward correlation, which is contested. The novelty verdict is therefore *partly known*.)
 - **P1:** no pulsar shows a strong correlation between a glitch's size and the wait *before* it (r₋ ≤ 0.5);
 - **P2:** the size–next-wait correlation r₊ rises with −ν̇⟨Δt⟩, the stress added between glitches.
 
