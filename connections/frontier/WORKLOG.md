@@ -54,7 +54,7 @@
     - four analogue-gravity links (acoustic metric, BEC Hawking radiation, fibre horizons, Weyl anomaly).
 
     Every source is verified (27/27), the schema passes `connections_pipeline.py check`, and every formula was hand-checked (the Hawking–Page temperature fixed to state AdS₄ and AdS₅). Not in the registry: awaiting the user's OK.
-- **2026-11-21 00:40:** T01 prior art closed.
+- **2026-11-21 00:33:** T01 prior art closed.
   - Screened the abstracts of all 39 INSPIRE citers of arXiv:1809.03064. No per-glitch test of P1 or P2 on post-2018 data, so the narrow verdict stands.
   - Added to the results: Liu et al. (2019), no backward correlation in B1737−30, consistent with P1 (in-sample); and Carlin, Melatos & Wheatland (2023), the forward correlation absent in solar flares.
   - ADS citers outside INSPIRE are not screened.
