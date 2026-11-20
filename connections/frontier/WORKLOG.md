@@ -60,7 +60,7 @@
   - Screened the abstracts of all 39 INSPIRE citers of arXiv:1809.03064. No per-glitch test of P1 or P2 on post-2018 data, so the narrow verdict stands.
   - Added to the results: Liu et al. (2019), no backward correlation in B1737−30, consistent with P1 (in-sample); and Carlin, Melatos & Wheatland (2023), the forward correlation absent in solar flares.
   - ADS citers outside INSPIRE are not screened.
-- **2026-11-21 01:05:** T04, a scorecard of published next-glitch forecasts.
+- **2026-11-21 00:41:** T04, a scorecard of published next-glitch forecasts.
   - **Pool:** 12 forecasts, taken from the *first* arXiv versions of 5 papers.
     - Akbal et al. (2017), v1, forecast 2018-06-17 ± 164 d; v3 rewrote it after the outcome.
     - Gügercinoğlu et al. (2020), v1: Vela, J2111+4606, J2229+6114; v2 adds J1023−5746.
