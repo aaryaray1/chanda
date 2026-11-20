@@ -52,13 +52,16 @@ def parse_jbo(text: str) -> dict[str, list[tuple[float, float | None]]]:
     out: dict[str, list[tuple[float, float | None]]] = {}
     for row in re.findall(r"<tr[^>]*>(.*?)</tr>", text, re.S | re.I):
         cells = [clean(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", row, re.S | re.I)]
-        if len(cells) < 7 or not cells[2].startswith("J"):
+        if len(cells) < 7:
+            continue
+        name = jname(cells[2] if cells[2].startswith("J") else "J" + cells[2])  # the catalogue's J-name column omits the "J"
+        if not re.fullmatch(r"J\d{4}[+-]\d{2,4}[A-Za-z]?", name):
             continue
         mjd = num(cells[4])
         if mjd is None or mjd < 30000:
             continue
         size = num(cells[6])
-        out.setdefault(jname(cells[2]), []).append((mjd, size if size is not None and size > 0 else None))
+        out.setdefault(name, []).append((mjd, size if size is not None and size > 0 else None))
     return {k: sorted(v) for k, v in out.items()}
 
 
