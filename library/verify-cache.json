@@ -1415,6 +1415,13 @@
   "title": "Quantum sensing",
   "year": 2016
  },
+ "arxiv:1611.09088": {
+  "checked": "2026-11-21",
+  "doi": "10.1103/physrevc.95.044618",
+  "ok": true,
+  "title": "Extrapolation of scattering data to the negative-energy region",
+  "year": 2016
+ },
  "arxiv:1611.09347": {
   "checked": "2026-11-13",
   "ok": true,
@@ -2263,6 +2270,13 @@
   "title": "Long-term statistics of pulsar glitches due to history-dependent avalanches",
   "year": 2021
  },
+ "arxiv:2106.03341": {
+  "checked": "2026-11-21",
+  "doi": null,
+  "ok": true,
+  "title": "Glitch analysis and braking index determination of the unique source PSR J0537-6910",
+  "year": 2021
+ },
  "arxiv:2107.00038": {
   "checked": "2026-11-13",
   "ok": true,
@@ -2309,6 +2323,13 @@
   "checked": "2026-10-30",
   "ok": true,
   "title": "Emerging research landscape of altermagnetism",
+  "year": 2022
+ },
+ "arxiv:2205.08296": {
+  "checked": "2026-11-21",
+  "doi": "10.1093/mnras/stac3355",
+  "ok": true,
+  "title": "New pulse profile variability associated with a glitch of PSR J0738-4042",
   "year": 2022
  },
  "arxiv:2206.02751": {
@@ -6738,6 +6759,12 @@
   "ok": true,
   "title": "Return of the Big Glitcher: NICER timing and glitches of PSR J0537−6910",
   "year": 2020
+ },
+ "doi:10.1093/mnras/stac3355": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "New pulse profile variability associated with a glitch of PSR J0738-4042",
+  "year": 2022
  },
  "doi:10.1093/mnras/stae965": {
   "checked": "2026-11-21",

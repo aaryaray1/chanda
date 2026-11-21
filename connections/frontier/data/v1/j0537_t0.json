@@ -1,0 +1,181 @@
+{
+ "source": "Akbal et al. (2021), arXiv:2106.03341v1, Table 1: t0 (offset time) and \u0394 (days between the glitch and the first post-glitch observation, \u00a73)",
+ "numbering": "Antonopoulou et al. (2018); maps to the Jodrell Bank catalogue's J0537-6910 glitches 1-45 in order (the two glitches the paper could not analyse for being unresolved, 7 and 27, are the catalogue's two smallest)",
+ "rows": [
+  {
+   "nr": 1,
+   "t0": 196.0,
+   "delta_days": 16
+  },
+  {
+   "nr": 2,
+   "t0": 301.0,
+   "delta_days": 15
+  },
+  {
+   "nr": 3,
+   "t0": 70.0,
+   "delta_days": 5
+  },
+  {
+   "nr": 4,
+   "t0": 63.0,
+   "delta_days": 8
+  },
+  {
+   "nr": 5,
+   "t0": 47.0,
+   "delta_days": 6
+  },
+  {
+   "nr": 6,
+   "t0": 256.0,
+   "delta_days": 5
+  },
+  {
+   "nr": 8,
+   "t0": 101.0,
+   "delta_days": 5
+  },
+  {
+   "nr": 9,
+   "t0": 105.0,
+   "delta_days": 12
+  },
+  {
+   "nr": 10,
+   "t0": 88.0,
+   "delta_days": 12
+  },
+  {
+   "nr": 11,
+   "t0": 72.0,
+   "delta_days": 7
+  },
+  {
+   "nr": 12,
+   "t0": 133.0,
+   "delta_days": 7
+  },
+  {
+   "nr": 13,
+   "t0": 124.0,
+   "delta_days": 14
+  },
+  {
+   "nr": 14,
+   "t0": 59.0,
+   "delta_days": 16
+  },
+  {
+   "nr": 15,
+   "t0": 84.0,
+   "delta_days": 3
+  },
+  {
+   "nr": 16,
+   "t0": 138.0,
+   "delta_days": 6
+  },
+  {
+   "nr": 18,
+   "t0": 136.0,
+   "delta_days": 2
+  },
+  {
+   "nr": 20,
+   "t0": 114.0,
+   "delta_days": 2
+  },
+  {
+   "nr": 21,
+   "t0": 151.0,
+   "delta_days": 3
+  },
+  {
+   "nr": 22,
+   "t0": 179.0,
+   "delta_days": 15
+  },
+  {
+   "nr": 23,
+   "t0": 85.0,
+   "delta_days": 1
+  },
+  {
+   "nr": 24,
+   "t0": 25.0,
+   "delta_days": 2
+  },
+  {
+   "nr": 25,
+   "t0": 124.0,
+   "delta_days": 4
+  },
+  {
+   "nr": 26,
+   "t0": 265.0,
+   "delta_days": 5
+  },
+  {
+   "nr": 28,
+   "t0": 139.0,
+   "delta_days": 2
+  },
+  {
+   "nr": 29,
+   "t0": 106.0,
+   "delta_days": 7
+  },
+  {
+   "nr": 33,
+   "t0": 37.0,
+   "delta_days": 2
+  },
+  {
+   "nr": 34,
+   "t0": 225.0,
+   "delta_days": 4
+  },
+  {
+   "nr": 35,
+   "t0": 115.0,
+   "delta_days": 9
+  },
+  {
+   "nr": 36,
+   "t0": 86.0,
+   "delta_days": 2
+  },
+  {
+   "nr": 37,
+   "t0": 151.0,
+   "delta_days": 2
+  },
+  {
+   "nr": 38,
+   "t0": 259.0,
+   "delta_days": 4
+  },
+  {
+   "nr": 39,
+   "t0": 71.0,
+   "delta_days": 7
+  },
+  {
+   "nr": 40,
+   "t0": 72.0,
+   "delta_days": 2
+  },
+  {
+   "nr": 43,
+   "t0": 98.0,
+   "delta_days": 4
+  },
+  {
+   "nr": 45,
+   "t0": 118.0,
+   "delta_days": 4
+  }
+ ]
+}

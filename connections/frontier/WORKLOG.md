@@ -156,4 +156,18 @@
   - **Reading:** the in-sample agreement is a consistency relation (the fits span the interval), not yet forecast skill.
   - **The decisive test:** fit only the early part of each recovery from public Fermi-LAT timing. That is the next step if the referee agrees.
   - **Referee:** running.
+- **2026-11-21 15:55–20:02:** the V1 referee ("needs revision") was applied. A usage-limit pause ran from about 16:00 to 20:00.
+  - **Two extraction errors fixed:**
+    - The J0738−4042 pair was the duration of a 2007 timing event, so it is removed.
+    - J2229+6114's 2013 t_obs was the end of the recovery (975 d), not the interval (1628 d).
+  - **Corrected registered results:** ρ = +0.66 (p = 1.5×10⁻⁴), and 25 of 34 against the baseline (p = 0.0045). The verdicts are unchanged.
+  - **Post-hoc additions** (`v1_meta.py posthoc`):
+    - J0537−6910 mapped to catalogue epochs: pooled ρ = 0.70–0.71 over 66 pairs. Within J0537−6910 the model tracks but does not beat the mean.
+    - Grover et al.'s t₀ ± 3τ_nl convention: unchanged.
+    - **Glitch size alone tracks the intervals,** ρ = +0.46. Much of t_th's information is the glitch size.
+  - **Contrast rewritten:** only one forecast made beforehand is clean (Vela 2019). In all three resolved cases the model loses to the pulsar's own baseline.
+  - **Revisions are mixed:** J2229+6114 converged after the outcome; Vela 2019 was kept unchanged by the same group; Akbal v1 → v3 stayed 375 d late.
+  - **Reading:** the in-sample agreement is consistency, not forecast skill. The only partial-data fit (Gügercinoğlu & Alpar 2020, from 416 days of data) went the model's way.
+  - **Citation slip:** I had given a wrong arXiv ID for Espinoza et al. 2017. The verifier caught it. I dropped the attribution, because its full text does not plainly state the claimed dispute.
+  - **Filed:** V1 is added to the compact-objects results note.
 

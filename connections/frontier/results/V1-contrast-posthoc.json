@@ -1,80 +1,106 @@
 {
- "note": "post hoc, after V1; not registered",
- "prospective": [
+ "note": "post hoc, revised after the referee (2026-11-21); not registered; n = 1-3 per category, so suggestive only",
+ "prospective_and_related": [
   {
-   "forecast": "AK17a Vela",
-   "t_th": 1364,
-   "t_obs": 812.5,
-   "abs_ln_error": 0.518,
-   "source": "arXiv:1612.03805v1; contemporaneous (posted ~6 h after the glitch)"
-  },
-  {
-   "forecast": "GU20a Vela",
+   "forecast": "GU20a Vela 2019",
+   "class": "clean: fit and posting before the next glitch",
    "t_th": 769,
+   "source": "arXiv:2011.14788v1 (Nov 2020)",
    "t_obs": 901.6,
    "abs_ln_error": 0.159,
-   "source": "arXiv:2011.14788v1"
+   "own_baseline_days": 1005.4,
+   "baseline_abs_ln_error": 0.109
   },
   {
-   "forecast": "GU20c J2229+6114",
+   "forecast": "GU20c J2229+6114 G9",
+   "class": "not clean: zero-dof fit, stated in v1 as a lower bound ('later than mid June 2020'), which was met",
    "t_th": 619,
+   "source": "arXiv:2011.14788v1",
    "t_obs": 866.0,
    "abs_ln_error": 0.336,
-   "source": "arXiv:2011.14788v1 (paper's epoch for G9; catalogue 58424)"
+   "own_baseline_days": 828.7,
+   "baseline_abs_ln_error": 0.044
   },
   {
-   "forecast": "LI24b J1420-6048",
-   "t_th": 823,
-   "t_obs": "> 2809 if no glitch is missing from the catalogue",
-   "abs_ln_error_lower_bound_if_catalogue_complete": 1.228,
-   "abs_ln_error_lower_bound_from_paper_data": 0.087,
-   "source": "arXiv:2408.15022v1; the paper's own data show no glitch to MJD 59453"
+   "forecast": "AK17a Vela",
+   "class": "contemporaneous: posted about 6 h after the glitch",
+   "t_th": 1364,
+   "source": "arXiv:1612.03805v1",
+   "t_obs": 812.5,
+   "abs_ln_error": 0.518,
+   "own_baseline_days": 1021.2,
+   "baseline_abs_ln_error": 0.229
   },
   {
-   "forecast": "GU22d J1023-5746",
+   "forecast": "GU22d J1023-5746 G7",
+   "class": "prospective, overdue (or a glitch missing from the catalogue)",
    "t_th": 862,
-   "t_obs": "> 2541 if no glitch is missing from the catalogue",
-   "abs_ln_error_lower_bound_if_catalogue_complete": 1.081,
-   "source": "arXiv:2011.14788v2"
+   "source": "arXiv:2011.14788v2",
+   "t_obs": "> 2541 d if no glitch is missing from the catalogue"
   },
   {
-   "forecast": "GU20b J2111+4606",
+   "forecast": "GU20b J2111+4606 G2",
+   "class": "prospective, overdue (or missing from the catalogue)",
    "t_th": 2140,
-   "t_obs": "> 3802 if no glitch is missing from the catalogue",
-   "abs_ln_error_lower_bound_if_catalogue_complete": 0.575,
-   "source": "arXiv:2011.14788v1"
+   "source": "arXiv:2011.14788v1",
+   "t_obs": "> 3802 d if no glitch is missing from the catalogue"
   },
   {
-   "forecast": "LI24c J1709-4429",
+   "forecast": "LI24b J1420-6048 G8",
+   "class": "already failed at publication: the predicted date (and the paper's own data to MJD 59453) passed before posting",
+   "t_th": 823,
+   "source": "arXiv:2408.15022v1",
+   "t_obs": "> 2809 d if no glitch is missing from the catalogue"
+  },
+  {
+   "forecast": "LI24c J1709-4429 G6",
+   "class": "already past at publication (predicted MJD 60025, posted 60549)",
    "t_th": 1850,
-   "t_obs": "> 3189 if no glitch is missing from the catalogue",
-   "abs_ln_error_lower_bound_if_catalogue_complete": 0.545,
-   "source": "arXiv:2408.15022v1"
+   "source": "arXiv:2408.15022v1",
+   "t_obs": "> 3189 d if no glitch is missing from the catalogue"
   }
  ],
- "prospective_resolved_median_abs_ln_error": 0.336,
  "in_sample_median_abs_ln_error": 0.093,
- "baseline_median_abs_ln_error": 0.19,
- "before_after_revisions": [
+ "in_sample_baseline_median_abs_ln_error": 0.186,
+ "before_after": [
   {
-   "glitch": "J2229+6114 G9 (2018)",
+   "glitch": "J2229+6114, 2018 glitch",
+   "same_group": true,
    "before": 619,
+   "before_interval": 866,
    "after": 857,
-   "t_obs": 845,
-   "before_source": "arXiv:2011.14788v1 (Nov 2020)",
-   "after_source": "arXiv:2011.14788v2 (Feb 2022)",
-   "error_before": 0.311,
+   "after_interval": 845,
+   "what_changed": "epoch re-dated 58396 -> 58425; data extended from MJD 58865 to 59473 (through the next glitch); nonlinear IA/tau_nl/t0 component dropped; an error-free zero-dof fit replaced",
+   "before_source": "arXiv:2011.14788v1",
+   "after_source": "arXiv:2011.14788v2",
+   "error_before": 0.336,
    "error_after": 0.014
   },
   {
-   "glitch": "Vela 2019",
+   "glitch": "Vela 2019 glitch",
+   "same_group": false,
    "before": 769,
+   "before_interval": 902,
    "after": 921.6,
-   "t_obs": 902,
-   "before_source": "arXiv:2011.14788v1 (Nov 2020; v2 kept 769)",
-   "after_source": "arXiv:2506.02100 (Grover et al. 2025)",
+   "after_interval": 902,
+   "what_changed": "the same group's v2 (Feb 2022, after the outcome) kept 769 d and footnoted the miss; 921.6 d is Grover et al. (different team, Gugercinoglu co-author) from full-interval radio data with a t0 prior whose initial guess was 'often chosen close to the observed time to the next glitch'",
+   "before_source": "arXiv:2011.14788v1",
+   "after_source": "arXiv:2506.02100",
    "error_before": 0.16,
    "error_after": 0.021
+  },
+  {
+   "glitch": "Vela 2013/2014",
+   "same_group": true,
+   "before": 1364,
+   "before_interval": 812.5,
+   "after": 1553,
+   "after_interval": 1178.5,
+   "what_changed": "v1 forecast 1364 d from the small 2014 glitch; v3 (after the outcome) re-anchored on 2013 with 1553 d, still 375 d late; GU22 later gave 1862 d for the same interval (error 0.458)",
+   "before_source": "arXiv:1612.03805v1",
+   "after_source": "arXiv:1612.03805v3",
+   "error_before": 0.518,
+   "error_after": 0.276
   }
  ]
 }

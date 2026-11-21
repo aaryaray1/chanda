@@ -64,6 +64,79 @@ def analyse(pairs: list[dict]) -> dict:
             "reported_only": {k: v for k, v in by.items() if len(v) < 2}}
 
 
+def posthoc(P: list[dict]) -> dict:
+    """Added after the referee (2026-11-21); not registered."""
+    sys.path.insert(0, str(HERE))
+    import t01_glitches as t01
+    cat = t01.parse_jbo((t01.DATA / "gTable.html").read_text(encoding="utf-8", errors="replace"))
+    out = {}
+    j = cat["J0537-6910"]
+    T0 = json.loads((PAIRS.parent / "j0537_t0.json").read_text(encoding="utf-8"))["rows"]
+    for rule in ("any", "at_least_1e-8"):
+        for add in (False, True):
+            J = []
+            for r in T0:
+                i = r["nr"] - 1
+                if r["nr"] >= 45:
+                    continue  # glitch 45 is followed by the 2011-2017 monitoring gap
+                k = i + 1
+                while rule != "any" and k < 45 and (j[k][1] or 0) < 10:
+                    k += 1
+                if k >= 45:
+                    continue
+                J.append({"pulsar": "J0537-6910", "glitch": str(r["nr"]), "t_th": r["t0"] + (r["delta_days"] if add else 0), "t_obs": j[k][0] - j[i][0]})
+            key = f"with_J0537_next_{rule}_{'t0_plus_delta' if add else 't0'}"
+            res, alone = analyse(P + J), analyse(J)
+            out[key] = {"H_V1": {k2: res["H_V1"][k2] for k2 in ("pairs", "pulsars", "spearman_rho", "p_one_sided")},
+                        "H_V2": {k2: res["H_V2"][k2] for k2 in ("pairs", "model_wins", "sign_test_p_one_sided", "median_error_model", "median_error_baseline")},
+                        "J0537_alone": {"rho": alone["H_V1"]["spearman_rho"], "p": alone["H_V1"]["p_one_sided"], "model_wins": alone["H_V2"]["model_wins"],
+                                        "pairs": alone["H_V2"]["pairs"], "median_error_model": alone["H_V2"]["median_error_model"],
+                                        "median_error_baseline": alone["H_V2"]["median_error_baseline"]}}
+    tau = {"2016": 62.2, "2019": 22.4, "2021": 212.8}  # Grover et al. Table 3, tau_nl
+    Q = [dict(x, t_th=x["t_th"] + 3 * tau[x["glitch"]]) if x["pulsar"] == "J0835-4510" and x["glitch"] in tau else x for x in P]
+    r = analyse(Q)
+    out["grover_t0_plus_3tau"] = {"rho": r["H_V1"]["spearman_rho"], "model_wins": r["H_V2"]["model_wins"], "pairs": r["H_V2"]["pairs"]}
+    size = {}
+    for x in P:
+        if "epoch_mjd" in x:
+            g = cat[x["pulsar"]]
+            if x.get("size_note"):
+                size[id(x)] = 835.0 + 199.0
+            else:
+                t, sz = min(g, key=lambda e: abs(e[0] - x["epoch_mjd"]))
+                if abs(t - x["epoch_mjd"]) < 30 and sz:
+                    size[id(x)] = sz
+    by = {}
+    for x in P:
+        by.setdefault(x["pulsar"], []).append(x)
+    xs, xt, ys, gs = [], [], [], []
+    for k, v in by.items():
+        if len(v) < 3 or not all(id(x) in size for x in v):
+            continue
+        mo = np.mean([math.log(x["t_obs"]) for x in v])
+        ms = np.mean([math.log(size[id(x)]) for x in v])
+        xs += [math.log(size[id(x)]) - ms for x in v]
+        xt += [math.log(x["t_th"]) - mo for x in v]
+        ys += [math.log(x["t_obs"]) - mo for x in v]
+        gs += [k] * len(v)
+    xs, xt, ys, gs = map(np.array, (xs, xt, ys, gs))
+    rng = np.random.default_rng(SEED)
+
+    def perm(x):
+        rho, idx = spearman(x, ys), {g: np.flatnonzero(gs == g) for g in set(gs)}
+        sims = []
+        for _ in range(N_PERM):
+            xp = x.copy()
+            for g, ii in idx.items():
+                xp[ii] = x[rng.permutation(ii)]
+            sims.append(spearman(xp, ys))
+        return {"rho": rho, "p_one_sided": float((np.array(sims) >= rho - 1e-12).mean()),
+                "within": {g: round(spearman(x[ii], ys[ii]), 3) for g, ii in idx.items()}}
+    out["size_as_predictor"] = {"pairs": int(len(ys)), "glitch_size": perm(xs), "t_th": perm(xt),
+                                "t_th_vs_size_within": {g: round(spearman(xt[gs == g], xs[gs == g]), 3) for g in set(gs)}}
+    return out
+
+
 def selftest() -> None:
     rng = np.random.default_rng(1)
     good, bad = [], []
@@ -87,7 +160,9 @@ def main() -> int:
     res = {"primary": analyse(P), "sensitivity": {"earliest_paper": analyse(early), "drop_flagged": analyse([p for p in P if "flag" not in p]),
                                                   "vela_only": analyse([p for p in P if p["pulsar"] == "J0835-4510"]),
                                                   "without_vela": analyse([p for p in P if p["pulsar"] != "J0835-4510"])}}
+    res["posthoc"] = posthoc(P)
     (RESULTS / "V1-results.json").write_text(json.dumps(res, indent=1), encoding="utf-8")
+    print(json.dumps(res["posthoc"], indent=1))
     for name, r in [("primary", res["primary"])] + list(res["sensitivity"].items()):
         h1, h2 = r["H_V1"], r["H_V2"]
         print(f"{name:15} V1: rho {h1['spearman_rho']:+.3f} p {h1['p_one_sided']:.4f} (pairs {h1['pairs']}, within {h1['within_pulsar_rho']})"
