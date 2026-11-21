@@ -82,3 +82,12 @@
   - **Withdrawn headlines:** "roughly calibrated" and "a naive renewal baseline beats the Vela forecasts", both from the title of `b121af9`.
   - **Other fixes:** AK17's prospective label (v1 came out about 6 h after the glitch); GU20c's bound had passed before publication; the registered *overdue* verdict is restored for GU20b and GU22d; GR25 is relabelled as Bayesian; T03's "honest uncertainties" is softened.
   - **Prior art:** none of the 97 INSPIRE citers of the six forecast papers scores the forecasts. OpenAlex returned 503 and Semantic Scholar was rate-limited, so neither was searched.
+- **2026-11-21 14:50:** audit follow-up, packets 7–12 (12/20 done; today's cap of 10 is used, and the last 8 run on Sunday).
+  - **Hand-checked 4 flags:** 2 were real and are fixed with `apply-audit`, 2 were the auditor's mistakes.
+    - **Fixed C1737** (proton radius): the map had m_r³c⁴/(ħc)², which is a mass. The c⁶ form gives 5.1975 meV/fm² for the muonic-hydrogen 2S shift (sympy, CODATA 2022).
+    - **Fixed C1506** (Kondo): for H = J S·s with s = σ/2, scaling is dg/d ln D = −g² and T_K ~ D e^(−1/g) (Affleck 2008, arXiv:0809.3474, eqs 1.15–1.25). The record had the Pauli-convention factors. The auditor had called this *minor*.
+    - **Dismissed:** C1107 (eB = m_π² is 3.3×10¹⁴ T; "~10¹⁴ T" is the literature's order of magnitude) and C1178 (the Earth-twin contrast is 1–2×10⁻¹⁰ at quadrature; the auditor used full phase).
+  - **Skipped records:** the model silently returned no verdict for 5 records (C0493 and C0536 in packet 3, C0656 and C0706 in packet 4, C2013 in packet 12). All 5 were audited by hand, and all are correct. `audit-report` now lists any record in a finished packet that has no verdict.
+  - **Brief:** `brief-audit.md` gains one false-alarm pattern (wrong observing geometry) and one under-call (a convention mismatch that changes an exponent is an `error`).
+  - Registry and pipeline changes are uncommitted, per the commit rule.
+
