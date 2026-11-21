@@ -1,0 +1,277 @@
+{
+ "pairs": [
+  {
+   "pulsar": "J0835-4510",
+   "glitch": "1969",
+   "t_th": 1624,
+   "t_obs": 912,
+   "source": "arXiv:1612.03805v3 Table 1 (from Alpar et al. 1993)"
+  },
+  {
+   "pulsar": "J0835-4510",
+   "glitch": "1971",
+   "t_th": 1375,
+   "t_obs": 1491,
+   "source": "arXiv:1612.03805v3 Table 1 (from Alpar et al. 1993)"
+  },
+  {
+   "pulsar": "J0835-4510",
+   "glitch": "1975",
+   "t_th": 1036,
+   "t_obs": 1009,
+   "source": "arXiv:1612.03805v3 Table 1 (from Alpar et al. 1993)"
+  },
+  {
+   "pulsar": "J0835-4510",
+   "glitch": "1978",
+   "t_th": 1371,
+   "t_obs": 1227,
+   "source": "arXiv:1612.03805v3 Table 1 (from Alpar et al. 1993)"
+  },
+  {
+   "pulsar": "J0835-4510",
+   "glitch": "1981",
+   "t_th": 616,
+   "t_obs": 272,
+   "source": "arXiv:1612.03805v3 Table 1 (from Alpar et al. 1993)"
+  },
+  {
+   "pulsar": "J0835-4510",
+   "glitch": "1982",
+   "t_th": 1485,
+   "t_obs": 1067,
+   "source": "arXiv:1612.03805v3 Table 1 (from Alpar et al. 1993)"
+  },
+  {
+   "pulsar": "J0835-4510",
+   "glitch": "1985",
+   "t_th": 972,
+   "t_obs": 1261,
+   "source": "arXiv:1612.03805v3 Table 1 (from Alpar et al. 1993)"
+  },
+  {
+   "pulsar": "J0835-4510",
+   "glitch": "1988",
+   "t_th": 1422,
+   "t_obs": 907,
+   "source": "arXiv:1612.03805v3 Table 1 (from Alpar et al. 1993)"
+  },
+  {
+   "pulsar": "J0835-4510",
+   "glitch": "1991",
+   "t_th": 1151,
+   "t_obs": 1102,
+   "source": "arXiv:1612.03805v3 Table 1 (from Chau et al. 1993)"
+  },
+  {
+   "pulsar": "J0835-4510",
+   "glitch": "1994",
+   "t_th": 765,
+   "t_obs": 778,
+   "source": "arXiv:1612.03805v3 Table 1"
+  },
+  {
+   "pulsar": "J0835-4510",
+   "glitch": "1996",
+   "t_th": 1072,
+   "t_obs": 1190,
+   "source": "arXiv:1612.03805v3 Table 1"
+  },
+  {
+   "pulsar": "J0835-4510",
+   "glitch": "2000",
+   "t_th": 1644,
+   "t_obs": 1634,
+   "source": "arXiv:1612.03805v3 Table 1"
+  },
+  {
+   "pulsar": "J0835-4510",
+   "glitch": "2004",
+   "t_th": 913,
+   "t_obs": 767,
+   "source": "arXiv:1612.03805v3 Table 1"
+  },
+  {
+   "pulsar": "J0835-4510",
+   "glitch": "2006",
+   "t_th": 1464,
+   "t_obs": 1449,
+   "source": "arXiv:1612.03805v3 Table 1"
+  },
+  {
+   "pulsar": "J0835-4510",
+   "glitch": "2010",
+   "t_th": 984,
+   "t_obs": 1147,
+   "source": "arXiv:2011.14788v2 Table 2",
+   "earliest": {
+    "t_th": 1281,
+    "source": "arXiv:1612.03805v3 Table 1"
+   }
+  },
+  {
+   "pulsar": "J0835-4510",
+   "glitch": "2013",
+   "t_th": 1862,
+   "t_obs": 1178,
+   "source": "arXiv:2011.14788v2 Table 2"
+  },
+  {
+   "pulsar": "J0835-4510",
+   "glitch": "2016",
+   "t_th": 774.0,
+   "t_obs": 783,
+   "source": "arXiv:2506.02100 (PASA version) Table 3",
+   "earliest": {
+    "t_th": 781,
+    "t_obs": 782,
+    "source": "arXiv:2003.08724v2 §5"
+   }
+  },
+  {
+   "pulsar": "J0835-4510",
+   "glitch": "2019",
+   "t_th": 921.6,
+   "t_obs": 902,
+   "source": "arXiv:2506.02100 (PASA version) Table 3",
+   "earliest": {
+    "t_th": 769,
+    "source": "arXiv:2011.14788v2 Table 2"
+   }
+  },
+  {
+   "pulsar": "J0835-4510",
+   "glitch": "2021",
+   "t_th": 469.1,
+   "t_obs": 1012,
+   "source": "arXiv:2506.02100 (PASA version) Table 3"
+  },
+  {
+   "pulsar": "J1023-5746",
+   "glitch": "55043",
+   "t_th": 1110,
+   "t_obs": 961,
+   "source": "arXiv:2011.14788v2 Table 2"
+  },
+  {
+   "pulsar": "J1023-5746",
+   "glitch": "56004",
+   "t_th": 620,
+   "t_obs": 643,
+   "source": "arXiv:2011.14788v2 Table 2"
+  },
+  {
+   "pulsar": "J1023-5746",
+   "glitch": "56647",
+   "t_th": 1102,
+   "t_obs": 1080,
+   "source": "arXiv:2011.14788v2 Table 2"
+  },
+  {
+   "pulsar": "J1023-5746",
+   "glitch": "57727",
+   "t_th": 484,
+   "t_obs": 475,
+   "source": "arXiv:2011.14788v2 Table 2",
+   "flag": "fit with zero degrees of freedom (paper: 5 parameters, 5 data points)"
+  },
+  {
+   "pulsar": "J1023-5746",
+   "glitch": "58202",
+   "t_th": 548,
+   "t_obs": 621,
+   "source": "arXiv:2011.14788v2 Table 2"
+  },
+  {
+   "pulsar": "J2111+4606",
+   "glitch": "55700",
+   "t_th": 1864,
+   "t_obs": 1862,
+   "source": "arXiv:2011.14788v2 Table 2"
+  },
+  {
+   "pulsar": "J2229+6114",
+   "glitch": "55134",
+   "t_th": 452,
+   "t_obs": 460,
+   "source": "arXiv:2011.14788v2 Table 2"
+  },
+  {
+   "pulsar": "J2229+6114",
+   "glitch": "55601",
+   "t_th": 821,
+   "t_obs": 760,
+   "source": "arXiv:2011.14788v2 Table 2"
+  },
+  {
+   "pulsar": "J2229+6114",
+   "glitch": "56797",
+   "t_th": 795,
+   "t_obs": 975,
+   "source": "arXiv:2011.14788v2 Table 2"
+  },
+  {
+   "pulsar": "J2229+6114",
+   "glitch": "58425",
+   "t_th": 857,
+   "t_obs": 845,
+   "source": "arXiv:2011.14788v2 Table 2"
+  },
+  {
+   "pulsar": "J1420-6048",
+   "glitch": "G4",
+   "t_th": 698,
+   "t_obs": 747,
+   "source": "arXiv:2408.15022 Table 4"
+  },
+  {
+   "pulsar": "J1420-6048",
+   "glitch": "G5",
+   "t_th": 964,
+   "t_obs": 856,
+   "source": "arXiv:2408.15022 Table 4"
+  },
+  {
+   "pulsar": "J1420-6048",
+   "glitch": "G6",
+   "t_th": 1124,
+   "t_obs": 960,
+   "source": "arXiv:2408.15022 Table 4"
+  },
+  {
+   "pulsar": "J1420-6048",
+   "glitch": "G7",
+   "t_th": 938,
+   "t_obs": 1339,
+   "source": "arXiv:2408.15022 Table 4"
+  },
+  {
+   "pulsar": "J1709-4429",
+   "glitch": "G4",
+   "t_th": 1680,
+   "t_obs": 1648,
+   "source": "arXiv:2408.15022 Table 4"
+  },
+  {
+   "pulsar": "J1709-4429",
+   "glitch": "G5",
+   "t_th": 1861,
+   "t_obs": 1836,
+   "source": "arXiv:2408.15022 Table 4"
+  },
+  {
+   "pulsar": "J0738-4042",
+   "glitch": "2015",
+   "t_th": 634,
+   "t_obs": 667,
+   "source": "arXiv:2205.08296 Table"
+  }
+ ],
+ "screened": {
+  "arXiv:2408.09204 (J1522-5735)": "no t_th/t_obs pair",
+  "arXiv:2512.04972 (J1718-3718)": "no t_th/t_obs pair",
+  "arXiv:2608.19555 (J1637-4642)": "no t_th/t_obs pair",
+  "arXiv:2106.03341 (J0537-6910)": "37 t0 values, but no t_obs and no glitch epochs in the paper (numbering follows Antonopoulou et al. 2018); excluded by the registered rule; post-hoc sensitivity maps numbers to catalogue epochs"
+ },
+ "extracted": "2026-11-21"
+}
