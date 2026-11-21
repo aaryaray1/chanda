@@ -14,7 +14,8 @@
 
 ## Queue (top = next)
 1. **Audit follow-up (recurring):** after each batch of audit packets, run `audit-report`. Check each `error`, each arithmetic mismatch and each skipped record (no verdict) by hand: recompute, read the source. Packets 13–20 run after midnight on Sunday. Record each verdict in `connections/pipeline/audit/audit-manual.jsonl` and apply verified fixes with `apply-audit`.
-2. **Open forecast:** after MJD 61506 (2027-04-11), score Grover et al.'s Vela window with a fresh catalogue (T04 `--catalogue`). After 2031-11-20, or once 10 pairs exist, run T02. Neither falls in this weekend.
+2. **Registered forecasts (recurring, from now until they resolve):** run `python3 -I analysis/score_registered.py run` about monthly. It fetches the live catalogue and scores G1 (34 pulsars), G2-P (7) and the Vela head-to-head, which resolves by 2027-04-11. The baseline run on 2026-11-21 has everything open. T04 and T02 have their own runs, printed by the scorer.
+   **Open forecast:** after MJD 61506 (2027-04-11), score Grover et al.'s Vela window with a fresh catalogue (T04 `--catalogue`). After 2031-11-20, or once 10 pairs exist, run T02. Neither falls in this weekend.
 3. **Test track: no open candidates** (closed 2026-11-21 15:00; see the log). A new slot needs a published *falsifiable forecast* with public data that nobody has scored yet.
 4. **Map additions: done** (2026-11-21 15:21): 23 records added as C3013–C3035 via the new `add-records` command (28/28 sources verified). The records are kept in `../pipeline/added.jsonl`, so a re-finalize keeps them.
 5. **Filing results in the tree: done** (2026-11-21 15:50). `knowledge/09-astrophysics-and-cosmology/stellar-astrophysics/compact-objects/reviews/pulsar-glitch-statistics.md` summarises T01–T04 and G1–G3 with tier and status. `docs/CONVENTIONS.md` now allows results notes in `reviews/`. Discord is not posted: the pipeline runner posts there itself, and nothing in the mandate asks for it.
@@ -141,4 +142,9 @@
     - The strongest results are out-of-sample confirmations of in-sample ideas: large glitches are non-Poisson with the reservoir sign; small glitches are Poisson.
     - The forecast-scoring method is new for glitches.
     - The nearest decisive test is the Vela head-to-head by 2027-04-11.
+- **2026-11-21 15:50–16:15:** filing, scoring tool, and a replication decision.
+  - **Filed** the glitch results in the tree (`697a6c6`).
+  - **Fixed the verifier** (`447d07e`): titles must match in order, with the journal title via DOI as a fallback. Regression: 618/618 notes and 1969/1969 registry sources pass; the invented title fails.
+  - **Wrote `score_registered.py`.** It tests itself with an injected Vela glitch. The baseline run on 2026-11-21 has no new glitches and everything open.
+  - **ATNF replication (G4) dropped.** ATNF adds 109 glitches Jodrell Bank lacks, but only 9 after MJD 58500. Most of the difference is old glitches with different epochs, so a replication would largely reuse the same detections. A merged, de-duplicated catalogue would be the right input, but merging epochs and sizes (J1709−4429's 2018 size differs 50-fold) needs judgment calls best left to a curated effort.
 
