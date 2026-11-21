@@ -18,7 +18,7 @@
    **Open forecast:** after MJD 61506 (2027-04-11), score Grover et al.'s Vela window with a fresh catalogue (T04 `--catalogue`). After 2031-11-20, or once 10 pairs exist, run T02. Neither falls in this weekend.
 3. **Test track: no open candidates** (closed 2026-11-21 15:00; see the log). A new slot needs a published *falsifiable forecast* with public data that nobody has scored yet.
 4. **Map additions: done** (2026-11-21 15:21): 23 records added as C3013–C3035 via the new `add-records` command (28/28 sources verified). The records are kept in `../pipeline/added.jsonl`, so a re-finalize keeps them.
-5. **Filing results in the tree: done** (2026-11-21 15:50). `knowledge/09-astrophysics-and-cosmology/stellar-astrophysics/compact-objects/reviews/pulsar-glitch-statistics.md` summarises T01–T04 and G1–G3 with tier and status. `docs/CONVENTIONS.md` now allows results notes in `reviews/`. Discord is not posted: the pipeline runner posts there itself, and nothing in the mandate asks for it.
+5. **Filing results in the tree: done** (2026-11-21 15:43). `knowledge/09-astrophysics-and-cosmology/stellar-astrophysics/compact-objects/reviews/pulsar-glitch-statistics.md` summarises T01–T04 and G1–G3 with tier and status. `docs/CONVENTIONS.md` now allows results notes in `reviews/`. Discord is not posted: the pipeline runner posts there itself, and nothing in the mandate asks for it.
 6. **Glitch statistics track (G1–G3), the main breakthrough effort:** waiting on the referee and the prior-art search (both running). Then apply their fixes, and file a combined note in the tree. A next test would be a refractory deficit among large follow-ups only, which needs more large-glitch pairs or a second catalogue (ATNF).
 7. **Sunday wrap-up:** a summary at the top of this file, then a final report to the user.
 
@@ -123,7 +123,7 @@
     - Unlike earthquakes, glitches are not triggered failures. Part of the deficit may be recovery masking.
   - **Map:** the 23 additions are in the registry (2907 connections).
   - **Running:** the referee on G1–G3, and paper-scout for F3 prior art.
-- **2026-11-21 15:33–16:05:** the Vela head-to-head was registered, and the referee and prior-art reports on G1–G3 arrived.
+- **2026-11-21 15:33–15:40:** the Vela head-to-head was registered, and the referee and prior-art reports on G1–G3 arrived.
   - **Registered `df1f37a`:** forecasts of the next large glitch for 7 pulsars, plus a Vela test that resolves by 2027-04-11. P(a large Vela glitch in that window): Grover et al. 0.71, empirical renewal 0.31, G2 models 0.13.
   - **Prior art (paper-scout):**
     - G1's out-of-sample forecast scoring appears new for glitches; its result is partly known (Melatos & Drummond 2019).
@@ -142,7 +142,7 @@
     - The strongest results are out-of-sample confirmations of in-sample ideas: large glitches are non-Poisson with the reservoir sign; small glitches are Poisson.
     - The forecast-scoring method is new for glitches.
     - The nearest decisive test is the Vela head-to-head by 2027-04-11.
-- **2026-11-21 15:50–16:15:** filing, scoring tool, and a replication decision.
+- **2026-11-21 15:42–15:45:** filing, scoring tool, and a replication decision.
   - **Filed** the glitch results in the tree (`697a6c6`).
   - **Fixed the verifier** (`447d07e`): titles must match in order, with the journal title via DOI as a fallback. Regression: 618/618 notes and 1969/1969 registry sources pass; the invented title fails.
   - **Wrote `score_registered.py`.** It tests itself with an injected Vela glitch. The baseline run on 2026-11-21 has no new glitches and everything open.
