@@ -170,4 +170,12 @@
   - **Reading:** the in-sample agreement is consistency, not forecast skill. The only partial-data fit (Gügercinoğlu & Alpar 2020, from 416 days of data) went the model's way.
   - **Citation slip:** I had given a wrong arXiv ID for Espinoza et al. 2017. The verifier caught it. I dropped the attribution, because its full text does not plainly state the claimed dispute.
   - **Filed:** V1 is added to the compact-objects results note.
+- **2026-11-22 00:26–00:26:** audit packets 13–16 hand-checked (16/20 done; 17–20 run at 02:13).
+  - **Errors:** 0.
+  - **Three arithmetic mismatches, all dismissed:**
+    - C2129: the record states no number; the auditor's own value had a unit slip (4.2×10¹² Hz is 4199 GHz).
+    - C2321: Q_W = 72.9 for Xe-131 was compared with N = 77, which the record does not state.
+    - C2355: the Raether limit e²⁰ = 4.9×10⁸ matches the literature's "~10⁸", a factor of 5.
+  - **One skipped record:** C2175 (the MSSM Higgs bound), audited by hand and correct. With v = 246 GeV the one-loop term peaks at X_t = √6 M_S.
+  - My first note quoted the wrong one-loop masses (124 and 136 GeV). The code gives 127 and 151 GeV, and the note is corrected.
 

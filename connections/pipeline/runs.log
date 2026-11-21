@@ -444,3 +444,16 @@
 2026-11-21 08:13:48  daily unit cap reached; resuming tomorrow
 2026-11-21 10:13:47  daily unit cap reached; resuming tomorrow
 2026-11-21 12:13:48  daily unit cap reached; resuming tomorrow
+2026-11-21 16:13:41  daily unit cap reached; resuming tomorrow
+2026-11-21 18:13:41  daily unit cap reached; resuming tomorrow
+2026-11-21 20:13:41  daily unit cap reached; resuming tomorrow
+2026-11-21 22:13:41  daily unit cap reached; resuming tomorrow
+2026-11-22 00:13:42  start audit-013 on sonnet at medium effort
+2026-11-22 00:14:49  audit-013: done (40/40 audited: 0 error, 0 minor, 36 ok, 4 none; 1 arithmetic mismatches · 1 turns, 0k in + 23k cache-write + 3k cache-read, 10k out, ~$0.19) (exit 0)
+2026-11-22 00:14:49  start audit-014 on sonnet at medium effort
+2026-11-22 00:16:18  audit-014: done (39/40 audited: 0 error, 0 minor, 38 ok, 1 none; 0 arithmetic mismatches · 1 turns, 0k in + 22k cache-write + 5k cache-read, 13k out, ~$0.21) (exit 0)
+2026-11-22 00:16:18  start audit-015 on sonnet at medium effort
+2026-11-22 00:17:27  audit-015: done (40/40 audited: 0 error, 0 minor, 36 ok, 4 none; 1 arithmetic mismatches · 1 turns, 0k in + 22k cache-write + 5k cache-read, 10k out, ~$0.19) (exit 0)
+2026-11-22 00:17:27  start audit-016 on sonnet at medium effort
+2026-11-22 00:18:23  audit-016: done (40/40 audited: 0 error, 0 minor, 33 ok, 7 none; 1 arithmetic mismatches · 1 turns, 0k in + 23k cache-write + 5k cache-read, 9k out, ~$0.18) (exit 0)
+2026-11-22 00:18:24  registry is final; no snapshot (numerical audit running)
