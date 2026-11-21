@@ -1118,7 +1118,7 @@ Cross-links in the curated notes, grouped by the node in this branch (`→` it l
 - **Topological semimetals** → Graphene and 2D materials (`08-condensed-matter/low-dimensional-and-quantum-materials/graphene-and-2d-materials`)
 - **Topological superconductors and Majoranas** → Quantum dots and nanostructures (`08-condensed-matter/low-dimensional-and-quantum-materials/quantum-dots-and-nanostructures`), Fractionalization and topological order (`08-condensed-matter/strongly-correlated-electrons/fractionalization-and-topological-order`)
 
-#### Classified connections (445)
+#### Classified connections (449)
 
 From `connections/registry.jsonl`, found by the connections analysts and checked by the specialists. Format: name · kind · strength 1–3 · the other note (field code). Details: `python -I scripts/physlib.py connections <note>`.
 
@@ -1137,6 +1137,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - BEC-BCS crossover connects pairs and condensates · mechanism · 3 · Bose–Einstein condensates and degenerate gases (04)
 - BdG quasiparticles and topological superconductivity · identity · 3 · Topological superconductors and Majoranas (08)
 - Berry connection as a gauge field on the Brillouin zone · identity · 3 · Gauge theories and Yang–Mills (06)
+- Berry connection as a gauge potential in parameter space · identity · 3 · Potentials and gauge invariance (02)
 - Berry curvature and Chern numbers of Maxwell Bloch modes · identity · 3 · Topological photonics (02)
 - Berry curvature as the curvature of a bundle · identity · 3 · Tensors and differential geometry (00)
 - Bethe ansatz and spinons in Heisenberg chains · shared object · 3 · Exactly solvable models (03)
@@ -1434,6 +1435,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - Phase-change glasses for non-volatile memory · mechanism · 2 · Semiconductor devices and photovoltaics (11)
 - Phononic crystals: Bloch bands for sound · method transfer · 2 · Mechanical waves and acoustics (01)
 - Phonons as qubit resource and error source · mechanism · 2 · Superconducting qubits (04)
+- Photonic Chern bands and one-way edge modes · method transfer · 2 · Metamaterials and plasmonics (02)
 - Photonic quantum spin Hall and valley Hall insulators · analogy · 2 · Topological photonics (02)
 - Planckian dissipation and the chaos bound · analogy · 2 · Quantum chaos and scrambling (04)
 - Planckian dissipation: QGP and strange metals · analogy · 2 · Quark–gluon plasma (07)
@@ -1514,6 +1516,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - Synchrotron ARPES of topological surface states · method transfer · 2 · Synchrotron and FEL light sources (11)
 - Synchrotron and XFEL light for crystallography · method transfer · 2 · Synchrotron and FEL light sources (11)
 - The phase problem: crystallography and phase retrieval · method transfer · 2 · Fourier optics and imaging (02)
+- Thermodynamics of the superconducting transition and the specific-heat jump · mechanism · 2 · Phase equilibria and chemical potential (03)
 - Thorium-229 nuclear clock in wide-gap crystals · shared object · 2 · Radioactive decay and alpha decay (07)
 - Tight binding as periodic LCAO / Huckel theory · mechanism · 2 · Quantum chemistry methods (11)
 - Time-dependent DFT of fission and electron dynamics · method transfer · 2 · Nuclear fission (07)
@@ -1558,6 +1561,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - Light-induced transient superconductivity (contested) · shared object · 1 · Ultrafast and attosecond optics (02)
 - Liquid crystals test cosmic-string network scaling · analogy · 1 · Pulsar timing arrays (05)
 - Mixed axial-gravitational anomaly in Weyl semimetals · mechanism · 1 · QFT in curved spacetime (05)
+- Mixed axial–gravitational anomaly in Weyl semimetals · shared object · 1 · Analogue gravity (05)
 - Neutron damage and defects in fusion materials · shared object · 1 · Burning plasmas and ITER (10)
 - Preformed pairs and the BEC-BCS crossover · analogy · 1 · Bose–Einstein condensates and degenerate gases (04)
 - Skyrmions and cosmic textures · analogy · 1 · Cosmic microwave background (09)

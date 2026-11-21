@@ -1006,7 +1006,7 @@ Cross-links in the curated notes, grouped by the node in this branch (`→` it l
 - **Higgs boson** → Hadron colliders and the LHC (`06-particle-physics/collider-and-experimental-particle-physics/hadron-colliders-and-the-lhc`)
 - **Quantum chromodynamics** → Lattice field theory (`06-particle-physics/quantum-field-theory/lattice-field-theory`)
 
-#### Classified connections (467)
+#### Classified connections (471)
 
 From `connections/registry.jsonl`, found by the connections analysts and checked by the specialists. Format: name · kind · strength 1–3 · the other note (field code). Details: `python -I scripts/physlib.py connections <note>`.
 
@@ -1020,6 +1020,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - Astrophysical evidence fixes candidate properties · shared object · 3 · Astrophysical evidence for dark matter (09)
 - Astrophysics brackets the dark-matter mass range · shared object · 3 · Dark matter (09)
 - Asymptotic freedom and dimensional transmutation · mechanism · 3 · Quantum chromodynamics (06)
+- Asymptotic freedom as a renormalization-group flow · identity · 3 · Renormalization group (03)
 - Asymptotic freedom implies deconfined matter · mechanism · 3 · Quark–gluon plasma (07)
 - Atomic parity violation measures the weak charge · method transfer · 3 · Atomic structure and spectroscopy (04)
 - Axial anomaly: eta' mass and pi0 -> gamma gamma · mechanism · 3 · Quantum chromodynamics (06)
@@ -1027,6 +1028,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - Berry connection as a gauge field on the Brillouin zone · identity · 3 · Band topology and Berry curvature (08)
 - Bethe stopping power: dE/dx tagging and the Bragg peak · identity · 3 · Radiation therapy (11)
 - Born series as tree-level perturbation theory · identity · 3 · Scattering theory (04)
+- Breit–Wigner resonance as a driven damped oscillator · identity · 3 · Harmonic and damped oscillators (01)
 - Bremsstrahlung, radiation length and EM showers · mechanism · 3 · Radiation from moving charges (02)
 - CKM CP violation is too weak for the baryon asymmetry · mechanism · 3 · CP violation (06)
 - CKM matrix from bi-unitary diagonalization of Yukawas · identity · 3 · Linear algebra and Hilbert spaces (00)
@@ -1146,6 +1148,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - Synchrotron loss sets collider size and choice of particle · mechanism · 3 · Radiation from moving charges (02)
 - Synchrotron radiation limits circular e⁺e⁻ colliders · mechanism · 3 · Radiation from moving charges (02)
 - Synchrotron radiation: collider loss, light-source product · identity · 3 · Synchrotron and FEL light sources (11)
+- The Euclidean path integral as a statistical-mechanics partition function · identity · 3 · Ensembles and partition functions (03)
 - The Feynman propagator is a Green's function · identity · 3 · Differential equations and Green's functions (00)
 - The LHC discovered and now measures the Higgs · shared object · 3 · Higgs boson (06)
 - The Standard Model as representation theory · method transfer · 3 · Symmetry and group theory (00)
@@ -1448,6 +1451,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - g−2 from cyclotron versus spin precession · shared object · 2 · Single-particle motion and drifts (10)
 - keV sterile neutrinos as warm dark matter · shared object · 2 · Sterile neutrinos and anomalies (06)
 - keV sterile neutrinos as warm dark matter · shared object · 2 · Dark-matter small-scale structure (09)
+- θ-dependence of the partition function and the topological susceptibility · identity · 2 · Ensembles and partition functions (03)
 - Asymptotic safety predicted the Higgs mass · shared object · 1 · Other approaches to quantum gravity (05)
 - Both Standard Model transitions are crossovers · analogy · 1 · QCD phase diagram and critical point (07)
 - CLOUD: accelerator beams test aerosol nucleation · method transfer · 1 · Climate physics and radiative forcing (11)

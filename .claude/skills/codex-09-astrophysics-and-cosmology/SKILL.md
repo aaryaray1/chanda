@@ -1033,7 +1033,7 @@ Cross-links in the curated notes, grouped by the node in this branch (`→` it l
 - **Binary stars and stellar populations** → The Milky Way (`09-astrophysics-and-cosmology/galaxies/the-milky-way`)
 - **Supernovae and transients** → Dark energy (`09-astrophysics-and-cosmology/cosmology/dark-energy`)
 
-#### Classified connections (418)
+#### Classified connections (420)
 
 From `connections/registry.jsonl`, found by the connections analysts and checked by the specialists. Format: name · kind · strength 1–3 · the other note (field code). Details: `python -I scripts/physlib.py connections <note>`.
 
@@ -1182,6 +1182,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - Black-hole shadow as extreme gravitational lensing · mechanism · 2 · Black-hole imaging and astrophysical black holes (05)
 - Black-hole superradiance constrains ultralight bosons · mechanism · 2 · Schwarzschild and Kerr black holes (05)
 - Boltzmann codes for CMB spectra · method transfer · 2 · Numerical methods for ODEs and PDEs (00)
+- Bondi accretion as transonic Euler flow onto a point mass · shared object · 2 · Ideal and viscous flow (01)
 - Bounce instantons and false-vacuum decay · method transfer · 2 · Path integrals and semiclassics (04)
 - Broken time translation and energy in an expanding universe · mechanism · 2 · Noether's theorem and conservation laws (00)
 - CMB dipole: our motion through the relic radiation · mechanism · 2 · Lorentz transformations and spacetime (05)
@@ -1334,6 +1335,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - Primordial perturbations are squeezed states · shared object · 2 · Squeezed light and quantum metrology (04)
 - Profile likelihood and exclusion limits · method transfer · 2 · Statistical inference in physics (00)
 - Pulsar and magnetar radiation · mechanism · 2 · Radiation from moving charges (02)
+- Pulsar glitches and time-predictable earthquake recurrence · analogy · 2 · Seismology and Earth's interior (11)
 - Pulsar spin-down as magnetic dipole radiation · mechanism · 2 · Dipole radiation and antennas (02)
 - Pulsar timing found the first exoplanets · method transfer · 2 · Pulsar timing arrays (05)
 - Pulsar timing probes ultralight dark matter · mechanism · 2 · Pulsar timing arrays (05)

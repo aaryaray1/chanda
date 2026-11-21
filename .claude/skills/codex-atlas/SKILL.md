@@ -599,15 +599,15 @@ Each curated concept from `connections/concepts.md`, with the notes that mention
 Pairs of notes that share several rare concepts but have no cross-link between them, or between notes inside them. These are candidates, not findings: test each one physically before proposing a cross-link.
 
 1. Quantum optics (`04-quantum-physics/quantum-optics`) ↔ Space-based and future detectors (`05-relativity-and-gravitation/gravitational-waves/space-based-and-future-detectors`) — 0.77; shares Precision measurement and sensing, Gravitational waves, Interference and diffraction, Diffusion, Brownian motion and stochastic processes
-2. Entropy and information (`03-thermodynamics-and-statistical-mechanics/equilibrium-statistical-mechanics/entropy-and-information`) ↔ Information paradox (`05-relativity-and-gravitation/black-holes/information-paradox`) — 0.67; shares Black-hole thermodynamics, Entanglement, Entropy and information
+2. Entropy and information (`03-thermodynamics-and-statistical-mechanics/equilibrium-statistical-mechanics/entropy-and-information`) ↔ Information paradox (`05-relativity-and-gravitation/black-holes/information-paradox`) — 0.67; shares Black-hole thermodynamics, Entropy and information, Entanglement
 3. Shell model and collective models (`07-nuclear-physics/nuclear-structure/shell-model-and-collective-models`) ↔ Hydride superconductors under pressure (`08-condensed-matter/superconductivity/hydride-superconductors-under-pressure`) — 0.64; shares Density functional methods, Pairing and BCS physics, Quasiparticles and collective modes
 4. Laser–plasma interactions (`10-plasma-physics/inertial-and-laser-plasmas/laser-plasma-interactions`) ↔ Beam dynamics (`11-interdisciplinary-physics/accelerator-physics/beam-dynamics`) — 0.63; shares Radiation by accelerated charges, Instabilities, Oscillators and resonance
 5. Ground-based detections (`05-relativity-and-gravitation/gravitational-waves/ground-based-detections`) ↔ Exoplanet detection (`09-astrophysics-and-cosmology/planetary-science-and-exoplanets/exoplanet-detection`) — 0.60; shares Statistical inference, Compact objects, Diffusion, Brownian motion and stochastic processes
 6. Superconducting qubits (`04-quantum-physics/quantum-information-and-computation/superconducting-qubits`) ↔ Laser–plasma interactions (`10-plasma-physics/inertial-and-laser-plasmas/laser-plasma-interactions`) — 0.56; shares Quasiparticles and collective modes, Oscillators and resonance, Lasers, coherence and stimulated emission
 7. Feynman diagrams and scattering amplitudes (`06-particle-physics/quantum-field-theory/feynman-diagrams-and-scattering-amplitudes`) ↔ Nuclear structure (`07-nuclear-physics/nuclear-structure`) — 0.53; shares Variational principles, Scattering theory, Spin and angular momentum
 8. Bose–Einstein condensates and degenerate gases (`04-quantum-physics/atomic-molecular-and-optical-physics/bose-einstein-condensates-and-degenerate-gases`) ↔ Hydride superconductors under pressure (`08-condensed-matter/superconductivity/hydride-superconductors-under-pressure`) — 0.52; shares Density functional methods, Pairing and BCS physics, Quasiparticles and collective modes
-9. Phase transitions and critical phenomena (`03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena`) ↔ Moiré materials and twisted bilayers (`08-condensed-matter/low-dimensional-and-quantum-materials/moire-materials-and-twisted-bilayers`) — 0.51; shares Magnetism and exchange, Disorder and localization, Topological invariants, Ising and lattice models
-10. Ising model and lattice models (`03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena/ising-model-and-lattice-models`) ↔ Moiré materials and twisted bilayers (`08-condensed-matter/low-dimensional-and-quantum-materials/moire-materials-and-twisted-bilayers`) — 0.50; shares Magnetism and exchange, Disorder and localization, Ising and lattice models
+9. Phase transitions and critical phenomena (`03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena`) ↔ Moiré materials and twisted bilayers (`08-condensed-matter/low-dimensional-and-quantum-materials/moire-materials-and-twisted-bilayers`) — 0.51; shares Magnetism and exchange, Topological invariants, Ising and lattice models, Disorder and localization
+10. Ising model and lattice models (`03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena/ising-model-and-lattice-models`) ↔ Moiré materials and twisted bilayers (`08-condensed-matter/low-dimensional-and-quantum-materials/moire-materials-and-twisted-bilayers`) — 0.50; shares Magnetism and exchange, Ising and lattice models, Disorder and localization
 11. Optical lattices and quantum simulation (`04-quantum-physics/atomic-molecular-and-optical-physics/optical-lattices-and-quantum-simulation`) ↔ Spintronics (`08-condensed-matter/magnetism/spintronics`) — 0.48; shares Magnetism and exchange, Tunnelling and instantons, Bose–Einstein condensation and superfluidity
 12. KAM theory and Hamiltonian chaos (`01-classical-mechanics/nonlinear-dynamics-and-chaos/kam-theory-and-hamiltonian-chaos`) ↔ Active matter (`08-condensed-matter/soft-matter/active-matter`) — 0.47; shares Turbulence and cascades, Chaos and nonlinear dynamics, Diffusion, Brownian motion and stochastic processes
 13. Ising model and lattice models (`03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena/ising-model-and-lattice-models`) ↔ Cuprate high-Tc superconductors (`08-condensed-matter/superconductivity/cuprate-high-tc-superconductors`) — 0.47; shares Magnetism and exchange, Ising and lattice models, Phase transitions and criticality
@@ -616,9 +616,9 @@ Pairs of notes that share several rare concepts but have no cross-link between t
 16. Heavy-ion physics (`07-nuclear-physics/heavy-ion-physics`) ↔ Soft matter (`08-condensed-matter/soft-matter`) — 0.44; shares Hydrodynamics and continuum descriptions, Entropy and information, Phase transitions and criticality
 17. Analogue gravity (`05-relativity-and-gravitation/quantum-gravity/analogue-gravity`) ↔ Frustrated magnets and spin liquids (`08-condensed-matter/magnetism/frustrated-magnets-and-spin-liquids`) — 0.44; shares Dirac, Weyl and Majorana fermions, Emergence, Glasses, spin glasses and rugged landscapes, Topological defects, Entanglement
 18. BCS theory and conventional superconductors (`08-condensed-matter/superconductivity/bcs-theory-and-conventional-superconductors`) ↔ Inertial and laser plasmas (`10-plasma-physics/inertial-and-laser-plasmas`) — 0.44; shares Instabilities, Bose–Einstein condensation and superfluidity, Lasers, coherence and stimulated emission
-19. Information paradox (`05-relativity-and-gravitation/black-holes/information-paradox`) ↔ Soft matter (`08-condensed-matter/soft-matter`) — 0.43; shares Glasses, spin glasses and rugged landscapes, Entanglement, Entropy and information
+19. Information paradox (`05-relativity-and-gravitation/black-holes/information-paradox`) ↔ Soft matter (`08-condensed-matter/soft-matter`) — 0.43; shares Glasses, spin glasses and rugged landscapes, Entropy and information, Entanglement
 20. Statistical physics of learning (`03-thermodynamics-and-statistical-mechanics/disordered-and-complex-systems/statistical-physics-of-learning`) ↔ Soft matter (`08-condensed-matter/soft-matter`) — 0.42; shares Glasses, spin glasses and rugged landscapes, Phase transitions and criticality, Diffusion, Brownian motion and stochastic processes
-21. Instabilities and convection (`01-classical-mechanics/continuum-and-fluid-mechanics/instabilities-and-convection`) ↔ Quark–gluon plasma (`07-nuclear-physics/heavy-ion-physics/quark-gluon-plasma`) — 0.42; shares Hydrodynamics and continuum descriptions, Confinement and chiral symmetry breaking, Diffusion, Brownian motion and stochastic processes
+21. Instabilities and convection (`01-classical-mechanics/continuum-and-fluid-mechanics/instabilities-and-convection`) ↔ Quark–gluon plasma (`07-nuclear-physics/heavy-ion-physics/quark-gluon-plasma`) — 0.42; shares Confinement and chiral symmetry breaking, Hydrodynamics and continuum descriptions, Diffusion, Brownian motion and stochastic processes
 22. Baryogenesis and the matter–antimatter asymmetry (`06-particle-physics/beyond-the-standard-model/baryogenesis-and-matter-antimatter`) ↔ Topological matter (`08-condensed-matter/topological-matter`) — 0.41; shares Dirac, Weyl and Majorana fermions, Discrete symmetries, Phase transitions and criticality
 23. Trapped-ion and neutral-atom qubits (`04-quantum-physics/quantum-information-and-computation/trapped-ion-and-neutral-atom-qubits`) ↔ Analogue gravity (`05-relativity-and-gravitation/quantum-gravity/analogue-gravity`) — 0.41; shares Quantum simulation and cold atoms, Quasiparticles and collective modes, Lasers, coherence and stimulated emission
 24. Pulsar timing arrays (`05-relativity-and-gravitation/gravitational-waves/pulsar-timing-arrays`) ↔ Topological matter (`08-condensed-matter/topological-matter`) — 0.41; shares Discrete symmetries, Topological defects, Phase transitions and criticality
@@ -634,7 +634,7 @@ Pairs of notes that share several rare concepts but have no cross-link between t
 34. Analogue gravity (`05-relativity-and-gravitation/quantum-gravity/analogue-gravity`) ↔ Glasses and jamming (`08-condensed-matter/soft-matter/glasses-and-jamming`) — 0.38; shares Glasses, spin glasses and rugged landscapes, Hydrodynamics and continuum descriptions, Bose–Einstein condensation and superfluidity
 35. Quark–gluon plasma (`07-nuclear-physics/heavy-ion-physics/quark-gluon-plasma`) ↔ Soft matter (`08-condensed-matter/soft-matter`) — 0.38; shares Hydrodynamics and continuum descriptions, Entropy and information, Diffusion, Brownian motion and stochastic processes
 36. Standard Model (`06-particle-physics/standard-model`) ↔ Topological matter (`08-condensed-matter/topological-matter`) — 0.37; shares Anomalies, Anyons and fractional statistics, Discrete symmetries
-37. Quantum information and computation (`04-quantum-physics/quantum-information-and-computation`) ↔ Soft matter (`08-condensed-matter/soft-matter`) — 0.36; shares Entanglement, Entropy and information, Diffusion, Brownian motion and stochastic processes
+37. Quantum information and computation (`04-quantum-physics/quantum-information-and-computation`) ↔ Soft matter (`08-condensed-matter/soft-matter`) — 0.36; shares Entropy and information, Entanglement, Diffusion, Brownian motion and stochastic processes
 38. Bose–Einstein condensates and degenerate gases (`04-quantum-physics/atomic-molecular-and-optical-physics/bose-einstein-condensates-and-degenerate-gases`) ↔ Crystals and electronic structure (`08-condensed-matter/crystals-and-electronic-structure`) — 0.35; shares Density functional methods, Quasiparticles and collective modes, Oscillators and resonance
 39. Phase transitions and critical phenomena (`03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena`) ↔ Magnetic skyrmions and textures (`08-condensed-matter/magnetism/magnetic-skyrmions-and-textures`) — 0.34; shares Magnetism and exchange, Topological invariants, Topological defects
 40. Oscillations and waves (`01-classical-mechanics/oscillations-and-waves`) ↔ Analogue gravity (`05-relativity-and-gravitation/quantum-gravity/analogue-gravity`) — 0.34; shares Waves and wave equations, Quasiparticles and collective modes, Bose–Einstein condensation and superfluidity
@@ -650,7 +650,7 @@ Pairs of notes that share several rare concepts but have no cross-link between t
 50. Analogue gravity (`05-relativity-and-gravitation/quantum-gravity/analogue-gravity`) ↔ Magnetism (`08-condensed-matter/magnetism`) — 0.28; shares Glasses, spin glasses and rugged landscapes, Topological defects, Quasiparticles and collective modes
 51. Analogue gravity (`05-relativity-and-gravitation/quantum-gravity/analogue-gravity`) ↔ BCS theory and conventional superconductors (`08-condensed-matter/superconductivity/bcs-theory-and-conventional-superconductors`) — 0.28; shares Topological defects, Quasiparticles and collective modes, Bose–Einstein condensation and superfluidity, Lasers, coherence and stimulated emission
 52. Phase transitions and critical phenomena (`03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena`) ↔ Topological matter (`08-condensed-matter/topological-matter`) — 0.27; shares Topological invariants, Topological defects, Phase transitions and criticality
-53. Quantum statistics (`03-thermodynamics-and-statistical-mechanics/equilibrium-statistical-mechanics/quantum-statistics`) ↔ Analogue gravity (`05-relativity-and-gravitation/quantum-gravity/analogue-gravity`) — 0.25; shares Quasiparticles and collective modes, Bose–Einstein condensation and superfluidity, Compact objects
+53. Quantum statistics (`03-thermodynamics-and-statistical-mechanics/equilibrium-statistical-mechanics/quantum-statistics`) ↔ Analogue gravity (`05-relativity-and-gravitation/quantum-gravity/analogue-gravity`) — 0.25; shares Quasiparticles and collective modes, Compact objects, Bose–Einstein condensation and superfluidity
 54. Analogue gravity (`05-relativity-and-gravitation/quantum-gravity/analogue-gravity`) ↔ Strongly correlated electrons (`08-condensed-matter/strongly-correlated-electrons`) — 0.19; shares Quantum simulation and cold atoms, Entanglement, Bose–Einstein condensation and superfluidity
 
 ## Latent bridges within branches
@@ -658,13 +658,13 @@ Pairs of notes that share several rare concepts but have no cross-link between t
 Pairs of notes that share several rare concepts but have no cross-link between them, or between notes inside them. These are candidates, not findings: test each one physically before proposing a cross-link.
 
 1. Magnetism (`08-condensed-matter/magnetism`) ↔ Topological superconductors and Majoranas (`08-condensed-matter/topological-matter/topological-superconductors-and-majoranas`) — 0.45; shares Anyons and fractional statistics, Topological defects, Quasiparticles and collective modes
-2. Crystals and electronic structure (`08-condensed-matter/crystals-and-electronic-structure`) ↔ Fractionalization and topological order (`08-condensed-matter/strongly-correlated-electrons/fractionalization-and-topological-order`) — 0.43; shares Ising and lattice models, Entropy and information, Interference and diffraction, Quasiparticles and collective modes
+2. Crystals and electronic structure (`08-condensed-matter/crystals-and-electronic-structure`) ↔ Fractionalization and topological order (`08-condensed-matter/strongly-correlated-electrons/fractionalization-and-topological-order`) — 0.43; shares Ising and lattice models, Entropy and information, Quasiparticles and collective modes, Interference and diffraction
 3. Frustrated magnets and spin liquids (`08-condensed-matter/magnetism/frustrated-magnets-and-spin-liquids`) ↔ Liquid crystals (`08-condensed-matter/soft-matter/liquid-crystals`) — 0.42; shares Spontaneous symmetry breaking, Topological invariants, Topological defects
 4. Frustrated magnets and spin liquids (`08-condensed-matter/magnetism/frustrated-magnets-and-spin-liquids`) ↔ Topological superconductors and Majoranas (`08-condensed-matter/topological-matter/topological-superconductors-and-majoranas`) — 0.41; shares Dirac, Weyl and Majorana fermions, Topological invariants, Topological defects
 5. Information paradox (`05-relativity-and-gravitation/black-holes/information-paradox`) ↔ Analogue gravity (`05-relativity-and-gravitation/quantum-gravity/analogue-gravity`) — 0.39; shares Black-hole thermodynamics, Glasses, spin glasses and rugged landscapes, Entanglement, Compact objects
 6. Frustrated magnets and spin liquids (`08-condensed-matter/magnetism/frustrated-magnets-and-spin-liquids`) ↔ Topological semimetals (`08-condensed-matter/topological-matter/topological-semimetals`) — 0.36; shares Dirac, Weyl and Majorana fermions, Topological invariants, Topological defects
 7. Electronic transport and mesoscopic physics (`08-condensed-matter/crystals-and-electronic-structure/electronic-transport-and-mesoscopic-physics`) ↔ Soft matter (`08-condensed-matter/soft-matter`) — 0.36; shares Hydrodynamics and continuum descriptions, Entropy and information, Diffusion, Brownian motion and stochastic processes
-8. Fractionalization and topological order (`08-condensed-matter/strongly-correlated-electrons/fractionalization-and-topological-order`) ↔ Superconductivity (`08-condensed-matter/superconductivity`) — 0.35; shares Spontaneous symmetry breaking, Interference and diffraction, Quasiparticles and collective modes
+8. Fractionalization and topological order (`08-condensed-matter/strongly-correlated-electrons/fractionalization-and-topological-order`) ↔ Superconductivity (`08-condensed-matter/superconductivity`) — 0.35; shares Spontaneous symmetry breaking, Quasiparticles and collective modes, Interference and diffraction
 9. Frustrated magnets and spin liquids (`08-condensed-matter/magnetism/frustrated-magnets-and-spin-liquids`) ↔ Topological matter (`08-condensed-matter/topological-matter`) — 0.35; shares Dirac, Weyl and Majorana fermions, Topological invariants, Topological defects
 10. Strongly correlated electrons (`08-condensed-matter/strongly-correlated-electrons`) ↔ BCS theory and conventional superconductors (`08-condensed-matter/superconductivity/bcs-theory-and-conventional-superconductors`) — 0.29; shares Fermi surfaces and degenerate matter, Mean-field and self-consistent theories, Bose–Einstein condensation and superfluidity
 
@@ -715,7 +715,7 @@ Note pairs from different fields whose fetched literature contains the same pape
 
 ## Classified connections
 
-2883 connections in `connections/registry.jsonl` (2437 across branches, 446 within), found by the connections analysts and checked by the branch specialists. By kind: method transfer 925, mechanism 814, shared object 432, analogy 317, identity 277, historical 101, duality 17. All of them are drawn in [the interactive map](connections/map.html) ([static SVG](connections/map.svg)). The deepest (strength 3) are listed below; query any note with `physlib.py connections`.
+2906 connections in `connections/registry.jsonl` (2460 across branches, 446 within), found by the connections analysts and checked by the branch specialists. By kind: method transfer 928, mechanism 819, shared object 436, analogy 318, identity 287, historical 101, duality 17. All of them are drawn in [the interactive map](connections/map.html) ([static SVG](connections/map.svg)). The deepest (strength 3) are listed below; query any note with `physlib.py connections`.
 
 - **Feynman–Kac: random walks solve diffusion-type PDEs** (identity) — Monte Carlo methods ↔ Differential equations and Green's functions
 - **Gauge fields are Lie-algebra-valued connections** (identity) — Tensors and differential geometry ↔ Lie groups and representations
@@ -970,6 +970,8 @@ Note pairs from different fields whose fetched literature contains the same pape
 - **Kepler orbits decaying by gravitational radiation** (mechanism) — Central forces and orbits ↔ Gravitational-wave theory and waveforms
 - **Newtonian mechanics as the low-speed limit of SR** (shared object) — Newtonian mechanics ↔ Special relativity
 - **Perihelion advance and light bending as orbit corrections** (mechanism) — Central forces and orbits ↔ Tests of general relativity
+- **The acoustic metric: sound in a moving fluid sees curved spacetime** (identity) — Ideal and viscous flow ↔ Analogue gravity
+- **Breit–Wigner resonance as a driven damped oscillator** (identity) — Harmonic and damped oscillators ↔ Feynman diagrams and scattering amplitudes
 - **Dirac constraints and gauge redundancy** (method transfer) — Hamiltonian mechanics ↔ Gauge theories and Yang–Mills
 - **Free fields as infinitely many normal modes** (identity) — Coupled oscillators and normal modes ↔ Canonical and path-integral quantization
 - **Lagrangian field theory as the input to quantization** (method transfer) — Lagrangian mechanics ↔ Canonical and path-integral quantization
@@ -1081,6 +1083,7 @@ Note pairs from different fields whose fetched literature contains the same pape
 - **Aperture synthesis images black-hole shadows** (method transfer) — Fourier optics and imaging ↔ Black-hole imaging and astrophysical black holes
 - **E and B as components of one Lorentz tensor** (identity) — Relativistic electrodynamics ↔ Lorentz transformations and spacetime
 - **Gauge connections: vector potential vs Christoffel** (analogy) — Potentials and gauge invariance ↔ Einstein field equations
+- **Liénard's relativistic Larmor formula and synchrotron losses** (mechanism) — Radiation from moving charges ↔ Relativistic kinematics and dynamics
 - **Lorenz gauge ↔ harmonic gauge in linearized gravity** (analogy) — Potentials and gauge invariance ↔ Gravitational-wave theory and waveforms
 - **Maxwell's equations force special relativity** (historical) — Electrodynamics ↔ Special relativity
 - **Michelson interferometry reads out spacetime strain** (method transfer) — Interference and diffraction ↔ Ground-based detections
@@ -1108,6 +1111,7 @@ Note pairs from different fields whose fetched literature contains the same pape
 - **Optical model as nuclear Mie scattering** (analogy) — Scattering of light ↔ Nuclear reactions and scattering
 - **Yukawa potential as a screened Coulomb Green's function** (historical) — Electrostatics and boundary-value problems ↔ Nuclear forces and chiral EFT
 - **Axion electrodynamics in topological insulators** (mechanism) — Maxwell's equations ↔ Topological insulators
+- **Berry connection as a gauge potential in parameter space** (identity) — Potentials and gauge invariance ↔ Band topology and Berry curvature
 - **Berry curvature and Chern numbers of Maxwell Bloch modes** (identity) — Topological photonics ↔ Band topology and Berry curvature
 - **Chiral anomaly driven by the invariant E·B** (mechanism) — Relativistic electrodynamics ↔ Topological semimetals
 - **Coherent backscattering, speckle and weak localization** (mechanism) — Coherence and statistical optics ↔ Electronic transport and mesoscopic physics
@@ -1137,6 +1141,7 @@ Note pairs from different fields whose fetched literature contains the same pape
 - **Drude metal as cold plasma** (mechanism) — Metamaterials and plasmonics ↔ Plasma waves and instabilities
 - **MHD as Maxwell with displacement current dropped** (mechanism) — Maxwell's equations ↔ Ideal MHD and Alfvén waves
 - **Parametric instabilities as nonlinear optics** (mechanism) — Nonlinear optics ↔ Laser–plasma interactions
+- **Plasma waves as zeros of the dielectric function** (identity) — Fields in matter ↔ Plasma waves and instabilities
 - **Accelerator radiation losses and damping** (mechanism) — Radiation from moving charges ↔ Beam dynamics
 - **Beam optics as ray-transfer matrices** (identity) — Geometric optics ↔ Beam dynamics
 - **Femtochemistry with ultrafast pulses** (method transfer) — Ultrafast and attosecond optics ↔ Reaction dynamics
@@ -1172,6 +1177,7 @@ Note pairs from different fields whose fetched literature contains the same pape
 - **Canonical typicality from entanglement** (mechanism) — Ensembles and partition functions ↔ Entanglement theory
 - **Doppler cooling as Brownian motion in light** (mechanism) — Stochastic processes and Langevin dynamics ↔ Laser cooling and trapping
 - **Ensemble equivalence from eigenstate thermalization** (mechanism) — Ensembles and partition functions ↔ Thermalization and the eigenstate thermalization hypothesis
+- **Entanglement entropy of critical spin chains measures the central charge** (identity) — Exactly solvable models ↔ Entanglement theory
 - **Integrability, GGE and the quantum Newton's cradle** (mechanism) — Exactly solvable models ↔ Thermalization and the eigenstate thermalization hypothesis
 - **Landauer bound in quantum thermodynamics** (identity) — Entropy and information ↔ Quantum thermodynamics
 - **Lindblad equation as the quantum master equation** (analogy) — Stochastic processes and Langevin dynamics ↔ Lindblad master equations
@@ -1188,6 +1194,7 @@ Note pairs from different fields whose fetched literature contains the same pape
 - **Kubo viscosity from horizons: η/s = ħ/4πk_B** (method transfer) — Linear response and fluctuation–dissipation ↔ Holography and AdS/CFT
 - **Unruh effect: the vacuum as a Gibbs state** (identity) — Ensembles and partition functions ↔ QFT in curved spacetime
 - **2D Ising as the c=1/2 minimal model** (identity) — Ising model and lattice models ↔ Conformal field theory
+- **Asymptotic freedom as a renormalization-group flow** (identity) — Renormalization group ↔ Quantum chromodynamics
 - **Critical points are conformal field theories** (identity) — Phase transitions and critical phenomena ↔ Conformal field theory
 - **Euclidean QFT as statistical field theory** (identity) — Phase transitions and critical phenomena ↔ Quantum field theory
 - **Exactly solvable lattice models as CFTs** (identity) — Exactly solvable models ↔ Conformal field theory
@@ -1196,6 +1203,7 @@ Note pairs from different fields whose fetched literature contains the same pape
 - **Lattice gauge theory as statistical mechanics** (identity) — Ising model and lattice models ↔ Lattice field theory
 - **NJL: BCS mean field for chiral symmetry breaking** (historical) — Mean-field and Landau theory ↔ Quantum chromodynamics
 - **Statistical field theory ↔ renormalizable QFT** (identity) — Phase transitions and critical phenomena ↔ Renormalization and running couplings
+- **The Euclidean path integral as a statistical-mechanics partition function** (identity) — Ensembles and partition functions ↔ Lattice field theory
 - **Wilson's RG unifies running couplings and critical exponents** (identity) — Renormalization group ↔ Renormalization and running couplings
 - **Wilsonian EFT: irrelevant operators and decoupling** (identity) — Renormalization group ↔ Effective field theory
 - **Baryon-number cumulants as grand-canonical susceptibilities** (identity) — Ensembles and partition functions ↔ QCD phase diagram and critical point
@@ -1244,6 +1252,7 @@ Note pairs from different fields whose fetched literature contains the same pape
 - **Saha equation and cosmic recombination** (mechanism) — Phase equilibria and chemical potential ↔ Cosmic microwave background
 - **Thermal history: g_*, entropy conservation, relic neutrinos** (identity) — Quantum statistics ↔ FLRW cosmology and expansion history
 - **Boltzmann equation to Vlasov equation** (method transfer) — Kinetic theory and the Boltzmann equation ↔ Kinetic theory, Vlasov and Landau damping
+- **Coulomb collisions as a Fokker–Planck process** (method transfer) — Stochastic processes and Langevin dynamics ↔ Kinetic theory, Vlasov and Landau damping
 - **Debye–Hückel screening** (identity) — Ensembles and partition functions ↔ Debye shielding and plasma parameters
 - **Landau collision integral: Boltzmann for Coulomb gases** (method transfer) — Kinetic theory and the Boltzmann equation ↔ Kinetic theory, Vlasov and Landau damping
 - **Plasma fundamentals and Boltzmann kinetics** (method transfer) — Kinetic theory and the Boltzmann equation ↔ Plasma fundamentals

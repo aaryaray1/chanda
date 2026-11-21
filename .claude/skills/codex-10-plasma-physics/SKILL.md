@@ -738,7 +738,7 @@ Cross-links in the curated notes, grouped by the node in this branch (`→` it l
 - **Magnetospheres and space weather** → Magnetic reconnection (`10-plasma-physics/magnetohydrodynamics/magnetic-reconnection`), Single-particle motion and drifts (`10-plasma-physics/plasma-fundamentals/single-particle-motion-and-drifts`)
 - **Solar wind and heliosphere** → MHD turbulence (`10-plasma-physics/magnetohydrodynamics/mhd-turbulence`)
 
-#### Classified connections (381)
+#### Classified connections (383)
 
 From `connections/registry.jsonl`, found by the connections analysts and checked by the specialists. Format: name · kind · strength 1–3 · the other note (field code). Details: `python -I scripts/physlib.py connections <note>`.
 
@@ -750,6 +750,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - Blandford–Znajek: force-free extraction of Kerr spin · mechanism · 3 · Schwarzschild and Kerr black holes (05)
 - Boltzmann equation to Vlasov equation · method transfer · 3 · Kinetic theory and the Boltzmann equation (03)
 - Colour Debye screening in the quark–gluon plasma · mechanism · 3 · Quantum chromodynamics (06)
+- Coulomb collisions as a Fokker–Planck process · method transfer · 3 · Stochastic processes and Langevin dynamics (03)
 - D-T reactivity sets the tokamak operating point · mechanism · 3 · Fusion reactions (07)
 - Dayside and tail reconnection in the Dungey cycle · shared object · 3 · Magnetospheres and space weather (10)
 - Debye sheaths in processing plasmas · mechanism · 3 · Debye shielding and plasma parameters (10)
@@ -783,6 +784,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - Photon mass: plasma cutoff and Meissner effect · historical · 3 · BCS theory and conventional superconductors (08)
 - Plasma fundamentals and Boltzmann kinetics · method transfer · 3 · Kinetic theory and the Boltzmann equation (03)
 - Plasma turbulence and fluid turbulence · analogy · 3 · Turbulence (01)
+- Plasma waves as zeros of the dielectric function · identity · 3 · Fields in matter (02)
 - Plasmons, ion-acoustic waves and phonons in metals · mechanism · 3 · Phonons and lattice dynamics (08)
 - Ponderomotive force and Kapitza pendulum · mechanism · 3 · Parametric and nonlinear oscillations (01)
 - Ponderomotive force in wakefields · mechanism · 3 · Plasma wakefield acceleration (10)

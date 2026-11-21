@@ -978,6 +978,8 @@ def finalize(force: bool = False) -> None:
             rec["id"] = f"C{next_id:04d}"
             next_id += 1
             kept.append(rec)
+    seen = {name_key(r) for r in kept}
+    kept += [r for r in read_jsonl(ADDED) if name_key(r) not in seen]  # hand additions survive a re-finalize, with their ids
     bad = verify_sources(kept)
     for rec in kept:
         rec["sources"] = [s for j, s in enumerate(rec["sources"]) if (rec["id"], j) not in bad]
@@ -990,6 +992,40 @@ def finalize(force: bool = False) -> None:
     out(f"tree check: {rebuild_tree(check=True)}")
     out(f"finalized: {len(kept)} connections in the registry, {len(rejected)} rejected ({len(drops)} as duplicates), "
         f"{len(bad)} unverifiable sources dropped")
+
+
+ADDED = PIPE / "added.jsonl"  # records added by hand after finalize; finalize re-applies them
+
+
+def add_records(rows: list[dict], dry_run: bool) -> list[dict]:
+    reg = read_jsonl(REGISTRY)
+    seen, next_id, new = {name_key(r) for r in reg}, max(int(r["id"][1:]) for r in reg) + 1, []
+    for i, raw in enumerate(rows, 1):
+        rec = normalize(raw)
+        issues = problems_of(rec) if rec else ["not a valid record (nodes, name or summary)"]
+        if issues or name_key(rec) in seen:
+            warn(f"record {i} ({raw.get('name', '?')}): {'; '.join(issues) if issues else 'already in the registry'}; skipped")
+            continue
+        seen.add(name_key(rec))
+        rec["id"], rec["review"] = f"C{next_id:04d}", str(raw.get("review") or "added by hand")
+        next_id += 1
+        new.append(rec)
+    bad = verify_sources(new) if new else set()
+    for rec in new:
+        rec["sources"] = [src for j, src in enumerate(rec["sources"]) if (rec["id"], j) not in bad]
+        out(f"{'would add' if dry_run else 'add'} {rec['id']}: {rec['name']} ({rec['a']} ↔ {rec['b']}; {len(rec['sources'])} verified sources)")
+    if new and not dry_run:
+        clean = [{k: r.get(k, "") for k in RECORD_KEYS} for r in new]
+        write_jsonl(REGISTRY, reg + clean)
+        write_jsonl(ADDED, read_jsonl(ADDED) + clean)
+        out(f"tree check: {rebuild_tree(check=True)}")
+    return new
+
+
+def cmd_add_records(args) -> int:
+    new = add_records(read_jsonl(Path(args.file)), args.dry_run)
+    out(f"{'would add' if args.dry_run else 'added'} {len(new)} records")
+    return 0
 
 
 def safe_eval(expr) -> float | None:
@@ -1214,6 +1250,10 @@ def main() -> int:
     p.set_defaults(func=cmd_snapshot)
     sub.add_parser("prepare").set_defaults(func=lambda a: prepare() or 0)
     sub.add_parser("audit-report", help="rewrite audit/report.md from the audit verdicts so far").set_defaults(func=lambda a: audit_report() or 0)
+    p = sub.add_parser("add-records", help="append new connections from a JSONL file to the final registry, after checking and verifying sources")
+    p.add_argument("file")
+    p.add_argument("--dry-run", action="store_true", help="validate and verify without writing")
+    p.set_defaults(func=cmd_add_records)
     p = sub.add_parser("apply-audit", help="apply the audit's corrected text to these registry records, after you have checked them")
     p.add_argument("ids", nargs="+")
     p.add_argument("--dry-run", action="store_true", help="show the changes without writing them")

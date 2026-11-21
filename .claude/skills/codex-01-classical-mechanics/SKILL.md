@@ -815,7 +815,7 @@ Cross-links in the curated notes, grouped by the node in this branch (`→` it l
 - **Rigid-body dynamics** → Analytical mechanics (`01-classical-mechanics/analytical-mechanics`)
 - **Euler's equations and tops** → Bifurcations and routes to chaos (`01-classical-mechanics/nonlinear-dynamics-and-chaos/bifurcations-and-routes-to-chaos`)
 
-#### Classified connections (484)
+#### Classified connections (488)
 
 From `connections/registry.jsonl`, found by the connections analysts and checked by the specialists. Format: name · kind · strength 1–3 · the other note (field code). Details: `python -I scripts/physlib.py connections <note>`.
 
@@ -831,6 +831,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - BGS conjecture: classical chaos ↔ random-matrix spectra · mechanism · 3 · Quantum chaos and scrambling (04)
 - Beam optics as Hamiltonian flow · mechanism · 3 · Beam dynamics (11)
 - Bertrand's theorem and the Kepler–oscillator duality · duality · 3 · Harmonic and damped oscillators (01)
+- Breit–Wigner resonance as a driven damped oscillator · identity · 3 · Feynman diagrams and scattering amplitudes (06)
 - Buckingham π ↔ Reynolds similarity · method transfer · 3 · Dimensional analysis and scaling (00)
 - Chaotic advection: the stream function as Hamiltonian · identity · 3 · KAM theory and Hamiltonian chaos (01)
 - Charged-particle Lagrangian and minimal coupling · identity · 3 · Potentials and gauge invariance (02)
@@ -957,6 +958,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - Stokes drag sets Brownian diffusion (Stokes–Einstein) · mechanism · 3 · Stochastic processes and Langevin dynamics (03)
 - Symplectic integrators for long-term orbits · method transfer · 3 · Solar System dynamics (09)
 - Symplectic integrators ↔ Hamiltonian flow · method transfer · 3 · Numerical methods for ODEs and PDEs (00)
+- The acoustic metric: sound in a moving fluid sees curved spacetime · identity · 3 · Analogue gravity (05)
 - Thermodynamic formalism: Gibbs states of chaotic maps · method transfer · 3 · Ensembles and partition functions (03)
 - Topological solitons, winding numbers and instantons · mechanism · 3 · Anomalies, instantons and topology (06)
 - Torus quantization (EBK) and Gutzwiller's periodic-orbit sum · method transfer · 3 · Path integrals and semiclassics (04)
@@ -993,6 +995,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - Bohmian mechanics as quantum Hamilton–Jacobi theory · method transfer · 2 · Measurement problem and interpretations (04)
 - Bohr Hamiltonian: a quantized collective Lagrangian · method transfer · 2 · Shell model and collective models (07)
 - Bohr's classical stopping power · method transfer · 2 · Radiation detection and dosimetry (07)
+- Bondi accretion as transonic Euler flow onto a point mass · shared object · 2 · Compact objects (09)
 - Bosonic Josephson junction: pendulum bifurcation, self-trapping · mechanism · 2 · Bose–Einstein condensates and degenerate gases (04)
 - Breit–Wigner lineshape = driven damped resonance · mechanism · 2 · Electroweak theory (06)
 - Brillouin scattering couples light to sound · mechanism · 2 · Nonlinear optics (02)
@@ -1150,6 +1153,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - Mechanical topological insulators from coupled oscillators · method transfer · 2 · Band topology and Berry curvature (08)
 - Microscopic chaos and transport coefficients · mechanism · 2 · Kinetic theory and the Boltzmann equation (03)
 - Minimal coupling and classical color (Wong) dynamics · method transfer · 2 · Gauge theories and Yang–Mills (06)
+- Minimal coupling: canonical momentum and gauge transformations · identity · 2 · Potentials and gauge invariance (02)
 - Misalignment: axion field as a Hubble-damped oscillator · analogy · 2 · Axions and the light dark sector (06)
 - Missing energy: from Pauli's neutrino to KATRIN · historical · 2 · Neutrino mass and neutrinoless double-beta decay (06)
 - Mixmaster chaos near cosmological singularities · mechanism · 2 · Exact solutions (05)

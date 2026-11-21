@@ -768,7 +768,7 @@ Cross-links in the curated notes, grouped by the node in this branch (`→` it l
 - **Accelerator technology** → Radiation therapy (`11-interdisciplinary-physics/medical-physics/radiation-therapy`)
 - **Radiation therapy** → Accelerator technology (`11-interdisciplinary-physics/accelerator-physics/accelerator-technology`)
 
-#### Classified connections (400)
+#### Classified connections (402)
 
 From `connections/registry.jsonl`, found by the connections analysts and checked by the specialists. Format: name · kind · strength 1–3 · the other note (field code). Details: `python -I scripts/physlib.py connections <note>`.
 
@@ -970,6 +970,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - Moment of inertia constrains density profile · shared object · 2 · Rotational dynamics and the inertia tensor (01)
 - Monte Carlo dose calculation · method transfer · 2 · Monte Carlo methods (00)
 - Monte Carlo simulation of PET and SPECT · method transfer · 2 · Monte Carlo methods (00)
+- Mott formula: the Seebeck coefficient from the energy derivative of the conductivity · mechanism · 2 · Fields in matter (02)
 - Muon g−2 as precision spin-precession magnetometry · method transfer · 2 · Precision anomalies and muon g−2 (06)
 - Muon ionization cooling evades Liouville · mechanism · 2 · Future colliders (06)
 - NV magnetometry imaging of 2D magnets · method transfer · 2 · Exchange and magnetic order (08)
@@ -1011,6 +1012,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - Positron emission physics sets PET resolution · mechanism · 2 · Beta decay and weak interactions (07)
 - Protein folding funnels and spin-glass landscapes · method transfer · 2 · Spin glasses (03)
 - Proteins and nucleic acids as polymers · mechanism · 2 · Polymers (08)
+- Pulsar glitches and time-predictable earthquake recurrence · analogy · 2 · Compact objects (09)
 - Quantum computing for electronic structure · method transfer · 2 · Quantum algorithms and complexity (04)
 - Quantum gravimetry for geophysics · method transfer · 2 · Atomic clocks and precision measurement (04)
 - Quantum sensors for dark matter · method transfer · 2 · Direct detection (09)

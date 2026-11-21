@@ -16,9 +16,10 @@
 1. **Audit follow-up (recurring):** after each batch of audit packets, run `audit-report`. Check each `error`, each arithmetic mismatch and each skipped record (no verdict) by hand: recompute, read the source. Packets 13–20 run after midnight on Sunday. Record each verdict in `connections/pipeline/audit/audit-manual.jsonl` and apply verified fixes with `apply-audit`.
 2. **Open forecast:** after MJD 61506 (2027-04-11), score Grover et al.'s Vela window with a fresh catalogue (T04 `--catalogue`). After 2031-11-20, or once 10 pairs exist, run T02. Neither falls in this weekend.
 3. **Test track: no open candidates** (closed 2026-11-21 15:00; see the log). A new slot needs a published *falsifiable forecast* with public data that nobody has scored yet.
-4. **Map additions:** `map-additions.jsonl` (23 records) awaits the user's OK. Next step if approved: a pipeline path to add records (an `add-records` command, which writes and verifies sources like finalize does).
-5. **Filing results in the tree (F6, awaits the user's OK):** T01, T03 and T04 have passed the referee, but none is filed in `knowledge/`. `docs/CONVENTIONS.md` defines `reviews/` only for literature reviews, so a note format for frontier results is a decision for the user. The suggested home is `09-astrophysics-and-cosmology/stellar-astrophysics/compact-objects`. Posting to Discord also waits for the user.
-6. **Sunday wrap-up:** a summary at the top of this file, then a final report to the user.
+4. **Map additions: done** (2026-11-21 17:55): 23 records added as C3013–C3035 via the new `add-records` command (28/28 sources verified). The records are kept in `../pipeline/added.jsonl`, so a re-finalize keeps them.
+5. **Filing results in the tree (F6; the user said to decide, so I will):** T01, T03 and T04 have passed the referee, but none is filed in `knowledge/`. `docs/CONVENTIONS.md` defines `reviews/` only for literature reviews, so a note format for frontier results is a decision for the user. The suggested home is `09-astrophysics-and-cosmology/stellar-astrophysics/compact-objects`. Posting to Discord also waits for the user.
+6. **Glitch statistics track (G1–G3), the main breakthrough effort:** waiting on the referee and the prior-art search (both running). Then apply their fixes, and file a combined note in the tree. A next test would be a refractory deficit among large follow-ups only, which needs more large-glitch pairs or a second catalogue (ATNF).
+7. **Sunday wrap-up:** a summary at the top of this file, then a final report to the user.
 
 ## Done
 - 2026-11-20:
@@ -104,4 +105,21 @@
   - **ZH25b's baseline win is weak.** Conditioned on no glitch before publication, the baseline misses by −289 d and the forecast by −316 d.
   - **Quotes made verbatim:** AK17b and AK17m are relabelled by the paper's own scenario names, and the GR25vc quote now uses [...]. The LI24c conflicts between text and table, and between paper and catalogue, are noted.
   - **Code:** summaries report the registered and the strict prospective rules, and overdue counts. The self-test now covers the strict boundary, both window kinds, the alternative target, lower-bound HP, the confirmed-miss rule and the summary filters.
+- **2026-11-21 16:00–17:55:** commit and push, then the breakthrough track (G1–G3, all pre-registered before their data were scored).
+  - **Push:** HTTPS has no credentials, so pushing goes over SSH (rule above). The repo is public: every commit is scanned for secrets, and `.claude/settings.json` and `library/fulltext/` stay out.
+  - **G1** (`a95b9cb` → results): a forecast competition with CSEP-style information gain (method transfer from earthquake forecasting), on 14 pulsars and 231 forecasts.
+    - Log-normal renewal forecasts are **calibrated** out of sample (KS p = 0.55; 90% coverage 208/231). The published forecasts scored in T04 are not.
+    - The gain over Poisson is small (+0.098 nats per forecast, not significant).
+    - Size–wait slopes are positive in 13 of 14 pulsars.
+    - Prospective forecasts for 34 pulsars are registered.
+  - **G2** (`6c3a9be` → results): the same competition by size class.
+    - **Small glitches** are Poisson-like, and their sizes worsen forecasts. This holds in all three runs.
+    - **Large glitches** show the reservoir sign in 7 of 7 pulsars, and 14 of 14 with a looser cut (p = 6×10⁻⁵). Recovery cannot hide large glitches, so that sign is physical.
+    - Vela's forecasts are ruined by its 1994 doublet.
+  - **G3** (`0f14460` → results): **no aftershocks.**
+    - Quick follow-ups: 15 against 36.4 under Poisson (p < 0.0002).
+    - They do not follow large glitches, and they are not smaller, so there is no Båth's-law analogue.
+    - Unlike earthquakes, glitches are not triggered failures. Part of the deficit may be recovery masking.
+  - **Map:** the 23 additions are in the registry (2907 connections).
+  - **Running:** the referee on G1–G3, and paper-scout for F3 prior art.
 

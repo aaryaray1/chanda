@@ -760,7 +760,7 @@ Cross-links in the curated notes, grouped by the node in this branch (`→` it l
 - **Exotic nuclei and drip lines** → Stellar nucleosynthesis and the r-process (`07-nuclear-physics/nuclear-astrophysics/stellar-nucleosynthesis-and-the-r-process`)
 - **Superheavy elements** → Nuclear fission (`07-nuclear-physics/nuclear-reactions-and-decays/nuclear-fission`)
 
-#### Classified connections (434)
+#### Classified connections (435)
 
 From `connections/registry.jsonl`, found by the connections analysts and checked by the specialists. Format: name · kind · strength 1–3 · the other note (field code). Details: `python -I scripts/physlib.py connections <note>`.
 
@@ -979,6 +979,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - Jet energy loss as a wave-turbulent gluon cascade · analogy · 2 · Turbulence (01)
 - Jet transverse-momentum broadening as diffusion · mechanism · 2 · Stochastic processes and Langevin dynamics (03)
 - Jets as tomographic probes of the QGP · method transfer · 2 · Jets and QCD phenomenology (06)
+- Kinetic theory of the weakly coupled quark–gluon plasma · method transfer · 2 · Kinetic theory and the Boltzmann equation (03)
 - Kramers escape theory as the standard model of fission dynamics · method transfer · 2 · Stochastic processes and Langevin dynamics (03)
 - Kubo transport coefficients of the QGP · method transfer · 2 · Linear response and fluctuation–dissipation (03)
 - LPM suppression and QCD radiative energy loss · mechanism · 2 · Radiation from moving charges (02)

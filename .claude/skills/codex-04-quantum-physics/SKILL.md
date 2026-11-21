@@ -1111,7 +1111,7 @@ Cross-links in the curated notes, grouped by the node in this branch (`→` it l
 - **Cavity and circuit QED** → Superconducting qubits (`04-quantum-physics/quantum-information-and-computation/superconducting-qubits`)
 - **Single-photon sources and detectors** → Photonic and spin qubits (`04-quantum-physics/quantum-information-and-computation/photonic-and-spin-qubits`)
 
-#### Classified connections (475)
+#### Classified connections (477)
 
 From `connections/registry.jsonl`, found by the connections analysts and checked by the specialists. Format: name · kind · strength 1–3 · the other note (field code). Details: `python -I scripts/physlib.py connections <note>`.
 
@@ -1159,6 +1159,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - Ensemble equivalence from eigenstate thermalization · mechanism · 3 · Ensembles and partition functions (03)
 - Entanglement and quantum Fisher information · mechanism · 3 · Quantum sensing (11)
 - Entanglement entropy measures the central charge · identity · 3 · Conformal field theory (06)
+- Entanglement entropy of critical spin chains measures the central charge · identity · 3 · Exactly solvable models (03)
 - Ergodicity: classical mixing vs eigenstate thermalization · analogy · 3 · Deterministic chaos (01)
 - Error correction and DFS undo decoherence · mechanism · 3 · Quantum error correction and fault tolerance (04)
 - Euclidean path integral gives the Hawking temperature · method transfer · 3 · Black-hole thermodynamics and Hawking radiation (05)
@@ -1515,6 +1516,7 @@ From `connections/registry.jsonl`, found by the connections analysts and checked
 - Spin-glass ground states and quantum annealing · method transfer · 2 · Spin glasses (03)
 - Spin-orbit coupling and magic numbers · analogy · 2 · Shell model and collective models (07)
 - Spinors, Lorentz group and Thomas precession · mechanism · 2 · Lorentz transformations and spacetime (05)
+- Spontaneous analogue Hawking radiation in Bose–Einstein condensates · shared object · 2 · Analogue gravity (05)
 - Squeezed vacuum beats interferometer shot noise · mechanism · 2 · Detectors and instrumentation (00)
 - Squeezed-state receivers for axion haloscopes · method transfer · 2 · Axions and the light dark sector (06)
 - Strong coupling of excitons to cavity photons · mechanism · 2 · Transition-metal dichalcogenides and excitons (08)

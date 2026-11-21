@@ -7857,8 +7857,8 @@
    "score": 0.668,
    "shared": [
     "Black-hole thermodynamics",
-    "Entanglement",
-    "Entropy and information"
+    "Entropy and information",
+    "Entanglement"
    ]
   },
   {
@@ -7927,9 +7927,9 @@
    "score": 0.51,
    "shared": [
     "Magnetism and exchange",
-    "Disorder and localization",
     "Topological invariants",
-    "Ising and lattice models"
+    "Ising and lattice models",
+    "Disorder and localization"
    ]
   },
   {
@@ -7938,8 +7938,8 @@
    "score": 0.497,
    "shared": [
     "Magnetism and exchange",
-    "Disorder and localization",
-    "Ising and lattice models"
+    "Ising and lattice models",
+    "Disorder and localization"
    ]
   },
   {
@@ -8031,8 +8031,8 @@
    "score": 0.432,
    "shared": [
     "Glasses, spin glasses and rugged landscapes",
-    "Entanglement",
-    "Entropy and information"
+    "Entropy and information",
+    "Entanglement"
    ]
   },
   {
@@ -8050,8 +8050,8 @@
    "b": "07-nuclear-physics/heavy-ion-physics/quark-gluon-plasma",
    "score": 0.423,
    "shared": [
-    "Hydrodynamics and continuum descriptions",
     "Confinement and chiral symmetry breaking",
+    "Hydrodynamics and continuum descriptions",
     "Diffusion, Brownian motion and stochastic processes"
    ]
   },
@@ -8211,8 +8211,8 @@
    "b": "08-condensed-matter/soft-matter",
    "score": 0.364,
    "shared": [
-    "Entanglement",
     "Entropy and information",
+    "Entanglement",
     "Diffusion, Brownian motion and stochastic processes"
    ]
   },
@@ -8374,8 +8374,8 @@
    "score": 0.246,
    "shared": [
     "Quasiparticles and collective modes",
-    "Bose–Einstein condensation and superfluidity",
-    "Compact objects"
+    "Compact objects",
+    "Bose–Einstein condensation and superfluidity"
    ]
   },
   {
@@ -8407,8 +8407,8 @@
    "shared": [
     "Ising and lattice models",
     "Entropy and information",
-    "Interference and diffraction",
-    "Quasiparticles and collective modes"
+    "Quasiparticles and collective modes",
+    "Interference and diffraction"
    ]
   },
   {
@@ -8468,8 +8468,8 @@
    "score": 0.354,
    "shared": [
     "Spontaneous symmetry breaking",
-    "Interference and diffraction",
-    "Quasiparticles and collective modes"
+    "Quasiparticles and collective modes",
+    "Interference and diffraction"
    ]
   },
   {
@@ -55087,6 +55087,402 @@
    "strength": 2,
    "sources": [],
    "review": "added by the applied-physicist"
+  },
+  {
+   "id": "C3013",
+   "a": "01-classical-mechanics/oscillations-and-waves/harmonic-and-damped-oscillators",
+   "b": "06-particle-physics/quantum-field-theory/feynman-diagrams-and-scattering-amplitudes",
+   "name": "Breit–Wigner resonance as a driven damped oscillator",
+   "kind": "identity",
+   "status": "new",
+   "summary": "A free field is a set of harmonic oscillators, and its propagator is the oscillator's Green's function. An unstable particle's propagator near its pole has exactly the response function of a driven, damped oscillator, with the decay width Γ playing the damping rate.",
+   "map": "\\chi(\\omega)=\\frac{1}{\\omega_0^2-\\omega^2-i\\gamma\\omega}\\ \\leftrightarrow\\ \\frac{1}{s-M^2+iM\\Gamma},\\quad \\Gamma\\leftrightarrow\\gamma,\\ \\text{FWHM}=\\Gamma",
+   "breaks": "The oscillator is classical with a damping put in by hand; the width of a particle follows from unitarity and decay channels, and far from the pole the relativistic propagator departs from the Lorentzian.",
+   "confidence": "established",
+   "strength": 3,
+   "sources": [
+    "Breit & Wigner (1936). \"Capture of Slow Neutrons\". *Phys. Rev.* 49, 519. [doi:10.1103/PhysRev.49.519](https://doi.org/10.1103/PhysRev.49.519)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3014",
+   "a": "02-electromagnetism-and-optics/electrostatics-and-magnetostatics/fields-in-matter",
+   "b": "03-thermodynamics-and-statistical-mechanics/disordered-and-complex-systems/localization-and-disorder",
+   "name": "Anderson localization of light in disordered dielectrics",
+   "kind": "shared object",
+   "status": "new",
+   "summary": "Light in a medium with a randomly varying refractive index obeys a Helmholtz equation with a disordered potential, the optical analogue of Anderson's tight-binding model. Transverse localization has been observed in disordered photonic lattices, where an input beam stops spreading and develops exponentially decaying tails.",
+   "map": "\\nabla^2E+k_0^2n^2(\\mathbf r)E=0\\ \\leftrightarrow\\ -\\nabla^2\\psi+V(\\mathbf r)\\psi=E\\psi,\\quad |E(\\mathbf r)|\\sim e^{-|\\mathbf r|/\\xi}",
+   "breaks": "Light has no interactions and no Fermi level, and absorption mimics localization; claims of three-dimensional localization of light in powders have been disputed, while 1D and 2D (transverse) localization are well established.",
+   "confidence": "established",
+   "strength": 2,
+   "sources": [
+    "Schwartz et al. (2007). \"Transport and Anderson localization in disordered two-dimensional photonic lattices\". *Nature* 446, 52. [doi:10.1038/nature05623](https://doi.org/10.1038/nature05623)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3015",
+   "a": "03-thermodynamics-and-statistical-mechanics/equilibrium-statistical-mechanics/ensembles-and-partition-functions",
+   "b": "06-particle-physics/quantum-field-theory/anomalies-instantons-and-topology",
+   "name": "θ-dependence of the partition function and the topological susceptibility",
+   "kind": "identity",
+   "status": "new",
+   "summary": "Adding a θ term to the Euclidean action weights each topological sector, so the QCD partition function becomes Z(θ). Its curvature at θ = 0 is the topological susceptibility, the variance of the topological charge, which the Witten–Veneziano formula ties to the η′ mass.",
+   "map": "Z(\\theta)=\\sum_Q e^{i\\theta Q}Z_Q,\\quad \\chi_t=-\\frac{1}{V}\\frac{\\partial^2\\ln Z}{\\partial\\theta^2}\\Big|_0=\\frac{\\langle Q^2\\rangle}{V},\\quad \\frac{F_\\pi^2}{2N_f}\\left(m_{\\eta'}^2+m_\\eta^2-2m_K^2\\right)\\approx\\chi_t^{\\rm YM}",
+   "breaks": "The partition function is a statistical object only in Euclidean time; the θ term is imaginary there, which causes the sign problem for lattice studies at θ ≠ 0.",
+   "confidence": "established",
+   "strength": 2,
+   "sources": [
+    "Witten (1979). \"Current algebra theorems for the U(1) \"Goldstone boson\"\". *Nucl. Phys. B* 156, 269. [doi:10.1016/0550-3213(79)90031-2](https://doi.org/10.1016/0550-3213(79)90031-2)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3016",
+   "a": "02-electromagnetism-and-optics/electrostatics-and-magnetostatics/fields-in-matter",
+   "b": "10-plasma-physics/plasma-fundamentals/plasma-waves-and-instabilities",
+   "name": "Plasma waves as zeros of the dielectric function",
+   "kind": "identity",
+   "status": "new",
+   "summary": "A plasma is a dielectric whose permittivity comes from free charges. Longitudinal waves exist where ε(ω,k) = 0, giving Langmuir oscillations at ω_p with the Bohm–Gross thermal correction, and transverse waves follow ω² = ω_p² + c²k².",
+   "map": "\\varepsilon(\\omega,k)=1-\\frac{\\omega_p^2}{\\omega^2}\\Rightarrow \\omega^2=\\omega_p^2+3k^2v_{th}^2\\ (\\varepsilon_L=0),\\quad \\omega_p^2=\\frac{ne^2}{\\varepsilon_0m_e}",
+   "breaks": "A plasma's response is dispersive and kinetic (Landau damping, resonant particles), so a local, static ε of ordinary materials is a poor model; it can also be negative.",
+   "confidence": "established",
+   "strength": 3,
+   "sources": [
+    "Bohm & Gross (1949). \"Theory of Plasma Oscillations. A. Origin of Medium-Like Behavior\". *Phys. Rev.* 75, 1851. [doi:10.1103/PhysRev.75.1851](https://doi.org/10.1103/PhysRev.75.1851)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3017",
+   "a": "03-thermodynamics-and-statistical-mechanics/non-equilibrium-statistical-mechanics/kinetic-theory-and-boltzmann-equation",
+   "b": "07-nuclear-physics/heavy-ion-physics/quark-gluon-plasma",
+   "name": "Kinetic theory of the weakly coupled quark–gluon plasma",
+   "kind": "method transfer",
+   "status": "new",
+   "summary": "At weak coupling the quark–gluon plasma is described by an effective Boltzmann equation for quasiparticles, with 2↔2 scattering and collinear splitting. It gives the leading-order shear viscosity and other transport coefficients, and kinetic transport codes model the early stages of heavy-ion collisions.",
+   "map": "\\left(\\partial_t+\\mathbf v\\cdot\\nabla\\right)f=C_{2\\leftrightarrow2}[f]+C_{1\\leftrightarrow2}[f],\\quad \\frac{\\eta}{s}\\propto\\frac{1}{g^4\\ln(1/g)}",
+   "breaks": "The plasma produced in collisions is strongly coupled (η/s near 1/4π), outside the regime where quasiparticle kinetic theory is controlled.",
+   "confidence": "current research",
+   "strength": 2,
+   "sources": [
+    "Arnold, Moore & Yaffe (2003). \"Effective kinetic theory for high temperature gauge theories\". *JHEP* 01, 030. [arXiv:hep-ph/0209353](https://arxiv.org/abs/hep-ph/0209353)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3018",
+   "a": "01-classical-mechanics/continuum-and-fluid-mechanics/ideal-and-viscous-flow",
+   "b": "09-astrophysics-and-cosmology/stellar-astrophysics/compact-objects",
+   "name": "Bondi accretion as transonic Euler flow onto a point mass",
+   "kind": "shared object",
+   "status": "new",
+   "summary": "Steady, spherical, adiabatic inflow onto a compact object is a de Laval nozzle problem in reverse: the flow becomes supersonic at a sonic point set by the sound speed at infinity, and the accretion rate follows from the Euler equations alone.",
+   "map": "\\dot M=4\\pi\\lambda_s\\frac{(GM)^2\\rho_\\infty}{c_{s,\\infty}^3},\\quad r_s=\\frac{GM}{2c_s^2(r_s)}",
+   "breaks": "Real accretion carries angular momentum, magnetic fields and radiation, so it forms disks rather than spherical inflow; Bondi's rate is a reference, not an observed rate.",
+   "confidence": "established",
+   "strength": 2,
+   "sources": [
+    "Bondi (1952). \"On spherically symmetrical accretion\". *MNRAS* 112, 195. [doi:10.1093/mnras/112.2.195](https://doi.org/10.1093/mnras/112.2.195)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3019",
+   "a": "03-thermodynamics-and-statistical-mechanics/equilibrium-statistical-mechanics/ensembles-and-partition-functions",
+   "b": "05-relativity-and-gravitation/quantum-gravity/holography-and-ads-cft",
+   "name": "Hawking–Page transition as a phase transition of the gravitational partition function",
+   "kind": "identity",
+   "status": "new",
+   "summary": "The canonical partition function of gravity in anti-de Sitter space is dominated by thermal AdS below a critical temperature and by a large black hole above it. Through AdS/CFT this first-order transition is the deconfinement transition of the dual gauge theory.",
+   "map": "Z(\\beta)\\approx e^{-I_{\\rm thermal\\,AdS}}+e^{-I_{\\rm BH}},\\quad T_{HP}=\\frac{1}{\\pi\\ell}\\ (\\mathrm{AdS}_4),\\ \\frac{3}{2\\pi\\ell}\\ (\\mathrm{AdS}_5)",
+   "breaks": "The saddle-point (semiclassical) evaluation needs large N; the transition is sharp only at infinite N, and the boundary theory is a large-N gauge theory, not QCD.",
+   "confidence": "established",
+   "strength": 2,
+   "sources": [
+    "Witten (1998). \"Anti-de Sitter Space, Thermal Phase Transition, And Confinement In Gauge Theories\". *Adv. Theor. Math. Phys.* 2, 505. [arXiv:hep-th/9803131](https://arxiv.org/abs/hep-th/9803131)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3020",
+   "a": "03-thermodynamics-and-statistical-mechanics/phase-transitions-and-critical-phenomena/renormalization-group",
+   "b": "06-particle-physics/standard-model/quantum-chromodynamics",
+   "name": "Asymptotic freedom as a renormalization-group flow",
+   "kind": "identity",
+   "status": "new",
+   "summary": "The running of the strong coupling is a renormalization-group flow with a negative beta function: the coupling shrinks at short distances and grows towards the confinement scale, the same flow-of-couplings idea that explains critical scaling.",
+   "map": "\\mu\\frac{dg}{d\\mu}=-\\frac{\\beta_0g^3}{16\\pi^2},\\ \\beta_0=11-\\frac{2}{3}n_f,\\quad \\alpha_s(Q^2)=\\frac{4\\pi}{\\beta_0\\ln(Q^2/\\Lambda^2)}",
+   "breaks": "Critical phenomena concern flows near infrared fixed points of statistical models; QCD's interesting physics is the flow away from the ultraviolet Gaussian fixed point into strong coupling, where perturbation theory fails.",
+   "confidence": "established",
+   "strength": 3,
+   "sources": [
+    "Gross & Wilczek (1973). \"Ultraviolet Behavior of Non-Abelian Gauge Theories\". *Phys. Rev. Lett.* 30, 1343. [doi:10.1103/PhysRevLett.30.1343](https://doi.org/10.1103/PhysRevLett.30.1343)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3021",
+   "a": "03-thermodynamics-and-statistical-mechanics/equilibrium-statistical-mechanics/ensembles-and-partition-functions",
+   "b": "06-particle-physics/quantum-field-theory/lattice-field-theory",
+   "name": "The Euclidean path integral as a statistical-mechanics partition function",
+   "kind": "identity",
+   "status": "new",
+   "summary": "After rotating to imaginary time, a quantum field theory on a lattice is a classical statistical system in one more dimension, with weight e^{-S_E}. Lattice QCD computes hadron properties by Monte Carlo sampling of this partition function.",
+   "map": "Z=\\int\\mathcal DU\\,\\mathcal D\\bar\\psi\\mathcal D\\psi\\,e^{-S_E[U,\\psi]}\\ \\leftrightarrow\\ Z=\\sum_{\\{s\\}}e^{-\\beta H[s]},\\quad S_W=\\beta\\sum_P\\left(1-\\tfrac{1}{N}\\mathrm{Re\\,Tr}\\,U_P\\right)",
+   "breaks": "The weight is positive only without a θ term and at zero chemical potential; otherwise the sign problem breaks the statistical interpretation.",
+   "confidence": "established",
+   "strength": 3,
+   "sources": [
+    "Wilson (1974). \"Confinement of quarks\". *Phys. Rev. D* 10, 2445. [doi:10.1103/PhysRevD.10.2445](https://doi.org/10.1103/PhysRevD.10.2445)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3022",
+   "a": "03-thermodynamics-and-statistical-mechanics/classical-thermodynamics/phase-equilibria-and-chemical-potential",
+   "b": "08-condensed-matter/superconductivity/bcs-theory-and-conventional-superconductors",
+   "name": "Thermodynamics of the superconducting transition and the specific-heat jump",
+   "kind": "mechanism",
+   "status": "new",
+   "summary": "The normal–superconducting transition is a phase equilibrium. The condensation energy equals the magnetic energy of the critical field, and at zero field the transition is second order, with BCS predicting the universal specific-heat jump ΔC/γT_c ≈ 1.43.",
+   "map": "G_n-G_s=\\frac{\\mu_0H_c^2}{2}V,\\qquad \\frac{\\Delta C}{\\gamma T_c}=\\frac{12}{7\\zeta(3)}\\approx1.43",
+   "breaks": "The jump ratio is universal only in weak-coupling BCS; strong-coupling and unconventional superconductors depart from it, and fluctuations round the transition in low dimensions.",
+   "confidence": "established",
+   "strength": 2,
+   "sources": [
+    "Bardeen, Cooper & Schrieffer (1957). \"Theory of Superconductivity\". *Phys. Rev.* 108, 1175. [doi:10.1103/PhysRev.108.1175](https://doi.org/10.1103/PhysRev.108.1175)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3023",
+   "a": "02-electromagnetism-and-optics/radiation-and-scattering/radiation-from-moving-charges",
+   "b": "05-relativity-and-gravitation/black-holes/black-hole-imaging-and-astrophysical-black-holes",
+   "name": "Synchrotron emission makes the black-hole shadow visible",
+   "kind": "mechanism",
+   "status": "new",
+   "summary": "The ring seen around M87* at 1.3 mm is synchrotron radiation from relativistic electrons gyrating in the accretion flow's magnetic field, lensed by the black hole; the brightness asymmetry comes from Doppler beaming of the rotating flow.",
+   "map": "\\nu_c=\\frac{3}{2}\\gamma^2\\frac{eB}{2\\pi m_e}\\sin\\alpha,\\quad I_\\nu\\ \\text{boosted by}\\ \\delta^{3}",
+   "breaks": "The ring diameter is set mainly by gravity (photon orbits), not by the emission physics; the electron distribution and heating in the flow remain uncertain.",
+   "confidence": "established",
+   "strength": 2,
+   "sources": [
+    "EHT Collaboration (2019). \"First M87 Event Horizon Telescope Results. V. Physical Origin of the Asymmetric Ring\". *ApJL* 875, L5. [arXiv:1906.11242](https://arxiv.org/abs/1906.11242)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3024",
+   "a": "02-electromagnetism-and-optics/photonics-and-lasers/metamaterials-and-plasmonics",
+   "b": "08-condensed-matter/topological-matter/band-topology-and-berry-curvature",
+   "name": "Photonic Chern bands and one-way edge modes",
+   "kind": "method transfer",
+   "status": "new",
+   "summary": "Haldane and Raghu carried quantum-Hall band topology to photonic crystals: breaking time reversal with magneto-optic materials gives photonic bands with nonzero Chern number, and the bulk–edge correspondence then guarantees one-way edge waveguides immune to backscattering.",
+   "map": "C=\\frac{1}{2\\pi}\\int_{BZ}\\Omega(\\mathbf k)\\,d^2k,\\quad N_{\\rm edge}=\\sum_{\\rm bands\\ below\\ gap}C_n",
+   "breaks": "Photons are bosons with no Fermi level, so there is no quantized Hall conductance, and losses and fabrication disorder limit the protection.",
+   "confidence": "established",
+   "strength": 2,
+   "sources": [
+    "Haldane & Raghu (2008). \"Possible realization of directional optical waveguides in photonic crystals with broken time-reversal symmetry\". *Phys. Rev. Lett.* 100, 013904. [arXiv:cond-mat/0503588](https://arxiv.org/abs/cond-mat/0503588)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3025",
+   "a": "03-thermodynamics-and-statistical-mechanics/equilibrium-statistical-mechanics/exactly-solvable-models",
+   "b": "04-quantum-physics/quantum-information-and-computation/entanglement-theory",
+   "name": "Entanglement entropy of critical spin chains measures the central charge",
+   "kind": "identity",
+   "status": "new",
+   "summary": "In exactly solvable spin chains (XX, XXZ, transverse-field Ising), the entanglement entropy of a block grows logarithmically at criticality, with a prefactor set by the central charge of the conformal field theory, and saturates off criticality.",
+   "map": "S_L=\\frac{c}{3}\\log_2 L+\\text{const}\\ \\ \\text{(critical, periodic chain)},\\quad c_{\\rm Ising}=\\tfrac12,\\ c_{XX}=1",
+   "breaks": "The log law holds for one-dimensional critical ground states; gapped and higher-dimensional states follow area laws, and boundary conditions change the prefactor to c/6.",
+   "confidence": "established",
+   "strength": 3,
+   "sources": [
+    "Vidal et al. (2003). \"Entanglement in quantum critical phenomena\". *Phys. Rev. Lett.* 90, 227902. [arXiv:quant-ph/0211074](https://arxiv.org/abs/quant-ph/0211074)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3026",
+   "a": "02-electromagnetism-and-optics/electrodynamics/potentials-and-gauge-invariance",
+   "b": "08-condensed-matter/topological-matter/band-topology-and-berry-curvature",
+   "name": "Berry connection as a gauge potential in parameter space",
+   "kind": "identity",
+   "status": "new",
+   "summary": "Adiabatic transport of a quantum state defines a connection A = i⟨n|∇_R n⟩ that transforms like an electromagnetic vector potential under phase changes. Its curl, the Berry curvature, acts like a magnetic field in momentum space, and the Aharonov–Bohm phase is the special case of a charge transported round a flux line.",
+   "map": "\\mathbf A_n=i\\langle n|\\nabla_{\\mathbf R}n\\rangle,\\quad \\Omega_n=\\nabla_{\\mathbf R}\\times\\mathbf A_n,\\quad \\gamma_n=\\oint\\mathbf A_n\\cdot d\\mathbf R",
+   "breaks": "The Berry connection lives in parameter or momentum space, not in spacetime, and is not a dynamical field; there are no Maxwell equations for it.",
+   "confidence": "established",
+   "strength": 3,
+   "sources": [
+    "Berry (1984). \"Quantal phase factors accompanying adiabatic changes\". *Proc. R. Soc. Lond. A* 392, 45. [doi:10.1098/rspa.1984.0023](https://doi.org/10.1098/rspa.1984.0023)",
+    "Aharonov & Bohm (1959). \"Significance of Electromagnetic Potentials in the Quantum Theory\". *Phys. Rev.* 115, 485. [doi:10.1103/PhysRev.115.485](https://doi.org/10.1103/PhysRev.115.485)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3027",
+   "a": "02-electromagnetism-and-optics/electrostatics-and-magnetostatics/fields-in-matter",
+   "b": "11-interdisciplinary-physics/applied-and-device-physics/energy-materials-and-thermoelectrics",
+   "name": "Mott formula: the Seebeck coefficient from the energy derivative of the conductivity",
+   "kind": "mechanism",
+   "status": "new",
+   "summary": "The thermopower of a degenerate conductor is set by how the energy-resolved electrical conductivity changes at the Fermi level, so the Drude/transport response of a material directly fixes its Seebeck coefficient. This is the guiding rule for designing thermoelectrics.",
+   "map": "S=-\\frac{\\pi^2}{3}\\frac{k_B^2T}{e}\\left.\\frac{d\\ln\\sigma(E)}{dE}\\right|_{E_F}",
+   "breaks": "Valid only for degenerate carriers and elastic scattering; it fails for nondegenerate semiconductors, phonon drag and strongly correlated materials.",
+   "confidence": "established",
+   "strength": 2,
+   "sources": [
+    "Cutler & Mott (1969). \"Observation of Anderson Localization in an Electron Gas\". *Phys. Rev.* 181, 1336. [doi:10.1103/PhysRev.181.1336](https://doi.org/10.1103/PhysRev.181.1336)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3028",
+   "a": "03-thermodynamics-and-statistical-mechanics/non-equilibrium-statistical-mechanics/stochastic-processes-and-langevin-dynamics",
+   "b": "10-plasma-physics/plasma-fundamentals/kinetic-theory-vlasov-and-landau-damping",
+   "name": "Coulomb collisions as a Fokker–Planck process",
+   "kind": "method transfer",
+   "status": "new",
+   "summary": "Because Coulomb collisions are dominated by many small-angle deflections, their effect on the velocity distribution is a drift plus diffusion in velocity space: a Fokker–Planck operator with Rosenbluth potentials, the plasma version of Langevin dynamics.",
+   "map": "\\left(\\frac{\\partial f}{\\partial t}\\right)_c=-\\frac{\\partial}{\\partial v_i}\\left(\\langle\\Delta v_i\\rangle f\\right)+\\frac12\\frac{\\partial^2}{\\partial v_i\\partial v_j}\\left(\\langle\\Delta v_i\\Delta v_j\\rangle f\\right),\\quad \\ln\\Lambda\\sim10\\text{–}20",
+   "breaks": "The small-angle expansion needs a large Coulomb logarithm; it fails for strongly coupled plasmas, and collective (wave-mediated) scattering is not included.",
+   "confidence": "established",
+   "strength": 3,
+   "sources": [
+    "Rosenbluth, MacDonald & Judd (1957). \"Fokker-Planck Equation for an Inverse-Square Force\". *Phys. Rev.* 107, 1. [doi:10.1103/PhysRev.107.1](https://doi.org/10.1103/PhysRev.107.1)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3029",
+   "a": "02-electromagnetism-and-optics/radiation-and-scattering/radiation-from-moving-charges",
+   "b": "05-relativity-and-gravitation/special-relativity/relativistic-kinematics-and-dynamics",
+   "name": "Liénard's relativistic Larmor formula and synchrotron losses",
+   "kind": "mechanism",
+   "status": "new",
+   "summary": "The power radiated by an accelerated charge is a Lorentz invariant. For circular motion it carries a factor γ⁴, which makes synchrotron loss grow steeply with energy and with lighter particles, and concentrates the emission in a cone of angle 1/γ.",
+   "map": "P=\\frac{q^2\\gamma^6}{6\\pi\\varepsilon_0c}\\left[\\dot{\\boldsymbol\\beta}^2-(\\boldsymbol\\beta\\times\\dot{\\boldsymbol\\beta})^2\\right],\\quad P_{\\rm circ}=\\frac{q^2c\\,\\gamma^4\\beta^4}{6\\pi\\varepsilon_0\\rho^2}",
+   "breaks": "Classical; quantum recoil matters when the critical photon energy approaches the particle energy (χ ≳ 1), as in strong-field QED.",
+   "confidence": "established",
+   "strength": 3,
+   "sources": [
+    "Schwinger (1949). \"On the Classical Radiation of Accelerated Electrons\". *Phys. Rev.* 75, 1912. [doi:10.1103/PhysRev.75.1912](https://doi.org/10.1103/PhysRev.75.1912)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3030",
+   "a": "01-classical-mechanics/analytical-mechanics/hamiltonian-mechanics",
+   "b": "02-electromagnetism-and-optics/electrodynamics/potentials-and-gauge-invariance",
+   "name": "Minimal coupling: canonical momentum and gauge transformations",
+   "kind": "identity",
+   "status": "new",
+   "summary": "A charge in an electromagnetic field has canonical momentum p = mv + qA, and its Hamiltonian is obtained by minimal coupling. A gauge transformation of the potentials is a canonical transformation, so the potentials, not just the fields, enter the dynamics, which the Aharonov–Bohm effect makes observable.",
+   "map": "H=\\frac{(\\mathbf p-q\\mathbf A)^2}{2m}+q\\phi,\\quad \\mathbf A\\to\\mathbf A+\\nabla\\chi,\\ \\phi\\to\\phi-\\partial_t\\chi\\ \\Leftrightarrow\\ \\text{canonical transformation}",
+   "breaks": "Classically only the fields have observable effects; the physical role of the potentials themselves appears only in quantum mechanics.",
+   "confidence": "established",
+   "strength": 2,
+   "sources": [
+    "Aharonov & Bohm (1959). \"Significance of Electromagnetic Potentials in the Quantum Theory\". *Phys. Rev.* 115, 485. [doi:10.1103/PhysRev.115.485](https://doi.org/10.1103/PhysRev.115.485)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3031",
+   "a": "09-astrophysics-and-cosmology/stellar-astrophysics/compact-objects",
+   "b": "11-interdisciplinary-physics/earth-atmosphere-and-climate-physics/seismology-and-earth-interior",
+   "name": "Pulsar glitches and time-predictable earthquake recurrence",
+   "kind": "analogy",
+   "status": "new",
+   "summary": "In both, stress builds steadily and is released when it reaches a threshold. If failure always happens at the same threshold, a large event empties more stress and the wait to the next event is longer: the time-predictable model of seismology, which shows up in pulsars as a correlation between glitch size and the next waiting time (strong in PSR J0537−6910). A 2026 comparison of 245 glitches in 9 pulsars favours the time-predictable over the magnitude-predictable model.",
+   "map": "\\Delta t_{i+1}\\propto s_i\\ \\text{(time-predictable: fixed threshold)}\\quad\\text{vs}\\quad s_i\\propto\\Delta t_i\\ \\text{(slip-predictable: fixed base level)}",
+   "breaks": "Earthquakes on real faults rarely follow either model (repeating sequences scatter widely), the glitch trigger may be vortex unpinning rather than crust failure, and most pulsars show only weak size–waiting-time correlations.",
+   "confidence": "current research",
+   "strength": 2,
+   "sources": [
+    "Zhou et al. (2026). \"Pulsar glitches triggered by quakes when stress reaches a threshold\". *arXiv preprint*. [arXiv:2609.38837](https://arxiv.org/abs/2609.38837)",
+    "Shimazaki & Nakata (1980). \"Time-predictable recurrence model for large earthquakes\". *Geophys. Res. Lett.* 7, 279. [doi:10.1029/GL007i004p00279](https://doi.org/10.1029/GL007i004p00279)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3032",
+   "a": "01-classical-mechanics/continuum-and-fluid-mechanics/ideal-and-viscous-flow",
+   "b": "05-relativity-and-gravitation/quantum-gravity/analogue-gravity",
+   "name": "The acoustic metric: sound in a moving fluid sees curved spacetime",
+   "kind": "identity",
+   "status": "new",
+   "summary": "Linear sound waves in an irrotational, inviscid, barotropic flow obey the Klein–Gordon equation of an effective metric built from the flow velocity and sound speed. Where the flow turns supersonic there is a sonic horizon, the basis of analogue black holes.",
+   "map": "ds^2=\\frac{\\rho_0}{c_s}\\left[-(c_s^2-v_0^2)dt^2-2\\mathbf v_0\\cdot d\\mathbf x\\,dt+d\\mathbf x^2\\right],\\quad T_H=\\frac{\\hbar\\kappa}{2\\pi k_B}",
+   "breaks": "The effective metric reproduces the kinematics of fields in curved spacetime, not Einstein's equations; real fluids are dispersive and viscous at short wavelengths.",
+   "confidence": "established",
+   "strength": 3,
+   "sources": [
+    "Unruh (1981). \"Experimental black-hole evaporation?\". *Phys. Rev. Lett.* 46, 1351. [doi:10.1103/PhysRevLett.46.1351](https://doi.org/10.1103/PhysRevLett.46.1351)",
+    "Visser (1998). \"Acoustic black holes: horizons, ergospheres, and Hawking radiation\". *Class. Quantum Grav.* 15, 1767. [arXiv:gr-qc/9712010](https://arxiv.org/abs/gr-qc/9712010)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3033",
+   "a": "04-quantum-physics/atomic-molecular-and-optical-physics/bose-einstein-condensates-and-degenerate-gases",
+   "b": "05-relativity-and-gravitation/quantum-gravity/analogue-gravity",
+   "name": "Spontaneous analogue Hawking radiation in Bose–Einstein condensates",
+   "kind": "shared object",
+   "status": "new",
+   "summary": "A flowing BEC with a sonic horizon emits correlated phonon pairs, the Hawking quanta and their partners. The emitted spectrum was found to be thermal at the temperature set by the analogue surface gravity; the claim that the pairs are entangled has been questioned.",
+   "map": "T_H=\\frac{\\hbar}{2\\pi k_B}\\left|\\frac{\\partial(v-c_s)}{\\partial x}\\right|_{\\rm horizon}\\approx1.2\\ \\text{nK}\\times\\frac{\\kappa}{10^3\\ \\text{s}^{-1}}",
+   "breaks": "Bogoliubov dispersion, finite size and condensate heating limit the analogy, and independent replication of the quantum (spontaneous, entangled) signal is still needed.",
+   "confidence": "current research",
+   "strength": 2,
+   "sources": [
+    "Steinhauer (2016). \"Observation of quantum Hawking radiation and its entanglement in an analogue black hole\". *Nat. Phys.* 12, 959. [arXiv:1510.00621](https://arxiv.org/abs/1510.00621)",
+    "Muñoz de Nova et al. (2019). \"Observation of thermal Hawking radiation at the Hawking temperature in an analogue black hole\". *Nature* 569, 688. [arXiv:1809.00913](https://arxiv.org/abs/1809.00913)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3034",
+   "a": "02-electromagnetism-and-optics/photonics-and-lasers/nonlinear-optics",
+   "b": "05-relativity-and-gravitation/quantum-gravity/analogue-gravity",
+   "name": "Optical event horizons in fibres",
+   "kind": "mechanism",
+   "status": "new",
+   "summary": "An intense pulse in a fibre raises the refractive index through the Kerr effect, so a co-moving probe that cannot overtake it meets a moving horizon. Stimulated Hawking-like frequency conversion at such horizons has been observed.",
+   "map": "n=n_0+n_2I,\\quad \\text{horizon where the probe group velocity equals the pulse velocity}",
+   "breaks": "The optical horizon exists only for a band of frequencies and in a moving frame, and observations so far are of stimulated, classical conversion rather than spontaneous quantum emission.",
+   "confidence": "current research",
+   "strength": 2,
+   "sources": [
+    "Philbin et al. (2008). \"Fiber-optical analogue of the event horizon\". *Science* 319, 1367. [arXiv:0711.4796](https://arxiv.org/abs/0711.4796)",
+    "Drori et al. (2019). \"Observation of stimulated Hawking radiation in an optical analogue\". *Phys. Rev. Lett.* 122, 010404. [arXiv:1808.09244](https://arxiv.org/abs/1808.09244)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
+  },
+  {
+   "id": "C3035",
+   "a": "05-relativity-and-gravitation/quantum-gravity/analogue-gravity",
+   "b": "08-condensed-matter/topological-matter/topological-semimetals",
+   "name": "Mixed axial–gravitational anomaly in Weyl semimetals",
+   "kind": "shared object",
+   "status": "new",
+   "summary": "Weyl fermions in solids inherit the anomalies of relativistic chiral fermions. A temperature gradient acts like a gravitational potential, so the mixed axial–gravitational anomaly should give a positive magnetothermoelectric conductance for ∇T ∥ B, which was reported in NbP.",
+   "map": "\\nabla_\\mu J^\\mu_5\\propto \\mathbf E\\cdot\\mathbf B\\ (\\text{chiral anomaly})\\ +\\ \\varepsilon^{\\mu\\nu\\rho\\sigma}R^\\alpha{}_{\\beta\\mu\\nu}R^\\beta{}_{\\alpha\\rho\\sigma}\\ (\\text{gravitational})",
+   "breaks": "The 'gravity' is a thermal gradient, not curvature, and phonon or band effects could mimic the signal; the interpretation awaits independent confirmation.",
+   "confidence": "proposed",
+   "strength": 1,
+   "sources": [
+    "Gooth et al. (2017). \"Experimental signatures of the mixed axial-gravitational anomaly in the Weyl semimetal NbP\". *Nature* 547, 324. [arXiv:1703.10682](https://arxiv.org/abs/1703.10682)"
+   ],
+   "review": "proposed addition, frontier F0 (2026-11-21); sources verified; not specialist-reviewed"
   }
  ],
  "shared_literature": [
