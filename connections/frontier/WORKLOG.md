@@ -147,4 +147,13 @@
   - **Fixed the verifier** (`447d07e`): titles must match in order, with the journal title via DOI as a fallback. Regression: 618/618 notes and 1969/1969 registry sources pass; the invented title fails.
   - **Wrote `score_registered.py`.** It tests itself with an injected Vela glitch. The baseline run on 2026-11-21 has no new glitches and everything open.
   - **ATNF replication (G4) dropped.** ATNF adds 109 glitches Jodrell Bank lacks, but only 9 after MJD 58500. Most of the difference is old glitches with different epochs, so a replication would largely reuse the same detections. A merged, de-duplicated catalogue would be the right input, but merging epochs and sizes (J1709−4429's 2018 size differs 50-fold) needs judgment calls best left to a curated effort.
+- **2026-11-21 15:46–15:53:** V1, a meta-analysis of vortex-creep predictions of the time to the next glitch.
+  - **Registered first** (`71011da`). The extraction and code were committed before the run (`5c3540f`): 36 pairs, 6 papers, 7 pulsars. J0537−6910 is excluded by the rule (no t_obs or epochs). Three papers had no pairs.
+  - **Result** (`2e5096e`): in-sample, t_th tracks t_obs within pulsars (ρ = +0.71, p = 0.0001) and beats the pulsar's own mean in 24 of 34 (p = 0.012). The median |ln| error is 0.093 against 0.190.
+  - **Post-hoc contrast** with T04's prospective forecasts:
+    - The same model forecasting *before* the next glitch has a median error of 0.34 over the 3 resolved forecasts. Four more are overdue, and one is a confirmed miss.
+    - Both glitches analysed before and after their successor moved toward the outcome: 0.31 → 0.014 (J2229+6114) and 0.16 → 0.021 (Vela 2019).
+  - **Reading:** the in-sample agreement is a consistency relation (the fits span the interval), not yet forecast skill.
+  - **The decisive test:** fit only the early part of each recovery from public Fermi-LAT timing. That is the next step if the referee agrees.
+  - **Referee:** running.
 
