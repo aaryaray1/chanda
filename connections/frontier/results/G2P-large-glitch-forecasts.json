@@ -1,0 +1,540 @@
+{
+ "registered": "2026-11-21",
+ "snapshot_mjd": 61364,
+ "threshold_1e-9": 100.0,
+ "forecasts": [
+  {
+   "pulsar": "J0537-6910",
+   "large_glitches": 59,
+   "all_models": {
+    "M0": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61372.9,
+      "0.16": 61394.4,
+      "0.25": 61414.2,
+      "0.5": 61485.3,
+      "0.75": 61608.0,
+      "0.84": 61687.8,
+      "0.95": 61898.6
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.5555
+    },
+    "M1": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61371.2,
+      "0.16": 61388.6,
+      "0.25": 61404.9,
+      "0.5": 61465.5,
+      "0.75": 61577.8,
+      "0.84": 61656.4,
+      "0.95": 61887.3
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.6138
+    },
+    "M3": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61367.8,
+      "0.16": 61377.0,
+      "0.25": 61385.5,
+      "0.5": 61416.9,
+      "0.75": 61473.7,
+      "0.84": 61512.4,
+      "0.95": 61622.0
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.828
+    }
+   },
+   "last_large_mjd": 60762.0,
+   "last_large_size_1e-9": 176.45,
+   "model": "M3",
+   "backtest_logscore": {
+    "M0": -330.92,
+    "M1": -310.37,
+    "M3": -294.99
+   },
+   "prob_large_before_snapshot": 1.0,
+   "unconditional_mjd": {
+    "0.05": 60802.7,
+    "0.16": 60816.1,
+    "0.25": 60824.2,
+    "0.5": 60845.1,
+    "0.75": 60873.1,
+    "0.84": 60889.6,
+    "0.95": 60931.9
+   },
+   "conditional_on_none_before_snapshot_mjd": {
+    "0.05": 61367.8,
+    "0.16": 61377.0,
+    "0.25": 61385.5,
+    "0.5": 61416.9,
+    "0.75": 61473.7,
+    "0.84": 61512.4,
+    "0.95": 61622.0
+   },
+   "conditional_median_date": "2027-01-12",
+   "conditional_68pct_dates": [
+    "2026-12-03",
+    "2027-04-17"
+   ]
+  },
+  {
+   "pulsar": "J0835-4510",
+   "large_glitches": 21,
+   "all_models": {
+    "M0": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61418.1,
+      "0.16": 61548.6,
+      "0.25": 61669.5,
+      "0.5": 62107.5,
+      "0.75": 62877.3,
+      "0.84": 63387.2,
+      "0.95": 64770.9
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.1256
+    },
+    "M1": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61412.6,
+      "0.16": 61531.0,
+      "0.25": 61642.8,
+      "0.5": 62069.3,
+      "0.75": 62925.7,
+      "0.84": 63585.3,
+      "0.95": 65846.2
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.1381
+    },
+    "M3": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61417.4,
+      "0.16": 61545.8,
+      "0.25": 61665.2,
+      "0.5": 62110.1,
+      "0.75": 62973.5,
+      "0.84": 63623.0,
+      "0.95": 65792.1
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.1274
+    }
+   },
+   "last_large_mjd": 60429.9,
+   "last_large_size_1e-9": 2396.0,
+   "model": "M0",
+   "backtest_logscore": {
+    "M0": -126.93,
+    "M1": -132.62,
+    "M3": -133.74
+   },
+   "prob_large_before_snapshot": 0.596,
+   "unconditional_mjd": {
+    "0.05": 60481.6,
+    "0.16": 60606.3,
+    "0.25": 60721.8,
+    "0.5": 61140.5,
+    "0.75": 61876.1,
+    "0.84": 62363.4,
+    "0.95": 63685.8
+   },
+   "conditional_on_none_before_snapshot_mjd": {
+    "0.05": 61418.1,
+    "0.16": 61548.6,
+    "0.25": 61669.5,
+    "0.5": 62107.5,
+    "0.75": 62877.3,
+    "0.84": 63387.2,
+    "0.95": 64770.9
+   },
+   "conditional_median_date": "2028-12-03",
+   "conditional_68pct_dates": [
+    "2027-05-24",
+    "2032-06-04"
+   ]
+  },
+  {
+   "pulsar": "J1341-6220",
+   "large_glitches": 20,
+   "all_models": {
+    "M0": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61400.2,
+      "0.16": 61487.3,
+      "0.25": 61568.1,
+      "0.5": 61860.9,
+      "0.75": 62376.4,
+      "0.84": 62718.3,
+      "0.95": 63648.2
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.1818
+    },
+    "M1": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61406.9,
+      "0.16": 61511.9,
+      "0.25": 61611.4,
+      "0.5": 61989.7,
+      "0.75": 62728.4,
+      "0.84": 63275.0,
+      "0.95": 65028.4
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.1542
+    },
+    "M3": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61408.5,
+      "0.16": 61517.5,
+      "0.25": 61620.8,
+      "0.5": 62015.0,
+      "0.75": 62789.4,
+      "0.84": 63366.4,
+      "0.95": 65236.9
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.1492
+    }
+   },
+   "last_large_mjd": 57647.0,
+   "last_large_size_1e-9": 706.0,
+   "model": "M0",
+   "backtest_logscore": {
+    "M0": -108.14,
+    "M1": -109.55,
+    "M3": -109.19
+   },
+   "prob_large_before_snapshot": 0.9979,
+   "unconditional_mjd": {
+    "0.05": 57673.1,
+    "0.16": 57736.0,
+    "0.25": 57794.3,
+    "0.5": 58005.8,
+    "0.75": 58378.0,
+    "0.84": 58624.9,
+    "0.95": 59296.4
+   },
+   "conditional_on_none_before_snapshot_mjd": {
+    "0.05": 61400.2,
+    "0.16": 61487.3,
+    "0.25": 61568.1,
+    "0.5": 61860.9,
+    "0.75": 62376.4,
+    "0.84": 62718.3,
+    "0.95": 63648.2
+   },
+   "conditional_median_date": "2028-03-31",
+   "conditional_68pct_dates": [
+    "2027-03-23",
+    "2030-08-05"
+   ]
+  },
+  {
+   "pulsar": "J1413-6141",
+   "large_glitches": 10,
+   "all_models": {
+    "M0": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61420.6,
+      "0.16": 61557.7,
+      "0.25": 61685.6,
+      "0.5": 62156.7,
+      "0.75": 63012.8,
+      "0.84": 63600.0,
+      "0.95": 65274.4
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.1203
+    },
+    "M1": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61438.1,
+      "0.16": 61622.7,
+      "0.25": 61802.0,
+      "0.5": 62525.0,
+      "0.75": 64135.5,
+      "0.84": 65510.9,
+      "0.95": 71124.7
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.0928
+    },
+    "M3": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61408.6,
+      "0.16": 61518.3,
+      "0.25": 61622.9,
+      "0.5": 62028.6,
+      "0.75": 62859.6,
+      "0.84": 63511.8,
+      "0.95": 65843.5
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.1485
+    }
+   },
+   "last_large_mjd": 57838.0,
+   "last_large_size_1e-9": 2137.0,
+   "model": "M3",
+   "backtest_logscore": {
+    "M0": -36.58,
+    "M1": -36.88,
+    "M3": -34.61
+   },
+   "prob_large_before_snapshot": 0.9842,
+   "unconditional_mjd": {
+    "0.05": 58534.8,
+    "0.16": 58771.3,
+    "0.25": 58898.0,
+    "0.5": 59201.8,
+    "0.75": 59592.8,
+    "0.84": 59831.0,
+    "0.95": 60507.3
+   },
+   "conditional_on_none_before_snapshot_mjd": {
+    "0.05": 61408.6,
+    "0.16": 61518.3,
+    "0.25": 61622.9,
+    "0.5": 62028.6,
+    "0.75": 62859.6,
+    "0.84": 63511.8,
+    "0.95": 65843.5
+   },
+   "conditional_median_date": "2028-09-15",
+   "conditional_68pct_dates": [
+    "2027-04-23",
+    "2032-10-07"
+   ]
+  },
+  {
+   "pulsar": "J1420-6048",
+   "large_glitches": 8,
+   "all_models": {
+    "M0": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61435.8,
+      "0.16": 61610.3,
+      "0.25": 61773.6,
+      "0.5": 62380.3,
+      "0.75": 63502.4,
+      "0.84": 64286.0,
+      "0.95": 66579.2
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.0961
+    },
+    "M1": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61394.4,
+      "0.16": 61469.6,
+      "0.25": 61541.8,
+      "0.5": 61825.8,
+      "0.75": 62424.4,
+      "0.84": 62907.6,
+      "0.95": 64713.7
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.2071
+    },
+    "M3": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61404.9,
+      "0.16": 61506.9,
+      "0.25": 61605.5,
+      "0.5": 62001.8,
+      "0.75": 62881.1,
+      "0.84": 63634.1,
+      "0.95": 66775.7
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.1592
+    }
+   },
+   "last_large_mjd": 58555.0,
+   "last_large_size_1e-9": 2777.0,
+   "model": "M1",
+   "backtest_logscore": {
+    "M0": -24.16,
+    "M1": -21.0,
+    "M3": -21.24
+   },
+   "prob_large_before_snapshot": 0.999,
+   "unconditional_mjd": {
+    "0.05": 59214.7,
+    "0.16": 59340.2,
+    "0.25": 59400.7,
+    "0.5": 59533.0,
+    "0.75": 59686.1,
+    "0.84": 59773.2,
+    "0.95": 60004.9
+   },
+   "conditional_on_none_before_snapshot_mjd": {
+    "0.05": 61394.4,
+    "0.16": 61469.6,
+    "0.25": 61541.8,
+    "0.5": 61825.8,
+    "0.75": 62424.4,
+    "0.84": 62907.6,
+    "0.95": 64713.7
+   },
+   "conditional_median_date": "2028-02-25",
+   "conditional_68pct_dates": [
+    "2027-03-06",
+    "2031-02-11"
+   ]
+  },
+  {
+   "pulsar": "J1740-3015",
+   "large_glitches": 13,
+   "all_models": {
+    "M0": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61425.6,
+      "0.16": 61574.4,
+      "0.25": 61712.7,
+      "0.5": 62218.7,
+      "0.75": 63124.1,
+      "0.84": 63735.4,
+      "0.95": 65439.7
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.1113
+    },
+    "M1": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61451.4,
+      "0.16": 61602.5,
+      "0.25": 61713.6,
+      "0.5": 62044.0,
+      "0.75": 62562.0,
+      "0.84": 62911.9,
+      "0.95": 63987.4
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.087
+    },
+    "M3": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61685.9,
+      "0.16": 62025.6,
+      "0.25": 62241.8,
+      "0.5": 62837.5,
+      "0.75": 63725.6,
+      "0.84": 64313.8,
+      "0.95": 66103.4
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.0154
+    }
+   },
+   "last_large_mjd": 60980.0,
+   "last_large_size_1e-9": 2810.0,
+   "model": "M3",
+   "backtest_logscore": {
+    "M0": -66.11,
+    "M1": -65.1,
+    "M3": -64.42
+   },
+   "prob_large_before_snapshot": 0.0095,
+   "unconditional_mjd": {
+    "0.05": 61646.5,
+    "0.16": 62004.9,
+    "0.25": 62225.2,
+    "0.5": 62824.8,
+    "0.75": 63713.3,
+    "0.84": 64300.9,
+    "0.95": 66086.7
+   },
+   "conditional_on_none_before_snapshot_mjd": {
+    "0.05": 61685.9,
+    "0.16": 62025.6,
+    "0.25": 62241.8,
+    "0.5": 62837.5,
+    "0.75": 63725.6,
+    "0.84": 64313.8,
+    "0.95": 66103.4
+   },
+   "conditional_median_date": "2030-12-03",
+   "conditional_68pct_dates": [
+    "2028-09-12",
+    "2034-12-18"
+   ]
+  },
+  {
+   "pulsar": "J2229+6114",
+   "large_glitches": 8,
+   "all_models": {
+    "M0": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61425.0,
+      "0.16": 61573.3,
+      "0.25": 61712.2,
+      "0.5": 62227.9,
+      "0.75": 63181.8,
+      "0.84": 63847.9,
+      "0.95": 65797.3
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.112
+    },
+    "M1": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61532.3,
+      "0.16": 61721.4,
+      "0.25": 61837.1,
+      "0.5": 62140.5,
+      "0.75": 62575.1,
+      "0.84": 62863.2,
+      "0.95": 63777.9
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.0393
+    },
+    "M3": {
+     "conditional_on_none_before_snapshot_mjd": {
+      "0.05": 61538.3,
+      "0.16": 61747.7,
+      "0.25": 61878.0,
+      "0.5": 62224.0,
+      "0.75": 62735.0,
+      "0.84": 63087.2,
+      "0.95": 64284.1
+     },
+     "prob_in_GR25_window_given_none_before_snapshot": 0.0379
+    }
+   },
+   "last_large_mjd": 61071.0,
+   "last_large_size_1e-9": 870.0,
+   "model": "M1",
+   "backtest_logscore": {
+    "M0": -25.23,
+    "M1": -24.29,
+    "M3": -25.65
+   },
+   "prob_large_before_snapshot": 0.0185,
+   "unconditional_mjd": {
+    "0.05": 61486.5,
+    "0.16": 61698.9,
+    "0.25": 61819.8,
+    "0.5": 62128.1,
+    "0.75": 62563.4,
+    "0.84": 62850.7,
+    "0.95": 63760.5
+   },
+   "conditional_on_none_before_snapshot_mjd": {
+    "0.05": 61532.3,
+    "0.16": 61721.4,
+    "0.25": 61837.1,
+    "0.5": 62140.5,
+    "0.75": 62575.1,
+    "0.84": 62863.2,
+    "0.95": 63777.9
+   },
+   "conditional_median_date": "2029-01-04",
+   "conditional_68pct_dates": [
+    "2027-11-12",
+    "2030-12-28"
+   ]
+  }
+ ],
+ "vela_head_to_head": {
+  "outcome": "a large (>= 1e-7) Vela glitch with epoch in (61364, 61506], i.e. after the snapshot and by 2027-04-11",
+  "probabilities": {
+   "GR25_split_normal": 0.7075,
+   "empirical_renewal": 0.3077,
+   "M0": 0.1256,
+   "M1": 0.1381,
+   "M3": 0.1274
+  },
+  "score": "log probability of the observed binary outcome; higher is better",
+  "empirical_detail": {
+   "past_waits_exceeding_elapsed": 13,
+   "of_which_end_by_window": 4
+  }
+ }
+}
