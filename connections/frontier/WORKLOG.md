@@ -28,6 +28,7 @@
 - 2026-11-21: T04 forecast scorecard pre-registered (`5b6f6a8`) and scored; T03 framing corrected (retrospective, not prospective).
 - 2026-11-21: map additions drafted (23 records, `map-additions.jsonl`); frontier track screened (no new claims).
 - 2026-11-20 (late): T01 referee (F6) applied (`020a9f1`); T03 reading corrected (`611eea7`).
+- 2026-11-21: T04 and T03 refereed (F6) and revised: 7 forecasts added as an addendum, one-per-event counting, strict prospective labels, both headlines withdrawn.
 
 ## Log
 - **2026-11-20 23:50:**
@@ -73,3 +74,11 @@
   - **Not scored:** two γ-ray pulsars lack catalogue coverage (unresolved). The Grover et al. Vela window is pending until 2027-04-11.
   - **Deviation:** J2229+6114's anchor matched by identity (MJD 58396 in the paper, 58424 in the catalogue).
   - **Correction:** found that T03's forecasts were retrospective, not prospective; T03 is corrected.
+- **2026-11-21 14:40:** T04 and T03 refereed (F6) and revised.
+  - **Interruption:** the monthly spend limit stopped the session at 00:59, mid-revision. The loop's retries at 01:13 and 01:34 hit the same limit, and a laptop restart ended the session. Resumed at 14:23 from this log and the session transcript.
+  - **Referee verdict:** "needs revision", with one fatal issue. A failed forecast was missing: Zhu et al. (2026), arXiv:2601.12130, a major Crab glitch by August 2026. I had skipped it because it was withdrawn. The withdrawal was administrative: a duplicate of arXiv:2506.02925, whose 2026-06-18 revision drops the forecast without comment.
+  - **Added as an addendum** (outside the registered pool): ZH26 (false), AK17m (Akbal's third scenario), LI24a–c (Liu et al. 2024, Table 4: one pending, two overdue or not catalogued), GR25vc (Grover's vortex-creep forecast), and GU20e (a postdiction, listed and not counted).
+  - **One forecast per event:** 2 of 6 within 1σ (P = 0.085), 5 of 6 within 2σ. Post hoc, Σz² = 18.9 on 6 (p = 0.004), or p = 0.18 without the one 3.4σ miss. The forecast beat the renewal baseline in 3 of 6.
+  - **Withdrawn headlines:** "roughly calibrated" and "a naive renewal baseline beats the Vela forecasts", both from the title of `b121af9`.
+  - **Other fixes:** AK17's prospective label (v1 came out about 6 h after the glitch); GU20c's bound had passed before publication; the registered *overdue* verdict is restored for GU20b and GU22d; GR25 is relabelled as Bayesian; T03's "honest uncertainties" is softened.
+  - **Prior art:** none of the 97 INSPIRE citers of the six forecast papers scores the forecasts. OpenAlex returned 503 and Semantic Scholar was rate-limited, so neither was searched.

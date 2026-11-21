@@ -3,25 +3,33 @@
   "id": "AK17a",
   "pulsar": "J0835-4510",
   "source": "Akbal et al. (2017), arXiv:1612.03805v1",
-  "published_mjd": 57734,
-  "after_mjd": 57733,
+  "published_mjd": 57734.734,
+  "after_mjd": 56922,
   "target": "large",
   "kind": "point",
   "center": 58286,
   "sigma": 164,
-  "quote": "The next glitch of the Vela pulsar should occur around June 17, 2018 ±164 days"
+  "quote": "The next glitch of the Vela pulsar should occur around June 17, 2018 ±164 days",
+  "prospective_label": "contemporaneous: v1 posted 17:37 UTC, the glitch at 11:38 UTC; the authors state the forecast predates it",
+  "anchor_note": "anchor: 'the last observed glitch' of 2014 (MJD 56922, catalogue Δν/ν = 0.4e-9); corrected after the referee",
+  "event": "Vela-2016",
+  "primary": true
  },
  {
   "id": "AK17b",
   "pulsar": "J0835-4510",
   "source": "Akbal et al. (2017), arXiv:1612.03805v1 (alternative)",
-  "published_mjd": 57734,
-  "after_mjd": 57733,
+  "published_mjd": 57734.734,
+  "after_mjd": 56922,
   "target": "large",
   "kind": "point",
   "center": 57836,
   "sigma": 201,
-  "quote": "but could occur as early as March 24, 2017, ±201 days if the 2014 glitch gave rise to a typical Vela persistent shift"
+  "quote": "but could occur as early as March 24, 2017, ±201 days if the 2014 glitch gave rise to a typical Vela persistent shift (persistent-shift scenario, tg = 914 ± 201 d)",
+  "prospective_label": "contemporaneous: v1 posted 17:37 UTC, the glitch at 11:38 UTC; the authors state the forecast predates it",
+  "anchor_note": "anchor: 'the last observed glitch' of 2014 (MJD 56922, catalogue Δν/ν = 0.4e-9); corrected after the referee",
+  "event": "Vela-2016",
+  "primary": false
  },
  {
   "id": "MD19a",
@@ -33,7 +41,9 @@
   "kind": "point",
   "center": 57784,
   "sigma": 256.8,
-  "quote": "the next glitch will occur at Modified Julian Date (MJD) 57784 ± 256.8"
+  "quote": "the next glitch will occur at Modified Julian Date (MJD) 57784 ± 256.8",
+  "event": "J1740-2018",
+  "primary": true
  },
  {
   "id": "MD19b",
@@ -45,7 +55,9 @@
   "kind": "point",
   "center": 60713,
   "sigma": 1935,
-  "quote": "60713 ± 1935"
+  "quote": "60713 ± 1935",
+  "event": "Crab-2018",
+  "primary": true
  },
  {
   "id": "MD19c",
@@ -57,7 +69,9 @@
   "kind": "point",
   "center": 57406,
   "sigma": 1444,
-  "quote": "57406 ± 1444"
+  "quote": "57406 ± 1444",
+  "event": "J0631-2018",
+  "primary": true
  },
  {
   "id": "GU20a",
@@ -69,7 +83,9 @@
   "kind": "point",
   "center": 59284.6,
   "sigma": 88,
-  "quote": "tth = 769(88) days. Then, the next glitch in the Vela pulsar is expected to arrive at dates between 2020 December 14-2021 June 8"
+  "quote": "tth = 769(88) days. Then, the next glitch in the Vela pulsar is expected to arrive at dates between 2020 December 14-2021 June 8",
+  "event": "Vela-2021",
+  "primary": true
  },
  {
   "id": "GU20b",
@@ -81,7 +97,9 @@
   "kind": "point",
   "center": 59702,
   "sigma": 311,
-  "quote": "tth = 2140(311) days and we expect that the next large glitch of PSR J2111+4606 will not come earlier than mid June 2021, and likely to occur around 2022 May 3"
+  "quote": "tth = 2140(311) days and we expect that the next large glitch of PSR J2111+4606 will not come earlier than mid June 2021, and likely to occur around 2022 May 3",
+  "event": "J2111-next",
+  "primary": true
  },
  {
   "id": "GU20c",
@@ -92,9 +110,13 @@
   "target": "large",
   "kind": "lower_bound",
   "bound": 59014,
-  "quote": "next glitch from G9 is tth = 619 days. We expect that the next large glitch [...] will arrive at later than the date mid June 2020",
+  "quote": "next glitch from G9 is tth = 619 days. We expect that the next large glitch of PSR J2111+4606 [sic; the paper means J2229+6114] will arrive at later than the date mid June 2020",
   "anchor_catalogue_mjd": 58424,
-  "anchor_note": "deviation (2026-11-21): the paper's G9 at MJD 58396(2) is the catalogue's 58424 (Basu et al. 2022: 58424(6)); matched by identity, not by the 2-day rule"
+  "anchor_note": "deviation (2026-11-21): the paper's G9 at MJD 58396(2) is the catalogue's 58424 (Basu et al. 2022: 58424(6)); matched by identity, not by the 2-day rule",
+  "event": "J2229-2021",
+  "primary": true,
+  "note": "bound (MJD 59014) passed 169 d before publication; the paper's J2229 data end at MJD 58865",
+  "data_end_mjd": 58865
  },
  {
   "id": "GU22d",
@@ -106,7 +128,9 @@
   "kind": "point",
   "center": 59685,
   "sigma": 97,
-  "quote": "The vortex creep model prediction for the time to the next glitch from G7 is tth = 862(97) days"
+  "quote": "The vortex creep model prediction for the time to the next glitch from G7 is tth = 862(97) days",
+  "event": "J1023-next",
+  "primary": true
  },
  {
   "id": "ZH25a",
@@ -117,7 +141,11 @@
   "target": "any",
   "kind": "window",
   "before": 61081,
-  "quote": "the next glith would emerge at any time before MJD 61081 (February 2026)"
+  "quote": "the next glith would emerge at any time before MJD 61081 (February 2026)",
+  "event": "Crab-2025",
+  "primary": false,
+  "alt_target": "large",
+  "note": "same forecast as ZH25b (window edge 61081 = ZH25b's upper 1σ edge); counted once"
  },
  {
   "id": "ZH25b",
@@ -129,7 +157,10 @@
   "kind": "point",
   "center": 60504,
   "sigma": 577,
-  "quote": "the next glitch should occur around 2024 July 13, ±577 d"
+  "quote": "the next glitch should occur around 2024 July 13, ±577 d",
+  "event": "Crab-2025",
+  "primary": true,
+  "alt_target": "large"
  },
  {
   "id": "GR25",
@@ -142,6 +173,122 @@
   "center": 61377.7,
   "lo": 61249,
   "hi": 61506,
-  "quote": "the upcoming glitch is likely to occur around MJD 61377.7 (December 3, 2026), with a 68% credible interval spanning from MJD 61249 to 61506"
+  "quote": "the upcoming glitch is likely to occur around MJD 61377.7 (December 3, 2026), with a 68% credible interval spanning from MJD 61249 to 61506",
+  "event": "Vela-next",
+  "primary": true,
+  "method": "statistical (Bayesian, from previous inter-glitch intervals), not vortex creep; corrected after the referee"
+ },
+ {
+  "id": "AK17m",
+  "pulsar": "J0835-4510",
+  "source": "Akbal et al. (2017), arXiv:1612.03805v1 (second scenario)",
+  "published_mjd": 57734.734,
+  "after_mjd": 56922,
+  "target": "large",
+  "kind": "point",
+  "center": 58235,
+  "sigma": 433,
+  "event": "Vela-2016",
+  "primary": false,
+  "addendum": true,
+  "prospective_label": "contemporaneous: v1 posted 17:37 UTC, the glitch at 11:38 UTC; the authors state the forecast predates it",
+  "quote": "the glitch interval is tg = 1313 ± 433 days, predicting the arrival of the next glitch around April 27, 2018"
+ },
+ {
+  "id": "ZH26",
+  "pulsar": "J0534+2200",
+  "source": "Zhu et al. (2026), arXiv:2601.12130v1 (withdrawn 2026-06-18)",
+  "published_mjd": 61057,
+  "after_mjd": 61057,
+  "target": "large",
+  "kind": "window",
+  "before": 61283,
+  "event": "Crab-2026",
+  "primary": true,
+  "addendum": true,
+  "quote": "we forecast the occurrence of a major glitch from now until August 2026, with possible glitch size up to a relative change in rotational frequency of 697.2e-9"
+ },
+ {
+  "id": "LI24a",
+  "pulsar": "J1028-5819",
+  "source": "Liu et al. (2024), arXiv:2408.15022v1, Table 4",
+  "published_mjd": 60549,
+  "after_mjd": 57904,
+  "anchor_catalogue_mjd": 57881,
+  "target": "large",
+  "kind": "point",
+  "center": 62794,
+  "sigma": 269,
+  "event": "J1028-next",
+  "primary": true,
+  "addendum": true,
+  "anchor_note": "paper G1 at MJD 57904, catalogue 57881 (same event: the only catalogued glitch)",
+  "quote": "the next glitch following G1 is tth = 4890(269) d"
+ },
+ {
+  "id": "LI24b",
+  "pulsar": "J1420-6048",
+  "source": "Liu et al. (2024), arXiv:2408.15022v1, Table 4",
+  "published_mjd": 60549,
+  "after_mjd": 58555,
+  "target": "large",
+  "kind": "point",
+  "center": 59378,
+  "sigma": 16,
+  "event": "J1420-next",
+  "primary": true,
+  "addendum": true,
+  "note": "centre passed 1171 d before publication; the paper's Fermi span reaches MJD 59453 with no glitch",
+  "quote": "G8: tth = 823(16) d, tobs: -"
+ },
+ {
+  "id": "LI24c",
+  "pulsar": "J1709-4429",
+  "source": "Liu et al. (2024), arXiv:2408.15022v1, Table 4",
+  "published_mjd": 60549,
+  "after_mjd": 58175,
+  "anchor_catalogue_mjd": 58176,
+  "target": "large",
+  "kind": "point",
+  "center": 60025,
+  "sigma": 26,
+  "event": "J1709-next",
+  "primary": true,
+  "addendum": true,
+  "note": "centre passed 524 d before publication",
+  "quote": "G6: tth = 1850(26) d, tobs: -"
+ },
+ {
+  "id": "GR25vc",
+  "pulsar": "J0835-4510",
+  "source": "Grover et al. (2025), arXiv:2506.02100v1 (vortex-creep prediction)",
+  "published_mjd": 60828,
+  "after_mjd": 60429.9,
+  "target": "large",
+  "kind": "window_between",
+  "lo": 61952,
+  "hi": 63482,
+  "center": 62717,
+  "event": "Vela-next",
+  "primary": false,
+  "addendum": true,
+  "quote": "The time for the next glitch is predicted as 2287.08 days; the predicted time for the next glitch lies between t0 − 3τnl to t0 + 3τnl (τnl = 255.0 d)"
+ },
+ {
+  "id": "GU20e",
+  "pulsar": "J1023-5746",
+  "source": "Gügercinoğlu et al. (2020), arXiv:2011.14788v1 (J1023−5746 G6)",
+  "published_mjd": 59183,
+  "after_mjd": 58202,
+  "target": "large",
+  "kind": "point",
+  "center": 58750,
+  "sigma": 5,
+  "event": "J1023-2019",
+  "primary": false,
+  "addendum": true,
+  "prospective_label": "postdiction: the same sentence names G7, so the authors knew the outcome; data span ends at MJD 58808",
+  "note": "excluded from both summaries (outcome named in the text, like the in-sample tth-vs-tobs comparisons for G1-G5); listed because the referee flagged it",
+  "quote": "The vortex creep model prediction for the time to the next glitch from G6 is tth = 548(5) days and this means that the last post-glitch data for G6 is also the last pre-glitch measurement before G7"
  }
 ]
