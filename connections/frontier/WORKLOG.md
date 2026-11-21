@@ -16,7 +16,7 @@
 1. **Audit follow-up (recurring):** after each batch of audit packets, run `audit-report`. Check each `error`, each arithmetic mismatch and each skipped record (no verdict) by hand: recompute, read the source. Packets 13–20 run after midnight on Sunday. Record each verdict in `connections/pipeline/audit/audit-manual.jsonl` and apply verified fixes with `apply-audit`.
 2. **Open forecast:** after MJD 61506 (2027-04-11), score Grover et al.'s Vela window with a fresh catalogue (T04 `--catalogue`). After 2031-11-20, or once 10 pairs exist, run T02. Neither falls in this weekend.
 3. **Test track: no open candidates** (closed 2026-11-21 15:00; see the log). A new slot needs a published *falsifiable forecast* with public data that nobody has scored yet.
-4. **Map additions: done** (2026-11-21 17:55): 23 records added as C3013–C3035 via the new `add-records` command (28/28 sources verified). The records are kept in `../pipeline/added.jsonl`, so a re-finalize keeps them.
+4. **Map additions: done** (2026-11-21 15:21): 23 records added as C3013–C3035 via the new `add-records` command (28/28 sources verified). The records are kept in `../pipeline/added.jsonl`, so a re-finalize keeps them.
 5. **Filing results in the tree (F6; the user said to decide, so I will):** T01, T03 and T04 have passed the referee, but none is filed in `knowledge/`. `docs/CONVENTIONS.md` defines `reviews/` only for literature reviews, so a note format for frontier results is a decision for the user. The suggested home is `09-astrophysics-and-cosmology/stellar-astrophysics/compact-objects`. Posting to Discord also waits for the user.
 6. **Glitch statistics track (G1–G3), the main breakthrough effort:** waiting on the referee and the prior-art search (both running). Then apply their fixes, and file a combined note in the tree. A next test would be a refractory deficit among large follow-ups only, which needs more large-glitch pairs or a second catalogue (ATNF).
 7. **Sunday wrap-up:** a summary at the top of this file, then a final report to the user.
@@ -105,7 +105,7 @@
   - **ZH25b's baseline win is weak.** Conditioned on no glitch before publication, the baseline misses by −289 d and the forecast by −316 d.
   - **Quotes made verbatim:** AK17b and AK17m are relabelled by the paper's own scenario names, and the GR25vc quote now uses [...]. The LI24c conflicts between text and table, and between paper and catalogue, are noted.
   - **Code:** summaries report the registered and the strict prospective rules, and overdue counts. The self-test now covers the strict boundary, both window kinds, the alternative target, lower-bound HP, the confirmed-miss rule and the summary filters.
-- **2026-11-21 16:00–17:55:** commit and push, then the breakthrough track (G1–G3, all pre-registered before their data were scored).
+- **2026-11-21 14:58–15:33:** commit and push, then the breakthrough track (G1–G3, all pre-registered before their data were scored).
   - **Push:** HTTPS has no credentials, so pushing goes over SSH (rule above). The repo is public: every commit is scanned for secrets, and `.claude/settings.json` and `library/fulltext/` stay out.
   - **G1** (`a95b9cb` → results): a forecast competition with CSEP-style information gain (method transfer from earthquake forecasting), on 14 pulsars and 231 forecasts.
     - Log-normal renewal forecasts are **calibrated** out of sample (KS p = 0.55; 90% coverage 208/231). The published forecasts scored in T04 are not.
@@ -122,4 +122,23 @@
     - Unlike earthquakes, glitches are not triggered failures. Part of the deficit may be recovery masking.
   - **Map:** the 23 additions are in the registry (2907 connections).
   - **Running:** the referee on G1–G3, and paper-scout for F3 prior art.
+- **2026-11-21 15:33–16:05:** the Vela head-to-head was registered, and the referee and prior-art reports on G1–G3 arrived.
+  - **Registered `df1f37a`:** forecasts of the next large glitch for 7 pulsars, plus a Vela test that resolves by 2027-04-11. P(a large Vela glitch in that window): Grover et al. 0.71, empirical renewal 0.31, G2 models 0.13.
+  - **Prior art (paper-scout):**
+    - G1's out-of-sample forecast scoring appears new for glitches; its result is partly known (Melatos & Drummond 2019).
+    - G2 is an out-of-sample check of Fuentes et al.'s (2019) in-sample "two triggers" picture.
+    - G3: Melatos & Warszawski (2009) proposed aftershocks as a test of coherent noise against avalanches, as a size-to-size prediction. Carlin & Melatos (2019) found no positive size autocorrelation in the top five pulsars. No Omori or ETAS test of glitches was found.
+  - **Referee:** G1 needs minor revision, G2 and G3 need revision. Every number reproduced byte for byte, and the pre-registrations preceded their results. The two key points, both checked with the new post-hoc script `g_nulls.py`:
+    - **G3's deficit is resolution.** It vanishes for waits of at least 20–60 days, and the Crab and Vela show none. The "refractory period" headline is withdrawn. The result is now "no resolvable aftershocks beyond about a month".
+    - **Zero is the wrong baseline for IG.** Against a calibrated Poisson null, the renewal model's gain is significant for any size (P < 0.001; 0.001 without J1420−6048) and for large glitches (P < 0.001; 0.007 without it), but not for small ones (P = 0.11). Small-glitch sizes add nothing (shuffle null P = 0.66).
+  - **Also fixed:**
+    - G2's robustness claim is narrowed to J0537, Vela, J1413 and J1740, and J1420's influence is stated.
+    - G1's evaluation amendment now uses a rule: P > 0.95 picks 13 pulsars, and the primary test is named.
+    - G3: three quick pairs above 10⁻⁷, not two; H11 is uninformative; the undeclared dropping of unsized glitches is now listed.
+    - These log times were wrong (I had guessed them) and are corrected from git.
+  - **Toolkit weakness:** `physlib verify` matches titles fuzzily, so my wrong Tsuzuki et al. title passed. It is fixed by hand. The verifier should be made stricter.
+  - **Breakthrough status: none yet.**
+    - The strongest results are out-of-sample confirmations of in-sample ideas: large glitches are non-Poisson with the reservoir sign; small glitches are Poisson.
+    - The forecast-scoring method is new for glitches.
+    - The nearest decisive test is the Vela head-to-head by 2027-04-11.
 

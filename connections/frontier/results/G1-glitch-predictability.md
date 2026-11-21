@@ -1,6 +1,7 @@
 # G1 results · How predictable are pulsar glitches?
 
-**Tier T** (out-of-sample forecast competition on a public catalogue). **Status:** run as registered. Not yet refereed, and prior art not yet complete (F3).
+**Tier T** (out-of-sample forecast competition on a public catalogue). **Status:** run as registered; refereed on 2026-11-21 ("minor revision"), and revised here. Prior art: the method appears new (F3), the result partly known.
+- **Post-hoc nulls:** `../analysis/g_nulls.py`, with results in `G-nulls-posthoc.json`.
 - **Pre-registration:** `../prereg/G1-glitch-predictability.md`, commit `a95b9cb`.
 - **Code:** `../analysis/g1_glitch_forecasts.py`. **Numbers:** `G1-results.json` (primary) and `G1-results-min6.json` (declared sensitivity run).
 - **Data:** the 2026-11-20 Jodrell Bank snapshot (SHA-256 `e811419f…`): 14 pulsars with at least 8 glitches, 231 forecasts.
@@ -14,28 +15,32 @@ A two-parameter log-normal renewal forecast is **calibrated out of sample**. Its
 | Central 90% | 208 of 231 (90%) | 90% (p = 1.0) |
 | KS test of the PIT | p = 0.55 | uniform |
 
-The published model forecasts scored in T04 landed within their 1σ only 2 times in 6, against 68% nominal.
+T04's published forecasts landed within their 1σ 2 times in 6, but six forecasts are too few to judge calibration. M1's 231 are enough to establish it.
 
-**But glitches are only weakly predictable beyond a Poisson process.** In nats per forecast:
+**Registered verdicts,** in nats per forecast:
 
 | Comparison | Pulsar-averaged gain | 90% bootstrap interval | Verdict |
 |---|---|---|---|
-| H1: renewal over Poisson | +0.098 | −0.012 to +0.240 | not supported (marginal) |
+| H1: renewal over Poisson | +0.098 | −0.012 to +0.240 | not supported (bound includes 0) |
 | H2: size-conditioned over renewal | −0.053 | −0.217 to +0.099 | inconclusive |
 
-The gain is concentrated in a few pulsars: J0537−6910, J1341−6220, J1413−6141, J2229+6114 and J1420−6048. Without J0537−6910, the pooled gain of renewal over Poisson is only +0.023.
+**Zero was the wrong baseline (post hoc, after the referee).** On simulated Poisson sequences with the same counts, the renewal model *loses* to the Poisson model: the null mean is −0.152 (5–95%: −0.253 to −0.067). The observed +0.098 exceeds all 1000 null draws.
+- **Without J1420−6048:** +0.025 against −0.147, P = 0.001. That pulsar contributes 0.075 of the 0.098 with only 3 forecasts, and the median pulsar's gain is +0.010.
+- **So glitch timing departs significantly from Poisson.** What is small is how much better this renewal forecast does than a Poisson forecast.
+- **Where the gain sits:** J1420−6048, J0537−6910, J1413−6141, J1341−6220 and J2229+6114. Without J0537−6910 the pooled gain is +0.023.
 
-**Predictability rises with glitch size (H3).** The Spearman correlation between a pulsar's gain and its median glitch size:
+**Does predictability rise with glitch size? (H3, not supported at the registered threshold.)** The Spearman correlation between a pulsar's gain and its median glitch size:
 - primary, 14 pulsars: ρ = +0.39, one-sided p = 0.087, so not supported at the registered threshold;
 - declared sensitivity, 30 pulsars with at least 6 glitches: ρ = +0.40, p = 0.014.
 
 **The sign of the size–wait relation is reservoir-like almost everywhere, but it barely helps forecasting.**
 - The slope of log wait on log size is positive in 13 of 14 pulsars (sign test p = 0.0009) and in 26 of 30 in the sensitivity run (p = 3×10⁻⁵).
-- No pulsar shows the triggering sign that earthquake-like aftershocks would give. The one negative slope, Vela's, is −0.03.
+- No pulsar has a significant negative slope, the sign triggering would give. Vela's is negative but small (−0.03).
+- Fuentes, Espinoza & Reisenegger (2019) found the in-sample correlation positive in 7 of 8 prolific pulsars, all but the Crab. Here the Crab is positive (+0.13) and Vela negative.
 - Out of sample, size information pays off only in J0537−6910, J1413−6141, J1048−5832 and J1341−6220.
 - Caveat: the slopes are in-sample, and post-glitch recovery hides small glitches after large ones, which also makes the slope positive. G2 separates the two explanations.
 
-**Reading.** Most of the population glitches close to a Poisson process, and a handful of pulsars carry exploitable structure. Honest forecasting is easy: a simple renewal model is calibrated. Beating Poisson by much is not. This is consistent with two kinds of glitch behaviour, a predictable reservoir-like part and a Poisson-like part. G2 tests that directly.
+**Reading.** Glitch timing is significantly non-Poisson across the population, but a simple renewal forecast gains only about 0.1 nats per forecast over a Poisson one. Honest forecasting is easy: the renewal model is calibrated. Large gains are not, which matches Melatos & Drummond's (2019) in-sample finding that a state-dependent model beats Poisson only modestly. G2 finds where the structure sits: in large glitches.
 
 ## Per pulsar
 CV is the coefficient of variation of waiting times: below 1 is quasi-periodic, above 1 is clustered. Gains are in nats per forecast.
@@ -68,14 +73,23 @@ The run issued next-glitch forecasts for all 34 pulsars with at least 5 glitches
 - **J1740−3015:** 61636, range 61384–62576.
 - **J2229+6114:** 61885, range 61430–63492.
 
-**Amendment, made before any evaluation data exist.** Several pulsars almost certainly glitched between their last catalogued glitch and the snapshot. For J0537−6910, J1341−6220, J1413−6141, J1420−6048 and J1023−5746, the chance of a glitch before the snapshot is 1.00. For those pulsars, a forecast conditional on "no glitch since the last catalogued one" is mis-specified. So a second evaluation is added:
-- Score the *unconditional* forecast against the first glitch after the last catalogued one, as a fresh catalogue shows it, whatever its date. Glitches missing from this snapshot are unseen data, as in T02.
-- The registered conditional evaluation stays as it is.
+**Evaluation, as amended before any evaluation data exist.** Several pulsars almost certainly glitched between their last catalogued glitch and the snapshot, so a forecast conditional on "no glitch since" is mis-specified for them. The rule:
+- **Pulsars with P(glitch before the snapshot) > 0.95** under their forecast: J0205+6449, J0537−6910, J0631+1036, J1023−5746, J1341−6220, J1413−6141, J1420−6048, J1708−4008, J1801−2451, J1814−1744, J1841−0524, J1952+3252 and J2301+5852 (13 pulsars).
+  - **Primary evaluation:** the *unconditional* forecast, scored against the first glitch after the last catalogued one, as a fresh catalogue shows it, whatever its date.
+- **All other pulsars:** the registered *conditional* evaluation stays primary.
+- **Test, for both:** KS uniformity of the PIT and coverage of the central 50% and 90% intervals, each judged at p > 0.05, once 15 pulsars have resolved or on 2028-11-20.
+- **Caveat:** the missing glitches may already be published, so for the 13 the test is blind but partly retrospective.
 
 ## Deviations
-None from the registered analysis. The J0537−6910 gap and the Vela reading above are post-hoc observations and change no number.
+- **The evaluation amendment above.** It was added after the run but before any evaluation data exist.
+- **Post hoc:** the Poisson-null calibration, the J1420−6048 influence check, the J0537−6910 gap and the Vela reading. None changes a registered number.
 
 ## Limitations
 - **Monitoring gaps** count as waits, as J0537−6910 shows. The catalogue carries no monitoring spans.
 - **Bootstrap intervals** over 14 pulsars are coarse. Pooled statistics are dominated by J0537−6910 (63 of 231 forecasts).
 - **The slope's sign** is in-sample and open to a detection-selection effect.
+
+## Sources
+- Fuentes, Espinoza & Reisenegger (2019). "Glitch time series and size distributions in eight prolific pulsars". *A&A* 630, A115. [arXiv:1907.09887](https://arxiv.org/abs/1907.09887)
+- Melatos & Drummond (2019). "Pulsar glitch activity as a state-dependent Poisson process: parameter estimation and epoch prediction". *ApJ* 885, 37. [arXiv:1910.05503](https://arxiv.org/abs/1910.05503)
+- Middleditch et al. (2006). "Predicting the Starquakes in PSR J0537-6910". *ApJ* 652, 1531. [arXiv:astro-ph/0605007](https://arxiv.org/abs/astro-ph/0605007)
