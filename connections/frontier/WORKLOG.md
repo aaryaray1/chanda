@@ -2,10 +2,12 @@
 
 **Mandate.** On 2026-11-20 (~23:30 CET) the user asked for work to continue overnight and through the weekend, until the end of Sunday 2026-11-22, resuming after usage limits reset, with the rest of the week's budget. Each loop iteration reads this file first, takes the top open item, works on it, and logs the result here before scheduling the next wake-up.
 
+**Mandate update (2026-11-21 ~15:50, from the user):** "commit and push, and continue. stop asking for my input, find a breakthrough, or advance enough to find one." So decide the queued questions myself (map additions, filing results), push after each commit, and put the main effort into a candidate breakthrough.
+
 ## Standing rules
-- **Commits:** commit only frontier work (pre-registrations, analyses, results, cards, this log), using `git -c user.name="Aarya Ray Chaudhuri" -c user.email="aaryaray2502@gmail.com"` and the session attribution lines. **Never push.**
+- **Commits:** commit all work, using `git -c user.name="Aarya Ray Chaudhuri" -c user.email="aaryaray2502@gmail.com"` and the session attribution lines. **Push after commits** (user, 2026-11-21). HTTPS has no credentials here, so push over SSH: `GIT_SSH_COMMAND="ssh -o BatchMode=yes -o StrictHostKeyChecking=yes" git push git@github.com:aaryaray1/chanda.git master`. The repo is public: scan for secrets before every push. Never commit `.claude/settings.json` or `library/fulltext/`.
 - **Pre-registration first:** a test's plan and code are committed *before* its data are read. Deviations are reported in the results.
-- **Registry changes:** only through `connections_pipeline.py apply-audit`, and only after recomputing the flagged claim myself (sympy or numpy) and confirming it against the cited source. Record each change below.
+- **Registry changes:** through `connections_pipeline.py apply-audit` (after recomputing the flagged claim and confirming it against a source) or `add-records` (new connections with verified sources). Record each change below.
 - **Off limits:** never print secrets. Do not edit `~/.config/chanda`, `~/.claude`, `.claude/settings.json`, or the systemd units.
 - **Citations:** every cited paper passes `physlib.py verify`. Label confidence. Flag contested claims.
 - **Quota:** the pipeline audit runs on its own (cap raised to 10 units a day on 2026-11-20; set `audit.per_day` back to 2 after Sunday if any packets remain). Interactive work uses the main session. Subagents are kept for referee passes and specialist checks.
