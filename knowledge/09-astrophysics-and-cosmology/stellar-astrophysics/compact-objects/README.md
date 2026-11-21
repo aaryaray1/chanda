@@ -18,4 +18,6 @@ $$M_{\text{Ch}}\approx1.44\left(\frac{2}{\mu_e}\right)^2M_\odot,\qquad B\approx3
 
 **Landmarks.** Chandrasekhar (1931); Oppenheimer & Volkoff (1939); Hewish et al. (1968) — see [subfield landmarks](../README.md).
 
+**Project results.** [Pulsar glitch statistics](reviews/pulsar-glitch-statistics.md): pre-registered tests of glitch correlations, published forecasts, predictability and aftershocks. Large glitches are non-Poisson, small ones Poisson-like, with no resolvable aftershocks. A Vela forecast is registered to resolve by 2027-04-11.
+
 **See also.** [Neutron-star equation of state](../../../07-nuclear-physics/nuclear-astrophysics/neutron-star-equation-of-state/README.md) · [Black holes](../../../05-relativity-and-gravitation/black-holes/README.md) · [Quantum statistics](../../../03-thermodynamics-and-statistical-mechanics/equilibrium-statistical-mechanics/quantum-statistics/README.md)

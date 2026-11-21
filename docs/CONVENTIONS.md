@@ -13,10 +13,11 @@ knowledge/
       topic-slug/                depth 3 — topic (deeper "branch" levels allowed when a topic grows)
         README.md                compact note
         papers.md                generated: foundational · rising · latest
-        reviews/<slug>.md        literature reviews (optional)
+        reviews/<slug>.md        literature reviews, and notes on this project's own results (optional)
 ```
 - Slugs: lowercase, hyphen-separated, descriptive (`neutrino-oscillations`, not `nu-osc`). Fields keep their two-digit prefix.
 - Directories named `_templates`, `reviews`, `notes`, `assets` are not nodes.
+- A results note in `reviews/` summarises this project's pre-registered results (`connections/frontier/results/`). Each result row carries its tier (P proof, T test, N novelty), its status (prior art, referee outcome) and a link to the full write-up. Its citations follow the rules below.
 
 ## Frontmatter (every README)
 ```yaml

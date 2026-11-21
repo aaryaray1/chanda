@@ -7857,8 +7857,8 @@
    "score": 0.668,
    "shared": [
     "Black-hole thermodynamics",
-    "Entropy and information",
-    "Entanglement"
+    "Entanglement",
+    "Entropy and information"
    ]
   },
   {
@@ -7928,8 +7928,8 @@
    "shared": [
     "Magnetism and exchange",
     "Topological invariants",
-    "Ising and lattice models",
-    "Disorder and localization"
+    "Disorder and localization",
+    "Ising and lattice models"
    ]
   },
   {
@@ -7938,8 +7938,8 @@
    "score": 0.497,
    "shared": [
     "Magnetism and exchange",
-    "Ising and lattice models",
-    "Disorder and localization"
+    "Disorder and localization",
+    "Ising and lattice models"
    ]
   },
   {
@@ -8031,8 +8031,8 @@
    "score": 0.432,
    "shared": [
     "Glasses, spin glasses and rugged landscapes",
-    "Entropy and information",
-    "Entanglement"
+    "Entanglement",
+    "Entropy and information"
    ]
   },
   {
@@ -8050,8 +8050,8 @@
    "b": "07-nuclear-physics/heavy-ion-physics/quark-gluon-plasma",
    "score": 0.423,
    "shared": [
-    "Confinement and chiral symmetry breaking",
     "Hydrodynamics and continuum descriptions",
+    "Confinement and chiral symmetry breaking",
     "Diffusion, Brownian motion and stochastic processes"
    ]
   },
@@ -8111,8 +8111,8 @@
    "score": 0.403,
    "shared": [
     "Hydrodynamics and continuum descriptions",
-    "Bose–Einstein condensation and superfluidity",
-    "Compact objects"
+    "Compact objects",
+    "Bose–Einstein condensation and superfluidity"
    ]
   },
   {
@@ -8211,8 +8211,8 @@
    "b": "08-condensed-matter/soft-matter",
    "score": 0.364,
    "shared": [
-    "Entropy and information",
     "Entanglement",
+    "Entropy and information",
     "Diffusion, Brownian motion and stochastic processes"
    ]
   },
@@ -8407,8 +8407,8 @@
    "shared": [
     "Ising and lattice models",
     "Entropy and information",
-    "Quasiparticles and collective modes",
-    "Interference and diffraction"
+    "Interference and diffraction",
+    "Quasiparticles and collective modes"
    ]
   },
   {
@@ -8468,8 +8468,8 @@
    "score": 0.354,
    "shared": [
     "Spontaneous symmetry breaking",
-    "Quasiparticles and collective modes",
-    "Interference and diffraction"
+    "Interference and diffraction",
+    "Quasiparticles and collective modes"
    ]
   },
   {
