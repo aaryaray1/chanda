@@ -317,6 +317,12 @@
   "title": "The Breaking Strain of Neutron Star Crust and Gravitational Waves",
   "year": 2009
  },
+ "arxiv:0904.2998": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "Superfluid vortex unpinning as a coherent noise process, and the scale invariance of pulsar glitches",
+  "year": 2009
+ },
  "arxiv:0904.3107": {
   "checked": "2026-11-13",
   "ok": true,
@@ -567,6 +573,12 @@
   "checked": "2026-11-13",
   "ok": true,
   "title": "The Reactor Antineutrino Anomaly",
+  "year": 2011
+ },
+ "arxiv:1102.1743": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "A study of 315 glitches in the rotation of 102 pulsars",
   "year": 2011
  },
  "arxiv:1102.4628": {
@@ -1481,6 +1493,12 @@
   "title": "Experimental signatures of the mixed axial-gravitational anomaly in the Weyl semimetal NbP",
   "year": 2017
  },
+ "arxiv:1704.00742": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "Statistical characterization of pulsar glitches and their potential impact on searches for continuous gravitational waves",
+  "year": 2017
+ },
  "arxiv:1704.01577": {
   "checked": "2026-11-13",
   "ok": true,
@@ -1497,6 +1515,12 @@
   "checked": "2026-11-13",
   "ok": true,
   "title": "Probing new light force-mediators by isotope shift spectroscopy",
+  "year": 2017
+ },
+ "arxiv:1704.05983": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "On the detection probability of neutron star glitches",
   "year": 2017
  },
  "arxiv:1705.01111": {
@@ -1551,6 +1575,12 @@
   "checked": "2026-10-30",
   "ok": true,
   "title": "Observation of a Large-scale Anisotropy in the Arrival Directions of Cosmic Rays above $8 \\times 10^{18}$ eV",
+  "year": 2017
+ },
+ "arxiv:1710.00952": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "The glitch activity of neutron stars",
   "year": 2017
  },
  "arxiv:1710.05463": {
@@ -1681,7 +1711,9 @@
  },
  "arxiv:1803.02342": {
   "checked": "2026-10-30",
+  "doi": "10.1038/nature26160",
   "ok": true,
+  "published_title": "Unconventional superconductivity in magic-angle graphene superlattices",
   "title": "Magic-angle graphene superlattices: a new platform for unconventional superconductivity",
   "year": 2018
  },
@@ -1811,10 +1843,22 @@
   "title": "Quantum Kibble-Zurek mechanism and critical dynamics on a programmable Rydberg simulator",
   "year": 2018
  },
+ "arxiv:1809.06038": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "Nonparametric estimation of the size and waiting time distributions of pulsar glitches",
+  "year": 2018
+ },
  "arxiv:1810.00098": {
   "checked": "2026-11-13",
   "ok": true,
   "title": "Collapsars as a major source of r-process elements",
+  "year": 2018
+ },
+ "arxiv:1810.12458": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "Temporal clustering of rotational glitches in the Crab pulsar",
   "year": 2018
  },
  "arxiv:1811.03522": {
@@ -2105,6 +2149,18 @@
   "title": "Experimental evidence of neutrinos produced in the CNO fusion cycle in the Sun",
   "year": 2020
  },
+ "arxiv:2007.02921": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "Small glitches and other rotational irregularities of the Vela pulsar",
+  "year": 2020
+ },
+ "arxiv:2007.04794": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "On the bimodal nature of the distributions of pulsar glitch sizes",
+  "year": 2020
+ },
  "arxiv:2008.01853": {
   "checked": "2026-11-13",
   "ok": true,
@@ -2255,6 +2311,12 @@
   "title": "Emerging research landscape of altermagnetism",
   "year": 2022
  },
+ "arxiv:2206.02751": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "Classification of Pulsar Glitch Amplitudes using Extreme Deconvolution",
+  "year": 2022
+ },
  "arxiv:2207.03764": {
   "checked": "2026-10-30",
   "ok": true,
@@ -2307,6 +2369,18 @@
   "checked": "2026-10-30",
   "ok": true,
   "title": "The Atacama Cosmology Telescope: Mitigating the impact of extragalactic foregrounds for the DR6 CMB lensing analysis",
+  "year": 2023
+ },
+ "arxiv:2305.04738": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "Scaling and Universality in the Temporal Occurrence of Repeating FRBs",
+  "year": 2023
+ },
+ "arxiv:2306.13612": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "Fast radio bursts trigger aftershocks resembling earthquakes, but not solar flares",
   "year": 2023
  },
  "arxiv:2306.15671": {
@@ -2459,6 +2533,20 @@
   "title": "Astrophysical Axion Bounds: The 2024 Edition",
   "year": 2024
  },
+ "arxiv:2401.13916": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "A Comparative Analysis of Scale-invariant Phenomena in Repeating Fast Radio Bursts and Glitching Pulsars",
+  "year": 2024
+ },
+ "arxiv:2401.16758": {
+  "checked": "2026-11-21",
+  "doi": "10.1093/mnras/stae965",
+  "ok": true,
+  "published_title": "Similarity to earthquakes again: periodic radio pulses of the magnetar SGR 1935+2154 are accompanied by aftershocks like fast radio bursts",
+  "title": "Similarity to earthquakes again: periodic radio pulses of the magnetar SGR 1935+2154 are accompanied by aftershocks like fast radio bursts",
+  "year": 2024
+ },
  "arxiv:2401.99999": {
   "checked": "2026-10-30",
   "ok": false
@@ -2601,16 +2689,34 @@
   "title": "Cosmology From CMB Lensing and Delensed EE Power Spectra Using 2019-2020 SPT-3G Polarization Data",
   "year": 2024
  },
+ "arxiv:2412.04313": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "Time-Frequency Correlation of Repeating Fast Radio Bursts: Correlated Aftershocks Tend to Exhibit Downward Frequency Drifts",
+  "year": 2024
+ },
  "arxiv:2501.01466": {
   "checked": "2026-10-30",
   "ok": true,
   "title": "Hydride superconductivity: here to stay, or to lead astray and soon go away?",
   "year": 2024
  },
+ "arxiv:2501.01862": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "Glitches and glitching clusters in rotation-powered pulsars",
+  "year": 2025
+ },
  "arxiv:2501.09181": {
   "checked": "2026-11-13",
   "ok": true,
   "title": "Direct evidence for r-process nucleosynthesis in delayed MeV emission from the SGR 1806-20 magnetar giant flare",
+  "year": 2025
+ },
+ "arxiv:2502.20017": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "On Bactrian glitch-size distributions",
   "year": 2025
  },
  "arxiv:2503.05697": {
@@ -2839,6 +2945,12 @@
   "checked": "2026-10-30",
   "ok": true,
   "title": "Exact expression for maximum Lyapunov exponent during transients in computationally powerful dynamical networks",
+  "year": 2026
+ },
+ "arxiv:2606.01855": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "Fast radio bursts, magnetars and earthquakes: their \"family feud\"?",
   "year": 2026
  },
  "arxiv:2606.02897": {
@@ -3104,6 +3216,12 @@
   "ok": true,
   "title": "Discovery of Fast X-ray Oscillations During the 1998 Giant Flare from SGR 1900+14",
   "year": 2005
+ },
+ "arxiv:astro-ph/0605007": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "Predicting the Starquakes in PSR J0537-6910",
+  "year": 2006
  },
  "arxiv:astro-ph/0605208": {
   "checked": "2026-10-30",
@@ -4031,7 +4149,9 @@
  },
  "arxiv:quant-ph/0511225": {
   "checked": "2026-11-13",
+  "doi": "10.1038/nphys444",
   "ok": true,
+  "published_title": "Entanglement and the foundations of statistical mechanics",
   "title": "The foundations of statistical mechanics from entanglement: Individual states vs. averages",
   "year": 2005
  },
@@ -5355,6 +5475,12 @@
   "title": "Vortex formation in neutron-irradiated superfluid 3He as an analogue of cosmological defect formation",
   "year": 1996
  },
+ "doi:10.1038/382518a0": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "Earthquake-like behaviour of soft γ-ray repeaters",
+  "year": 1996
+ },
  "doi:10.1038/415039a": {
   "checked": "2026-10-29",
   "ok": true,
@@ -6505,6 +6631,12 @@
   "title": "The 2017 Plasma Roadmap: Low temperature plasma science and technology",
   "year": 2017
  },
+ "doi:10.1088/1361-6633/ac9ced": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "Pulsar glitches: observations and physical interpretation",
+  "year": 2022
+ },
  "doi:10.1088/1361-6633/ad4b9b": {
   "checked": "2026-10-30",
   "ok": true,
@@ -6606,6 +6738,12 @@
   "ok": true,
   "title": "Return of the Big Glitcher: NICER timing and glitches of PSR J0537−6910",
   "year": 2020
+ },
+ "doi:10.1093/mnras/stae965": {
+  "checked": "2026-11-21",
+  "ok": true,
+  "title": "Similarity to earthquakes again: periodic radio pulses of the magnetar SGR 1935+2154 are accompanied by aftershocks like fast radio bursts",
+  "year": 2024
  },
  "doi:10.1093/oso/9780198517962.001.0001": {
   "checked": "2026-10-30",

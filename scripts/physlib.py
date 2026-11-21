@@ -861,7 +861,7 @@ TITLE_STOPWORDS = {"a", "an", "the", "of", "and", "in", "on", "for", "to", "with
                    "der", "die", "das", "und", "zur", "von", "des", "im", "einen", "eine", "ueber"}
 
 
-def title_similarity(cited: str, record: str) -> float:
+def title_similarity(cited: str, record: str, ordered: bool = True) -> float:
     def norm(s: str) -> str:
         s = re.sub(r"\$[^$]*\$|\\[a-zA-Z]+", " ", s.lower())
         return " ".join(re.sub(r"[^a-z0-9]+", " ", s).split())
@@ -875,7 +875,13 @@ def title_similarity(cited: str, record: str) -> float:
     record_words = {w for w in nb.split() if w not in TITLE_STOPWORDS}
     if len(cited_words) < 3 or not record_words:
         return ratio
-    cited_coverage = sum(w in record_words for w in cited_words) / len(cited_words)
+    rec_seq = [w for w in nb.split() if w not in TITLE_STOPWORDS]
+    lcs = [0] * (len(rec_seq) + 1)
+    for w in cited_words:  # cited words must appear in the record's order: a reworded title should not pass on shared vocabulary
+        prev = 0
+        for j, r in enumerate(rec_seq, 1):
+            prev, lcs[j] = lcs[j], (prev + 1 if w == r else max(lcs[j], lcs[j - 1]))
+    cited_coverage = lcs[-1] / len(cited_words) if ordered else sum(w in record_words for w in cited_words) / len(cited_words)
     record_coverage = len(set(cited_words) & record_words) / len(record_words)
     return max(ratio, cited_coverage) if cited_coverage >= 0.85 and record_coverage >= 0.3 else ratio
 
@@ -915,6 +921,20 @@ def cache_key(kind: str, ident: str) -> str:
     return f"{kind}:{ident.lower()}"
 
 
+def published_title_matches(ref: dict, entry: dict, cache: dict) -> bool:
+    """An arXiv title that shares the cited words only out of order passes if the journal version (via its DOI) carries the cited title."""
+    if ref["kind"] != "arxiv" or title_similarity(ref["title"], entry["title"], ordered=False) < 0.6:
+        return False
+    if "doi" not in entry:
+        rec = arxiv_lookup([ref["id"]]).get(ref["id"].lower())
+        entry["doi"] = rec.get("doi") if rec else None
+    if entry["doi"] and "published_title" not in entry:
+        rec = crossref_by_doi(entry["doi"])
+        entry["published_title"] = rec["title"] if rec else None
+    VERIFY_CACHE.write_text(json.dumps(cache, indent=1, sort_keys=True, ensure_ascii=False), encoding="utf-8")
+    return bool(entry.get("published_title")) and title_similarity(ref["title"], entry["published_title"]) >= 0.6
+
+
 def cmd_verify(args) -> int:
     if args.stdin:
         fd, scratch = tempfile.mkstemp(prefix="physlib-verify-", suffix=".md")
@@ -940,7 +960,7 @@ def cmd_verify(args) -> int:
     found_arxiv = arxiv_lookup(pending_arxiv)
     for aid in pending_arxiv:
         rec = found_arxiv.get(aid.lower())
-        cache[cache_key("arxiv", aid)] = ({"ok": True, "title": rec["title"], "year": rec["year"], "checked": today()}
+        cache[cache_key("arxiv", aid)] = ({"ok": True, "title": rec["title"], "year": rec["year"], "doi": rec.get("doi"), "checked": today()}
                                           if rec else {"ok": False, "checked": today()})
     found = openalex_by_doi(pending_doi)
     for doi in pending_doi:
@@ -960,7 +980,8 @@ def cmd_verify(args) -> int:
         detail = ""
         if not entry.get("ok"):
             status = "NOT_FOUND"
-        elif ref["title"] and entry.get("title") and title_similarity(ref["title"], entry["title"]) < 0.6:
+        elif ref["title"] and entry.get("title") and title_similarity(ref["title"], entry["title"]) < 0.6 \
+                and not published_title_matches(ref, entry, cache):
             status, detail = "TITLE_MISMATCH", f"cited “{ref['title']}” but {ref['kind']} is “{entry['title']}”"
         elif ref["year"] and entry.get("year") and not year_consistent(ref["kind"], ref["year"], int(entry["year"])):
             status, detail = "YEAR_MISMATCH", f"cited {ref['year']} but record says {entry['year']}"
