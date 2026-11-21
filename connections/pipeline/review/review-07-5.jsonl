@@ -1,0 +1,38 @@
+{"id": "C2556", "verdict": "revise", "reason": "Rates are uncertain by orders of magnitude, so this is not textbook consensus.", "fix": {"confidence": "current research"}}
+{"id": "C2557", "verdict": "confirm"}
+{"id": "C2558", "verdict": "confirm"}
+{"id": "C2559", "verdict": "confirm"}
+{"id": "C2560", "verdict": "revise", "reason": "Strength 3 is inflated: BUU is a Boltzmann-Vlasov transport borrowing, and the nuclear mean field differs from plasma fields.", "fix": {"strength": 2}}
+{"id": "C2561", "verdict": "confirm"}
+{"id": "C2562", "verdict": "reject", "reason": "Generic 'underpins' link with no map or named technique; the specific medical-physics records cover it."}
+{"id": "C2563", "verdict": "revise", "reason": "Broad application link; strength 3 is too high.", "fix": {"strength": 2}}
+{"id": "C2564", "verdict": "revise", "reason": "RTGs are a shared object (238Pu heat source plus thermoelectrics), not a method transfer.", "fix": {"kind": "shared object"}}
+{"id": "C2565", "verdict": "reject", "reason": "duplicate of C2566", "duplicate_of": "C2566"}
+{"id": "C2566", "verdict": "revise", "reason": "Isotope production is a shared object, not a mechanism; strength 3 is inflated for a 'medicine uses isotopes' link.", "fix": {"kind": "shared object", "strength": 2}}
+{"id": "C2567", "verdict": "confirm"}
+{"id": "C2568", "verdict": "confirm"}
+{"id": "C2569", "verdict": "reject", "reason": "Generic 'applied to patients' link with no named technique or consequence; covered by the specific imaging, PET and therapy records."}
+{"id": "C2570", "verdict": "confirm"}
+{"id": "C2571", "verdict": "confirm"}
+{"id": "C2572", "verdict": "revise", "reason": "Bethe stopping is atomic-collision physics shared broadly, not a structural link of strength 3.", "fix": {"strength": 2}}
+{"id": "C2573", "verdict": "confirm"}
+{"id": "C2574", "verdict": "confirm"}
+{"id": "C2575", "verdict": "revise", "reason": "Specific and correct, but a narrow application link rather than structural in both fields; strength 3 is inflated.", "fix": {"strength": 2}}
+{"id": "C2576", "verdict": "revise", "reason": "The record has a breaks, so it is not an identity. It is the same barrier-crossing physics with friction, so a mechanism.", "fix": {"kind": "mechanism", "strength": 2}}
+{"id": "C2577", "verdict": "confirm"}
+{"id": "C2578", "verdict": "confirm"}
+{"id": "C2579", "verdict": "confirm"}
+{"id": "C2580", "verdict": "confirm"}
+{"id": "C2581", "verdict": "confirm"}
+{"id": "C2582", "verdict": "revise", "reason": "'Replaced radioactive sources' overstates; synchrotron sources complement them.", "fix": {"summary": "Synchrotron radiation complements radioactive sources for Mössbauer spectroscopy (nuclear forward scattering, 57Fe at 14.4 keV), and an XFEL resonantly excited the 12.4 keV 45Sc isomer, bringing narrow nuclear transitions into X-ray quantum optics."}}
+{"id": "C2583", "verdict": "confirm"}
+{"id": "C2584", "verdict": "confirm"}
+{"id": "C2585", "verdict": "confirm"}
+{"id": "C2586", "verdict": "confirm"}
+{"id": "C2587", "verdict": "revise", "reason": "Bateman bookkeeping is generic decay-chain math; strength 3 is inflated.", "fix": {"strength": 2}}
+{"id": "C2588", "verdict": "confirm"}
+{"id": "C2589", "verdict": "confirm"}
+{"id": "C2590", "verdict": "revise", "reason": "Universality of halo nuclei is a current-research picture with finite-range and core effects, not consensus.", "fix": {"confidence": "current research"}}
+{"id": "C2591", "verdict": "confirm"}
+{"id": "C2592", "verdict": "confirm"}
+{"id": "C2593", "verdict": "revise", "reason": "Nuclear structure plays almost no role in MRI contrast; the link is narrow.", "fix": {"strength": 1}}

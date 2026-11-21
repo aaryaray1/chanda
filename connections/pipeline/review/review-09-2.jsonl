@@ -1,0 +1,98 @@
+{"id": "C1511", "verdict": "confirm"}
+{"id": "C1512", "verdict": "revise", "reason": "Saha is an equilibrium approximation that fails for real recombination (Peebles non-equilibrium). Not an identity.", "fix": {"kind": "mechanism", "breaks": "Saha assumes equilibrium; actual recombination lags it because Lyman-α photons are trapped (Peebles/RECFAST), so Saha only gives the approximate epoch."}}
+{"id": "C1513", "verdict": "confirm"}
+{"id": "C1514", "verdict": "confirm"}
+{"id": "C1515", "verdict": "confirm"}
+{"id": "C1516", "verdict": "revise", "reason": "Gaia's Q-branch pile-up needs 22Ne sedimentation, not just crystallization and C/O phase separation; overattributed.", "fix": {"summary": "The core of a cooling white dwarf is a Coulomb plasma that freezes when Γ≈175. Latent heat and C/O phase separation slow cooling. Gaia sees crystallization as a pile-up in the cooling sequence; the Q-branch excess also needs 22Ne sedimentation."}}
+{"id": "C1517", "verdict": "confirm"}
+{"id": "C1518", "verdict": "confirm"}
+{"id": "C1519", "verdict": "confirm"}
+{"id": "C1520", "verdict": "confirm"}
+{"id": "C1521", "verdict": "confirm"}
+{"id": "C1522", "verdict": "confirm"}
+{"id": "C1523", "verdict": "confirm"}
+{"id": "C1524", "verdict": "revise", "reason": "Speculative, contested proposal with no accepted mechanism; 'mechanism' kind overstates. Analogy fits.", "fix": {"kind": "analogy"}}
+{"id": "C1525", "verdict": "confirm"}
+{"id": "C1526", "verdict": "confirm"}
+{"id": "C1527", "verdict": "confirm"}
+{"id": "C1528", "verdict": "confirm"}
+{"id": "C1529", "verdict": "confirm"}
+{"id": "C1530", "verdict": "confirm"}
+{"id": "C1531", "verdict": "revise", "reason": "A record needing a 'breaks' is not an identity; this is Burgers/KPZ methods applied to the cosmic web.", "fix": {"kind": "method transfer"}}
+{"id": "C1532", "verdict": "confirm"}
+{"id": "C1533", "verdict": "confirm"}
+{"id": "C1534", "verdict": "confirm"}
+{"id": "C1535", "verdict": "confirm"}
+{"id": "C1536", "verdict": "confirm"}
+{"id": "C1537", "verdict": "confirm"}
+{"id": "C1538", "verdict": "confirm"}
+{"id": "C1539", "verdict": "confirm"}
+{"id": "C1540", "verdict": "confirm"}
+{"id": "C1541", "verdict": "revise", "reason": "Kompaneets holds only for non-relativistic, optically thin, small-shift scattering; cluster SZ needs relativistic corrections. Not an identity.", "fix": {"kind": "mechanism", "breaks": "Kompaneets assumes non-relativistic electrons and small energy shifts; hot clusters need relativistic SZ corrections."}}
+{"id": "C1542", "verdict": "confirm"}
+{"id": "C1543", "verdict": "confirm"}
+{"id": "C1544", "verdict": "confirm"}
+{"id": "C1545", "verdict": "confirm"}
+{"id": "C1546", "verdict": "confirm"}
+{"id": "C1547", "verdict": "revise", "reason": "'At least one defect per correlation volume' overstated; Kibble–Zurek gives roughly one per correlation volume.", "fix": {"summary": "When a symmetry breaks, causally disconnected regions pick independent vacua, leaving roughly one defect per correlation volume; Zurek fixed the frozen correlation length using critical exponents. GUT monopoles made this way would overclose the universe, motivating inflation. Scaling tested in superfluid helium, liquid crystals and cold atoms."}}
+{"id": "C1548", "verdict": "revise", "reason": "Historical migration of one idea into one episode, narrow; not structural in both fields.", "fix": {"strength": 2}}
+{"id": "C1549", "verdict": "revise", "reason": "'Exactly as in Wilsonian renormalization' overclaims; EFTofLSS is analogous to, not identical with, Wilsonian RG.", "fix": {"summary": "Integrating out non-linear short-scale modes leaves an effective fluid whose stress tensor has cutoff-dependent coefficients, such as the sound speed c_s², fixed by matching to simulations, in the spirit of Wilsonian renormalization. Renormalized and time-RG perturbation theories resum loops to mildly non-linear scales."}}
+{"id": "C1826", "verdict": "confirm"}
+{"id": "C1827", "verdict": "confirm"}
+{"id": "C1828", "verdict": "revise", "reason": "Single technique (astrocombs) used in one application; not structural in both fields, so not strength 3.", "fix": {"strength": 2}}
+{"id": "C1829", "verdict": "confirm"}
+{"id": "C1830", "verdict": "confirm"}
+{"id": "C1831", "verdict": "confirm"}
+{"id": "C1832", "verdict": "confirm"}
+{"id": "C1833", "verdict": "revise", "reason": "Specific and real, but a 'uses 21-cm' application link; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C1834", "verdict": "revise", "reason": "Atomic data feeding kilonova modelling is a narrow, active application; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C1835", "verdict": "confirm"}
+{"id": "C1836", "verdict": "revise", "reason": "Opacity discrepancy is an unresolved candidate explanation; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C1837", "verdict": "revise", "reason": "Same Schrödinger–Poisson form but different physics, and the link is narrow; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C1838", "verdict": "confirm"}
+{"id": "C1839", "verdict": "revise", "reason": "Vortex-glitch link is real but narrow (one application of superfluid vortex physics); strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C1840", "verdict": "reject", "reason": "Generic low-temperature collision overlap with no named technique or consequence; astrochemistry is not in the protoplanetary-disk node."}
+{"id": "C1841", "verdict": "confirm"}
+{"id": "C1842", "verdict": "confirm"}
+{"id": "C1843", "verdict": "confirm"}
+{"id": "C1844", "verdict": "confirm"}
+{"id": "C1845", "verdict": "confirm"}
+{"id": "C1846", "verdict": "confirm"}
+{"id": "C1847", "verdict": "confirm"}
+{"id": "C1848", "verdict": "confirm"}
+{"id": "C1849", "verdict": "confirm"}
+{"id": "C1850", "verdict": "confirm"}
+{"id": "C1851", "verdict": "confirm"}
+{"id": "C1852", "verdict": "revise", "reason": "A historical anecdote; the stellar-structure node is a weak fit and strength 3 is inflated.", "fix": {"strength": 2}}
+{"id": "C2045", "verdict": "confirm"}
+{"id": "C2046", "verdict": "confirm"}
+{"id": "C2047", "verdict": "confirm"}
+{"id": "C2048", "verdict": "confirm"}
+{"id": "C2049", "verdict": "confirm"}
+{"id": "C2050", "verdict": "confirm"}
+{"id": "C2051", "verdict": "revise", "reason": "Not exact identity: observed universe is not exact de Sitter, T and S use H₀ not asymptotic H_Λ, and 'maximum entropy' is heuristic.", "fix": {"kind": "mechanism", "breaks": "Our universe is only asymptotically de Sitter; quoted T and S use H₀ rather than the asymptotic H_Λ, and the maximum-entropy reading is heuristic."}}
+{"id": "C2052", "verdict": "confirm"}
+{"id": "C2053", "verdict": "confirm"}
+{"id": "C2054", "verdict": "confirm"}
+{"id": "C2055", "verdict": "revise", "reason": "'Every cosmological test is also a test of GR' is too strong; tests are of ΛCDM given GR plus assumptions.", "fix": {"summary": "Modern cosmology is general relativity with a homogeneous, isotropic source. The Einstein equations with Λ and the FLRW ansatz give the Friedmann equations that ΛCDM fits to CMB, BAO and supernova data, so cosmological fits also probe GR on large scales, given the assumed matter content."}}
+{"id": "C2056", "verdict": "confirm"}
+{"id": "C2057", "verdict": "confirm"}
+{"id": "C2058", "verdict": "confirm"}
+{"id": "C2059", "verdict": "confirm"}
+{"id": "C2060", "verdict": "confirm"}
+{"id": "C2061", "verdict": "confirm"}
+{"id": "C2062", "verdict": "confirm"}
+{"id": "C2063", "verdict": "confirm"}
+{"id": "C2064", "verdict": "confirm"}
+{"id": "C2065", "verdict": "confirm"}
+{"id": "C2066", "verdict": "revise", "reason": "PPN β is bounded only to ~10⁻⁴ by ephemerides; γ to ~10⁻⁵ comes mainly from Cassini. Overstated.", "fix": {"summary": "Mercury's anomalous 43″ per century perihelion advance was GR's first success. Modern ephemerides, built from radar, spacecraft tracking and lunar laser ranging, must include 1PN terms; fits bound β to ~10⁻⁴ (γ ~10⁻⁵ with Cassini) and constrain the Nordtvedt effect and Ġ/G."}}
+{"id": "C2067", "verdict": "confirm"}
+{"id": "C2068", "verdict": "confirm"}
+{"id": "C2069", "verdict": "confirm"}
+{"id": "C2070", "verdict": "confirm"}
+{"id": "C2071", "verdict": "confirm"}
+{"id": "C2072", "verdict": "confirm"}
+{"id": "C2073", "verdict": "confirm"}
+{"id": "C2074", "verdict": "revise", "reason": "Network triangulation is a narrow technique link; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C2075", "verdict": "confirm"}
+{"id": "C2076", "verdict": "confirm"}

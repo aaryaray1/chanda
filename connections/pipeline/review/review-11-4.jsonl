@@ -1,0 +1,105 @@
+{"id": "C2701", "verdict": "confirm"}
+{"id": "C2702", "verdict": "revise", "reason": "Graphene thickness (~0.34 nm) is comparable to, not thinner than, base spacing; nanopore sequencing not achieved.", "fix": {"summary": "A graphene membrane is ~0.34 nm thick, comparable to the base spacing of DNA, so ionic current through a graphene nanopore can in principle resolve single bases. Translocation of DNA has been demonstrated, but base-resolved sequencing has not.", "strength": 2}}
+{"id": "C2703", "verdict": "revise", "reason": "Multiple-exciton generation gains are contested and have not delivered device efficiency beyond SQ; kind is mechanism, not method transfer.", "fix": {"kind": "mechanism", "confidence": "current research", "summary": "Quantum confinement sets nanocrystal emission colour, used in QLEDs and downconverters. Multiple-exciton generation is proposed as a route past the Shockley-Queisser limit, but device gains remain unproven.", "breaks": "Brus formula omits the electron-hole Coulomb term; MEG efficiency in devices is disputed and unrealised."}}
+{"id": "C2704", "verdict": "revise", "reason": "'Immune' to short-channel effects overstated; kind is shared object. Reduced scale length only mitigates them.", "fix": {"kind": "shared object", "summary": "Monolayer MoS2 and related TMDs give atomically thin channels with sizeable gaps and a very short electrostatic scale length, so they resist short-channel effects; contact resistance and dielectric integration are the open problems."}}
+{"id": "C2705", "verdict": "revise", "reason": "'Standard probe' overstated; NV scanning magnetometry of CrI3 is an emerging research tool.", "fix": {"summary": "Scanning single-spin (NV) magnetometry images stray fields of atomically thin magnets such as CrI3 quantitatively, resolving layer-dependent magnetization and domains. It is an increasingly used probe of 2D magnetism."}}
+{"id": "C2706", "verdict": "confirm"}
+{"id": "C2707", "verdict": "confirm"}
+{"id": "C2708", "verdict": "revise", "reason": "Not a technique transfer; better a shared-object/application link.", "fix": {"kind": "shared object", "strength": 2}}
+{"id": "C2709", "verdict": "confirm"}
+{"id": "C2710", "verdict": "revise", "reason": "Active-nematic tissue defects are recent research and not core to both fields; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C2711", "verdict": "confirm"}
+{"id": "C2712", "verdict": "confirm"}
+{"id": "C2713", "verdict": "revise", "reason": "Rate-and-state friction was formulated from rock-friction experiments; granular explanation of nucleation and aftershocks overstated.", "fix": {"summary": "Fault gouge is a sheared granular layer. Rate-and-state friction, stick-slip, dilatancy and shear localization studied in granular and gouge experiments are used to model earthquake nucleation.", "breaks": "Rate-and-state laws are empirical, from rock friction; grain-scale origin is incomplete.", "strength": 2}}
+{"id": "C2714", "verdict": "confirm"}
+{"id": "C2715", "verdict": "revise", "reason": "Shape-controlled jamming at fixed density is an analogy, not the same mechanism; isostatic counting does not apply.", "fix": {"kind": "analogy", "breaks": "Vertex-model rigidity is set by cell shape index at fixed density and has no isostatic z_c=2d counting; the transition is not identical to athermal jamming.", "confidence": "current research"}}
+{"id": "C2716", "verdict": "confirm"}
+{"id": "C2717", "verdict": "revise", "reason": "A single bilayer is a fluid layer, not a 2D smectic-A; the smectic is a stack. Helfrich adapted Frank curvature elasticity.", "fix": {"summary": "Helfrich, co-inventor of the twisted-nematic display, adapted Frank curvature elasticity of liquid crystals to a fluid lipid bilayer (a single smectic-like layer), giving the bending energy that predicts red-blood-cell shapes and vesicle fluctuations."}}
+{"id": "C2718", "verdict": "confirm"}
+{"id": "C2719", "verdict": "confirm"}
+{"id": "C2720", "verdict": "revise", "reason": "Marko-Siggia formula is an interpolation of the WLC; fails above ~10 pN where stretching and overstretching occur, so not an identity.", "fix": {"kind": "mechanism", "breaks": "The formula is an interpolation; at high force enthalpic stretching and the ~65 pN overstretching transition are not captured.", "summary": "Force-extension curves of single DNA in optical and magnetic tweezers are fitted by the worm-like-chain model of semiflexible polymers (Marko-Siggia interpolation), giving P~50 nm and showing entropic elasticity at low and moderate force."}}
+{"id": "C2721", "verdict": "revise", "reason": "CC and QMC claim muddled: CC came from nuclear physics into chemistry. Keep the DMRG transfer.", "fix": {"summary": "DMRG, invented for 1D spin chains (White 1992), became a leading method for strongly correlated molecules, treating orbitals as sites in an MPS; its active-space results are benchmarked against coupled cluster and QMC.", "strength": 2, "map": "|\\psi\\rangle=\\sum\\mathrm{Tr}(A^{s_1}\\cdots A^{s_N})|s_1\\cdots s_N\\rangle\\ (\\text{orbitals as sites})"}}
+{"id": "C2722", "verdict": "revise", "reason": "'Largest users' is unsupported (MRI is larger); this is a shared technology, not a method transfer.", "fix": {"kind": "shared object", "summary": "Accelerators depend on applied superconductivity: NbTi and Nb3Sn dipoles and quadrupoles bend and focus beams, and superconducting niobium RF cavities provide high-gradient, low-loss acceleration."}}
+{"id": "C2723", "verdict": "revise", "reason": "Nitrogen doping works by mean-free-path engineering lowering BCS resistance, not by gap engineering; Nb3Sn does raise the gap.", "fix": {"summary": "Niobium SRF cavities are limited by BCS surface resistance from thermal quasiparticles plus residual losses from trapped flux; nitrogen doping lowers R_BCS via mean-free-path engineering, and Nb3Sn coatings, with larger gap, target higher Q0 and temperature."}}
+{"id": "C2724", "verdict": "confirm"}
+{"id": "C2725", "verdict": "confirm"}
+{"id": "C2726", "verdict": "confirm"}
+{"id": "C2727", "verdict": "revise", "reason": "Single recent result (Delplace-Marston-Venaille 2017), not taught in graduate courses; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C2728", "verdict": "confirm"}
+{"id": "C2796", "verdict": "reject", "reason": "Generic shared reliance on Planck law; no specific technique or consequence."}
+{"id": "C2797", "verdict": "confirm"}
+{"id": "C2798", "verdict": "confirm"}
+{"id": "C2799", "verdict": "revise", "reason": "Dark-matter-specific claims unsupported; real overlap is scintillator crystals and photosensors from HEP detectors.", "fix": {"summary": "Scintillating crystals such as LSO/LYSO and silicon photomultipliers, developed in particle-physics calorimetry, underpin time-of-flight PET detectors; dark-matter detectors share low-noise photosensor technology.", "strength": 1}}
+{"id": "C2800", "verdict": "revise", "reason": "Undulator radiation is incoherent; only FEL emission is coherent. Overlap is relativistic-charge radiation, mostly covered by C2805.", "fix": {"summary": "Jet emission is synchrotron and inverse-Compton by relativistic electrons; undulator radiation is the periodic-field version, equivalent to Compton scattering off an undulator field. Only the FEL stage becomes coherent.", "strength": 1, "breaks": "Jet emission is incoherent and broadband; undulators are narrow-band, and FEL coherence needs microbunching."}}
+{"id": "C2801", "verdict": "reject", "reason": "Generic stratified-turbulence overlap; map has wrong sign (N²=-(g/ρ)dρ/dz) and cluster gas stratified by entropy."}
+{"id": "C2802", "verdict": "reject", "reason": "Generic Bayesian/ML practice; no named technique or consequence."}
+{"id": "C2803", "verdict": "reject", "reason": "Density waves are not Rossby waves and the claimed dispersion analogy is unsupported; disk case covered by C2819."}
+{"id": "C2804", "verdict": "confirm"}
+{"id": "C2805", "verdict": "revise", "reason": "Identity holds for single-particle emission but cosmic-ray note is not the main node; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C2806", "verdict": "confirm"}
+{"id": "C2807", "verdict": "confirm"}
+{"id": "C2808", "verdict": "confirm"}
+{"id": "C2809", "verdict": "reject", "reason": "duplicate of C2814", "duplicate_of": "C2814"}
+{"id": "C2810", "verdict": "reject", "reason": "duplicate of C2815", "duplicate_of": "C2815"}
+{"id": "C2811", "verdict": "reject", "reason": "Vague; no mapped quantity, named technique or consequence."}
+{"id": "C2812", "verdict": "revise", "reason": "Climate note does not treat runaway greenhouse; link is substantial, not structural in both.", "fix": {"strength": 2}}
+{"id": "C2813", "verdict": "reject", "reason": "duplicate of C2814", "duplicate_of": "C2814"}
+{"id": "C2814", "verdict": "revise", "reason": "Absorbs C2813 (HITRAN, ExoMol); Raman is not the relevant process, Rayleigh and CIA are; strength 3 inflated.", "fix": {"summary": "Exoplanet transmission and emission spectra are decoded with molecular line lists (HITRAN, ExoMol), cross sections and collision-induced absorption from molecular spectroscopy; Rayleigh scattering sets the short-wavelength continuum.", "strength": 2}}
+{"id": "C2815", "verdict": "revise", "reason": "Absorbs C2810; the inversion claim needs specifics (Earth's ozone inversion vs TiO/VO in hot Jupiters).", "fix": {"summary": "Equilibrium temperature, greenhouse trapping and lapse-rate structure carry over from Earth to exoplanets; temperature inversions arise from stratospheric absorbers (ozone on Earth, TiO/VO proposed for hot Jupiters).", "map": "T_{eq}=T_\\star\\sqrt{R_\\star/2a}\\,(1-A)^{1/4}", "strength": 2}}
+{"id": "C2816", "verdict": "confirm"}
+{"id": "C2817", "verdict": "revise", "reason": "Needs named rate theory; strength 2 inflated for generic 'drawing on'.", "fix": {"summary": "Disk chemistry uses Langevin capture rates for ion-molecule reactions, RRKM radiative association and Arrhenius desorption at snow lines, taken from reaction-dynamics rate theory.", "strength": 1}}
+{"id": "C2818", "verdict": "confirm"}
+{"id": "C2819", "verdict": "confirm"}
+{"id": "C2820", "verdict": "revise", "reason": "Orbital forcing paces, not drives, glacial cycles; strength 3 inflated for solar-system node.", "fix": {"summary": "Secular orbital perturbations change Earth's eccentricity, obliquity and precession, modulating insolation and pacing glacial cycles.", "strength": 2}}
+{"id": "C2821", "verdict": "confirm"}
+{"id": "C2822", "verdict": "revise", "reason": "Shared physics is positron annihilation; instrumentation overlap is loose, so suggestive only.", "fix": {"strength": 1}}
+{"id": "C2823", "verdict": "revise", "reason": "Opacities come from atomic-structure codes, not quantum chemistry; EOS from DFT-MD is the real overlap.", "fix": {"summary": "Planetary and stellar interior equations of state for warm dense matter are computed with DFT molecular dynamics; stellar opacities come from atomic-structure codes rather than quantum-chemistry methods.", "strength": 1}}
+{"id": "C2824", "verdict": "confirm"}
+{"id": "C2825", "verdict": "confirm"}
+{"id": "C2826", "verdict": "revise", "reason": "Geodynamo is mostly alpha-squared, not clearly alpha-omega; strength 3 inflated for this node pair.", "fix": {"summary": "Solar and geodynamo both arise from MHD induction in a rotating convecting conductor, where rotation and helicity drive field generation; the solar cycle is usually alpha-omega, while the geodynamo is thought largely alpha-squared.", "strength": 2}}
+{"id": "C2827", "verdict": "revise", "reason": "Strong method link but not structural in both graduate courses; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C2861", "verdict": "confirm"}
+{"id": "C2862", "verdict": "confirm"}
+{"id": "C2863", "verdict": "confirm"}
+{"id": "C2864", "verdict": "revise", "reason": "Typo 'Liénard–Liparticle'; formula should be Liénard–Wiechert radiation; strength 3 not warranted.", "fix": {"summary": "Betatron radiation in plasma, relativistic Thomson scattering and undulator radiation all follow from Liénard-Wiechert radiation by accelerated relativistic charges, characterised by the strength parameter K.", "strength": 2}}
+{"id": "C2865", "verdict": "confirm"}
+{"id": "C2866", "verdict": "reject", "reason": "duplicate of C2867", "duplicate_of": "C2867"}
+{"id": "C2867", "verdict": "revise", "reason": "Absorbs C2866; plasma acceleration is not structural in a graduate accelerator course.", "fix": {"summary": "Plasma wakefield accelerators replace RF cavities with plasma waves sustaining GV/m gradients; emittance, beta-function matching, energy spread and staging from conventional beam dynamics are the figures of merit for the beams.", "strength": 2}}
+{"id": "C2868", "verdict": "revise", "reason": "The ion channel is continuous focusing, not an alternating-gradient lattice; the equation is Hill's with constant K.", "fix": {"summary": "Beam electrons in a plasma ion channel obey Hill's equation with constant focusing K=k_β²; betatron frequency is set by plasma density."}}
+{"id": "C2869", "verdict": "confirm"}
+{"id": "C2870", "verdict": "confirm"}
+{"id": "C2871", "verdict": "revise", "reason": "Device note does not cover fabrication; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C2872", "verdict": "reject", "reason": "duplicate of C2875", "duplicate_of": "C2875"}
+{"id": "C2873", "verdict": "revise", "reason": "Vague link; plasma-medicine outcomes are mostly biochemical, only loosely tied to physics of living systems.", "fix": {"strength": 1}}
+{"id": "C2874", "verdict": "confirm"}
+{"id": "C2875", "verdict": "revise", "reason": "Absorbs C2872: also covers sputtering and plasma-assisted catalysis.", "fix": {"summary": "Etch and deposition rates and selectivity are set by adsorption, ion-enhanced surface reactions and sputter yields; the same surface science governs plasma-assisted catalysis."}}
+{"id": "C2876", "verdict": "confirm"}
+{"id": "C2877", "verdict": "confirm"}
+{"id": "C2878", "verdict": "revise", "reason": "Tokamak RF heating uses gyrotrons and tetrodes more than klystrons; keep the shared conductor technology.", "fix": {"summary": "Tokamaks and accelerators share superconducting conductor technology (Nb3Sn, NbTi, HTS strand and cable) and cryogenics; RF power sources differ (gyrotrons in fusion).", "strength": 2}}
+{"id": "C2879", "verdict": "revise", "reason": "Identity holds for the model equation; physical caveats belong to validity, and 'CHM' naming was garbled.", "fix": {"summary": "The Hasegawa-Mima drift-wave equation has the same form as Charney's equivalent-barotropic quasi-geostrophic equation, with ρ_s playing the Rossby deformation radius; zonal flows parallel atmospheric jets.", "breaks": ""}}
+{"id": "C2880", "verdict": "reject", "reason": "duplicate of C2883", "duplicate_of": "C2883"}
+{"id": "C2881", "verdict": "confirm"}
+{"id": "C2882", "verdict": "reject", "reason": "Generic rotating-turbulence overlap; no named technique or consequence."}
+{"id": "C2883", "verdict": "revise", "reason": "Absorbs C2884; strength 3 inflated since seismology supplies constraints rather than dynamo theory.", "fix": {"summary": "Earth's field is sustained by convective dynamo action in the liquid iron outer core; seismology supplies core radius, inner-core size and density jump, constraining geodynamo boundary conditions and energy budget.", "strength": 2}}
+{"id": "C2884", "verdict": "reject", "reason": "duplicate of C2883", "duplicate_of": "C2883"}
+{"id": "C2885", "verdict": "confirm"}
+{"id": "C2886", "verdict": "reject", "reason": "Vague analogy with no named technique or mapping; opposite cascade directions."}
+{"id": "C2887", "verdict": "confirm"}
+{"id": "C2888", "verdict": "confirm"}
+{"id": "C2889", "verdict": "confirm"}
+{"id": "C2890", "verdict": "reject", "reason": "Ionospheric propagation is unrelated to the climate radiative-forcing note; weak, generic."}
+{"id": "C2891", "verdict": "confirm"}
+{"id": "C2892", "verdict": "revise", "reason": "Generic shared superconducting technology; suggestive only.", "fix": {"strength": 1}}
+{"id": "C2893", "verdict": "confirm"}
+{"id": "C2894", "verdict": "revise", "reason": "Broad 'Y uses X' link is never 3; add the specific reactions.", "fix": {"summary": "Medical cyclotrons produce PET isotopes via 18O(p,n)18F and 14N(p,α)11C, linking accelerator sources and targets to radiopharmaceutical supply.", "strength": 2}}
+{"id": "C2895", "verdict": "revise", "reason": "Absorbs C2896; 'Y uses X' link is not strength 3.", "fix": {"summary": "Medical linacs, proton cyclotrons and synchrotrons are accelerator technology deployed clinically; radiotherapy drives compact reliable design, energy variation, FLASH dose rates and gantry-mounted superconducting magnets.", "strength": 2}}
+{"id": "C2896", "verdict": "reject", "reason": "duplicate of C2895", "duplicate_of": "C2895"}
+{"id": "C2897", "verdict": "reject", "reason": "No mapping or named technique; conservative vs dissipative systems; trivial analogy."}
+{"id": "C2898", "verdict": "confirm"}
+{"id": "C2899", "verdict": "confirm"}
+{"id": "C2900", "verdict": "reject", "reason": "Weak analogy: FEL gain is a classical collective instability, with no mapping to semiconductor gain."}
+{"verdict": "add", "record": {"a": "03-thermodynamics-and-statistical-mechanics/non-equilibrium-statistical-mechanics/stochastic-processes-and-langevin-dynamics", "b": "11-interdisciplinary-physics/chemical-physics/reaction-dynamics", "name": "Kramers escape theory and reaction rates in solution", "kind": "method transfer", "summary": "Kramers' 1940 treatment of barrier crossing by a Brownian particle gives the friction-dependent prefactor and the turnover between low- and high-friction regimes, correcting transition-state theory for solvent coupling.", "map": "k=\\frac{\\omega_a}{2\\pi}\\left[\\sqrt{1+(\\gamma/2\\omega_b)^2}-\\gamma/2\\omega_b\\right]e^{-\\Delta E/k_BT}", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/nonlinear-dynamics-and-chaos/deterministic-chaos", "b": "11-interdisciplinary-physics/earth-atmosphere-and-climate-physics/atmospheric-dynamics", "name": "Lorenz chaos and weather predictability", "kind": "historical", "summary": "Lorenz's truncated convection model, derived from atmospheric equations, exposed sensitive dependence on initial conditions; Lyapunov growth of errors sets the ~2-week forecast limit and motivates ensemble forecasting.", "map": "\\dot x=\\sigma(y-x),\\ \\dot y=x(\\rho-z)-y,\\ \\dot z=xy-\\beta z;\\ \\delta(t)\\sim\\delta_0e^{\\lambda t}", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/nonlinear-dynamics-and-chaos/bifurcations-and-routes-to-chaos", "b": "11-interdisciplinary-physics/earth-atmosphere-and-climate-physics/ocean-physics", "name": "Stommel bistability as a saddle-node tipping point", "kind": "mechanism", "summary": "Stommel's two-box model of salt-temperature overturning has two stable circulations joined by saddle-node bifurcations, so a slow freshwater forcing can trigger abrupt AMOC collapse with hysteresis.", "map": "\\dot x=\\text{forcing}-|x|(1+\\mu^2(1-x)^2)\\text{-type, saddle-node at critical freshwater flux}", "breaks": "Box models omit wind and eddy dynamics; the actual AMOC proximity to a tipping point is contested.", "confidence": "current research", "strength": 2, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/nonlinear-dynamics-and-chaos/bifurcations-and-routes-to-chaos", "b": "11-interdisciplinary-physics/biophysics/physics-of-living-systems", "name": "Neuronal excitability as bifurcation", "kind": "mechanism", "summary": "Hodgkin-Huxley dynamics reduce to two-variable models whose onset of spiking is a saddle-node or Hopf bifurcation, classifying neurons into type I (arbitrarily low rate) and type II (finite onset frequency).", "map": "C_m\\dot V=-\\sum g_i(V-E_i)+I;\\ \\text{spiking onset}\\leftrightarrow\\text{saddle-node/Hopf in }I", "breaks": "", "confidence": "established", "strength": 2, "sources": []}}
+{"verdict": "add", "record": {"a": "03-thermodynamics-and-statistical-mechanics/non-equilibrium-statistical-mechanics/stochastic-thermodynamics-and-fluctuation-theorems", "b": "11-interdisciplinary-physics/biophysics/single-molecule-biophysics", "name": "Jarzynski and Crooks relations from RNA pulling", "kind": "method transfer", "summary": "Fluctuation theorems were tested in optical-tweezers pulling of RNA hairpins, recovering equilibrium folding free energies from non-equilibrium work distributions.", "map": "\\langle e^{-W/k_BT}\\rangle=e^{-\\Delta F/k_BT},\\ P_F(W)/P_R(-W)=e^{(W-\\Delta F)/k_BT}", "breaks": "", "confidence": "established", "strength": 2, "sources": []}}

@@ -1,0 +1,98 @@
+{"id": "C2678", "verdict": "revise", "reason": "Specific engineering link, but narrow: B^4 scaling at fixed beta is the whole link. Not structural in both fields.", "fix": {"strength": 2}}
+{"id": "C2679", "verdict": "revise", "reason": "Overstated: hydride superconductivity is not the same programme as hydrogen metallization, and hydride claims are partly contested. Narrow to dense hydrogen.", "fix": {"summary": "The insulator-metal transition of dense hydrogen is probed in diamond-anvil cells and by dynamic compression at NIF and Z; reported transition pressures and temperatures differ between methods and with DFT functional choice.", "strength": 2}}
+{"id": "C2680", "verdict": "confirm"}
+{"id": "C2681", "verdict": "revise", "reason": "Not an identity: quantization and edge states have no plasma counterpart. The shared cause is the E×B drift giving classical Hall response.", "fix": {"kind": "mechanism", "summary": "The charge-independent E×B drift gives the classical Hall conductivity σxy=ne/B of a 2D electron gas, the starting point of the quantum Hall effect; Landau quantization and chiral edge states have no plasma analogue.", "strength": 2}}
+{"id": "C2766", "verdict": "confirm"}
+{"id": "C2767", "verdict": "revise", "reason": "Jeans/streaming sentence is muddled and 'ion-acoustic-like' needs care; state the acoustic mapping and its limits.", "fix": {"summary": "BAO are acoustic waves in the tightly coupled photon-baryon plasma with c_s²=c²/[3(1+R)], with the sound horizon as a standard ruler. This is analogous to plasma acoustic waves, with photon pressure instead of electron pressure."}}
+{"id": "C2768", "verdict": "revise", "reason": "BZ and BP are force-free/relativistic MHD, beyond the non-relativistic ideal-MHD note; link is substantial but not strength 3.", "fix": {"strength": 2}}
+{"id": "C2769", "verdict": "confirm"}
+{"id": "C2770", "verdict": "confirm"}
+{"id": "C2771", "verdict": "confirm"}
+{"id": "C2772", "verdict": "confirm"}
+{"id": "C2773", "verdict": "confirm"}
+{"id": "C2774", "verdict": "revise", "reason": "Broad field-level 'Y uses X' link cannot be strength 3.", "fix": {"strength": 2}}
+{"id": "C2775", "verdict": "confirm"}
+{"id": "C2776", "verdict": "confirm"}
+{"id": "C2777", "verdict": "confirm"}
+{"id": "C2778", "verdict": "confirm"}
+{"id": "C2779", "verdict": "confirm"}
+{"id": "C2780", "verdict": "revise", "reason": "Propagation (DM) is established but emission mechanisms are unsettled; strength 3 is inflated.", "fix": {"strength": 2}}
+{"id": "C2781", "verdict": "confirm"}
+{"id": "C2782", "verdict": "confirm"}
+{"id": "C2783", "verdict": "reject", "reason": "duplicate of C2784", "duplicate_of": "C2784"}
+{"id": "C2784", "verdict": "revise", "reason": "Absorb the non-ideal effects and disk-wind content from C2783.", "fix": {"summary": "The MRI is an ideal-MHD instability in which a weak field acts like a spring between fluid elements in differential rotation, an Alfvén-tension effect. It drives disk turbulence and angular-momentum transport; Ohmic, Hall and ambipolar effects set dead zones."}}
+{"id": "C2785", "verdict": "revise", "reason": "Broad 'stars use plasma physics' link; suggestive rather than substantial.", "fix": {"strength": 1}}
+{"id": "C2786", "verdict": "confirm"}
+{"id": "C2787", "verdict": "confirm"}
+{"id": "C2788", "verdict": "revise", "reason": "False that stars and devices burn the same reactions: stars use p-p/CNO, devices D-T. Common content is Gamow-factor rates and thermonuclear burning.", "fix": {"summary": "Stellar cores and fusion devices both burn by thermonuclear reactions with Gamow-peak rates, but different reactions (p-p/CNO vs D-T). D-T burning plasmas are alpha self-heated, as stellar cores are by their own fusion products."}}
+{"id": "C2789", "verdict": "confirm"}
+{"id": "C2790", "verdict": "confirm"}
+{"id": "C2791", "verdict": "confirm"}
+{"id": "C2792", "verdict": "confirm"}
+{"id": "C2793", "verdict": "confirm"}
+{"id": "C2794", "verdict": "confirm"}
+{"id": "C2795", "verdict": "confirm"}
+{"id": "C2828", "verdict": "confirm"}
+{"id": "C2829", "verdict": "revise", "reason": "Overclaim: WDM has partially degenerate electrons, so OCP/dusty models describe only the ion subsystem, not the whole regime.", "fix": {"summary": "In warm dense matter the ions have Γ of order 1 or more and the electrons are partially degenerate (θ~1). OCP and Yukawa models, benchmarked on dusty plasmas, apply to the ion component only.", "strength": 2}}
+{"id": "C2830", "verdict": "reject", "reason": "duplicate of C2831; map is the MCF criterion only", "duplicate_of": "C2831"}
+{"id": "C2831", "verdict": "revise", "reason": "Absorb C2830's content: criteria differ, ρR vs nTτ.", "fix": {"summary": "Both ICF and MCF aim at burning plasmas dominated by alpha heating, with a Lawson-type ignition condition. ICF uses a ρR criterion with hydrodynamic confinement; MCF uses nTτ_E with magnetic confinement.", "map": "\\rho R\\gtrsim0.3\\ \\mathrm{g\\,cm^{-2}}\\ \\leftrightarrow\\ nT\\tau_E\\gtrsim3\\times10^{21}\\ \\mathrm{keV\\,s\\,m^{-3}}"}}
+{"id": "C2832", "verdict": "revise", "reason": "Breaks contradicts summary: interchange effective gravity comes from field curvature. Real failure points are ablation and line-bending stabilisation.", "fix": {"breaks": "Interchange effective gravity comes from field-line curvature and is stabilised by line bending and magnetic shear; ICF RT is stabilised by ablation and has real acceleration."}}
+{"id": "C2833", "verdict": "confirm"}
+{"id": "C2834", "verdict": "revise", "reason": "Processing discharges are dominated by electron-neutral collisions and sheath heating, so the same-physics claim overreaches; analogy.", "fix": {"kind": "analogy", "strength": 1, "breaks": "In low-temperature discharges electron-neutral collisions and stochastic sheath heating dominate, not electron-ion inverse bremsstrahlung."}}
+{"id": "C2835", "verdict": "confirm"}
+{"id": "C2836", "verdict": "revise", "reason": "Not a strict identity: nonlinear blowout wakes are not simple Langmuir waves. Same mechanism in the linear regime.", "fix": {"kind": "mechanism"}}
+{"id": "C2837", "verdict": "revise", "reason": "Streamer breakdown is space-charge driven and not Paschen physics at large pd; Townsend/Paschen applies only at small pd.", "fix": {"kind": "analogy", "summary": "Townsend avalanche and Paschen scaling govern breakdown in low-pressure discharges and the initiation of atmospheric DBDs and jets; at large pd, space-charge streamers take over.", "breaks": "At atmospheric pd, streamer (space-charge) breakdown replaces Townsend/Paschen scaling."}}
+{"id": "C2838", "verdict": "confirm"}
+{"id": "C2839", "verdict": "confirm"}
+{"id": "C2840", "verdict": "reject", "reason": "Link is to RFP/spheromak relaxation, not stellarators; the stated stellarator link is a negation."}
+{"id": "C2841", "verdict": "revise", "reason": "Mapping to tokamak conservation is a mechanism, not a one-to-one identity. Omnigeneity sentence is vague.", "fix": {"kind": "mechanism", "summary": "In quasi-symmetric fields the guiding-centre Hamiltonian depends on |B| only through a symmetric combination, so a conserved canonical momentum confines particles as in a tokamak. Omnigeneity needs only zero net radial drift of trapped orbits."}}
+{"id": "C2842", "verdict": "confirm"}
+{"id": "C2843", "verdict": "confirm"}
+{"id": "C2844", "verdict": "confirm"}
+{"id": "C2845", "verdict": "confirm"}
+{"id": "C2846", "verdict": "revise", "reason": "Not a cross-field method transfer; gyrokinetics is a reduction of Vlasov by gyro-averaging. A mechanism link.", "fix": {"kind": "mechanism"}}
+{"id": "C2847", "verdict": "revise", "reason": "Overclaim that Landau damping sets ITG/TEM growth; TEM resonance and zonal-flow collisionless residual are the accurate parts.", "fix": {"summary": "Wave-particle resonances (trapped-electron precession resonance in TEM, Landau damping of fluctuations) shape drift-wave growth and saturation. The Rosenbluth–Hinton zonal-flow residual is a collisionless kinetic effect.", "strength": 2, "confidence": "established"}}
+{"id": "C2848", "verdict": "confirm"}
+{"id": "C2849", "verdict": "confirm"}
+{"id": "C2850", "verdict": "revise", "reason": "Limit relation, not an exact identity; MHD fails near ion cyclotron frequency. Cold two-fluid, not kinetic.", "fix": {"kind": "mechanism", "summary": "Alfvén and magnetosonic waves are the low-frequency limit (ω≪Ω_i) of the cold two-fluid dispersion relation, which also contains whistlers and ion cyclotron waves at higher frequency."}}
+{"id": "C2851", "verdict": "confirm"}
+{"id": "C2852", "verdict": "confirm"}
+{"id": "C2853", "verdict": "revise", "reason": "Absorb C2854: southward IMF loads the tail and drives storms.", "fix": {"summary": "Southward IMF drives dayside magnetopause reconnection; tail reconnection closes the Dungey cycle, drives substorms and flux transfer events, and loads the ring current in storms. MMS directly observed the electron diffusion region."}}
+{"id": "C2854", "verdict": "reject", "reason": "duplicate of C2853", "duplicate_of": "C2853"}
+{"id": "C2855", "verdict": "confirm"}
+{"id": "C2856", "verdict": "revise", "reason": "Overlaps C2857 on heating; keep this one to spectral tests of cascade theory.", "fix": {"summary": "In situ spacecraft measurements of solar-wind fluctuations test anisotropic Alfvénic cascade theories such as Goldreich–Sridhar and critical balance, including the ion-scale spectral break."}}
+{"id": "C2857", "verdict": "confirm"}
+{"id": "C2858", "verdict": "confirm"}
+{"id": "C2859", "verdict": "confirm"}
+{"id": "C2860", "verdict": "confirm"}
+{"id": "C2861", "verdict": "confirm"}
+{"id": "C2862", "verdict": "confirm"}
+{"id": "C2863", "verdict": "confirm"}
+{"id": "C2864", "verdict": "revise", "reason": "Typo 'Liénard–Liparticle' (Liénard–Wiechert); also a shared mechanism rather than strict identity.", "fix": {"kind": "mechanism", "summary": "Betatron radiation in plasma, relativistic Thomson scattering and undulator radiation all follow from the Liénard–Wiechert radiation of accelerated relativistic charges, with strength parameter K or a0."}}
+{"id": "C2865", "verdict": "confirm"}
+{"id": "C2866", "verdict": "revise", "reason": "Absorb C2867: plasma replaces RF cavities with GV/m gradients, while accelerator figures of merit govern beam quality.", "fix": {"summary": "Plasma wakefields replace RF cavities with GV/m gradients, E_wb=m_e c ω_p/e. Emittance, matched beta function, energy spread and staging from conventional beam dynamics set the quality of plasma-accelerated beams."}}
+{"id": "C2867", "verdict": "reject", "reason": "duplicate of C2866", "duplicate_of": "C2866"}
+{"id": "C2868", "verdict": "revise", "reason": "Ion-channel focusing is linear continuous focusing, not an alternating-gradient lattice; not an identity.", "fix": {"kind": "mechanism", "strength": 2, "summary": "Beam electrons in the ion-channel focusing field undergo betatron oscillations obeying the same envelope equation as continuous linear focusing in accelerator lattices, with strength set by plasma density."}}
+{"id": "C2869", "verdict": "confirm"}
+{"id": "C2870", "verdict": "confirm"}
+{"id": "C2871", "verdict": "revise", "reason": "Broad application link, not structural in both; ion implantation is mostly not plasma-based.", "fix": {"strength": 2, "summary": "Plasma etching, deposition and plasma-immersion processes pattern and build transistors and solar cells; sheath physics sets ion energy and etch anisotropy."}}
+{"id": "C2872", "verdict": "confirm"}
+{"id": "C2873", "verdict": "confirm"}
+{"id": "C2874", "verdict": "confirm"}
+{"id": "C2875", "verdict": "confirm"}
+{"id": "C2876", "verdict": "confirm"}
+{"id": "C2877", "verdict": "confirm"}
+{"id": "C2878", "verdict": "confirm"}
+{"id": "C2879", "verdict": "revise", "reason": "Hasegawa–Mima and Charney–Hasegawa–Mima are the same PDE; the stated breaks concerns derivations, not failure of the map.", "fix": {"breaks": "", "map": "\\partial_t(\\nabla^2\\phi-\\phi)+v_*\\partial_y\\phi+J(\\phi,\\nabla^2\\phi)=0;\\ \\rho_s\\leftrightarrow R_{Rossby},\\ v_*\\leftrightarrow\\beta R^2"}}
+{"id": "C2880", "verdict": "confirm"}
+{"id": "C2881", "verdict": "confirm"}
+{"id": "C2882", "verdict": "confirm"}
+{"id": "C2883", "verdict": "revise", "reason": "Seismology constrains structure but does not make dynamo theory structural for it; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C2884", "verdict": "reject", "reason": "duplicate of C2883", "duplicate_of": "C2883"}
+{"id": "C2885", "verdict": "confirm"}
+{"id": "C2886", "verdict": "confirm"}
+{"id": "C2887", "verdict": "confirm"}
+{"id": "C2888", "verdict": "confirm"}
+{"id": "C2889", "verdict": "confirm"}
+{"id": "C2890", "verdict": "confirm"}
+{"id": "C2891", "verdict": "confirm"}

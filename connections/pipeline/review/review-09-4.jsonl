@@ -1,0 +1,100 @@
+{"id": "C2532", "verdict": "confirm"}
+{"id": "C2533", "verdict": "revise", "reason": "Nuclear form factors are a necessary input, not a link structural in both fields; strength 3 is too high.", "fix": {"strength": 2}}
+{"id": "C2534", "verdict": "confirm"}
+{"id": "C2630", "verdict": "confirm"}
+{"id": "C2631", "verdict": "revise", "reason": "Metals have a lattice and band structure, and white dwarfs are relativistic, so the match is not one-to-one. The shared cause is degeneracy pressure, which makes this a mechanism.", "fix": {"kind": "mechanism"}}
+{"id": "C2632", "verdict": "confirm"}
+{"id": "C2633", "verdict": "revise", "reason": "The Gaia pile-up needs extra 22Ne-distillation heating beyond latent heat alone. The link is a shared Coulomb-crystal object, strength 2.", "fix": {"summary": "C/O ions in a cooling white dwarf crystallize into a bcc one-component-plasma Coulomb crystal near Gamma~175. The Gaia cooling-sequence pile-up shows crystallization together with 22Ne distillation heating. Neutron-star crusts are the same bcc Coulomb lattice.", "kind": "shared object", "strength": 2}}
+{"id": "C2634", "verdict": "confirm"}
+{"id": "C2635", "verdict": "confirm"}
+{"id": "C2636", "verdict": "confirm"}
+{"id": "C2637", "verdict": "revise", "reason": "Phonon physics is borrowed for a detection channel; it is not the same cause in both fields, so method transfer fits better.", "fix": {"kind": "method transfer"}}
+{"id": "C2638", "verdict": "confirm"}
+{"id": "C2639", "verdict": "confirm"}
+{"id": "C2640", "verdict": "revise", "reason": "The semiconductor is a detector material used by the field, which is a one-sided 'Y uses X' link; strength 3 is too high.", "fix": {"strength": 2}}
+{"id": "C2641", "verdict": "confirm"}
+{"id": "C2642", "verdict": "confirm"}
+{"id": "C2643", "verdict": "confirm"}
+{"id": "C2644", "verdict": "confirm"}
+{"id": "C2645", "verdict": "confirm"}
+{"id": "C2646", "verdict": "confirm"}
+{"id": "C2647", "verdict": "confirm"}
+{"id": "C2648", "verdict": "confirm"}
+{"id": "C2649", "verdict": "confirm"}
+{"id": "C2650", "verdict": "revise", "reason": "A detector technology that CMB experiments use is a one-sided link; strength 3 is inflated.", "fix": {"strength": 2}}
+{"id": "C2651", "verdict": "confirm"}
+{"id": "C2652", "verdict": "revise", "reason": "This is a detector technology used by direct detection, a one-sided link; the superconductor-target idea is speculative. Strength 3 is too high.", "fix": {"strength": 2}}
+{"id": "C2653", "verdict": "revise", "reason": "The link is one-sided: cosmic rays are a qubit-error background, and no astrophysical cosmic-ray physics is involved.", "fix": {"strength": 1}}
+{"id": "C2654", "verdict": "revise", "reason": "The Cas A cooling interpretation is not settled, so 'explains' is an overclaim.", "fix": {"summary": "The BCS gap equation with a nuclear instead of phonon attraction gives 1S0 neutron superfluidity in the inner crust and 3P2 neutron and 1S0 proton pairing in the core. Pair-breaking-formation neutrino emission below Tc is the leading interpretation of Cas A's rapid cooling."}}
+{"id": "C2655", "verdict": "revise", "reason": "The vortex-unpinning glitch model is the leading one but its details are open, and the condensed-matter side is the one-sided input.", "fix": {"confidence": "current research", "strength": 2}}
+{"id": "C2656", "verdict": "revise", "reason": "This is a shared material rather than a structural link. Laboratory metallization claims are still contested.", "fix": {"strength": 2}}
+{"id": "C2657", "verdict": "confirm"}
+{"id": "C2658", "verdict": "confirm"}
+{"id": "C2659", "verdict": "confirm"}
+{"id": "C2660", "verdict": "confirm"}
+{"id": "C2729", "verdict": "confirm"}
+{"id": "C2730", "verdict": "revise", "reason": "The CMB peaks use the recombination-epoch horizon r_*, while BAO uses the drag-epoch r_d; they differ by about 2%, so this is not an identity.", "fix": {"summary": "Acoustic oscillations in the photon-baryon fluid imprint the CMB peaks (sound horizon at recombination, about 144 Mpc) and the BAO feature in galaxy clustering (sound horizon at drag, about 147 Mpc). The CMB calibrates the standard ruler.", "kind": "mechanism"}}
+{"id": "C2731", "verdict": "confirm"}
+{"id": "C2732", "verdict": "confirm"}
+{"id": "C2733", "verdict": "confirm"}
+{"id": "C2734", "verdict": "confirm"}
+{"id": "C2735", "verdict": "reject", "reason": "duplicate of C2736", "duplicate_of": "C2736"}
+{"id": "C2736", "verdict": "revise", "reason": "Absorb the systematics content from C2735.", "fix": {"summary": "Type Ia light curves, standardised by width-luminosity corrections, give luminosity distances that revealed cosmic acceleration. Progenitor, host-galaxy and dust systematics limit dark-energy precision for DESI and Rubin-era samples."}}
+{"id": "C2737", "verdict": "confirm"}
+{"id": "C2738", "verdict": "confirm"}
+{"id": "C2739", "verdict": "confirm"}
+{"id": "C2740", "verdict": "confirm"}
+{"id": "C2741", "verdict": "confirm"}
+{"id": "C2742", "verdict": "confirm"}
+{"id": "C2743", "verdict": "confirm"}
+{"id": "C2744", "verdict": "confirm"}
+{"id": "C2745", "verdict": "confirm"}
+{"id": "C2746", "verdict": "revise", "reason": "This is a failed test of MOND on a shared system, not an analogy of form with different physics.", "fix": {"kind": "shared object", "breaks": "", "strength": 2, "summary": "MOND fits galaxy rotation curves but still needs unseen mass in clusters, and the Bullet Cluster lensing offset from the gas challenges it. Clusters are its hardest test."}}
+{"id": "C2747", "verdict": "confirm"}
+{"id": "C2748", "verdict": "revise", "reason": "Absorb the X-ray and SZ content from duplicate C2749.", "fix": {"summary": "Virial masses, X-ray hydrostatic gas masses, SZ pressure profiles and lensing all show clusters dominated by dark matter. The Bullet Cluster separates mass from baryons and bounds dark-matter self-interaction.", "map": "M=\\frac{3\\sigma^2R}{G},\\ \\frac{dP}{dr}=-\\rho_{gas}\\frac{GM}{r^2}"}}
+{"id": "C2749", "verdict": "reject", "reason": "duplicate of C2748", "duplicate_of": "C2748"}
+{"id": "C2750", "verdict": "confirm"}
+{"id": "C2751", "verdict": "confirm"}
+{"id": "C2752", "verdict": "reject", "reason": "duplicate of C2751", "duplicate_of": "C2751"}
+{"id": "C2753", "verdict": "confirm"}
+{"id": "C2754", "verdict": "confirm"}
+{"id": "C2755", "verdict": "confirm"}
+{"id": "C2756", "verdict": "confirm"}
+{"id": "C2757", "verdict": "revise", "reason": "Supernova remnants are the standard paradigm, but reaching the knee (PeV) is unresolved, so 'up to the knee' overclaims.", "fix": {"summary": "Diffusive shock acceleration at supernova remnant shocks is the standard paradigm for Galactic cosmic-ray origin. Reaching PeV energies (the knee) remains an open problem."}}
+{"id": "C2758", "verdict": "confirm"}
+{"id": "C2759", "verdict": "confirm"}
+{"id": "C2760", "verdict": "confirm"}
+{"id": "C2761", "verdict": "confirm"}
+{"id": "C2762", "verdict": "confirm"}
+{"id": "C2763", "verdict": "confirm"}
+{"id": "C2764", "verdict": "confirm"}
+{"id": "C2765", "verdict": "revise", "reason": "Degeneracy pressure gives the Chandrasekhar limit only; the neutron-star maximum mass comes from GR and the nuclear equation of state.", "fix": {"summary": "Stellar evolution ends in white dwarfs, neutron stars or black holes. Electron degeneracy pressure gives the Chandrasekhar mass, while the neutron-star maximum mass (TOV) is set by GR and the nuclear equation of state."}}
+{"id": "C2766", "verdict": "revise", "reason": "The link is the generic photon-baryon plasma and Thomson scattering; it names no plasma technique and gives no consequence, so strength 1.", "fix": {"strength": 1}}
+{"id": "C2767", "verdict": "reject", "reason": "Vague analogy: baryon acoustic waves are not ion-acoustic waves, and the Jeans comparison is generic with no named consequence."}
+{"id": "C2768", "verdict": "confirm"}
+{"id": "C2769", "verdict": "confirm"}
+{"id": "C2770", "verdict": "confirm"}
+{"id": "C2771", "verdict": "confirm"}
+{"id": "C2772", "verdict": "reject", "reason": "Trivial: 'reionized IGM is a plasma' with no named technique; it duplicates the CMB optical-depth links and the Debye-shielding node is a poor fit."}
+{"id": "C2773", "verdict": "confirm"}
+{"id": "C2774", "verdict": "revise", "reason": "This is a broad parent-level 'astroparticle uses plasma shocks' link, and the specific versions are in other records; strength 3 is inflated.", "fix": {"strength": 2}}
+{"id": "C2775", "verdict": "confirm"}
+{"id": "C2776", "verdict": "confirm"}
+{"id": "C2777", "verdict": "confirm"}
+{"id": "C2778", "verdict": "confirm"}
+{"id": "C2779", "verdict": "confirm"}
+{"id": "C2780", "verdict": "revise", "reason": "FRB emission mechanisms are unsettled, so this is a medium-strength link; dispersion and Faraday propagation are the solid part.", "fix": {"strength": 2}}
+{"id": "C2781", "verdict": "confirm"}
+{"id": "C2782", "verdict": "revise", "reason": "The exoplanet-atmospheres node does not fit a discussion of planetary interiors; the parent planetary-science node does.", "fix": {"a": "09-astrophysics-and-cosmology/planetary-science-and-exoplanets"}}
+{"id": "C2783", "verdict": "reject", "reason": "duplicate of C2784", "duplicate_of": "C2784"}
+{"id": "C2784", "verdict": "revise", "reason": "Absorb the non-ideal MHD and disk-wind content from duplicate C2783.", "fix": {"summary": "The MRI is an ideal-MHD instability in which a weak field acts like a spring tying fluid elements in differential rotation, an Alfvén-wave tension effect. It drives disk turbulence and angular-momentum transport. Ohmic, Hall and ambipolar terms and winds modify it in cool disks."}}
+{"id": "C2785", "verdict": "revise", "reason": "'Stars are plasmas' is a generic link; the specific bridges (MHD, dynamo, fusion) are in other records.", "fix": {"strength": 1}}
+{"id": "C2786", "verdict": "confirm"}
+{"id": "C2787", "verdict": "confirm"}
+{"id": "C2788", "verdict": "confirm"}
+{"id": "C2789", "verdict": "confirm"}
+{"id": "C2790", "verdict": "confirm"}
+{"id": "C2791", "verdict": "confirm"}
+{"id": "C2792", "verdict": "confirm"}
+{"id": "C2793", "verdict": "confirm"}
+{"id": "C2794", "verdict": "confirm"}

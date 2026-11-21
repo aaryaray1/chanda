@@ -1,0 +1,100 @@
+{"id": "C0287", "verdict": "confirm"}
+{"id": "C0288", "verdict": "confirm"}
+{"id": "C0289", "verdict": "revise", "reason": "The Metropolis algorithm (1953) came from statistical mechanics, not neutron chains. Strength 3 is too high for a historical link.", "fix": {"summary": "Ulam, von Neumann and Metropolis created Monte Carlo in 1946-49 to follow neutron chains in fissile assemblies. MC neutron transport (MCNP, Serpent, OpenMC) still computes reactor k_eff.", "strength": 2}}
+{"id": "C0290", "verdict": "confirm"}
+{"id": "C0291", "verdict": "confirm"}
+{"id": "C0292", "verdict": "confirm"}
+{"id": "C0293", "verdict": "confirm"}
+{"id": "C0294", "verdict": "confirm"}
+{"id": "C0295", "verdict": "revise", "reason": "The link is sociological, not an idea migrating between fields; it is suggestive only.", "fix": {"strength": 1}}
+{"id": "C0296", "verdict": "confirm"}
+{"id": "C0297", "verdict": "revise", "reason": "This is not a historical migration of an idea. It is a shared object of study, and the philosophical readings are disputed.", "fix": {"kind": "shared object", "confidence": "current research"}}
+{"id": "C0298", "verdict": "revise", "reason": "Breaks field shows the match fails with thresholds and overlapping resonances, so it is not an identity.", "fix": {"kind": "mechanism"}}
+{"id": "C0299", "verdict": "revise", "reason": "The SCGF optical potential is active research with truncation limits, not textbook consensus.", "fix": {"confidence": "current research"}}
+{"id": "C0300", "verdict": "confirm"}
+{"id": "C0301", "verdict": "confirm"}
+{"id": "C0302", "verdict": "confirm"}
+{"id": "C0303", "verdict": "confirm"}
+{"id": "C0304", "verdict": "confirm"}
+{"id": "C0305", "verdict": "revise", "reason": "The record has a breaks field (dead time, non-stationarity), so it is not an identity; decay is a shared model Poisson process.", "fix": {"kind": "shared object"}}
+{"id": "C0306", "verdict": "confirm"}
+{"id": "C0307", "verdict": "confirm"}
+{"id": "C0308", "verdict": "revise", "reason": "Isospin and SU(4) are approximate symmetries and the record has breaks, so it is not an identity. SU(4) is badly broken, so strength 3 is too high.", "fix": {"kind": "mechanism", "strength": 2}}
+{"id": "C0309", "verdict": "revise", "reason": "The dynamical symmetries are approximate (breaks given), so this is not an identity.", "fix": {"kind": "mechanism", "strength": 2}}
+{"id": "C0310", "verdict": "revise", "reason": "Seniority is exact only in limited cases (breaks given), so this is not an identity.", "fix": {"kind": "mechanism"}}
+{"id": "C0311", "verdict": "confirm"}
+{"id": "C0312", "verdict": "revise", "reason": "At physical quark masses the evidence is lattice crossover with only O(4) scaling remnants. The universality class is debated, so this is not textbook consensus.", "fix": {"confidence": "current research"}}
+{"id": "C0313", "verdict": "confirm"}
+{"id": "C0314", "verdict": "confirm"}
+{"id": "C0315", "verdict": "revise", "reason": "Dimensional analysis of a blast wave says little about fission physics, so the link is narrow. It is a method application, not a historical migration.", "fix": {"kind": "method transfer", "strength": 1}}
+{"id": "C0316", "verdict": "revise", "reason": "The Oklo alpha bound is model-dependent and debated in the literature (spectrum, temperature modelling).", "fix": {"confidence": "current research"}}
+{"id": "C0317", "verdict": "confirm"}
+{"id": "C0318", "verdict": "confirm"}
+{"id": "C0319", "verdict": "confirm"}
+{"id": "C0320", "verdict": "confirm"}
+{"id": "C0707", "verdict": "confirm"}
+{"id": "C0708", "verdict": "confirm"}
+{"id": "C0709", "verdict": "confirm"}
+{"id": "C0710", "verdict": "confirm"}
+{"id": "C0711", "verdict": "confirm"}
+{"id": "C0712", "verdict": "revise", "reason": "The Rayleigh-Ritz variational principle is generic to quantum mechanics, so the link to nuclear theory is narrow.", "fix": {"strength": 1}}
+{"id": "C0713", "verdict": "confirm"}
+{"id": "C0714", "verdict": "confirm"}
+{"id": "C0715", "verdict": "confirm"}
+{"id": "C0716", "verdict": "revise", "reason": "A broad 'hydrodynamics is used' method link is not strength 3; the relativistic causal extension is where the specific content lies.", "fix": {"strength": 2}}
+{"id": "C0717", "verdict": "revise", "reason": "The critical point is unconfirmed, and the Model H assignment is conditional on it (Son-Stephanov), so this is neither an identity nor established.", "fix": {"kind": "mechanism", "confidence": "proposed", "breaks": "The QCD critical point has not been established. Model H assignment is conditional on its existence, and finite size and time near freeze-out limit critical growth."}}
+{"id": "C0718", "verdict": "revise", "reason": "'Most nearly ideal fluid known' overclaims, since the unitary Fermi gas has comparable eta/s. The QGP value is current research.", "fix": {"summary": "Shear viscosity from Newton's law is compared across fluids via eta/s. The QGP sits near hbar/4pi k_B, about an order of magnitude below helium, nitrogen or water at their minima, comparable to the unitary Fermi gas.", "confidence": "current research"}}
+{"id": "C0719", "verdict": "confirm"}
+{"id": "C0720", "verdict": "revise", "reason": "The i-process and 13C-pocket mixing are active research and uncertain, not consensus.", "fix": {"confidence": "current research"}}
+{"id": "C0721", "verdict": "revise", "reason": "The match between a conducting drop and a uniformly charged drop is only qualitative, since the critical charges differ. It is a shared mechanism, not an identity.", "fix": {"kind": "mechanism", "breaks": "A conducting drop has surface charge and a nucleus volume charge, so the critical Q^2 differ (160/3 vs 64 in pi^2 eps0 sigma R^3). Shell corrections and tunnelling govern real heavy nuclei."}}
+{"id": "C0722", "verdict": "confirm"}
+{"id": "C0723", "verdict": "confirm"}
+{"id": "C0724", "verdict": "confirm"}
+{"id": "C0725", "verdict": "confirm"}
+{"id": "C0726", "verdict": "confirm"}
+{"id": "C0727", "verdict": "confirm"}
+{"id": "C0728", "verdict": "revise", "reason": "The kinematics fail for thermal-energy neutrons (upscattering, chemical binding in H), so it is a mechanism, not an identity.", "fix": {"kind": "mechanism", "breaks": "Valid for free stationary scatterers with isotropic s-wave scattering in the centre of mass. Near thermal energies, chemical binding (H in water) and upscattering modify the slowing-down."}}
+{"id": "C0729", "verdict": "confirm"}
+{"id": "C0730", "verdict": "confirm"}
+{"id": "C0731", "verdict": "confirm"}
+{"id": "C0732", "verdict": "confirm"}
+{"id": "C0733", "verdict": "confirm"}
+{"id": "C0734", "verdict": "confirm"}
+{"id": "C0735", "verdict": "confirm"}
+{"id": "C0736", "verdict": "confirm"}
+{"id": "C0737", "verdict": "confirm"}
+{"id": "C0738", "verdict": "confirm"}
+{"id": "C0739", "verdict": "confirm"}
+{"id": "C0740", "verdict": "confirm"}
+{"id": "C0741", "verdict": "confirm"}
+{"id": "C0742", "verdict": "confirm"}
+{"id": "C0743", "verdict": "confirm"}
+{"id": "C0744", "verdict": "revise", "reason": "The pairing-reduction number is overstated: measured moments are roughly half to two-thirds of rigid in the rare earths, not 30-50%.", "fix": {"breaks": "There is no collective rotation about a symmetry axis (quantum indistinguishability). The moment of inertia lies well below the rigid value because of pairing, and it changes with spin (Coriolis anti-pairing, backbending)."}}
+{"id": "C1095", "verdict": "confirm"}
+{"id": "C1096", "verdict": "confirm"}
+{"id": "C1097", "verdict": "confirm"}
+{"id": "C1098", "verdict": "confirm"}
+{"id": "C1099", "verdict": "revise", "reason": "The breaks field shows the match fails in places (negative scattering lengths, gravity, absorption), so it is a mechanism, not an identity.", "fix": {"kind": "mechanism"}}
+{"id": "C1100", "verdict": "confirm"}
+{"id": "C1101", "verdict": "revise", "reason": "Real nuclei have diffuse edges and refraction, so the black-disk match is approximate and not an identity.", "fix": {"kind": "mechanism", "breaks": "Real nuclei have diffuse surfaces, so the diffraction minima are smeared and partly filled. Refraction and Coulomb effects shift the pattern."}}
+{"id": "C1102", "verdict": "confirm"}
+{"id": "C1103", "verdict": "confirm"}
+{"id": "C1104", "verdict": "revise", "reason": "Cavity electrodynamics is used in every accelerator, so the link to the EIC node is generic and narrow.", "fix": {"strength": 1}}
+{"id": "C1105", "verdict": "revise", "reason": "The non-Abelian gluon case breaks the match: Ji's gauge-invariant decomposition does not split J_g into spin and orbital parts. It is an analogy, not an identity.", "fix": {"kind": "analogy", "confidence": "current research", "strength": 2, "breaks": "The gluon is non-Abelian. A gauge-invariant, local spin/orbital split of gluon angular momentum is not unique (Ji gives only J_g), and the photon case is Abelian."}}
+{"id": "C1106", "verdict": "confirm"}
+{"id": "C1107", "verdict": "confirm"}
+{"id": "C1108", "verdict": "confirm"}
+{"id": "C1109", "verdict": "confirm"}
+{"id": "C1110", "verdict": "confirm"}
+{"id": "C1111", "verdict": "confirm"}
+{"id": "C1112", "verdict": "confirm"}
+{"id": "C1113", "verdict": "confirm"}
+{"id": "C1114", "verdict": "confirm"}
+{"id": "C1115", "verdict": "confirm"}
+{"id": "C1116", "verdict": "confirm"}
+{"id": "C1117", "verdict": "confirm"}
+{"id": "C1118", "verdict": "confirm"}
+{"id": "C1119", "verdict": "confirm"}
+{"id": "C1120", "verdict": "confirm"}
+{"id": "C1121", "verdict": "confirm"}
+{"id": "C1122", "verdict": "revise", "reason": "The breaks field shows the Euler-Heisenberg match holds only at low energy, so it is an analogy, not an identity.", "fix": {"kind": "analogy"}}

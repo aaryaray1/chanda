@@ -1,0 +1,100 @@
+{"id": "C1156", "verdict": "revise", "reason": "Physics correct, but a broad dielectric-screening link to a general fields-in-matter note is not structural in both fields.", "fix": {"strength": 2}}
+{"id": "C1157", "verdict": "confirm"}
+{"id": "C1158", "verdict": "revise", "reason": "Fields-in-matter note only covers ferromagnetism phenomenologically; link is substantial but not structural in both.", "fix": {"strength": 2}}
+{"id": "C1159", "verdict": "confirm"}
+{"id": "C1160", "verdict": "revise", "reason": "P is defined only mod a quantum and only changes are physical, so not a strict identity; mechanism, strength 2.", "fix": {"kind": "mechanism", "strength": 2}}
+{"id": "C1161", "verdict": "confirm"}
+{"id": "C1162", "verdict": "confirm"}
+{"id": "C1163", "verdict": "confirm"}
+{"id": "C1164", "verdict": "confirm"}
+{"id": "C1165", "verdict": "confirm"}
+{"id": "C1166", "verdict": "confirm"}
+{"id": "C1167", "verdict": "confirm"}
+{"id": "C1168", "verdict": "confirm"}
+{"id": "C1169", "verdict": "confirm"}
+{"id": "C1170", "verdict": "revise", "reason": "Photonic QSH is an engineered pseudospin analogue without Kramers protection; narrower than the structural Chern link, strength 2.", "fix": {"strength": 2}}
+{"id": "C1171", "verdict": "confirm"}
+{"id": "C1172", "verdict": "confirm"}
+{"id": "C1173", "verdict": "revise", "reason": "Contested claims; not a method transfer with established results. Should be proposed, strength 1, naming the dispute.", "fix": {"kind": "shared object", "confidence": "proposed", "strength": 1, "breaks": "Heating, sample inhomogeneity and reflectivity analysis are disputed; transient superconductivity above Tc is not independently established."}}
+{"id": "C1174", "verdict": "confirm"}
+{"id": "C1175", "verdict": "confirm"}
+{"id": "C1176", "verdict": "confirm"}
+{"id": "C1470", "verdict": "confirm"}
+{"id": "C1471", "verdict": "revise", "reason": "Current-research mapping with no true free energy; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C1472", "verdict": "revise", "reason": "Jamming is central to glass field but link to general disordered-systems node is substantial, not structural; strength 2.", "fix": {"strength": 2}}
+{"id": "C1473", "verdict": "confirm"}
+{"id": "C1474", "verdict": "confirm"}
+{"id": "C1475", "verdict": "revise", "reason": "Map inconsistent: κ=1/(zν)≈0.42 corresponds to experimental ν≈2.38, not numerical ν≈2.6 (gives 0.38).", "fix": {"map": "\\xi\\propto|E-E_c|^{-\\nu},\\ \\nu\\approx2.6\\ (\\text{numerics}),\\ \\approx2.4\\ (\\text{expt});\\quad \\Delta B\\propto T^{\\kappa},\\ \\kappa=\\frac{1}{z\\nu}\\approx0.42\\ (\\text{expt})"}}
+{"id": "C1476", "verdict": "confirm"}
+{"id": "C1477", "verdict": "confirm"}
+{"id": "C1478", "verdict": "confirm"}
+{"id": "C1479", "verdict": "confirm"}
+{"id": "C1480", "verdict": "confirm"}
+{"id": "C1481", "verdict": "confirm"}
+{"id": "C1482", "verdict": "confirm"}
+{"id": "C1483", "verdict": "confirm"}
+{"id": "C1484", "verdict": "confirm"}
+{"id": "C1485", "verdict": "confirm"}
+{"id": "C1486", "verdict": "confirm"}
+{"id": "C1487", "verdict": "confirm"}
+{"id": "C1488", "verdict": "confirm"}
+{"id": "C1489", "verdict": "revise", "reason": "Needs a breaks clause, so not an identity; kinetic theory transferred to electrons.", "fix": {"kind": "method transfer"}}
+{"id": "C1490", "verdict": "confirm"}
+{"id": "C1491", "verdict": "confirm"}
+{"id": "C1492", "verdict": "confirm"}
+{"id": "C1493", "verdict": "confirm"}
+{"id": "C1494", "verdict": "confirm"}
+{"id": "C1495", "verdict": "confirm"}
+{"id": "C1496", "verdict": "revise", "reason": "Has a breaks clause (Hertz–Millis fails in 2D metals), so not an identity; it is a transferred method.", "fix": {"kind": "method transfer"}}
+{"id": "C1497", "verdict": "confirm"}
+{"id": "C1498", "verdict": "confirm"}
+{"id": "C1499", "verdict": "confirm"}
+{"id": "C1500", "verdict": "revise", "reason": "Real magnets only approximate these models (breaks needed); they are the shared system, not an identity.", "fix": {"kind": "shared object"}}
+{"id": "C1501", "verdict": "confirm"}
+{"id": "C1502", "verdict": "confirm"}
+{"id": "C1503", "verdict": "confirm"}
+{"id": "C1504", "verdict": "revise", "reason": "Breaks clause present, so not an identity; BCS is the mean-field theory and GL its Landau limit.", "fix": {"kind": "mechanism"}}
+{"id": "C1505", "verdict": "confirm"}
+{"id": "C1506", "verdict": "revise", "reason": "'First nonperturbative success outside critical phenomena' is an unverified priority claim; remove.", "fix": {"summary": "The antiferromagnetic Kondo coupling is marginally relevant: Anderson's poor-man's scaling makes it grow as the bandwidth is reduced, generating the scale T_K. Wilson's numerical renormalization group followed the flow nonperturbatively to the screened Fermi-liquid fixed point (Wilson ratio R_W=2)."}}
+{"id": "C1507", "verdict": "confirm"}
+{"id": "C1508", "verdict": "confirm"}
+{"id": "C1509", "verdict": "confirm"}
+{"id": "C1766", "verdict": "reject", "reason": "duplicate of C1776", "duplicate_of": "C1776"}
+{"id": "C1767", "verdict": "confirm"}
+{"id": "C1768", "verdict": "confirm"}
+{"id": "C1769", "verdict": "revise", "reason": "Narrow, one-sided link: 1D equal Rashba–Dresselhaus SOC only; strength 1.", "fix": {"strength": 1}}
+{"id": "C1770", "verdict": "confirm"}
+{"id": "C1771", "verdict": "revise", "reason": "Preformed-pair pseudogap picture is disputed; should be proposed and say who disputes it.", "fix": {"confidence": "proposed", "strength": 1, "breaks": "Cuprate pairing is d-wave in a doped Mott insulator with competing orders; many argue the pseudogap is a distinct state, not preformed pairs. Cold-atom crossover is s-wave in a clean continuum gas."}}
+{"id": "C1772", "verdict": "revise", "reason": "Bloch oscillations are not unobservable in solids; seen in semiconductor superlattices (Feldmann 1992).", "fix": {"summary": "Atoms in optical lattices obey Bloch's theorem with tight-binding bands and Wannier functions; Bloch oscillations, hard to see in natural crystals because of scattering (seen only in semiconductor superlattices), are observed directly."}}
+{"id": "C1773", "verdict": "confirm"}
+{"id": "C1774", "verdict": "confirm"}
+{"id": "C1775", "verdict": "confirm"}
+{"id": "C1776", "verdict": "confirm"}
+{"id": "C1777", "verdict": "confirm"}
+{"id": "C1778", "verdict": "revise", "reason": "Narrow experimental link; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C1779", "verdict": "confirm"}
+{"id": "C1780", "verdict": "confirm"}
+{"id": "C1781", "verdict": "confirm"}
+{"id": "C1782", "verdict": "confirm"}
+{"id": "C1783", "verdict": "confirm"}
+{"id": "C1784", "verdict": "confirm"}
+{"id": "C1785", "verdict": "confirm"}
+{"id": "C1786", "verdict": "revise", "reason": "Chaos bound is on OTOC growth, not transport lifetime; relation is heuristic, so analogy not mechanism.", "fix": {"kind": "analogy", "breaks": "The bound constrains the OTOC Lyapunov exponent, not the transport scattering rate; real strange metals are not shown to saturate it, and SYK-type models are not materials."}}
+{"id": "C1787", "verdict": "confirm"}
+{"id": "C1788", "verdict": "confirm"}
+{"id": "C1789", "verdict": "confirm"}
+{"id": "C1790", "verdict": "confirm"}
+{"id": "C1791", "verdict": "confirm"}
+{"id": "C1792", "verdict": "confirm"}
+{"id": "C1793", "verdict": "confirm"}
+{"id": "C1794", "verdict": "confirm"}
+{"id": "C1795", "verdict": "confirm"}
+{"id": "C1796", "verdict": "confirm"}
+{"id": "C1797", "verdict": "confirm"}
+{"id": "C1798", "verdict": "revise", "reason": "'Leading candidate for quantum advantage' is an unsupported, contested claim.", "fix": {"summary": "Phase estimation, VQE and Hamiltonian simulation target ground states and dynamics of Hubbard-type models beyond classical numerics; whether they give a practical advantage for correlated materials is still open."}}
+{"id": "C1799", "verdict": "confirm"}
+{"id": "C1800", "verdict": "confirm"}
+{"id": "C1801", "verdict": "confirm"}
+{"id": "C1802", "verdict": "confirm"}
+{"id": "C1803", "verdict": "confirm"}
+{"id": "C1804", "verdict": "revise", "reason": "Single-platform experiment with debated interpretation; strength 3 inflated.", "fix": {"strength": 2}}

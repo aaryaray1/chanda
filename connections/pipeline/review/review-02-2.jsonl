@@ -1,42 +1,42 @@
-{"id": "C0911", "verdict": "revise", "reason": "Birefringence is what makes phase matching possible, and Pockels/Kerr effects are χ(2)/χ(3) themselves; this is a shared mechanism, not a transfer of method.", "fix": {"kind": "mechanism"}}
+{"id": "C0911", "verdict": "confirm"}
 {"id": "C0912", "verdict": "confirm"}
-{"id": "C0913", "verdict": "revise", "reason": "Dirac's covariant ALD derivation belongs to the relativistic-electrodynamics note, not the generic subfield page.", "fix": {"a": "02-electromagnetism-and-optics/electrodynamics/relativistic-electrodynamics"}}
-{"id": "C0914", "verdict": "revise", "reason": "The material ε(ω) causes the wave dispersion, absorption and skin depth; this is a mechanism, not an identity.", "fix": {"kind": "mechanism"}}
+{"id": "C0913", "verdict": "revise", "reason": "ALD is the covariant form; the relativistic-electrodynamics topic is a better node than the electrodynamics subfield.", "fix": {"a": "02-electromagnetism-and-optics/electrodynamics/relativistic-electrodynamics"}}
+{"id": "C0914", "verdict": "revise", "reason": "Material response determines how waves propagate: same cause, not one law in both notes.", "fix": {"kind": "mechanism"}}
 {"id": "C0915", "verdict": "confirm"}
 {"id": "C0916", "verdict": "confirm"}
 {"id": "C0917", "verdict": "confirm"}
-{"id": "C0918", "verdict": "confirm"}
-{"id": "C0919", "verdict": "confirm"}
-{"id": "C0920", "verdict": "revise", "reason": "Peierls phases do have gauge redundancy, since only the plaquette flux is physical. The real limitation is that the field is static. Well demonstrated since 2013.", "fix": {"breaks": "The synthetic flux is fixed by fabrication or modulation and is not a dynamical field; it acts only on lattice-band photons. Pseudospin schemes keep time-reversal symmetry, so pseudospin-mixing disorder causes backscattering.", "confidence": "established"}}
+{"id": "C0918", "verdict": "revise", "reason": "Needs a breaks field, so it cannot be an identity. Form-invariance is used here as a design technique.", "fix": {"kind": "method transfer"}}
+{"id": "C0919", "verdict": "revise", "reason": "Has a breaks field, so it cannot be an identity. This is band topology carried over to the Maxwell eigenproblem.", "fix": {"kind": "method transfer"}}
+{"id": "C0920", "verdict": "revise", "reason": "A course in potentials and gauge invariance would not teach photonic Peierls phases, so this is not structural in both.", "fix": {"strength": 2}}
 {"id": "C0921", "verdict": "confirm"}
-{"id": "C0922", "verdict": "confirm"}
+{"id": "C0922", "verdict": "revise", "reason": "Breaks (spin moments) excludes identity. This is the same relativistic cause behind the magnetostatic force.", "fix": {"kind": "mechanism"}}
 {"id": "C0923", "verdict": "confirm"}
 {"id": "C0924", "verdict": "confirm"}
-{"id": "C0925", "verdict": "confirm"}
+{"id": "C0925", "verdict": "revise", "reason": "It fails beyond the quasi-static regime (breaks given). The electrostatic sphere solution is transferred to scattering.", "fix": {"kind": "method transfer"}}
 {"id": "C0926", "verdict": "confirm"}
-{"id": "C0927", "verdict": "confirm"}
+{"id": "C0927", "verdict": "revise", "reason": "The radiation multipoles generalize the static ones (ka parameter, vector harmonics) rather than being identical. This is a method transfer.", "fix": {"kind": "method transfer"}}
 {"id": "C0928", "verdict": "confirm"}
 {"id": "C0929", "verdict": "confirm"}
 {"id": "C0930", "verdict": "confirm"}
 {"id": "C0931", "verdict": "confirm"}
-{"id": "C0932", "verdict": "confirm"}
+{"id": "C0932", "verdict": "revise", "reason": "Same interference mechanism but different observables. The enhancement of 2 needs single scattering excluded and no absorption or dephasing.", "fix": {"kind": "mechanism", "breaks": "The factor 2 holds only when single scattering and polarization channels are excluded. Absorption and dephasing reduce the optical peak, while magnetic fields and inelastic scattering cut off weak localization."}}
 {"id": "C0933", "verdict": "confirm"}
 {"id": "C0934", "verdict": "confirm"}
 {"id": "C0935", "verdict": "confirm"}
 {"id": "C0936", "verdict": "confirm"}
 {"id": "C0937", "verdict": "confirm"}
-{"id": "C0938", "verdict": "confirm"}
-{"id": "C0939", "verdict": "revise", "reason": "Einstein's 1905 mobility–diffusion relation came before Nyquist, so 'first FDT' overstates it; call it an early FDT.", "fix": {"summary": "Nyquist derived thermal voltage noise by letting two resistors exchange energy through a lossless transmission line whose modes each hold k_BT, a one-dimensional blackbody. This is an early fluctuation–dissipation theorem, later generalized by Callen–Welton. The same physics sets antenna noise temperature, which is how the CMB was first read."}}
-{"id": "C0940", "verdict": "confirm"}
-{"id": "C0941", "verdict": "confirm"}
-{"id": "C0942", "verdict": "confirm"}
+{"id": "C0938", "verdict": "revise", "reason": "Has a breaks field, so it cannot be an identity. Mode counting times occupation is a derivation mechanism.", "fix": {"kind": "mechanism"}}
+{"id": "C0939", "verdict": "revise", "reason": "Calling it 'the first FDT' is wrong: Einstein's 1905 mobility–diffusion relation came earlier.", "fix": {"summary": "Nyquist derived thermal voltage noise by letting two resistors exchange energy through a lossless transmission line whose modes each hold k_BT, a one-dimensional blackbody. It is a founding fluctuation–dissipation result after Einstein's 1905 relation, and Callen–Welton generalized it. The same physics sets antenna noise temperature, through which Penzias and Wilson detected the CMB."}}
+{"id": "C0940", "verdict": "revise", "reason": "Wien's law needs the Doppler shift off a moving mirror as well as VT³ = const. This is a derivation, not an identity.", "fix": {"kind": "mechanism", "summary": "The Maxwell stress tensor gives isotropic radiation the pressure p = u/3. Inserting this into the thermodynamic identity (∂U/∂V)_T = T(∂p/∂T)_V − p forces u ∝ T⁴ (Boltzmann 1884). The adiabatic invariant VT³ = const, combined with the Doppler shift from a slowly moving mirror, gives Wien's displacement law."}}
+{"id": "C0941", "verdict": "revise", "reason": "A-independence comes from shifting the momentum integration variable for any A, not from gauge invariance. Kind is mechanism.", "fix": {"kind": "mechanism", "summary": "With minimal coupling H(p − qA), shifting the canonical-momentum integration variable removes A from the classical canonical partition function for any A. Classical statistical mechanics therefore predicts zero equilibrium magnetization, and dia- and paramagnetism are quantum effects."}}
+{"id": "C0942", "verdict": "revise", "reason": "'Fails exactly where' overstates it. Name the actual regime where Poisson–Boltzmann breaks down.", "fix": {"summary": "Closing Poisson's equation with Boltzmann-distributed ion densities gives the Poisson–Boltzmann equation, a mean-field theory of electrolytes and charged colloids. Linearized, it yields Debye–Hückel screening. It fails when ion correlations dominate (multivalent counterions, strong coupling), for example in like-charge attraction."}}
 {"id": "C0943", "verdict": "confirm"}
 {"id": "C0944", "verdict": "confirm"}
 {"id": "C0945", "verdict": "confirm"}
 {"id": "C0946", "verdict": "confirm"}
 {"id": "C0947", "verdict": "confirm"}
-{"id": "C0948", "verdict": "revise", "reason": "The 'nonlinear Shannon limit' only bounds receivers that treat Kerr distortion as Gaussian noise. True fibre capacity is still unknown.", "fix": {"summary": "Shannon's channel capacity bounds data rates in fibre. If Kerr nonlinear distortion is treated as Gaussian noise that grows with launch power, achievable spectral efficiency peaks at an optimum power (the so-called nonlinear Shannon limit). The true capacity of the nonlinear fibre channel remains open.", "confidence": "current research"}}
-{"id": "C0949", "verdict": "confirm"}
+{"id": "C0948", "verdict": "revise", "reason": "The 'nonlinear Shannon limit' is an achievable-rate bound under the noise-like nonlinearity (GN) assumption. The true fibre capacity is unknown.", "fix": {"confidence": "current research", "summary": "Shannon capacity bounds fibre data rates. If Kerr nonlinear interference is treated as Gaussian noise growing as P³, achievable spectral efficiency peaks at an optimum launch power (the 'nonlinear Shannon limit'). This is a lower bound, and the true capacity of the nonlinear fibre channel remains open.", "breaks": "The GN-model peak is not a proven capacity. Nonlinear distortion is partly deterministic and compensable, so the actual capacity may be higher."}}
+{"id": "C0949", "verdict": "revise", "reason": "One device studied as a heat engine, not one law in both notes. Courses in neither field treat it as structural.", "fix": {"kind": "shared object", "strength": 2}}
 {"id": "C0950", "verdict": "confirm"}
 {"id": "C0951", "verdict": "confirm"}
 {"id": "C0952", "verdict": "confirm"}
@@ -45,7 +45,7 @@
 {"id": "C0955", "verdict": "confirm"}
 {"id": "C0956", "verdict": "confirm"}
 {"id": "C0957", "verdict": "confirm"}
-{"id": "C0958", "verdict": "confirm"}
+{"id": "C0958", "verdict": "revise", "reason": "3D Anderson localization of light is disputed, and the breaks should name the contested claims and who contests them.", "fix": {"breaks": "Transverse (2D) localization is established. 3D localization of light is unconfirmed: Wiersma 1997 was challenged as absorption (Scheffold 1999), Sperling's 2013 claim was later attributed to fluorescence, and Skipetrov–Sokolov argue near-field dipole coupling prevents it for point scatterers."}}
 {"id": "C0959", "verdict": "confirm"}
 {"id": "C0960", "verdict": "confirm"}
 {"id": "C0961", "verdict": "confirm"}
@@ -57,18 +57,18 @@
 {"id": "C0967", "verdict": "confirm"}
 {"id": "C0968", "verdict": "confirm"}
 {"id": "C0969", "verdict": "confirm"}
-{"id": "C0970", "verdict": "confirm"}
-{"id": "C0971", "verdict": "confirm"}
+{"id": "C0970", "verdict": "reject", "reason": "duplicate of C0971", "duplicate_of": "C0971"}
+{"id": "C0971", "verdict": "revise", "reason": "Breaks rule out an identity. Absorb C0970's optical equivalence theorem and recast as Glauber's generalization of classical coherence theory.", "fix": {"kind": "historical", "summary": "Prompted by the Hanbury Brown–Twiss debate, Glauber (1963) recast classical coherence functions g^(1) and g^(2) as normally ordered quantum field correlators. By the Sudarshan–Glauber optical equivalence theorem, states with a positive P function (coherent, thermal) reproduce classical optics exactly, while antibunching (g^(2)(0)<1) has no classical counterpart."}}
 {"id": "C0972", "verdict": "confirm"}
-{"id": "C0973", "verdict": "confirm"}
-{"id": "C0974", "verdict": "confirm"}
-{"id": "C0975", "verdict": "confirm"}
+{"id": "C0973", "verdict": "revise", "reason": "Matter-wave interference is the same wave physics, so not an analogy. The interferometer geometry is a transferred method, and an optics course would not teach it.", "fix": {"kind": "method transfer", "strength": 2}}
+{"id": "C0974", "verdict": "revise", "reason": "Exact only in the paraxial scalar regime (breaks given). Light versus matter waves with the same equation is an analogy.", "fix": {"kind": "analogy"}}
+{"id": "C0975", "verdict": "revise", "reason": "The beam splitter obeys the same physics classically and quantum mechanically, so this is not an analogy. It is one object studied in both fields.", "fix": {"kind": "shared object"}}
 {"id": "C0976", "verdict": "confirm"}
 {"id": "C0977", "verdict": "confirm"}
-{"id": "C0978", "verdict": "confirm"}
+{"id": "C0978", "verdict": "revise", "reason": "Has a breaks field, so it cannot be an identity. Photon angular momentum is one object studied in both fields.", "fix": {"kind": "shared object"}}
 {"id": "C0979", "verdict": "confirm"}
-{"id": "C0980", "verdict": "confirm"}
-{"id": "C0981", "verdict": "confirm"}
+{"id": "C0980", "verdict": "revise", "reason": "Polarizers are trace-decreasing. Only physically realizable Mueller matrices map to completely positive maps. The breaks text is commentary, not a failure of the map.", "fix": {"summary": "The 2×2 coherency matrix of partially polarized light is a density matrix whose Stokes parameters are the Bloch-vector components. The degree of polarization is the Bloch-vector length, wave plates act as SU(2) unitaries, and physically realizable Mueller matrices correspond to completely positive maps (trace-decreasing for polarizers).", "breaks": ""}}
+{"id": "C0981", "verdict": "revise", "reason": "Graduate quantum-chaos courses teach it, but electrodynamics courses do not. The link is one-sided.", "fix": {"strength": 2}}
 {"id": "C0982", "verdict": "confirm"}
 {"id": "C0983", "verdict": "confirm"}
 {"id": "C0984", "verdict": "confirm"}
@@ -76,31 +76,28 @@
 {"id": "C0986", "verdict": "confirm"}
 {"id": "C0987", "verdict": "confirm"}
 {"id": "C0988", "verdict": "confirm"}
-{"id": "C0989", "verdict": "confirm"}
-{"id": "C0990", "verdict": "confirm"}
-{"id": "C0991", "verdict": "confirm"}
+{"id": "C0989", "verdict": "revise", "reason": "The leading neutral-atom lattice clocks use hyperfine-induced 1S0–3P0 E1 transitions, not higher multipoles. The clock claim needs narrowing.", "fix": {"summary": "Expanding the atom–field coupling in multipoles gives E1, M1, E2… transitions. Their angular-momentum and parity selection rules follow from each multipole's spherical-tensor rank, and each higher order is suppressed by about (ka)². Narrow E2 and E3 lines serve as ion clock transitions (Yb⁺, Hg⁺)."}}
+{"id": "C0990", "verdict": "reject", "reason": "A broad 'AMO uses lasers' link with no map. The specific links are covered by C0994 and C0995."}
+{"id": "C0991", "verdict": "reject", "reason": "A broad 'quantum optics uses photonics' link. The specific content is covered by C0955, C0996, C0997, C1002 and C1003."}
 {"id": "C0992", "verdict": "confirm"}
-{"id": "C0993", "verdict": "confirm"}
+{"id": "C0993", "verdict": "revise", "reason": "Broadly 'QKD uses fibre'. The PLOB bound is specific but caps only point-to-point links (twin-field QKD exceeds it).", "fix": {"strength": 2, "summary": "Quantum key distribution and entanglement distribution run on low-loss 1550 nm telecom fibre with integrated transmitters and receivers. Fibre transmission falls exponentially with distance, so the PLOB bound caps point-to-point repeaterless key rates. Twin-field schemes and quantum repeaters get around it with intermediate nodes."}}
 {"id": "C0994", "verdict": "confirm"}
 {"id": "C0995", "verdict": "confirm"}
 {"id": "C0996", "verdict": "confirm"}
-{"id": "C0997", "verdict": "revise", "reason": "'Driven by one vacuum photon' is only a heuristic. Vacuum fluctuations and radiation reaction each contribute half; the rigorous statement is the n+1 emission factor.", "fix": {"summary": "Einstein's A/B ratio, derived from Planck's law, makes the emission rate per mode proportional to n+1. Spontaneous emission acts like emission stimulated by one extra photon per mode. Below threshold a laser emits thermal-like light with g^(2)(0)=2; above threshold its output is near-Poissonian coherent light with g^(2)(0)→1."}}
+{"id": "C0997", "verdict": "revise", "reason": "'Stimulated by the vacuum's one photon' is a contested heuristic. Vacuum fluctuations and radiation reaction contribute equally (Dalibard–Dupont-Roc–Cohen-Tannoudji).", "fix": {"summary": "Einstein's A/B ratio, derived from Planck's law, equals the stimulated rate that one photon per mode would drive: the emission rate scales as n+1. Below threshold a single laser mode emits thermal-like light with g^(2)(0)=2. Above threshold the output becomes near-Poissonian coherent light with g^(2)(0)→1."}}
 {"id": "C0998", "verdict": "confirm"}
 {"id": "C0999", "verdict": "confirm"}
-{"id": "C1000", "verdict": "confirm"}
+{"id": "C1000", "verdict": "revise", "reason": "The γ>0 ↔ g<0 mapping holds only for anomalous dispersion (β₂<0). 1D fibre NLS has no collapse, which applies to 2D spatial Kerr beams.", "fix": {"map": "i\\partial_zA=\\frac{\\beta_2}{2}\\partial_T^2A-\\gamma|A|^2A\\leftrightarrow i\\hbar\\partial_t\\psi=-\\frac{\\hbar^2}{2m}\\nabla^2\\psi+g|\\psi|^2\\psi;\\ \\beta_2<0,\\ \\gamma>0\\leftrightarrow g<0", "summary": "Pulses in a Kerr fibre and a BEC's mean-field dynamics obey the same cubic nonlinear Schrödinger equation. Bright and dark solitons, modulational instability and four-wave mixing have matter-wave counterparts, as does self-focusing collapse for 2D spatial beams. 'Fluids of light' show superfluid-like flow."}}
 {"id": "C1001", "verdict": "confirm"}
 {"id": "C1002", "verdict": "confirm"}
 {"id": "C1003", "verdict": "confirm"}
-{"id": "C1004", "verdict": "revise", "reason": "Floquet engineering in general (e.g. shaken optical lattices) came before 2013. Light gave the first Floquet topological insulator.", "fix": {"summary": "In coupled waveguide arrays the paraxial equation makes propagation distance z act as time. Helically modulated waveguides therefore form a periodically driven lattice whose Floquet bands carry (anomalous) topology and chiral edge states. This gave the first experimental Floquet topological insulator (2013)."}}
+{"id": "C1004", "verdict": "revise", "reason": "'Floquet engineering demonstrated first with light' overclaims: driven cold atoms and other systems came earlier. Anomalous phases came in later photonic lattices.", "fix": {"summary": "In coupled waveguide arrays the paraxial equation makes propagation distance z act as time. Helically modulated waveguides form a periodically driven lattice whose Floquet bands carry Chern topology and chiral edge states. This was the first photonic Floquet topological insulator (Rechtsman et al. 2013), and anomalous Floquet phases followed in other driven photonic lattices."}}
 {"id": "C1005", "verdict": "confirm"}
-{"id": "C1006", "verdict": "confirm"}
+{"id": "C1006", "verdict": "revise", "reason": "Has a breaks field, so it cannot be an identity. Berry-phase band topology was carried from electrons to photonic crystals.", "fix": {"kind": "method transfer"}}
 {"id": "C1007", "verdict": "confirm"}
 {"id": "C1008", "verdict": "confirm"}
-{"id": "C1009", "verdict": "confirm"}
-{"id": "C1010", "verdict": "confirm"}
-{"verdict": "add", "record": {"a": "02-electromagnetism-and-optics/photonics-and-lasers/nonlinear-optics", "b": "02-electromagnetism-and-optics/photonics-and-lasers/ultrafast-and-attosecond-optics", "name": "Ultrafast pulses as extreme nonlinear optics", "kind": "mechanism", "summary": "Self-phase modulation and supercontinuum broaden spectra for pulse compression, OPCPA amplifies few-cycle pulses, and FROG gates pulses with χ(2)/χ(3) processes. High-harmonic generation is non-perturbative nonlinear optics, where the χ-series expansion fails once U_p ≳ I_p.", "map": "\\Delta\\omega_{\\rm SPM}\\sim\\frac{\\omega_0n_2}{c}L\\frac{\\partial I}{\\partial t},\\qquad \\hbar\\omega_{\\max}=I_p+3.17U_p", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
-{"verdict": "add", "record": {"a": "02-electromagnetism-and-optics/photonics-and-lasers/laser-physics", "b": "02-electromagnetism-and-optics/photonics-and-lasers/ultrafast-and-attosecond-optics", "name": "Mode-locking and CPA produce femtosecond pulses", "kind": "mechanism", "summary": "Phase-locking N longitudinal modes gives pulses of duration about 1/(NΔν_FSR). Kerr-lens mode-locked Ti:sapphire reaches a few cycles. Chirped-pulse amplification of these pulses in laser gain media reaches the terawatt–petawatt peak powers that drive strong-field and attosecond physics.", "map": "\\Delta t\\approx\\frac{1}{N\\,\\Delta\\nu_{\\rm FSR}},\\ \\Delta\\nu_{\\rm FSR}=\\frac{c}{2L},\\ \\Delta t\\,\\Delta\\nu\\ge0.44", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
-{"verdict": "add", "record": {"a": "02-electromagnetism-and-optics/classical-optics/interference-and-diffraction", "b": "02-electromagnetism-and-optics/classical-optics/fourier-optics-and-imaging", "name": "Fraunhofer diffraction is a Fourier transform", "kind": "identity", "summary": "The far-field (or lens focal-plane) diffraction pattern is the 2D Fourier transform of the aperture field. The Airy disk of a circular pupil is the point-spread function, which sets the Rayleigh limit, and gratings act as single spatial-frequency filters.", "map": "U(\\mathbf q)\\propto\\int A(\\mathbf x)e^{-i\\mathbf q\\cdot\\mathbf x}d^2x,\\ \\mathbf q=k\\sin\\theta;\\ \\ \\theta_{\\min}=1.22\\lambda/D", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
-{"verdict": "add", "record": {"a": "02-electromagnetism-and-optics/classical-optics/coherence-and-statistical-optics", "b": "02-electromagnetism-and-optics/classical-optics/fourier-optics-and-imaging", "name": "Van Cittert–Zernike and aperture-synthesis imaging", "kind": "method transfer", "summary": "The mutual coherence measured across a baseline is the Fourier transform of an incoherent source's brightness. Interferometer visibilities therefore sample the image's Fourier plane, which is the basis of Michelson stellar interferometry, radio aperture synthesis and VLBI.", "map": "\\mu_{12}(\\mathbf b)=\\frac{\\int I(\\boldsymbol\\theta)e^{-2\\pi i\\mathbf b\\cdot\\boldsymbol\\theta/\\lambda}d^2\\theta}{\\int I\\,d^2\\theta}", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
-{"verdict": "add", "record": {"a": "02-electromagnetism-and-optics/classical-optics/geometric-optics", "b": "02-electromagnetism-and-optics/electrodynamics/electromagnetic-waves-and-waveguides", "name": "Ray optics as the eikonal limit of Maxwell", "kind": "identity", "summary": "Substituting E=E₀e^{ik₀S} into the wave equation and letting k₀→∞ gives the eikonal equation |∇S|²=n², whose characteristics are Fermat rays. Polarization is transported along the rays, and Fresnel coefficients supply the amplitudes ray optics leaves out.", "map": "|\\nabla S|^2=n^2(\\mathbf r),\\ \\ \\frac{d}{ds}\\left(n\\frac{d\\mathbf r}{ds}\\right)=\\nabla n", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
-{"verdict": "add", "record": {"a": "02-electromagnetism-and-optics/photonics-and-lasers/integrated-and-fiber-photonics", "b": "02-electromagnetism-and-optics/photonics-and-lasers/nonlinear-optics", "name": "Kerr solitons and microcombs in guided-wave optics", "kind": "mechanism", "summary": "Confining light tightly in fibres and microresonators makes the Kerr nonlinearity γ=n₂ω/(cA_eff) strong. In fibres anomalous dispersion balanced against Kerr gives NLS solitons; in pumped rings the Lugiato–Lefever equation yields dissipative Kerr solitons and octave-spanning frequency combs.", "map": "N^2=\\frac{\\gamma P_0T_0^2}{|\\beta_2|},\\ \\ \\gamma=\\frac{n_2\\omega}{cA_{\\rm eff}}", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"id": "C1009", "verdict": "revise", "reason": "Breaks (quantum jumps, vacuum initiation) exclude an identity. Both come from the same oscillating-dipole radiation physics.", "fix": {"kind": "mechanism"}}
+{"id": "C1010", "verdict": "revise", "reason": "It fails at strong coupling (breaks given), so it cannot be an identity. The rate is the same LDOS mechanism, exact only for weak coupling.", "fix": {"kind": "mechanism"}}
+{"verdict": "add", "record": {"a": "02-electromagnetism-and-optics/classical-optics/geometric-optics", "b": "02-electromagnetism-and-optics/photonics-and-lasers/laser-physics", "name": "ABCD matrices for Gaussian beams and resonator stability", "kind": "method transfer", "summary": "Paraxial ray-transfer matrices also propagate Gaussian beams through the complex beam parameter q. Requiring a round-trip ray to stay bounded gives the laser resonator stability condition, which fixes the cavity mode waist and transverse-mode spacing.", "map": "q'=\\frac{Aq+B}{Cq+D},\\ \\frac1q=\\frac1R-\\frac{i\\lambda}{\\pi w^2};\\quad 0\\le g_1g_2\\le1,\\ g_i=1-L/R_i", "breaks": "", "confidence": "established", "strength": 2, "sources": []}}
+{"verdict": "add", "record": {"a": "02-electromagnetism-and-optics/classical-optics/interference-and-diffraction", "b": "02-electromagnetism-and-optics/photonics-and-lasers/laser-physics", "name": "Fabry–Pérot interferometer as the laser cavity", "kind": "shared object", "summary": "The Fabry–Pérot etalon's transmission resonances are the laser's longitudinal modes. The free spectral range c/2L sets the mode spacing and the comb repetition rate. Finesse sets the passive cavity linewidth FSR/F, which enters threshold and the Schawlow–Townes linewidth.", "map": "\\Delta\\nu_{\\rm FSR}=\\frac{c}{2L},\\ \\mathcal F=\\frac{\\pi\\sqrt R}{1-R},\\ \\Delta\\nu_c=\\frac{\\Delta\\nu_{\\rm FSR}}{\\mathcal F}", "breaks": "", "confidence": "established", "strength": 2, "sources": []}}
+{"verdict": "add", "record": {"a": "02-electromagnetism-and-optics/classical-optics/coherence-and-statistical-optics", "b": "02-electromagnetism-and-optics/classical-optics/fourier-optics-and-imaging", "name": "Van Cittert–Zernike theorem and aperture synthesis", "kind": "identity", "summary": "The complex degree of spatial coherence produced by an incoherent source is the normalized Fourier transform of its intensity distribution. This is the same integral as Fraunhofer diffraction, so interferometer visibilities sample the source's Fourier plane. That is the basis of stellar interferometry and aperture-synthesis imaging (radio, VLBI).", "map": "\\mu_{12}(\\Delta x/\\lambda z)=\\frac{\\iint I(\\xi,\\eta)e^{-i\\frac{2\\pi}{\\lambda z}(\\Delta x\\xi+\\Delta y\\eta)}d\\xi d\\eta}{\\iint I\\,d\\xi d\\eta}", "breaks": "", "confidence": "established", "strength": 2, "sources": []}}

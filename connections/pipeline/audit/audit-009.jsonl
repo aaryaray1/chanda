@@ -1,0 +1,40 @@
+{"id": "C1455", "verdict": "ok", "checks": [{"claim": "prefactor (kT)^(-3/2) exponent; E0=(E_G (kT)^2/4)^(1/3) is the standard Gamow peak", "expr": "3/2", "value": 1.5, "tol": 0.05, "unit": "dimensionless", "computed": 1.5, "agrees": true}], "machine": "consistent"}
+{"id": "C1456", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1457", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1458", "verdict": "ok", "checks": [{"claim": "FWHM = 2 sqrt(2 ln 2) sigma", "expr": "2*sqrt(2*log(2))", "value": 2.355, "tol": 0.01, "unit": "dimensionless", "computed": 2.35482, "agrees": true}], "machine": "consistent"}
+{"id": "C1460", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1466", "verdict": "ok", "checks": [{"claim": "Delta=12/sqrt(A) MeV for A=144 gives 1 MeV, typical pairing gap", "expr": "12/sqrt(144)", "value": 1.0, "tol": 0.25, "unit": "MeV", "computed": 1.0, "agrees": true}], "machine": "consistent"}
+{"id": "C1470", "verdict": "ok", "checks": [{"claim": "(R/2) ln(3/2) with R=8.314", "expr": "8.314462/2*log(1.5)", "value": 1.68, "tol": 0.02, "unit": "J/mol/K", "computed": 1.68561, "agrees": true}], "machine": "consistent"}
+{"id": "C1475", "verdict": "ok", "checks": [{"claim": "kappa=1/(z nu) with z=1, nu=2.38 (experiment)", "expr": "1/2.38", "value": 0.42, "tol": 0.05, "unit": "dimensionless", "computed": 0.420168, "agrees": true}], "machine": "consistent"}
+{"id": "C1483", "verdict": "ok", "checks": [{"claim": "beta coefficient 12 pi^4/5 (standard Debye)", "expr": "12*pi**4/5", "value": 233.8, "tol": 0.01, "unit": "dimensionless", "computed": 233.782, "agrees": true}], "machine": "consistent"}
+{"id": "C1485", "verdict": "ok", "checks": [{"claim": "Tc/TF for ideal Bose gas of molecules, m_B=2m, n_B=n/2: 2pi/(2*zeta(3/2)*3pi^2)^(2/3)", "expr": "2*pi/(2*2.612375*3*pi**2)**(2/3)", "value": 0.218, "tol": 0.03, "unit": "T_F", "computed": 0.218033, "agrees": true}], "machine": "consistent"}
+{"id": "C1504", "verdict": "ok", "checks": [{"claim": "Ginzburg number exponent (kTc/EF)^4", "expr": "4", "value": 4, "tol": 0.01, "unit": "dimensionless", "computed": 4.0, "agrees": true}], "machine": "consistent"}
+{"id": "C1505", "verdict": "ok", "checks": [{"claim": "Gi ∝ (kTc/(ΔC xi^3))^2, exponent 2", "expr": "2", "value": 2, "tol": 0.01, "unit": "dimensionless", "computed": 2.0, "agrees": true}], "machine": "consistent"}
+{"id": "C1506", "verdict": "minor", "checks": [{"claim": "Wilson ratio of the Kondo Fermi liquid", "expr": "2", "value": 2, "tol": 0.05, "unit": "dimensionless", "computed": 2.0, "agrees": true}], "issue": "dg/dlnD=-2g² and T_K~D e^{-1/2g} hold for H=J S·σ (Pauli matrices); for H=J S·s with s=σ/2 they become dg/dlnD=-g² and T_K~D e^{-1/g}, so the stated convention is off by a factor of 2.", "machine": "consistent"}
+{"id": "C1507", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1511", "verdict": "ok", "checks": [{"claim": "t_KH=GM²/(RL) for the Sun, SI, in yr", "expr": "6.674e-11*(1.989e30)**2/(6.957e8*3.828e26)/3.156e7", "value": 30000000.0, "tol": 0.25, "unit": "yr", "computed": 31414100.0, "agrees": true}], "machine": "consistent"}
+{"id": "C1512", "verdict": "ok", "checks": [{"claim": "1/eta with eta=6.1e-10", "expr": "1/6.1e-10", "value": 1600000000.0, "tol": 0.05, "unit": "dimensionless", "computed": 1639340000.0, "agrees": true}, {"claim": "k_B T at z=1090: 2.7255*(1+1090) K * 8.617e-5 eV/K", "expr": "2.7255*1091*8.617333e-5", "value": 0.26, "tol": 0.05, "unit": "eV", "computed": 0.256238, "agrees": true}], "machine": "consistent"}
+{"id": "C1514", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1516", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1519", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1523", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1526", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1527", "verdict": "ok", "checks": [{"claim": "(4/11)^(1/3)=T_nu/T_gamma", "expr": "(4/11)**(1/3)", "value": 0.714, "tol": 0.01, "unit": "dimensionless", "computed": 0.713766, "agrees": true}], "machine": "consistent"}
+{"id": "C1528", "verdict": "ok", "checks": [{"claim": "hbar/(m v) for m=1e-22 eV, v=10 km/s: hbar c=1.97327e-7 eV m, v/c=3.3356e-5, then convert to kpc", "expr": "1.97327e-7/(1e-22*10/299792.458)/3.0857e19", "value": 1.9, "tol": 0.05, "unit": "kpc", "computed": 1.91714, "agrees": true}], "machine": "consistent"}
+{"id": "C1534", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1535", "verdict": "ok", "checks": [{"claim": "Omega h² = 3e-27/<sigma v> at <sigma v>=3e-26", "expr": "3e-27/3e-26", "value": 0.12, "tol": 0.25, "unit": "dimensionless", "computed": 0.1, "agrees": true}], "machine": "consistent"}
+{"id": "C1537", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1538", "verdict": "ok", "checks": [{"claim": "E0=(E_G (kT)²/4)^(1/3) with E_G=2 mu c² (pi alpha)², 2mu c²=938.27 MeV (pp), kT=1.35 keV", "expr": "(938272*(pi/137.036)**2*1.35**2/4)**(1/3)", "value": 6, "tol": 0.1, "unit": "keV", "computed": 6.07933, "agrees": true}], "machine": "consistent"}
+{"id": "C1539", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1540", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1544", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1545", "verdict": "ok", "checks": [{"claim": "R/c for the Sun", "expr": "6.957e8/2.998e8", "value": 2, "tol": 0.25, "unit": "s", "computed": 2.32055, "agrees": true}], "machine": "consistent"}
+{"id": "C1549", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1558", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1562", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1564", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1565", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1584", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1595", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1596", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1600", "verdict": "none", "checks": [], "machine": "unchecked"}

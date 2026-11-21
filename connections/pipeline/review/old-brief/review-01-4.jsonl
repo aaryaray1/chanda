@@ -1,0 +1,104 @@
+{"id": "C0712", "verdict": "confirm"}
+{"id": "C0713", "verdict": "confirm"}
+{"id": "C0714", "verdict": "confirm"}
+{"id": "C0715", "verdict": "confirm"}
+{"id": "C0716", "verdict": "confirm"}
+{"id": "C0717", "verdict": "confirm"}
+{"id": "C0718", "verdict": "confirm"}
+{"id": "C0719", "verdict": "confirm"}
+{"id": "C0720", "verdict": "confirm"}
+{"id": "C0721", "verdict": "revise", "reason": "Rayleigh's drop has surface charge but the nucleus has volume charge. The instability is the same, and so is E_C=2E_S for ℓ=2, but the equations differ, so this is not an identity.", "fix": {"kind": "mechanism", "summary": "Bohr–Wheeler fission is the charged-drop instability Rayleigh analysed: surface tension restores and Coulomb repulsion drives the quadrupole mode. For both surface charge (Rayleigh) and uniform volume charge (nucleus), the sphere goes unstable at E_C = 2E_S (fissility x = 1). Superheavy nuclei survive only through shell corrections, and neck rupture parallels Rayleigh–Plateau pinch-off."}}
+{"id": "C0722", "verdict": "confirm"}
+{"id": "C0723", "verdict": "confirm"}
+{"id": "C0724", "verdict": "confirm"}
+{"id": "C0725", "verdict": "confirm"}
+{"id": "C0726", "verdict": "confirm"}
+{"id": "C0727", "verdict": "confirm"}
+{"id": "C0728", "verdict": "confirm"}
+{"id": "C0729", "verdict": "confirm"}
+{"id": "C0730", "verdict": "confirm"}
+{"id": "C0731", "verdict": "confirm"}
+{"id": "C0732", "verdict": "confirm"}
+{"id": "C0733", "verdict": "confirm"}
+{"id": "C0734", "verdict": "confirm"}
+{"id": "C0735", "verdict": "confirm"}
+{"id": "C0736", "verdict": "confirm"}
+{"id": "C0737", "verdict": "confirm"}
+{"id": "C0738", "verdict": "confirm"}
+{"id": "C0739", "verdict": "confirm"}
+{"id": "C0740", "verdict": "confirm"}
+{"id": "C0741", "verdict": "confirm"}
+{"id": "C0742", "verdict": "confirm"}
+{"id": "C0743", "verdict": "confirm"}
+{"id": "C0744", "verdict": "confirm"}
+{"id": "C0745", "verdict": "confirm"}
+{"id": "C0746", "verdict": "confirm"}
+{"id": "C0747", "verdict": "confirm"}
+{"id": "C0748", "verdict": "confirm"}
+{"id": "C0749", "verdict": "confirm"}
+{"id": "C0750", "verdict": "confirm"}
+{"id": "C0751", "verdict": "revise", "reason": "Maxwell counting is the working explanation of isostaticity at jamming, not just history. The G exponent 1/2 holds for harmonic, frictionless contacts.", "fix": {"kind": "mechanism", "summary": "Maxwell's 1864 constraint counting for the rigidity of frames explains why frictionless packings jam at the isostatic contact number z = 2d. Above jamming, with harmonic contacts, the shear modulus and the excess contacts grow as (φ−φ_J)^{1/2}."}}
+{"id": "C0752", "verdict": "confirm"}
+{"id": "C0753", "verdict": "confirm"}
+{"id": "C0754", "verdict": "confirm"}
+{"id": "C0755", "verdict": "confirm"}
+{"id": "C0756", "verdict": "confirm"}
+{"id": "C0757", "verdict": "confirm"}
+{"id": "C0758", "verdict": "confirm"}
+{"id": "C0759", "verdict": "confirm"}
+{"id": "C0760", "verdict": "confirm"}
+{"id": "C0761", "verdict": "confirm"}
+{"id": "C0762", "verdict": "confirm"}
+{"id": "C0763", "verdict": "confirm"}
+{"id": "C0764", "verdict": "confirm"}
+{"id": "C0765", "verdict": "confirm"}
+{"id": "C0766", "verdict": "revise", "reason": "Above the Aubry transition the ground state stays incommensurate and becomes pinned (a cantorus). It does not lock into a commensurate phase.", "fix": {"summary": "Equilibria of the Frenkel–Kontorova model are orbits of the standard (twist) map. At Aubry's analyticity-breaking transition the KAM torus describing an incommensurate ground state breaks into a cantorus: the phase stays incommensurate but becomes pinned, with a phason gap. Mode locking gives a devil's staircase of commensurate phases."}}
+{"id": "C0767", "verdict": "confirm"}
+{"id": "C0768", "verdict": "confirm"}
+{"id": "C0769", "verdict": "confirm"}
+{"id": "C0770", "verdict": "confirm"}
+{"id": "C0771", "verdict": "confirm"}
+{"id": "C0772", "verdict": "confirm"}
+{"id": "C0773", "verdict": "confirm"}
+{"id": "C0774", "verdict": "confirm"}
+{"id": "C0775", "verdict": "confirm"}
+{"id": "C0776", "verdict": "confirm"}
+{"id": "C0777", "verdict": "confirm"}
+{"id": "C0778", "verdict": "revise", "reason": "The summary calls it an analogue. The shared content is Bloch's theorem for periodic wave operators, which is a method transfer, not an identity.", "fix": {"kind": "method transfer"}}
+{"id": "C0779", "verdict": "confirm"}
+{"id": "C0780", "verdict": "confirm"}
+{"id": "C0781", "verdict": "confirm"}
+{"id": "C0782", "verdict": "confirm"}
+{"id": "C0783", "verdict": "confirm"}
+{"id": "C0784", "verdict": "revise", "reason": "Liouville conserves the fine-grained density. The maximum coarse-grained density can only decrease, and that is what gives the Tremaine–Gunn bound.", "fix": {"summary": "Liouville's theorem conserves the fine-grained phase-space density, so the maximum coarse-grained density can only decrease through mixing and violent relaxation. Comparing it with the primordial (or Pauli) maximum bounds halo core densities, which gives the Tremaine–Gunn limits on fermionic and warm dark-matter masses."}}
+{"id": "C0785", "verdict": "confirm"}
+{"id": "C0786", "verdict": "confirm"}
+{"id": "C0787", "verdict": "confirm"}
+{"id": "C0788", "verdict": "revise", "reason": "The Roche potential is the effective potential of the restricted three-body problem (Jacobi constant, L1). That is the few-body node, not generic Lagrangian mechanics.", "fix": {"a": "01-classical-mechanics/newtonian-mechanics/few-body-and-celestial-mechanics"}}
+{"id": "C0789", "verdict": "confirm"}
+{"id": "C0790", "verdict": "confirm"}
+{"id": "C0791", "verdict": "revise", "reason": "Blandford–McKee solves the relativistic Euler equations, not the Newtonian ones.", "fix": {"summary": "Sedov–Taylor and Blandford–McKee blast waves are self-similar solutions of the Euler equations, Newtonian and relativistic respectively. They are applied to supernova remnants, GRB afterglows and the shocks that accelerate cosmic rays."}}
+{"id": "C0792", "verdict": "confirm"}
+{"id": "C0793", "verdict": "revise", "reason": "The Schwarzschild criterion is the inviscid, adiabatic buoyancy limit, not Rayleigh–Bénard with diffusion. The link is a shared mechanism.", "fix": {"kind": "mechanism", "summary": "Stellar convection is buoyancy-driven instability, the same physics as Rayleigh–Bénard convection in its inviscid limit at enormous Rayleigh numbers. Onset follows the Schwarzschild (or Ledoux) criterion, and the transport is modelled with mixing-length theory."}}
+{"id": "C0794", "verdict": "confirm"}
+{"id": "C0795", "verdict": "confirm"}
+{"id": "C0796", "verdict": "revise", "reason": "Supersonic molecular-cloud turbulence is compressible and shock-dominated, with E(k)∝k^{-2} (Burgers-like), not Kolmogorov-like.", "fix": {"summary": "Supersonic, compressible turbulence in molecular clouds (Burgers-like spectrum E∝k^{-2}, log-normal density PDF) sets the density structure and fragmentation, and so may shape the stellar initial mass function."}}
+{"id": "C0797", "verdict": "revise", "reason": "MOND is a proposed modification of the Newtonian force law, not an analogy to it. It is also contested.", "fix": {"kind": "mechanism", "summary": "MOND (contested) modifies Newtonian dynamics below an acceleration scale a_0 ≈ 1.2×10^-10 m/s², reproducing flat rotation curves and the baryonic Tully–Fisher relation without dark matter."}}
+{"id": "C0798", "verdict": "confirm"}
+{"id": "C0799", "verdict": "confirm"}
+{"id": "C0800", "verdict": "revise", "reason": "Bullet Cluster constraints come from offsets between lensing mass and gas, and from subcluster survival, not mainly from collision kinematics. This is a weak link.", "fix": {"strength": 1, "summary": "In merging clusters (e.g. the Bullet Cluster), collisional gas is shocked and slowed while galaxies and dark matter pass through. The offset between lensing mass and X-ray gas, and the survival of the subcluster, bound dark-matter self-interaction at σ/m ≲ 1 cm²/g."}}
+{"id": "C0801", "verdict": "revise", "reason": "The virial theorem comes from time-averaging d(Σp·r)/dt for a bound system, not from energy and momentum conservation.", "fix": {"summary": "The virial theorem, from time-averaging d(Σ p·r)/dt for a bound self-gravitating system, estimates cluster dynamical masses from galaxy velocity dispersions. This is how Zwicky found the missing mass."}}
+{"id": "C0802", "verdict": "confirm"}
+{"id": "C0803", "verdict": "confirm"}
+{"id": "C0804", "verdict": "confirm"}
+{"id": "C0805", "verdict": "confirm"}
+{"id": "C0806", "verdict": "confirm"}
+{"id": "C0807", "verdict": "confirm"}
+{"id": "C0808", "verdict": "revise", "reason": "Ensembles in population synthesis mainly sample initial conditions. The chaos link is specifically about few-body scattering being treated statistically.", "fix": {"summary": "Few-body stellar encounters (binary–single scattering, unstable triples) are chaotic, and N-body systems show Miller's exponential instability. Outcomes are therefore treated statistically, with cross sections and ensembles of integrations, in cluster dynamics and binary-population models."}}
+{"id": "C0809", "verdict": "confirm"}
+{"id": "C0810", "verdict": "confirm"}
+{"id": "C0811", "verdict": "confirm"}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/newtonian-mechanics/few-body-and-celestial-mechanics", "b": "09-astrophysics-and-cosmology/stellar-astrophysics/binary-stars-and-stellar-populations", "name": "von Zeipel–Lidov–Kozai oscillations in hierarchical triples", "kind": "mechanism", "summary": "Secular (orbit-averaged) perturbations from a distant third body trade inner-orbit eccentricity against inclination while conserving the Kozai constant. Combined with tidal friction, this produces close binaries, hot Jupiters and accelerated compact-object mergers.", "map": "\\sqrt{1-e^2}\\cos i=\\text{const},\\ i_{\\rm crit}\\approx39.2^\\circ", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/oscillations-and-waves/parametric-and-nonlinear-oscillations", "b": "09-astrophysics-and-cosmology/cosmology/inflation", "name": "Preheating as Mathieu parametric resonance", "kind": "method transfer", "summary": "After inflation the oscillating inflaton periodically modulates the effective mass of the fields it couples to. Their modes obey a Mathieu equation, and those inside instability bands grow exponentially, giving explosive preheating before thermalization.", "map": "\\ddot\\chi_k+[A_k-2q\\cos2z]\\chi_k=0,\\ q=\\frac{g^2\\Phi^2}{4m^2}", "breaks": "", "confidence": "established", "strength": 2, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/oscillations-and-waves/mechanical-waves-and-acoustics", "b": "09-astrophysics-and-cosmology/stellar-astrophysics/stellar-structure-and-evolution", "name": "Asteroseismology: stars as acoustic resonators", "kind": "method transfer", "summary": "Solar and stellar p-modes are standing sound waves trapped between the surface and an inner turning point. Their frequency spacings measure sound speed, density and age, and mixed modes probe red-giant cores.", "map": "\\Delta\\nu=\\left(2\\int_0^R\\frac{dr}{c_s}\\right)^{-1},\\ \\nu_{n\\ell}\\approx\\Delta\\nu\\left(n+\\tfrac{\\ell}{2}+\\epsilon\\right)", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"verdict": "add", "record": {"a": "01-classical-mechanics/continuum-and-fluid-mechanics/instabilities-and-convection", "b": "09-astrophysics-and-cosmology/planetary-science-and-exoplanets/planet-formation-and-protoplanetary-disks", "name": "Rayleigh centrifugal stability and disk instabilities", "kind": "mechanism", "summary": "Keplerian disks satisfy Rayleigh's criterion for rotating flows, so they are hydrodynamically stable. Turbulence needs a weak magnetic field (MRI) or other instabilities, such as vertical shear or streaming, to transport angular momentum and drive accretion.", "map": "\\kappa^2=\\frac{1}{r^3}\\frac{d(r^4\\Omega^2)}{dr}>0\\ (\\text{Rayleigh});\\ \\frac{d\\Omega^2}{d\\ln r}<0\\ (\\text{MRI})", "breaks": "", "confidence": "established", "strength": 2, "sources": []}}

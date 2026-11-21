@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
-"""Resumable connection-discovery pipeline: work queue, ingestion, specialist review packets, finalize, snapshots."""
+"""Resumable connection-discovery pipeline: work queue, ingestion, specialist review packets, finalize, snapshots, numerical audit."""
 from __future__ import annotations
 
 import argparse
+import ast
 import contextlib
 import datetime as dt
 import io
 import json
+import math
 import os
 import re
 import shutil
@@ -19,7 +21,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 PIPE = ROOT / "connections" / "pipeline"
-DISC, REVIEW, WORK = PIPE / "discovery", PIPE / "review", PIPE / "work"
+DISC, REVIEW, WORK, AUDIT = PIPE / "discovery", PIPE / "review", PIPE / "work", PIPE / "audit"
 STATE, CONFIG, MERGED = PIPE / "state.json", PIPE / "config.json", PIPE / "merged.jsonl"
 BACKUP, FAILED, LOG = PIPE / "state.json.bak", PIPE / "work" / "failed", PIPE / "runs.log"
 REGISTRY = ROOT / "connections" / "registry.jsonl"
@@ -39,8 +41,11 @@ ASSIGN = {"00": ["01", "02", "03", "04", "05", "06"], "01": ["02", "03", "04", "
           "06": ["07", "08", "09", "10", "11"], "07": ["08", "09", "10", "11", "00"], "08": ["09", "10", "11", "00", "01"],
           "09": ["10", "11", "00", "01", "02"], "10": ["11", "00", "01", "02", "03"], "11": ["00", "01", "02", "03", "04"]}
 DEFAULT_CONFIG = {"units_per_run": 4, "max_units_per_day": 30, "max_attempts": 4, "review_chunk": 100,
-                  "model": {"discovery": "sonnet", "review": ""}, "effort": {"discovery": "medium", "review": "medium"},
-                  "last_attempt_model": {"discovery": "opus", "review": ""}, "max_budget_usd": {"discovery": 1.5, "review": 8},
+                  "model": {"discovery": "sonnet", "review": "", "audit": "sonnet"},
+                  "effort": {"discovery": "medium", "review": "medium", "audit": "medium"},
+                  "last_attempt_model": {"discovery": "opus", "review": "", "audit": ""},
+                  "max_budget_usd": {"discovery": 1.5, "review": 8, "audit": 2},
+                  "audit": {"enabled": False, "per_day": 2, "chunk": 40},
                   "cooldown_minutes": 60, "transient_cooldown_minutes": 15, "interval_hours": 2, "stale_running_hours": 3,
                   "unit_timeout_minutes": 45, "stall_hours": 24, "stage_gate": {}}
 MAX_TRANSIENT_REFUNDS, MAX_INTERRUPT_REFUNDS = 6, 2
@@ -48,6 +53,15 @@ MONTHS = ("jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", 
 WEEKDAYS = ("mon", "tue", "wed", "thu", "fri", "sat", "sun")
 RECORD_KEYS = ("id", "a", "b", "name", "kind", "status", "summary", "map", "breaks", "confidence", "strength", "sources", "review")
 EDITABLE = ("a", "b", "name", "kind", "summary", "map", "breaks", "confidence", "strength", "sources")
+_NUM = r"(?<![A-Za-z_\\])(?:\d+(?:\.\d+)?(?:\s*(?:×|\\times|x)\s*10\^?\{?[-−]?\d+\}?)?|10\^\{?[-−]?\d+\}?)"
+_UNIT = (r"(?:%|K\b|mK|μK|nK|meV|eV|keV|MeV|GeV|TeV|Hz|kHz|MHz|GHz|THz|T\b|nT|μT|G\b|nm|μm|mm|cm|km|pc|kpc|Mpc|Gpc|ms|μs|ns|fs|ps|"
+         r"as\b|s\b|yr|years|Gyr|Myr|kg|W\b|J\b|Pa|GPa|bar|M_?☉|M_?\\odot|solar mass|fm|Å|AU|ly|dB|V\b|kV|MV|A\b|mA|C\b|ohm|Ω|m\b|"
+         r"m/s|g/cm|barn|mb|nb|pb|fb)")
+QUANT = re.compile(rf"{_NUM}\s*(?:\\,|\\ |~)?\s*(?:\\(?:text|mathrm)\{{)?\s*{_UNIT}|(?:≈|∼|≃|\\approx|\\sim|\\simeq|~)\s*{_NUM}|"
+                   r"10\^\{?[-−]?\d+\}?|\d\s*(?:×|\\times)\s*10", re.I)
+SAFE_FUNCS = {k: getattr(math, k) for k in ("sqrt", "exp", "log", "log10", "sin", "cos", "tan", "asin", "acos", "atan", "sinh", "cosh", "tanh")}
+SAFE_FUNCS["abs"] = abs
+SAFE_NAMES = {"pi": math.pi, "e": math.e}
 
 
 def now() -> dt.datetime:
@@ -244,9 +258,19 @@ def review_units() -> list[str]:
     return sorted(f"review-{p.stem.removeprefix('packet-')}" for p in REVIEW.glob("packet-*.jsonl"))
 
 
+def audit_units() -> list[str]:
+    return sorted(f"audit-{p.stem.removeprefix('packet-')}" for p in AUDIT.glob("packet-*.jsonl"))
+
+
+def stage_units(stage: str) -> list[str]:
+    return {"discovery": discovery_units, "review": review_units, "audit": audit_units}.get(stage, list)()
+
+
 def unit_done(unit: str, cov: Counter | None = None) -> bool:
     if unit.startswith("discover-"):
         return bool((cov if cov is not None else covered_pairs()).get(unit_pair(unit)))
+    if unit.startswith("audit-"):
+        return bool(read_jsonl(AUDIT / f"{unit}.jsonl"))
     return bool(read_jsonl(REVIEW / f"review-{unit.removeprefix('review-')}.jsonl"))
 
 
@@ -260,9 +284,9 @@ def runnable(unit: str, state: dict, cfg: dict) -> bool:
     return True
 
 
-def completed_today(state: dict) -> int:
+def completed_today(state: dict, prefix: str = "") -> int:
     today = now().date().isoformat()
-    return sum(1 for c in state["completed"] if c.get("at", "").startswith(today))
+    return sum(1 for c in state["completed"] if c.get("at", "").startswith(today) and c.get("unit", "").startswith(prefix))
 
 
 def exhausted(state: dict, cfg: dict, units: list[str]) -> list[str]:
@@ -317,17 +341,22 @@ def cmd_status(args) -> int:
     revs = review_units()
     if revs:
         out(f"review: {sum(1 for u in revs if unit_done(u))}/{len(revs)} packets reviewed")
+    audits = audit_units()
+    if audits or state.get("audit"):
+        out(f"audit: {sum(1 for u in audits if unit_done(u))}/{len(audits)} packets audited"
+            + (" (finished; see connections/pipeline/audit/report.md)" if state.get("audit") == "finished" else "")
+            + f" · today {completed_today(state, 'audit-')}/{cfg['audit']['per_day']}")
     if REGISTRY.exists():
         rows = read_jsonl(REGISTRY)
         out(f"registry: {len(rows)} connections ({sum(1 for r in rows if 'checked by' in r.get('review', ''))} specialist-checked)")
-    pending = [u for u in (disc if state["stage"] == "discovery" else revs) if not unit_done(u, cov)]
+    pending = [u for u in stage_units(state["stage"]) if not unit_done(u, cov)]
     for u in pending[: args.n]:
         info = state["units"].get(u, {})
         out(f"  {u:22} {info.get('status', 'todo'):9} attempts {info.get('attempts', 0)}  {info.get('note', '')[:70]}")
     return 0
 
 
-def advance(state: dict) -> None:
+def advance(state: dict, cfg: dict) -> None:
     cov = covered_pairs()
     if state["stage"] == "discovery" and all(unit_done(u, cov) for u in discovery_units()):
         prepare()
@@ -335,6 +364,13 @@ def advance(state: dict) -> None:
     if state["stage"] == "review" and review_units() and all(unit_done(u) for u in review_units()):
         finalize()
         state["stage"] = "done"
+    if state["stage"] == "done" and cfg["audit"].get("enabled") and state.get("audit") != "finished":
+        if not audit_units():
+            prepare_audit(cfg)
+        state["stage"], state["audit"] = "audit", "running"
+    if state["stage"] == "audit" and all(unit_done(u) for u in audit_units()):
+        audit_report()
+        state["stage"], state["audit"] = "done", "finished"
     save_state(state)
 
 
@@ -346,7 +382,7 @@ def cmd_next(args) -> int:
         return 0
     buf = io.StringIO()
     with contextlib.redirect_stdout(buf):
-        advance(state)
+        advance(state, cfg)
     for line in buf.getvalue().splitlines():
         if line.strip():
             out(f"INFO\t{line.strip()}")
@@ -357,12 +393,14 @@ def cmd_next(args) -> int:
     if kind == "HANDOFF" or kind and not args.ignore_wait:
         out(f"{kind}\t{why}")
         return 0
-    budget =min(args.n or cfg["units_per_run"], max(0, cfg["max_units_per_day"] - completed_today(state)))
+    budget = min(args.n or cfg["units_per_run"], max(0, cfg["max_units_per_day"] - completed_today(state)))
+    if state["stage"] == "audit":
+        budget = min(budget, max(0, int(cfg["audit"].get("per_day", 2)) - completed_today(state, "audit-")))
     if budget == 0:
         out("CAPPED")
         return 0
     cov, stage = covered_pairs(), state["stage"]
-    pending = [u for u in (discovery_units() if stage == "discovery" else review_units()) if not unit_done(u, cov)]
+    pending = [u for u in stage_units(stage) if not unit_done(u, cov)]
     picked = [u for u in pending if runnable(u, state, cfg)][:budget]
     stuck = exhausted(state, cfg, pending)
     if stuck and not picked:
@@ -447,6 +485,12 @@ def unit_prompt(unit: str) -> str:
         scope = f"{a}-within (links between different subfields of {TITLES[a]})" if a == b else f"{a}-{b} ({TITLES[a]} with {TITLES[b]})"
         return "\n\n".join([(PIPE / "brief-discovery.md").read_text(encoding="utf-8"), "---", f"# Your set: {scope}",
                             discovery_context(a, b)])
+    if unit.startswith("audit-"):
+        rows = read_jsonl(AUDIT / f"packet-{unit.removeprefix('audit-')}.jsonl")
+        shown = "\n".join(json.dumps({k: r.get(k, "") for k in ("id", "name", "a", "b", "summary", "map", "breaks")}, ensure_ascii=False)
+                          for r in rows)
+        return "\n\n".join([(PIPE / "brief-audit.md").read_text(encoding="utf-8"), "---",
+                            f"# Audit packet {unit} ({len(rows)} records)", shown])
     packet = unit.removeprefix("review-")
     field = packet.split("-")[0]
     rows = read_jsonl(REVIEW / f"packet-{packet}.jsonl")
@@ -461,7 +505,7 @@ def unit_prompt(unit: str) -> str:
 
 def cmd_prompt(args) -> int:
     text = unit_prompt(args.unit)
-    if len(text) < 2000 or "# Your set" not in text and "# Packet" not in text:
+    if len(text) < 2000 or not any(tag in text for tag in ("# Your set", "# Packet", "# Audit packet")):
         sys.stderr.write(f"prompt for {args.unit} looks broken ({len(text)} chars); not writing it\n")
         return 1
     if args.out:
@@ -553,7 +597,7 @@ def health(state: dict, cfg: dict) -> list[tuple[str, str, str]]:
     t, rows = now(), []
     add = lambda level, key, msg: rows.append((level, key, msg))
     stage, cov = state["stage"], covered_pairs()
-    pool = discovery_units() if stage == "discovery" else review_units() if stage == "review" else []
+    pool = stage_units(stage)
     pending = [u for u in pool if not unit_done(u, cov)]
     add("OK", "progress", f"stage {stage}: {len(pool) - len(pending)}/{len(pool)} units done, {len(pending)} pending, "
                           f"{completed_today(state)}/{cfg['max_units_per_day']} today")
@@ -578,7 +622,8 @@ def health(state: dict, cfg: dict) -> list[tuple[str, str, str]]:
     if capped:
         add("WARN", "budget", f"hit the per-unit budget cap: {', '.join(capped)}; raise `max_budget_usd` in config.json if this repeats")
     last = max((parse_time(c.get("at")) for c in state["completed"]), default=None, key=lambda d: d or dt.datetime.min)
-    if stage != "done" and last and t - last > dt.timedelta(hours=cfg["stall_hours"]) and not wait:
+    stall = cfg["stall_hours"] * (2 if stage == "audit" else 1)  # the audit runs a couple of units a day, so allow a longer gap
+    if stage != "done" and last and t - last > dt.timedelta(hours=stall) and not wait:
         add("FAIL", "stalled", f"no unit has completed since {last:%Y-%m-%d %H:%M}; see runs.log and `doctor`")
     logged = last_log_time()
     if stage != "done" and logged and not held and t - logged > dt.timedelta(hours=2 * cfg["interval_hours"] + 1):
@@ -596,7 +641,7 @@ def health(state: dict, cfg: dict) -> list[tuple[str, str, str]]:
         if not MERGED.exists():
             add("FAIL", "merged", "merged.jsonl is missing; run `python -I scripts/connections_pipeline.py prepare`")
     reg = read_jsonl(REGISTRY)
-    add("OK" if reg else "WARN", "registry", f"registry: {len(reg)} connections" + (" (final)" if stage == "done" else " (interim)"))
+    add("OK" if reg else "WARN", "registry", f"registry: {len(reg)} connections" + (" (final)" if stage in ("done", "audit") else " (interim)"))
     free = shutil.disk_usage(ROOT).free / 2 ** 30
     if free < 1:
         add("WARN", "disk", f"only {free:.1f} GB free on the project drive")
@@ -742,6 +787,16 @@ def cmd_ingest(args) -> int:
         if ok:
             write_jsonl(DISC / f"batch-{args.unit.removeprefix('discover-')}.jsonl", kept)
         note = f"{len(kept)} valid of {len(raw)} records"
+    elif args.unit.startswith("audit-"):
+        ids = {r["id"] for r in read_jsonl(AUDIT / f"packet-{args.unit.removeprefix('audit-')}.jsonl")}
+        verdicts = [machine_check(v) for v in raw if v.get("id") in ids and v.get("verdict") in ("ok", "minor", "error", "none")]
+        covered = {v["id"] for v in verdicts}
+        ok = bool(ids) and len(covered) >= 0.6 * len(ids)
+        if ok:
+            write_jsonl(AUDIT / f"{args.unit}.jsonl", verdicts)
+        c = Counter(v["verdict"] for v in verdicts)
+        note = (f"{len(covered)}/{len(ids)} audited: {c['error']} error, {c['minor']} minor, {c['ok']} ok, {c['none']} none; "
+                f"{sum(1 for v in verdicts if v.get('machine') == 'mismatch')} arithmetic mismatches")
     else:
         packet = args.unit.removeprefix("review-")
         ids = {r["id"] for r in read_jsonl(REVIEW / f"packet-{packet}.jsonl")}
@@ -846,6 +901,34 @@ def verify_sources(records: list[dict]) -> set:
     return bad | {w for w, line in zip(where, lines) if not re.search(r"\[(?:arXiv|doi):", line, re.I)}
 
 
+DUP_REASON = re.compile(r"^\s*duplicat\w*\s+(?:of\s+)?(C\d{4,})", re.I)
+
+
+def dup_target(v: dict, rid: str, merged: dict) -> str:
+    m = DUP_REASON.match(str(v.get("reason", "")))
+    target = str(v.get("duplicate_of") or (m.group(1) if m else ""))
+    return target if v.get("verdict") == "reject" and target in merged and target != rid else ""
+
+
+def duplicate_drops(merged: dict, verdicts: dict) -> dict:
+    dupes = {}
+    for rid, vs in verdicts.items():
+        sides = {merged[rid]["a"][:2], merged[rid]["b"][:2]}
+        for v in vs:
+            if v["field"] in sides and dup_target(v, rid, merged):
+                dupes[rid] = dup_target(v, rid, merged)
+    drops = {}
+    for rid in dupes:
+        path, cur = [], rid
+        while cur in dupes and cur not in path:
+            path.append(cur)
+            cur = dupes[cur]
+        survivor = min(path[path.index(cur):]) if cur in path else cur  # a cycle keeps its lowest id
+        if survivor != rid:
+            drops[rid] = survivor
+    return drops
+
+
 def finalize(force: bool = False) -> None:
     merged = {r["id"]: r for r in read_jsonl(MERGED)}
     verdicts, additions = defaultdict(list), []
@@ -859,8 +942,12 @@ def finalize(force: bool = False) -> None:
                     additions.append(rec)
             elif v.get("id") in merged:
                 verdicts[v["id"]].append(dict(v, field=field))
+    drops = duplicate_drops(merged, verdicts)
     kept, rejected = [], []
     for rid, rec in merged.items():
+        if rid in drops:
+            rejected.append({"id": rid, "name": rec["name"], "why": f"duplicate of {drops[rid]}"})
+            continue
         sides = {rec["a"][:2], rec["b"][:2]}
         vs = [v for v in verdicts.get(rid, []) if v["field"] in sides]
         for v in vs:
@@ -869,7 +956,7 @@ def finalize(force: bool = False) -> None:
                     if key in EDITABLE and value not in (None, ""):
                         rec[key] = value
         rec = normalize(rec) or rec
-        rejects = [v for v in vs if v.get("verdict") == "reject"]
+        rejects = [v for v in vs if v.get("verdict") == "reject" and not dup_target(v, rid, merged)]
         confirms = [v for v in vs if v.get("verdict") in ("confirm", "revise")]
         if rejects and not confirms:
             rejected.append({"id": rid, "name": rec["name"], "why": "; ".join(str(v.get("reason", "")) for v in rejects)})
@@ -901,13 +988,167 @@ def finalize(force: bool = False) -> None:
     write_jsonl(REGISTRY, [{k: r.get(k, "") for k in RECORD_KEYS} for r in kept])
     write_text(PIPE / "rejected.json", json.dumps(rejected, indent=1, ensure_ascii=False))
     out(f"tree check: {rebuild_tree(check=True)}")
-    out(f"finalized: {len(kept)} connections in the registry, {len(rejected)} rejected, {len(bad)} unverifiable sources dropped")
+    out(f"finalized: {len(kept)} connections in the registry, {len(rejected)} rejected ({len(drops)} as duplicates), "
+        f"{len(bad)} unverifiable sources dropped")
+
+
+def safe_eval(expr) -> float | None:
+    def ev(node):
+        if isinstance(node, ast.Expression):
+            return ev(node.body)
+        if isinstance(node, ast.Constant) and isinstance(node.value, (int, float)) and not isinstance(node.value, bool):
+            return float(node.value)
+        if isinstance(node, ast.Name) and node.id in SAFE_NAMES:
+            return SAFE_NAMES[node.id]
+        if isinstance(node, ast.UnaryOp) and isinstance(node.op, (ast.UAdd, ast.USub)):
+            x = ev(node.operand)
+            return -x if isinstance(node.op, ast.USub) else x
+        if isinstance(node, ast.BinOp) and isinstance(node.op, (ast.Add, ast.Sub, ast.Mult, ast.Div, ast.Pow)):
+            a, b = ev(node.left), ev(node.right)
+            if isinstance(node.op, ast.Pow):
+                if abs(b) > 400 or abs(a) > 1e100:
+                    raise ValueError("power out of range")
+                return a ** b
+            return a + b if isinstance(node.op, ast.Add) else a - b if isinstance(node.op, ast.Sub) else \
+                a * b if isinstance(node.op, ast.Mult) else a / b
+        if isinstance(node, ast.Call) and isinstance(node.func, ast.Name) and node.func.id in SAFE_FUNCS and len(node.args) == 1 \
+                and not node.keywords:
+            return float(SAFE_FUNCS[node.func.id](ev(node.args[0])))
+        raise ValueError(f"not allowed: {type(node).__name__}")
+    try:
+        text = str(expr).replace("^", "**").replace("×", "*").replace("−", "-").strip()
+        if not text or len(text) > 300:
+            return None
+        x = ev(ast.parse(text, mode="eval"))
+        return x if isinstance(x, float) and math.isfinite(x) else None
+    except (ValueError, TypeError, SyntaxError, ZeroDivisionError, OverflowError, RecursionError, MemoryError):
+        return None
+
+
+def agrees(computed: float, value, tol) -> bool | None:
+    try:
+        value = float(str(value).replace("−", "-"))
+    except (TypeError, ValueError):
+        return None
+    if tol == "order":
+        return computed * value > 0 and abs(math.log10(computed / value)) <= math.log10(3)
+    try:
+        tol = min(1.0, max(0.001, float(tol)))
+    except (TypeError, ValueError):
+        tol = 0.15
+    return abs(computed - value) <= tol * abs(value) if value else abs(computed) <= 1e-12
+
+
+def machine_check(v: dict) -> dict:
+    v = dict(v)
+    checks, results = [], []
+    for c in (v.get("checks") or [])[:6]:
+        if not isinstance(c, dict):
+            continue
+        c = dict(c)
+        x = safe_eval(c.get("expr"))
+        c["computed"] = None if x is None else float(f"{x:.6g}")
+        c["agrees"] = None if x is None else agrees(x, c.get("value"), c.get("tol", 0.15))
+        results.append(c["agrees"])
+        checks.append(c)
+    v["checks"] = checks
+    v["machine"] = "mismatch" if False in results else "consistent" if results and all(results) else "unchecked"
+    return v
+
+
+def prepare_audit(cfg: dict) -> None:
+    rows = [r for r in read_jsonl(REGISTRY) if QUANT.search(" ".join(str(r.get(k, "")) for k in ("summary", "map", "breaks")))]
+    chunk = int(cfg["audit"].get("chunk", 40))
+    for old in AUDIT.glob("packet-*.jsonl"):
+        old.unlink()
+    for k in range(0, len(rows), chunk):
+        write_jsonl(AUDIT / f"packet-{k // chunk + 1:03d}.jsonl",
+                    [{key: r.get(key, "") for key in ("id", "a", "b", "name", "summary", "map", "breaks")} for r in rows[k:k + chunk]])
+    out(f"prepared {len(rows)} quantitative connections into {len(audit_units())} audit packets")
+
+
+def audit_verdicts() -> list[dict]:
+    return [v for path in sorted(AUDIT.glob("audit-*.jsonl")) for v in read_jsonl(path)]
+
+
+def latest_verdicts() -> list[dict]:
+    best = {}
+    for v in audit_verdicts():  # audit-manual.jsonl sorts last, and a hand review overrides the model
+        if v.get("id") and (v.get("source") == "manual" or best.get(v["id"], {}).get("source") != "manual"):
+            best[v["id"]] = v
+    return list(best.values())
+
+
+def audit_report() -> None:
+    reg, verdicts = {r["id"]: r for r in read_jsonl(REGISTRY)}, latest_verdicts()
+    applied = {rid for rid, r in reg.items() if "; audit " in (r.get("review") or "")}
+    c = Counter(v.get("verdict") for v in verdicts)
+    errors = [v for v in verdicts if v.get("verdict") == "error" and v["id"] not in applied]
+    fixed = [v for v in verdicts if v["id"] in applied]
+    dismissed = [v for v in verdicts if v.get("machine") == "dismissed"]
+    mismatches = [v for v in verdicts if v.get("verdict") != "error" and v.get("machine") == "mismatch"]
+    seen = {v["id"] for v in verdicts}
+    skipped = [r["id"] for u in audit_units() if unit_done(u)
+               for r in read_jsonl(AUDIT / f"packet-{u.removeprefix('audit-')}.jsonl") if r.get("id") not in seen]
+    lines = ["# Numerical audit of the connection registry", "",
+             f"Generated {now():%Y-%m-%d %H:%M} from {len(audit_units())} audit packets "
+             f"({sum(1 for u in audit_units() if unit_done(u))} done). Records audited: {len(verdicts)}.",
+             f"- {c['error']} error, {c['minor']} minor, {c['ok']} ok, {c['none']} with nothing to check.",
+             f"- {len(mismatches)} more have an arithmetic mismatch that the auditor did not call an error: either the record "
+             "or the auditor's check is wrong.",
+             f"- {len(skipped)} in finished packets got no verdict{': ' + ', '.join(skipped) if skipped else ''}. "
+             "Audit them by hand into audit/audit-manual.jsonl." if skipped else "- Every record in a finished packet has a verdict.", "",
+             "Nothing here is applied automatically. Check a record, preview its fix with "
+             "`python -I scripts/connections_pipeline.py apply-audit C0123 --dry-run`, then run it without `--dry-run`.", ""]
+    for title, group in (("Errors to check", errors), ("Arithmetic mismatches to look at", mismatches),
+                         ("Fixed in the registry", fixed), ("Dismissed after a hand check", dismissed)):
+        lines += [f"## {title} ({len(group)})", ""]
+        for v in group:
+            lines.append(f"- **{v['id']}** {reg.get(v['id'], {}).get('name', '?')}: {v.get('issue') or v.get('review') or 'no issue stated'}")
+            for ch in v.get("checks") or []:
+                state = {True: "agrees", False: "MISMATCH", None: "not evaluated"}[ch.get("agrees")]
+                lines.append(f"  - {ch.get('claim', '')}: `{ch.get('expr', '')}` = {ch.get('computed')} vs stated "
+                             f"{ch.get('value')} {ch.get('unit', '')} → {state}")
+            if v.get("fix"):
+                lines.append(f"  - fix: {json.dumps(v['fix'], ensure_ascii=False)}")
+        lines.append("")
+    write_text(AUDIT / "report.md", "\n".join(lines))
+    out(f"audit report: {len(errors)} errors to check, {len(mismatches)} arithmetic mismatches, {len(skipped)} skipped, "
+        f"{len(fixed)} fixed, {len(dismissed)} dismissed, in connections/pipeline/audit/report.md")
+
+
+def cmd_apply_audit(args) -> int:
+    fixes = {}
+    for v in sorted(audit_verdicts(), key=lambda v: v.get("source") == "manual"):  # a hand-checked fix wins
+        if isinstance(v.get("fix"), dict):
+            fixes[v["id"]] = v
+    rows = read_jsonl(REGISTRY)
+    by_id, applied = {r["id"]: r for r in rows}, []
+    for rid in args.ids:
+        v, rec = fixes.get(rid), by_id.get(rid)
+        if not (v and rec):
+            warn(f"{rid}: {'no audit fix for it' if rec else 'not in the registry'}; skipped")
+            continue
+        changed = [k for k, val in v["fix"].items() if k in ("summary", "map", "breaks") and isinstance(val, str) and val.strip()
+                   and val.strip() != rec.get(k)]
+        for k in changed:
+            out(f"{rid} {k}:\n  - {rec.get(k)}\n  + {v['fix'][k].strip()}")
+            if not args.dry_run:
+                rec[k] = v["fix"][k].strip()
+        if changed and not args.dry_run:
+            rec["review"] = (rec.get("review") or "") + f"; audit {now():%Y-%m-%d}: corrected {', '.join(changed)} ({str(v.get('issue', ''))[:160]})"
+            applied.append(rid)
+    if applied:
+        write_jsonl(REGISTRY, [{k: r.get(k, "") for k in RECORD_KEYS} for r in rows])
+        out(f"tree check: {rebuild_tree(check=True)}")
+    out(f"{'would apply' if args.dry_run else 'applied'} audit fixes: {', '.join(applied) or ('see above' if args.dry_run else 'none')}")
+    return 0
 
 
 def cmd_snapshot(args) -> int:
     state = load_state()
-    if state["stage"] == "done":
-        out("pipeline finished; registry is final")
+    if state["stage"] in ("done", "audit"):
+        out("registry is final; no snapshot" + (" (numerical audit running)" if state["stage"] == "audit" else ""))
         return 0
     rows = merged_discovery()
     for i, rec in enumerate(rows, 1):
@@ -972,6 +1213,11 @@ def main() -> int:
     p = sub.add_parser("snapshot", help="interim registry from discovery so far + rebuild map and codices")
     p.set_defaults(func=cmd_snapshot)
     sub.add_parser("prepare").set_defaults(func=lambda a: prepare() or 0)
+    sub.add_parser("audit-report", help="rewrite audit/report.md from the audit verdicts so far").set_defaults(func=lambda a: audit_report() or 0)
+    p = sub.add_parser("apply-audit", help="apply the audit's corrected text to these registry records, after you have checked them")
+    p.add_argument("ids", nargs="+")
+    p.add_argument("--dry-run", action="store_true", help="show the changes without writing them")
+    p.set_defaults(func=cmd_apply_audit)
     p = sub.add_parser("finalize")
     p.add_argument("--force", action="store_true", help="write the registry even if most connections were rejected")
     p.set_defaults(func=lambda a: finalize(a.force) or 0)

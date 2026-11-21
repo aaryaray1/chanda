@@ -25,8 +25,8 @@ find "$ROOT/scripts" -type f \( -name '*.sh' -o -name '*.py' -o -name '*.service
 chmod +x "$ROOT"/scripts/server/*.sh "$ROOT"/scripts/*.py
 
 say "Claude Code and Bun"
-if ! command -v claude >/dev/null; then
-  echo "installing Claude Code (official installer)"
+if ! PATH="$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin" command -v claude >/dev/null; then
+  echo "installing Claude Code (official installer; the systemd units can't see an nvm/npm install)"
   curl -fsSL https://claude.ai/install.sh | bash
 fi
 claude --version

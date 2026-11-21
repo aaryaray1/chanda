@@ -12,6 +12,9 @@ if [ -f "$HOME/.config/chanda/env" ]; then
 fi
 unset ANTHROPIC_API_KEY
 [ "${CHANDA_AGENT_USE_TOKEN:-0}" = "1" ] || unset CLAUDE_CODE_OAUTH_TOKEN
+if [ -n "${CHANDA_AGENT_SUBAGENT_MODEL:-}" ]; then  # forces every specialist/subagent onto this model, overriding `model: inherit`
+  export CLAUDE_CODE_SUBAGENT_MODEL="$CHANDA_AGENT_SUBAGENT_MODEL" CLAUDE_CODE_SUBAGENT_MODEL_FORCE=1
+fi
 export PATH="$HOME/.local/bin:$HOME/.bun/bin:$PATH"
 while true; do
   now=$(date +%s)

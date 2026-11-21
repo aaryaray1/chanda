@@ -1,0 +1,100 @@
+{"id": "C0321", "verdict": "revise", "reason": "Broad 'method uses numerics' link; 'among most used' is unsourced. Name the specific numerical machinery; not strength 3.", "fix": {"summary": "Kohn-Sham DFT is built from plane-wave bases, pseudopotentials, FFTs and iterative eigensolvers with self-consistency mixing; basis cutoff and k-point convergence control its accuracy, making it a flagship application of numerical linear algebra.", "strength": 2}}
+{"id": "C0322", "verdict": "revise", "reason": "ML potentials are active research, not textbook; strength 3 inflated.", "fix": {"confidence": "current research", "strength": 2}}
+{"id": "C0323", "verdict": "confirm"}
+{"id": "C0324", "verdict": "revise", "reason": "Competitive with DMRG/QMC only in some regimes; strength 3 inflated, still active research.", "fix": {"strength": 2}}
+{"id": "C0325", "verdict": "confirm"}
+{"id": "C0326", "verdict": "revise", "reason": "Microsecond MD vs ~100 s at Tg is about 10^-8, not 10^-6.", "fix": {"summary": "Simulations of Lennard-Jones and soft-sphere mixtures supply dynamical heterogeneity, Kauzmann and mode-coupling tests and jamming criticality, but reach only ~microseconds, about 10^-8 of the laboratory glass-transition timescale.", "strength": 2}}
+{"id": "C0327", "verdict": "confirm"}
+{"id": "C0328", "verdict": "confirm"}
+{"id": "C0329", "verdict": "confirm"}
+{"id": "C0330", "verdict": "confirm"}
+{"id": "C0331", "verdict": "confirm"}
+{"id": "C0332", "verdict": "revise", "reason": "MERA and PEPS are not 'cylinder implementations'; DMRG on cylinders and PEPS give the 2D benchmarks.", "fix": {"summary": "DMRG, invented for quantum spin chains, is a variational method over matrix product states; DMRG on cylinders and PEPS now give benchmark ground states of Hubbard and frustrated spin models, limited by entanglement growth (S ≤ log χ)."}}
+{"id": "C0333", "verdict": "revise", "reason": "The AdS resemblance is a proposal (Swingle), not established; strength 2 fine.", "fix": {"summary": "Critical ground states violate the area law logarithmically; MERA captures this with a scale-invariant tensor network implementing real-space RG, and has been proposed (Swingle) to resemble a discretized AdS geometry.", "confidence": "current research"}}
+{"id": "C0334", "verdict": "confirm"}
+{"id": "C0335", "verdict": "confirm"}
+{"id": "C0336", "verdict": "confirm"}
+{"id": "C0337", "verdict": "confirm"}
+{"id": "C0338", "verdict": "confirm"}
+{"id": "C0339", "verdict": "confirm"}
+{"id": "C0340", "verdict": "confirm"}
+{"id": "C0341", "verdict": "revise", "reason": "Broad 'detectors use superconductors' link; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C0342", "verdict": "revise", "reason": "Broad 'instrument uses X' link; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C0343", "verdict": "confirm"}
+{"id": "C0344", "verdict": "confirm"}
+{"id": "C0345", "verdict": "confirm"}
+{"id": "C0346", "verdict": "confirm"}
+{"id": "C0347", "verdict": "confirm"}
+{"id": "C0348", "verdict": "confirm"}
+{"id": "C0349", "verdict": "confirm"}
+{"id": "C0350", "verdict": "revise", "reason": "Not an identity: the anomaly equation holds only for low-energy linear nodes and fails at lattice scale; map mixes Gaussian c with SI units.", "fix": {"kind": "mechanism", "map": "\\partial_\\mu j^\\mu_5=\\frac{e^2}{2\\pi^2\\hbar^2}\\mathbf E\\cdot\\mathbf B\\ (\\text{per volume});\\ \\frac{dN_\\pm}{dt}=\\pm\\frac{e^2}{4\\pi^2\\hbar^2}\\mathbf E\\cdot\\mathbf B"}}
+{"id": "C0351", "verdict": "confirm"}
+{"id": "C0352", "verdict": "confirm"}
+{"id": "C0353", "verdict": "revise", "reason": "Uniaxial nematic stabilizer is D_{∞h} (head-tail symmetric), not D_∞.", "fix": {"map": "\\mathcal M=SO(3)/D_{\\infty h}=\\mathbb{RP}^2,\\ \\pi_1=\\mathbb Z_2,\\ \\pi_2=\\mathbb Z;\\ Q_{ij}=S(n_in_j-\\tfrac13\\delta_{ij})"}}
+{"id": "C0354", "verdict": "revise", "reason": "Gauge symmetry cannot literally break (Elitzur); Higgs-phase analogy is not an exact identity (non-relativistic, Coulomb physics).", "fix": {"kind": "mechanism", "summary": "A superconductor is the condensed-matter Higgs phase: a charged condensate whose phase breaks global U(1), with the would-be Goldstone mode absorbed by the photon, giving the Meissner effect and flux quantization.", "map": "\\psi=|\\psi|e^{i\\theta},\\ \\mathbf A\\to\\mathbf A-\\tfrac{\\hbar}{2e}\\nabla\\theta,\\ \\mathbf J_s\\propto-|\\psi|^2\\mathbf A"}}
+{"id": "C0355", "verdict": "confirm"}
+{"id": "C0356", "verdict": "confirm"}
+{"id": "C0357", "verdict": "confirm"}
+{"id": "C0358", "verdict": "confirm"}
+{"id": "C0359", "verdict": "confirm"}
+{"id": "C0360", "verdict": "revise", "reason": "Pumps have nonzero error rates; the metrology triangle has not been closed at the needed uncertainty.", "fix": {"summary": "Clocked single-electron pumps (quantum dots, metallic islands) transfer ~one electron per cycle, I=ef, realizing the ampere from fixed e; closing the quantum metrology triangle with Josephson and quantum Hall standards is pursued but not yet achieved at the required accuracy.", "confidence": "current research"}}
+{"id": "C0361", "verdict": "confirm"}
+{"id": "C0362", "verdict": "confirm"}
+{"id": "C0745", "verdict": "confirm"}
+{"id": "C0746", "verdict": "confirm"}
+{"id": "C0747", "verdict": "reject", "reason": "Generic 'soft matter uses continuum mechanics' overlap with no named technique or consequence; the specific cases appear in other records."}
+{"id": "C0748", "verdict": "confirm"}
+{"id": "C0749", "verdict": "confirm"}
+{"id": "C0750", "verdict": "confirm"}
+{"id": "C0751", "verdict": "revise", "reason": "Strength 3 inflated; link is specific but narrow to jamming.", "fix": {"strength": 2}}
+{"id": "C0752", "verdict": "confirm"}
+{"id": "C0753", "verdict": "revise", "reason": "Affine Gaussian-network result fails for real rubbers (entanglements, finite extensibility, Mooney-Rivlin), so not an identity.", "fix": {"kind": "mechanism", "summary": "Each network strand is an entropic Gaussian spring; in the ideal affine-network model, averaging over strands gives the neo-Hookean strain-energy function with shear modulus n k_B T, explaining why rubber stiffens on heating."}}
+{"id": "C0754", "verdict": "confirm"}
+{"id": "C0755", "verdict": "revise", "reason": "Hydrodynamic regime is narrow and recent; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C0756", "verdict": "confirm"}
+{"id": "C0757", "verdict": "confirm"}
+{"id": "C0758", "verdict": "confirm"}
+{"id": "C0759", "verdict": "revise", "reason": "Broad 'soft matter uses Stokes flow' link; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C0760", "verdict": "confirm"}
+{"id": "C0761", "verdict": "confirm"}
+{"id": "C0762", "verdict": "confirm"}
+{"id": "C0763", "verdict": "confirm"}
+{"id": "C0764", "verdict": "confirm"}
+{"id": "C0765", "verdict": "confirm"}
+{"id": "C0766", "verdict": "confirm"}
+{"id": "C0767", "verdict": "confirm"}
+{"id": "C0768", "verdict": "revise", "reason": "Magnetic skyrmions are 2D 'baby' skyrmions, not Skyrme's 3D nucleon solitons; same winding-number idea, not an identity.", "fix": {"kind": "mechanism", "summary": "Skyrmions are localized particle-like solutions of the nonlinear micromagnetic field equations, stable through an integer winding number; they are 2D analogues of the topological solitons Skyrme introduced for nucleons in 3D."}}
+{"id": "C0769", "verdict": "confirm"}
+{"id": "C0770", "verdict": "confirm"}
+{"id": "C0771", "verdict": "confirm"}
+{"id": "C0772", "verdict": "confirm"}
+{"id": "C0773", "verdict": "confirm"}
+{"id": "C0774", "verdict": "reject", "reason": "duplicate of C0775", "duplicate_of": "C0775"}
+{"id": "C0775", "verdict": "confirm"}
+{"id": "C0776", "verdict": "confirm"}
+{"id": "C0777", "verdict": "confirm"}
+{"id": "C0778", "verdict": "confirm"}
+{"id": "C0779", "verdict": "confirm"}
+{"id": "C0780", "verdict": "confirm"}
+{"id": "C0781", "verdict": "confirm"}
+{"id": "C1135", "verdict": "confirm"}
+{"id": "C1136", "verdict": "confirm"}
+{"id": "C1137", "verdict": "confirm"}
+{"id": "C1138", "verdict": "confirm"}
+{"id": "C1139", "verdict": "confirm"}
+{"id": "C1140", "verdict": "confirm"}
+{"id": "C1141", "verdict": "confirm"}
+{"id": "C1142", "verdict": "confirm"}
+{"id": "C1143", "verdict": "confirm"}
+{"id": "C1144", "verdict": "confirm"}
+{"id": "C1145", "verdict": "confirm"}
+{"id": "C1146", "verdict": "confirm"}
+{"id": "C1147", "verdict": "confirm"}
+{"id": "C1148", "verdict": "confirm"}
+{"id": "C1149", "verdict": "confirm"}
+{"id": "C1150", "verdict": "confirm"}
+{"id": "C1151", "verdict": "confirm"}
+{"id": "C1152", "verdict": "confirm"}
+{"id": "C1153", "verdict": "confirm"}
+{"id": "C1154", "verdict": "confirm"}
+{"id": "C1155", "verdict": "confirm"}

@@ -1,0 +1,642 @@
+[
+ {
+  "id": "C0021",
+  "name": "Symmetry acts through linear representations",
+  "why": "Generic 'group theory uses mathematical methods' overlap. The specific links are covered by C0023, C0026, C0027 and C0028."
+ },
+ {
+  "id": "C0030",
+  "name": "Metrology: value × unit ± uncertainty, traceable to SI",
+  "why": "duplicate of C0034"
+ },
+ {
+  "id": "C0072",
+  "name": "Newtonian mechanics as symmetry consequences",
+  "why": "duplicate of C0073"
+ },
+ {
+  "id": "C0122",
+  "name": "Spin-glass methods for learning and inference",
+  "why": "duplicate of C0123"
+ },
+ {
+  "id": "C0184",
+  "name": "Dirac notation and operator algebra",
+  "why": "duplicate of C0185"
+ },
+ {
+  "id": "C0206",
+  "name": "Optical clocks and redefining the second",
+  "why": "duplicate of C0201"
+ },
+ {
+  "id": "C0207",
+  "name": "Scientific computing toolkit powers numerical relativity",
+  "why": "duplicate of C0211"
+ },
+ {
+  "id": "C0215",
+  "name": "GR as a showcase of mathematical-physics methods",
+  "why": "A generic 'GR uses mathematical methods' with no single named transfer. C0219 and C0221–C0225 already cover each specific link.; Generic 'GR uses many math methods' with no single mapped consequence; the specific links (Green's functions, QNM poles, Bianchi identity) are separate records."
+ },
+ {
+  "id": "C0263",
+  "name": "Collider physics as measurement at scale",
+  "why": "duplicate of C0267"
+ },
+ {
+  "id": "C0265",
+  "name": "Calibration chains and resolution in collider experiments",
+  "why": "duplicate of C0266"
+ },
+ {
+  "id": "C0330",
+  "name": "Entanglement structure of correlated ground states",
+  "why": "duplicate of C0332"
+ },
+ {
+  "id": "C0354",
+  "name": "Superconductivity as broken U(1) gauge symmetry",
+  "why": "duplicate of C0355"
+ },
+ {
+  "id": "C0381",
+  "name": "Priors, degeneracies and model selection in ΛCDM",
+  "why": "duplicate of C0380"
+ },
+ {
+  "id": "C0388",
+  "name": "Solar oscillations as normal modes",
+  "why": "duplicate of C0813"
+ },
+ {
+  "id": "C0410",
+  "name": "Diffusive shock acceleration power-law spectrum",
+  "why": "The DSA power law follows from a simple steady advection–diffusion flux balance. There is no substantive complex-analysis or special-function link, and the summary cites a 'shared paper' as filler.; Wrong kind and mechanism: DSA spectrum comes from a flux-balance argument, not Bessel/Green's functions; no specific link to special functions."
+ },
+ {
+  "id": "C0411",
+  "name": "MHD stability as Sturm–Liouville / self-adjoint problem",
+  "why": "duplicate of C0413"
+ },
+ {
+  "id": "C0433",
+  "name": "Protein folding as a test case for MD",
+  "why": "duplicate of C0432"
+ },
+ {
+  "id": "C0539",
+  "name": "Phase space and Hamiltonian define the partition function",
+  "why": "duplicate of C0542"
+ },
+ {
+  "id": "C0580",
+  "name": "Lagrangian generates quantum propagation (Dirac–Feynman)",
+  "why": "duplicate of C0589"
+ },
+ {
+  "id": "C0747",
+  "name": "Continuum mechanics of soft materials",
+  "why": "This is the generic 'soft matter uses continuum mechanics' link with no named technique. Specific links are covered by C0753, C0756, C0757 and C0759.; Generic 'soft matter uses continuum mechanics' overlap with no named technique or consequence; the specific cases appear in other records."
+ },
+ {
+  "id": "C0773",
+  "name": "Phonons as quantized normal modes",
+  "why": "duplicate of C0775"
+ },
+ {
+  "id": "C0774",
+  "name": "Normal-mode analysis behind lattice dynamics",
+  "why": "duplicate of C0775"
+ },
+ {
+  "id": "C0802",
+  "name": "Planetary systems as few-body problems",
+  "why": "duplicate of C0805"
+ },
+ {
+  "id": "C0826",
+  "name": "MHD as fluid mechanics plus Lorentz force",
+  "why": "duplicate of C0825"
+ },
+ {
+  "id": "C0829",
+  "name": "Laser-plasma hydrodynamic instabilities",
+  "why": "duplicate of C0830"
+ },
+ {
+  "id": "C0834",
+  "name": "Ion-acoustic and Kelvin–Helmholtz in plasmas",
+  "why": "duplicate of C0832"
+ },
+ {
+  "id": "C0838",
+  "name": "MHD turbulence extends Kolmogorov theory",
+  "why": "duplicate of C0837"
+ },
+ {
+  "id": "C0846",
+  "name": "Plasmoid chain formation as pattern formation",
+  "why": "Generic: names no amplitude equation, wavelength-selection mechanism or shared technique; as its own breaks concedes, there is no real mapping.; No mapping: tearing and plasmoids share no mechanism with Turing-type pattern formation; breaks admits this."
+ },
+ {
+  "id": "C0856",
+  "name": "Hamiltonian treatment of spin dynamics in MRI",
+  "why": "duplicate of C0888"
+ },
+ {
+  "id": "C0862",
+  "name": "Elastic moduli and seismic wave speeds",
+  "why": "duplicate of C0861"
+ },
+ {
+  "id": "C0868",
+  "name": "Cell mechanics and viscous microhydrodynamics",
+  "why": "duplicate of C0869"
+ },
+ {
+  "id": "C0874",
+  "name": "Rotating-frame physics of the planet",
+  "why": "duplicate of C0875"
+ },
+ {
+  "id": "C0892",
+  "name": "Medical acoustics: impedance and Doppler",
+  "why": "duplicate of C0891"
+ },
+ {
+  "id": "C0970",
+  "name": "Classical optics as the coherent-state limit",
+  "why": "duplicate of C0971"
+ },
+ {
+  "id": "C0990",
+  "name": "Lasers as the enabling toolkit of AMO physics",
+  "why": "A broad 'AMO uses lasers' link with no map. The specific links are covered by C0994 and C0995.; A generic 'AMO uses lasers' link. The specific transfers are already covered by C0994 (combs and clocks) and C0995 (cooling and trapping)."
+ },
+ {
+  "id": "C1048",
+  "name": "Parametric down-conversion ≡ particle creation",
+  "why": "duplicate of C1699"
+ },
+ {
+  "id": "C1182",
+  "name": "Telescope optics and survey instruments",
+  "why": "Trivial 'astronomy uses telescopes' link: it names no specific technique or consequence for transient science.; Generic 'surveys use optics' with no named technique and consequence; trivial."
+ },
+ {
+  "id": "C1187",
+  "name": "Wave propagation in cold plasma",
+  "why": "duplicate of C1186"
+ },
+ {
+  "id": "C1195",
+  "name": "Neutrino telescopes rely on the Cherenkov effect",
+  "why": "duplicate of C1194"
+ },
+ {
+  "id": "C1212",
+  "name": "Plasma as electrodynamic medium",
+  "why": "duplicate of C1213"
+ },
+ {
+  "id": "C1222",
+  "name": "Drifts from static field geometry",
+  "why": "duplicate of C1223"
+ },
+ {
+  "id": "C1225",
+  "name": "Intense lasers driving plasma",
+  "why": "duplicate of C1234"
+ },
+ {
+  "id": "C1233",
+  "name": "Plasma physics reliance on CPA lasers",
+  "why": "duplicate of C1234"
+ },
+ {
+  "id": "C1243",
+  "name": "Optics and imaging theory in medical imaging",
+  "why": "duplicate of C1249"
+ },
+ {
+  "id": "C1245",
+  "name": "Intensity interferometry and quantum sensing noise",
+  "why": "Generic 'both use correlation measurements'; no named technique or consequence maps across.; Superficial: HBT correlations and quantum metrology noise are different; no named technique transfer."
+ },
+ {
+  "id": "C1248",
+  "name": "Medical imaging as Fourier optics",
+  "why": "duplicate of C1249"
+ },
+ {
+  "id": "C1250",
+  "name": "Image quality via MTF",
+  "why": "duplicate of C1249"
+ },
+ {
+  "id": "C1268",
+  "name": "Reaction dynamics probed by ultrafast optics",
+  "why": "duplicate of C1267"
+ },
+ {
+  "id": "C1269",
+  "name": "Radiation theory behind light sources",
+  "why": "duplicate of C1275"
+ },
+ {
+  "id": "C1270",
+  "name": "Scattering and absorption in climate",
+  "why": "duplicate of C1277"
+ },
+ {
+  "id": "C1274",
+  "name": "Light-source design from radiation formulas",
+  "why": "duplicate of C1275"
+ },
+ {
+  "id": "C1280",
+  "name": "Thermodynamics derived from statistical mechanics",
+  "why": "duplicate of C1293"
+ },
+ {
+  "id": "C1346",
+  "name": "Quantum gases as statistical-mechanics laboratories",
+  "why": "duplicate of C1359"
+ },
+ {
+  "id": "C1347",
+  "name": "Why isolated quantum systems look thermal",
+  "why": "duplicate of C1349"
+ },
+ {
+  "id": "C1354",
+  "name": "Information is physical: qubits and thermodynamics",
+  "why": "duplicate of C1352"
+ },
+ {
+  "id": "C1362",
+  "name": "Classical and quantum non-equilibrium dynamics",
+  "why": "duplicate of C1371"
+ },
+ {
+  "id": "C1384",
+  "name": "Generalized second law and negative heat capacity",
+  "why": "duplicate of C1383"
+ },
+ {
+  "id": "C1390",
+  "name": "LQG black-hole entropy from counting punctures",
+  "why": "duplicate of C1936"
+ },
+ {
+  "id": "C1393",
+  "name": "Black holes as information-theoretic objects",
+  "why": "duplicate of C1394"
+ },
+ {
+  "id": "C1395",
+  "name": "Page curve and the entropy of random states",
+  "why": "duplicate of C1675"
+ },
+ {
+  "id": "C1397",
+  "name": "Ryu–Takayanagi: entropy equals minimal area",
+  "why": "duplicate of C1676"
+ },
+ {
+  "id": "C1445",
+  "name": "Parton entanglement entropy at small x",
+  "why": "duplicate of C1754"
+ },
+ {
+  "id": "C1521",
+  "name": "Degenerate-matter equation of state for compact stars",
+  "why": "duplicate of C1529"
+ },
+ {
+  "id": "C1554",
+  "name": "Percolation of plasmoids and field lines",
+  "why": "Rechester–Rosenbluth is field-line diffusion after Chirikov island overlap, not percolation. Plasmoid-chain 'percolation' is unsupported.; Rechester–Rosenbluth is stochastic field-line diffusion, not percolation. The plasmoid-percolation claim is unsupported and vague."
+ },
+ {
+  "id": "C1566",
+  "name": "Nonequilibrium stat mech and Vlasov kinetics",
+  "why": "duplicate of C1572"
+ },
+ {
+  "id": "C1568",
+  "name": "Nonequilibrium cascades as driven steady states",
+  "why": "Generic: 'both are scale-invariant driven steady states'. No named technique or consequence; the concrete RG link is C1585.; Generic cascade-as-NESS comparison with KPZ names no technique or consequence; trivial."
+ },
+ {
+  "id": "C1573",
+  "name": "Landau damping and the H-theorem",
+  "why": "duplicate of C1572"
+ },
+ {
+  "id": "C1581",
+  "name": "Entropy production in collisionless plasma",
+  "why": "duplicate of C1561"
+ },
+ {
+  "id": "C1583",
+  "name": "Debye screening as mean-field theory",
+  "why": "duplicate of C1557"
+ },
+ {
+  "id": "C1588",
+  "name": "Carnot bounds on solar cell efficiency",
+  "why": "duplicate of C1589"
+ },
+ {
+  "id": "C1603",
+  "name": "Poisson counting statistics in emission imaging",
+  "why": "Poisson counting statistics is probability theory, not quantum statistics. The link is generic and belongs to the 00 measurement node.; Generic Poisson statistics; no named technique or consequence beyond 1/√N."
+ },
+ {
+  "id": "C1614",
+  "name": "Biophysics as stochastic thermodynamics",
+  "why": "duplicate of C1616"
+ },
+ {
+  "id": "C1665",
+  "name": "Quantum foundations meets quantum gravity",
+  "why": "This is a generic field-level link. Its specific content is covered by C1668 (Penrose–Diósi) and C1677 (gravity-mediated entanglement).; Vague umbrella with no map; its specific content is in C1668 (Penrose–Diósi) and C1677 (BMV)."
+ },
+ {
+  "id": "C1692",
+  "name": "Standard quantum limit of interferometry",
+  "why": "duplicate of C1698"
+ },
+ {
+  "id": "C1697",
+  "name": "Quantum metrology for GW astronomy",
+  "why": "duplicate of C1698"
+ },
+ {
+  "id": "C1766",
+  "name": "Cold atoms as analog Hubbard simulators",
+  "why": "duplicate of C1776"
+ },
+ {
+  "id": "C1775",
+  "name": "Quantum simulation of correlated-electron problems",
+  "why": "duplicate of C1777"
+ },
+ {
+  "id": "C1789",
+  "name": "Josephson junction as the nonlinear qubit element",
+  "why": "duplicate of C1803"
+ },
+ {
+  "id": "C1801",
+  "name": "Superconductors as the material base of qubits",
+  "why": "duplicate of C1802"
+ },
+ {
+  "id": "C1813",
+  "name": "Geometric phases organize topological matter",
+  "why": "duplicate of C1814"
+ },
+ {
+  "id": "C1859",
+  "name": "Partially degenerate electrons in warm dense matter",
+  "why": "duplicate of C1562"
+ },
+ {
+  "id": "C1860",
+  "name": "ICF adiabat: pressure over Fermi-degenerate pressure",
+  "why": "duplicate of C1563"
+ },
+ {
+  "id": "C1888",
+  "name": "X-ray Thomson scattering measures S(k,ω)",
+  "why": "duplicate of C1241"
+ },
+ {
+  "id": "C1897",
+  "name": "Chemical physics rests on atomic structure",
+  "why": "This is generic 'chemistry rests on atoms' filler with no named technique or consequence.; Generic 'rests on' foundation claim; mislabelled historical, no named technique."
+ },
+ {
+  "id": "C1899",
+  "name": "Spectroscopy shared toolkit",
+  "why": "duplicate of C1898"
+ },
+ {
+  "id": "C1901",
+  "name": "Tweezers return: biophysics to atoms",
+  "why": "duplicate of C1900"
+ },
+ {
+  "id": "C1903",
+  "name": "Chemical physics and ultracold molecules",
+  "why": "duplicate of C1905"
+ },
+ {
+  "id": "C1920",
+  "name": "Quantum chemistry as applied approximation theory",
+  "why": "duplicate of C1919"
+ },
+ {
+  "id": "C1929",
+  "name": "Applied devices exploit squeezed light",
+  "why": "duplicate of C1930"
+ },
+ {
+  "id": "C2055",
+  "name": "Cosmology is GR applied to the whole universe",
+  "why": "duplicate of C2058"
+ },
+ {
+  "id": "C2070",
+  "name": "Compact mergers as high-energy engines",
+  "why": "duplicate of C2071"
+ },
+ {
+  "id": "C2210",
+  "name": "Shared radiation-detector toolkit",
+  "why": "duplicate of C2211"
+ },
+ {
+  "id": "C2240",
+  "name": "Nuclear weak decays as flavor probes",
+  "why": "duplicate of C2241"
+ },
+ {
+  "id": "C2291",
+  "name": "Higgs mechanism first appeared as the Meissner effect",
+  "why": "duplicate of C2292"
+ },
+ {
+  "id": "C2305",
+  "name": "Baryon asymmetry: measured by cosmology, explained by BSM",
+  "why": "duplicate of C2306"
+ },
+ {
+  "id": "C2346",
+  "name": "Laser and beam plasmas as advanced-accelerator R&D",
+  "why": "duplicate of C2348"
+ },
+ {
+  "id": "C2354",
+  "name": "Machine learning for triggers and tokamak control",
+  "why": "Parallel uses of ML, no technique transferred; generic 'Y uses ML' overlap.; Generic 'both use ML'; no named technique actually transferred and consequence."
+ },
+ {
+  "id": "C2540",
+  "name": "QGP as a colour plasma",
+  "why": "duplicate of C2374"
+ },
+ {
+  "id": "C2546",
+  "name": "D-T fusion as the energy source of magnetic confinement",
+  "why": "duplicate of C2552"
+ },
+ {
+  "id": "C2562",
+  "name": "Applied nuclear physics underpins medical physics",
+  "why": "Generic 'underpins' link with no map or named technique; the specific medical-physics records cover it.; Generic 'applied nuclear underpins medical physics' with no named technique; specific records cover it."
+ },
+ {
+  "id": "C2565",
+  "name": "Evaluated nuclear data for medical applications",
+  "why": "duplicate of C2566"
+ },
+ {
+  "id": "C2569",
+  "name": "Radiation detection and dosimetry in the clinic",
+  "why": "Generic 'applied to patients' link with no named technique or consequence; covered by the specific imaging, PET and therapy records.; Generic 'detection physics applied in the clinic'; specific records C2570–C2572 cover it."
+ },
+ {
+  "id": "C2607",
+  "name": "Weyl/Dirac nodes and graphene Dirac cones",
+  "why": "duplicate of C2606"
+ },
+ {
+  "id": "C2617",
+  "name": "Order-by-disorder and defect physics across spin and nematic systems",
+  "why": "Name mismatches summary; spin-ice and nematic defects do not share homotopy-classified structure or Coulomb-gas mapping; vague overlap."
+ },
+ {
+  "id": "C2690",
+  "name": "Chemical physics uses condensed-matter DFT",
+  "why": "duplicate of C2691"
+ },
+ {
+  "id": "C2699",
+  "name": "Device physics built on semiconductor physics",
+  "why": "duplicate of C2701"
+ },
+ {
+  "id": "C2735",
+  "name": "Supernova systematics in the dark-energy era",
+  "why": "duplicate of C2736"
+ },
+ {
+  "id": "C2749",
+  "name": "Clusters as dark-matter laboratories",
+  "why": "duplicate of C2748"
+ },
+ {
+  "id": "C2752",
+  "name": "Dwarf galaxy tests of CDM",
+  "why": "duplicate of C2751"
+ },
+ {
+  "id": "C2783",
+  "name": "Magnetised accretion disks and the MRI",
+  "why": "duplicate of C2784"
+ },
+ {
+  "id": "C2801",
+  "name": "Turbulence in stratified fluids",
+  "why": "Generic fluid overlap; cluster ICM is magnetized, weakly collisional; no named technique or consequence mapped. Brunt–Väisälä in clusters is real but link is thin.; Generic stratified-turbulence overlap; map has wrong sign (N²=-(g/ρ)dρ/dz) and cluster gas stratified by entropy."
+ },
+ {
+  "id": "C2802",
+  "name": "Statistical inference of dynamical systems",
+  "why": "Generic statistical practice (Bayesian inference, ML on catalogues); no named technique transferred.; Generic Bayesian/ML practice; no named technique or consequence."
+ },
+ {
+  "id": "C2809",
+  "name": "Planet spectra as molecular spectroscopy",
+  "why": "duplicate of C2813"
+ },
+ {
+  "id": "C2810",
+  "name": "Planetary climate as Earth climate physics",
+  "why": "duplicate of C2816"
+ },
+ {
+  "id": "C2811",
+  "name": "Physical limits of life and biosignatures",
+  "why": "Vague; no named physical quantity mapping between habitability and living-systems physics; generic overlap.; Vague; no mapped quantity, named technique or consequence."
+ },
+ {
+  "id": "C2814",
+  "name": "Transmission spectra as molecular absorption",
+  "why": "duplicate of C2813"
+ },
+ {
+  "id": "C2815",
+  "name": "Greenhouse and inversion physics on other worlds",
+  "why": "duplicate of C2816"
+ },
+ {
+  "id": "C2830",
+  "name": "Alpha self-heating and ignition in ICF and MCF",
+  "why": "duplicate of C2831"
+ },
+ {
+  "id": "C2840",
+  "name": "Laboratory and fusion dynamo relaxation",
+  "why": "Link is to RFP/spheromak relaxation, not stellarators; the stated stellarator link is a negation."
+ },
+ {
+  "id": "C2854",
+  "name": "Space weather driven by reconnection",
+  "why": "duplicate of C2853"
+ },
+ {
+  "id": "C2867",
+  "name": "Plasma wakefields as compact accelerators",
+  "why": "duplicate of C2866"
+ },
+ {
+  "id": "C2872",
+  "name": "Plasma–surface interactions and plasma catalysis",
+  "why": "duplicate of C2875"
+ },
+ {
+  "id": "C2880",
+  "name": "Planetary dynamos in Earth science",
+  "why": "duplicate of C2883"
+ },
+ {
+  "id": "C2884",
+  "name": "Seismic constraints on dynamo core",
+  "why": "duplicate of C2883"
+ },
+ {
+  "id": "C2896",
+  "name": "Radiotherapy demands on accelerator design",
+  "why": "duplicate of C2895"
+ },
+ {
+  "id": "C2897",
+  "name": "Resonances and chaos in beams and fluids",
+  "why": "No mapping or named technique; conservative vs dissipative systems; trivial analogy."
+ },
+ {
+  "id": "C2900",
+  "name": "Free-electron laser vs. stimulated emission lasers",
+  "why": "Weak analogy: FEL gain is a classical collective instability, with no mapping to semiconductor gain."
+ },
+ {
+  "id": "C2921",
+  "name": "Optical tweezers and fluorescence microscopy lineage",
+  "why": "Generic overlap with no named technique or consequence; OCT is not used in single-molecule tracking and the name misdescribes the content."
+ }
+]

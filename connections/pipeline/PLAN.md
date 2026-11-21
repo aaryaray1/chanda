@@ -16,8 +16,9 @@
 | 1. Discovery | one set: a branch pair `A-B`, or `A-within` | a plain session following `brief-discovery.md` | 78 sets (27 were done by the first attempt) |
 | 2. Review | one packet of ≤ `review_chunk` connections touching a branch | that branch's specialist, given only the codex sections for the packet's nodes (no literature lists), following `brief-review.md` | ~40–70 packets |
 | 3. Finalize | applies verdicts (confirm, revise, reject, add); marks cross-branch disagreements as *contested*; verifies every citation against arXiv/Crossref; writes the registry; rebuilds the tree, codices, atlas and map | local Python, no model calls | 1 |
+| 4. Audit (added 2026-11-20) | one packet of ≤ `audit.chunk` (40) connections whose text states numbers or formulas (790 of 2,884) | a plain session following `brief-audit.md`, on Sonnet, at most `audit.per_day` (2) units a day. The model writes each check as an arithmetic expression; ingest evaluates it locally and marks any mismatch with the stated value | 20 packets |
 
-The order is strict. Review packets are built automatically when the last discovery set lands, and finalize runs automatically when the last packet is reviewed.
+The order is strict. Review packets are built automatically when the last discovery set lands, and finalize runs automatically when the last packet is reviewed. When `audit.enabled` is true in `config.json`, a finished pipeline enters the audit stage, and it writes `audit/report.md` when the last audit packet lands. Audit fixes are never applied automatically. Check a record, then run `python -I scripts/connections_pipeline.py apply-audit C0123 --dry-run`, and run it again without `--dry-run` to write the fix to the registry. Run `audit-report` to see the findings so far at any time.
 
 ## Pacing (edit `config.json`)
 | Key | Default | Meaning |
@@ -108,6 +109,7 @@ Inside an interactive Claude session, `/connections-run` does the same as one ru
 - `discovery/batch-*.jsonl`: raw analyst records;
 - `review/packet-*.jsonl`, `review/review-*.jsonl`: packets and verdicts;
 - `merged.jsonl`: deduplicated, with IDs;
+- `audit/packet-*.jsonl`, `audit/audit-*.jsonl`, `audit/report.md`: the numerical audit. `audit/audit-manual.jsonl` holds hand-checked fixes, which win over the model's;
 - `rejected.json`: connections the specialists rejected, with reasons;
 - `work/*.out.txt`, `work/*.err.txt`: each unit's last stdout and stderr; `work/failed/`: the 40 most recent failed outputs;
 - `run.lock`: who holds the run (informational; the real lock is the mutex on Windows, `.run.flock` on Linux); `alerts.json`: which alerts were shown today.

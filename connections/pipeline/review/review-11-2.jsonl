@@ -1,0 +1,100 @@
+{"id": "C1270", "verdict": "confirm"}
+{"id": "C1271", "verdict": "revise", "reason": "Sub-100 ps Cherenkov TOF is a goal, not an established result; hedge the timing claim.", "fix": {"summary": "Prompt Cherenkov photons from 511 keV photoelectrons in dense crystals such as BGO are being exploited as a fast timing signal toward sub-100 ps time-of-flight PET.", "strength": 1}}
+{"id": "C1272", "verdict": "confirm"}
+{"id": "C1273", "verdict": "revise", "reason": "Damping and equilibrium emittance belong in the beam-dynamics note, not the accelerator-physics parent.", "fix": {"b": "11-interdisciplinary-physics/accelerator-physics/beam-dynamics"}}
+{"id": "C1274", "verdict": "reject", "reason": "duplicate of C1275", "duplicate_of": "C1275"}
+{"id": "C1275", "verdict": "revise", "reason": "Derivation from Liénard–Wiechert is an application, not a one-to-one identity; relabel as mechanism and absorb coherent enhancement.", "fix": {"kind": "mechanism", "summary": "Bending-magnet and undulator spectra, critical energy and relativistic beaming follow from Liénard–Wiechert/Larmor radiation with γ-boosted forward cones; coherent emission scales as N² when bunches are shorter than the wavelength.", "map": "\\omega_c=\\tfrac{3}{2}\\gamma^3 c/\\rho,\\;\\theta\\sim 1/\\gamma,\\;P_{coh}\\propto N^2P_1"}}
+{"id": "C1276", "verdict": "confirm"}
+{"id": "C1277", "verdict": "confirm"}
+{"id": "C1278", "verdict": "confirm"}
+{"id": "C1279", "verdict": "confirm"}
+{"id": "C1587", "verdict": "revise", "reason": "Too broad: batteries are not bounded by a ZT-type Carnot fraction. Keep the specific thermoelectric link.", "fix": {"b": "11-interdisciplinary-physics/applied-and-device-physics/energy-materials-and-thermoelectrics", "summary": "A thermoelectric generator is a heat engine whose maximum efficiency is a ZT-dependent fraction of Carnot; ZT→∞ recovers the Carnot limit.", "kind": "mechanism"}}
+{"id": "C1588", "verdict": "reject", "reason": "duplicate of C1589; also wrongly says SQ follows from Carnot/entropy bounds rather than detailed balance", "duplicate_of": "C1589"}
+{"id": "C1589", "verdict": "revise", "reason": "Absorb the Landsberg/Carnot bounds; SQ comes from detailed balance, and Carnot-type limits are separate, looser bounds.", "fix": {"summary": "Detailed balance between absorbed and emitted blackbody radiation sets the SQ limit; thermodynamic (Landsberg/Carnot-type) bounds give looser ultimate limits for multijunction and hot-carrier cells.", "breaks": "A solar cell is a quantum, band-gap-limited converter, not a cyclic heat engine."}}
+{"id": "C1590", "verdict": "revise", "reason": "Langmuir is exact for a non-interacting lattice gas; BET is a multilayer extension. Strength 3 is too high.", "fix": {"summary": "The Langmuir isotherm follows from equating the chemical potential of an ideal lattice gas of adsorbates to that of the gas phase (grand canonical, non-interacting sites).", "strength": 2}}
+{"id": "C1591", "verdict": "confirm"}
+{"id": "C1592", "verdict": "revise", "reason": "Scale-free claims for biological networks are contested; hedge.", "fix": {"summary": "Network structure (heavy-tailed degrees, small-world) is used to model gene regulation, metabolic and neural networks and epidemic thresholds, though the scale-free claim for biological networks is contested.", "confidence": "current research"}}
+{"id": "C1593", "verdict": "revise", "reason": "Coherent backscattering is observed in turbid media, but its effect on tissue diffuse optics is negligible; overclaim.", "fix": {"summary": "Coherent backscattering (weak localization) of light is observed in turbid media, but in tissue it is a small correction to near-classical diffusion.", "strength": 1}}
+{"id": "C1594", "verdict": "confirm"}
+{"id": "C1595", "verdict": "revise", "reason": "Strength 3 too high; link is substantial but narrow to landscape theory.", "fix": {"strength": 2}}
+{"id": "C1596", "verdict": "confirm"}
+{"id": "C1597", "verdict": "confirm"}
+{"id": "C1598", "verdict": "confirm"}
+{"id": "C1599", "verdict": "revise", "reason": "Summary needs a concrete mapping: Fisher information as the information-geometry metric.", "fix": {"summary": "The classical Fisher information is the information-geometry metric used in statistical mechanics; the Cramér–Rao bound on phase estimation uses its quantum generalisation.", "map": "\\delta\\theta\\ge 1/\\sqrt{\\nu F_Q}"}}
+{"id": "C1600", "verdict": "revise", "reason": "Information bounds on sensing are not an identity; relabel as mechanism.", "fix": {"kind": "mechanism"}}
+{"id": "C1601", "verdict": "revise", "reason": "MaxEnt is only one regularisation route in CT/MRI; 'underlie' overclaims.", "fix": {"summary": "Maximum-entropy priors are one regularisation approach to under-determined reconstruction, and Shannon information bounds noise-limited image quality in CT and MRI.", "strength": 1}}
+{"id": "C1602", "verdict": "revise", "reason": "Specific and structural, but strength 3 is too high for a one-sided application.", "fix": {"strength": 2}}
+{"id": "C1603", "verdict": "reject", "reason": "Generic Poisson statistics; no named technique or consequence beyond 1/√N."}
+{"id": "C1604", "verdict": "confirm"}
+{"id": "C1605", "verdict": "revise", "reason": "Burridge–Knopf is not itself a SOC model; hedge the 'standard examples' wording.", "fix": {"summary": "Gutenberg–Richter power-law statistics motivated SOC pictures of faults; OFC and Burridge–Knopf slider-block models reproduce avalanche-like power-law event sizes."}}
+{"id": "C1606", "verdict": "confirm"}
+{"id": "C1607", "verdict": "reject", "reason": "Atmospheric models use eddy transport coefficients, not molecular Chapman–Enskog ones; only a generic continuum-validity point remains."}
+{"id": "C1608", "verdict": "confirm"}
+{"id": "C1609", "verdict": "confirm"}
+{"id": "C1610", "verdict": "revise", "reason": "Strength 3 too high for a shared-object link.", "fix": {"strength": 2}}
+{"id": "C1611", "verdict": "confirm"}
+{"id": "C1612", "verdict": "confirm"}
+{"id": "C1613", "verdict": "confirm"}
+{"id": "C1614", "verdict": "confirm"}
+{"id": "C1615", "verdict": "revise", "reason": "Strength 3 too high; Jarzynski/Crooks tests are covered more specifically in the single-molecule record.", "fix": {"strength": 2}}
+{"id": "C1616", "verdict": "confirm"}
+{"id": "C1617", "verdict": "confirm"}
+{"id": "C1618", "verdict": "confirm"}
+{"id": "C1619", "verdict": "confirm"}
+{"id": "C1620", "verdict": "revise", "reason": "Name the specific result: O(n→0) RG gives the self-avoiding-walk exponent.", "fix": {"summary": "The n→0 limit of the O(n) renormalisation group gives the self-avoiding-walk (Flory) exponent ν≈0.588 for unfolded chains; coarse-grained protein models eliminate fast degrees of freedom similarly.", "strength": 1}}
+{"id": "C1621", "verdict": "confirm"}
+{"id": "C1894", "verdict": "revise", "reason": "The atom-cooling end is the laser-cooling note, not the AMO subfield.", "fix": {"a": "04-quantum-physics/atomic-molecular-and-optical-physics/laser-cooling-and-trapping"}}
+{"id": "C1895", "verdict": "revise", "reason": "Not all atomic magnetometers (e.g. SERF) use Ramsey interrogation; strength 3 too high.", "fix": {"summary": "Atom interferometers and optical clocks use Ramsey interrogation of coherent atomic superpositions, limited by projection noise and coherence time; atomic magnetometers share the coherence-limited logic.", "strength": 2}}
+{"id": "C1896", "verdict": "confirm"}
+{"id": "C1897", "verdict": "reject", "reason": "Generic 'rests on' foundation claim; mislabelled historical, no named technique."}
+{"id": "C1898", "verdict": "revise", "reason": "Absorb C1899; strength 3 too high.", "fix": {"summary": "Selection rules, term structure and laser/line-shape spectroscopy from atoms extend to molecular rotational, vibrational and electronic spectra once nuclear motion is added via Born–Oppenheimer separation.", "strength": 2}}
+{"id": "C1899", "verdict": "reject", "reason": "duplicate of C1898", "duplicate_of": "C1898"}
+{"id": "C1900", "verdict": "revise", "reason": "Absorb C1901: same dipole-trap physics also underlies neutral-atom tweezer arrays.", "fix": {"summary": "Gradient-force dipole traps developed for trapping atoms (Ashkin) became optical tweezers for single biomolecules and piconewton forces; focused-beam traps now also hold atoms in tweezer arrays."}}
+{"id": "C1901", "verdict": "reject", "reason": "duplicate of C1900", "duplicate_of": "C1900"}
+{"id": "C1902", "verdict": "reject", "reason": "Vague; Hubbard lattices are not a demonstrated route to spin-boson electron transfer."}
+{"id": "C1903", "verdict": "reject", "reason": "Generic 'underpin' link to the whole chemical-physics branch; specific links are in C1904 and C1905."}
+{"id": "C1904", "verdict": "revise", "reason": "Strength 3 too high.", "fix": {"strength": 2}}
+{"id": "C1905", "verdict": "confirm"}
+{"id": "C1906", "verdict": "revise", "reason": "Strength 3 too high for this link.", "fix": {"strength": 2}}
+{"id": "C1907", "verdict": "revise", "reason": "Master-equation modelling of a real system is a shared object, not an analogy.", "fix": {"kind": "shared object"}}
+{"id": "C1908", "verdict": "confirm"}
+{"id": "C1909", "verdict": "revise", "reason": "Not a mechanism; thin one-sided link already covered by C1617.", "fix": {"kind": "method transfer", "strength": 1}}
+{"id": "C1910", "verdict": "revise", "reason": "F_Q>N witnesses entanglement but the converse fails, so not an identity.", "fix": {"kind": "mechanism"}}
+{"id": "C1911", "verdict": "confirm"}
+{"id": "C1912", "verdict": "confirm"}
+{"id": "C1913", "verdict": "revise", "reason": "No demonstrated advantage yet; strength 3 too high.", "fix": {"strength": 2}}
+{"id": "C1914", "verdict": "confirm"}
+{"id": "C1915", "verdict": "confirm"}
+{"id": "C1916", "verdict": "revise", "reason": "Broad 'Y uses X' fabrication link; strength 1.", "fix": {"strength": 1}}
+{"id": "C1917", "verdict": "revise", "reason": "Relaxation (T1/T2) is phenomenological, not from angular-momentum algebra; not an identity.", "fix": {"kind": "mechanism", "summary": "MRI is nuclear spin-1/2 precession in a magnetic field: Larmor frequency, RF rotation of the magnetization and Bloch dynamics follow from angular-momentum algebra, with T1/T2 relaxation added phenomenologically."}}
+{"id": "C1918", "verdict": "revise", "reason": "The two-photon rule comes from charge conjugation (para-Ps, C=+1), not just angular momentum and parity.", "fix": {"summary": "Para-positronium (C=+1) annihilates to two back-to-back 511 keV photons by charge-conjugation and momentum conservation, fixing the PET signature; ortho-Ps (3γ) is mostly quenched in tissue."}}
+{"id": "C1919", "verdict": "revise", "reason": "Application of methods, not an identity; absorbs C1920.", "fix": {"kind": "method transfer", "summary": "Hartree–Fock and CI use the variational principle, and Møller–Plesset uses Rayleigh–Schrödinger perturbation theory, applied to many-electron systems with basis-set expansions."}}
+{"id": "C1920", "verdict": "reject", "reason": "duplicate of C1919", "duplicate_of": "C1919"}
+{"id": "C1921", "verdict": "revise", "reason": "BO breaks down at avoided crossings, so not an identity.", "fix": {"kind": "mechanism"}}
+{"id": "C1922", "verdict": "revise", "reason": "Trim weak adsorbate-binding claim; keep STM tunnelling.", "fix": {"summary": "Barrier tunnelling with exponential distance dependence underlies scanning tunnelling microscopy and its single-atom resolution."}}
+{"id": "C1923", "verdict": "revise", "reason": "Strength 3 too high.", "fix": {"strength": 2}}
+{"id": "C1924", "verdict": "revise", "reason": "Strength 3 too high.", "fix": {"strength": 2}}
+{"id": "C1925", "verdict": "revise", "reason": "Overclaims operation at the SQL; sensors approach it.", "fix": {"summary": "Optomechanical force and displacement sensors approach the standard quantum limit, with squeezed light or backaction evasion used to go beyond it, as in LIGO-type interferometers and accelerometers."}}
+{"id": "C1926", "verdict": "confirm"}
+{"id": "C1927", "verdict": "revise", "reason": "SiPM timing is shared technology rather than a transferred method; strength 1.", "fix": {"kind": "shared object", "strength": 1}}
+{"id": "C1928", "verdict": "confirm"}
+{"id": "C1929", "verdict": "reject", "reason": "duplicate of C1930", "duplicate_of": "C1930"}
+{"id": "C1930", "verdict": "confirm"}
+{"id": "C2129", "verdict": "confirm"}
+{"id": "C2130", "verdict": "confirm"}
+{"id": "C2131", "verdict": "revise", "reason": "One-sided link to ocean physics; strength 1.", "fix": {"strength": 1}}
+{"id": "C2132", "verdict": "revise", "reason": "Suggestive, one-sided mapping; strength 1.", "fix": {"strength": 1}}
+{"id": "C2133", "verdict": "revise", "reason": "'Much of' overstates; atom interferometry excluded parts of chameleon parameter space.", "fix": {"summary": "Chameleon and symmetron screening hide a scalar fifth force inside dense bodies behind a thin shell, but atoms in an ultra-high-vacuum chamber are unscreened. Atom-interferometric measurements near a source mass have excluded parts of the chameleon parameter space."}}
+{"id": "C2134", "verdict": "revise", "reason": "Berger–Oliger AMR is not standard in weather models; drop that claim.", "fix": {"summary": "Both fields evolve hyperbolic equations from initial data that must satisfy elliptic conditions: the Einstein constraints, or geostrophic and nonlinear-normal-mode balance. Off-balance data shed spurious fast waves (junk radiation, inertia–gravity waves) that must be discarded or filtered."}}
+{"id": "C2135", "verdict": "revise", "reason": "Strength 3 too high for this broad link.", "fix": {"strength": 2}}
+{"id": "C2136", "verdict": "confirm"}
+{"id": "C2137", "verdict": "confirm"}
+{"id": "C2138", "verdict": "revise", "reason": "Unverified claim that Earth free-oscillation records bound the stochastic GW background; Apollo lunar data did.", "fix": {"summary": "A GW's tidal acceleration drives the quadrupolar modes of an elastic body, the principle of Weber's bar. Dyson (1969) computed Earth's seismic response, and lunar seismic data have been used to bound the GW background at 0.1–1 Hz."}}
+{"id": "C2139", "verdict": "confirm"}
+{"id": "C2140", "verdict": "revise", "reason": "Same physics (FDT thermal noise), so mechanism rather than analogy.", "fix": {"kind": "mechanism"}}
+{"id": "C2141", "verdict": "confirm"}
+{"id": "C2142", "verdict": "confirm"}
+{"id": "C2143", "verdict": "confirm"}
+{"id": "C2144", "verdict": "revise", "reason": "Strength 3 too high; detectors are proposed, not built.", "fix": {"strength": 2}}
+{"id": "C2145", "verdict": "confirm"}
+{"id": "C2146", "verdict": "revise", "reason": "Fix wording: MERA is the holographic-like network; both methods rely on entanglement scaling, with area laws for DMRG.", "fix": {"summary": "Matrix-product-state DMRG is a production quantum-chemistry method for strongly correlated active spaces because 1D ground states obey area laws. MERA tensor networks build a discrete AdS-like bulk whose minimal cuts give a Ryu–Takayanagi-like entanglement bound."}}

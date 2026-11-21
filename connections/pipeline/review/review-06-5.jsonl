@@ -1,0 +1,75 @@
+{"id": "C2339", "verdict": "revise", "reason": "Strength inflated; a specific search link, not structural in both fields.", "fix": {"strength": 2}}
+{"id": "C2340", "verdict": "confirm"}
+{"id": "C2341", "verdict": "confirm"}
+{"id": "C2342", "verdict": "confirm"}
+{"id": "C2343", "verdict": "confirm"}
+{"id": "C2344", "verdict": "confirm"}
+{"id": "C2345", "verdict": "confirm"}
+{"id": "C2346", "verdict": "reject", "reason": "duplicate of C2348", "duplicate_of": "C2348"}
+{"id": "C2347", "verdict": "confirm"}
+{"id": "C2348", "verdict": "revise", "reason": "Strength 3 too high; plasma acceleration is not structural in a particle-physics course.", "fix": {"strength": 2}}
+{"id": "C2349", "verdict": "confirm"}
+{"id": "C2350", "verdict": "confirm"}
+{"id": "C2351", "verdict": "confirm"}
+{"id": "C2352", "verdict": "confirm"}
+{"id": "C2353", "verdict": "confirm"}
+{"id": "C2354", "verdict": "reject", "reason": "Parallel uses of ML, no technique transferred; generic 'Y uses ML' overlap."}
+{"id": "C2355", "verdict": "revise", "reason": "Strength 3 too high; gas detector amplification is a specific link, not structural in both.", "fix": {"strength": 2}}
+{"id": "C2356", "verdict": "revise", "reason": "Thin historical link; strength overrated.", "fix": {"strength": 1}}
+{"id": "C2357", "verdict": "confirm"}
+{"id": "C2358", "verdict": "confirm"}
+{"id": "C2359", "verdict": "revise", "reason": "Record has breaks (no force term, commutator nonlinearity), so not an identity; it is an analogy.", "fix": {"kind": "analogy"}}
+{"id": "C2360", "verdict": "revise", "reason": "Strength 3 overrated for a recent supernova-neutrino method.", "fix": {"strength": 2}}
+{"id": "C2361", "verdict": "confirm"}
+{"id": "C2362", "verdict": "revise", "reason": "Has breaks (approximate conservation, continuous vs integer), so not identity; mechanism via anomaly.", "fix": {"kind": "mechanism"}}
+{"id": "C2363", "verdict": "confirm"}
+{"id": "C2364", "verdict": "confirm"}
+{"id": "C2365", "verdict": "confirm"}
+{"id": "C2366", "verdict": "confirm"}
+{"id": "C2367", "verdict": "revise", "reason": "Needs breaks (static longitudinal only, collective medium effect), so analogy not identity.", "fix": {"kind": "analogy"}}
+{"id": "C2368", "verdict": "revise", "reason": "RG for MHD turbulence is contested and uncontrolled, not established.", "fix": {"confidence": "current research"}}
+{"id": "C2369", "verdict": "confirm"}
+{"id": "C2370", "verdict": "confirm"}
+{"id": "C2371", "verdict": "revise", "reason": "CP-violation node is a poor fit; antihydrogen CPT tests relate to matter–antimatter asymmetry.", "fix": {"a": "06-particle-physics/beyond-the-standard-model/baryogenesis-and-matter-antimatter"}}
+{"id": "C2372", "verdict": "confirm"}
+{"id": "C2373", "verdict": "revise", "reason": "Strength 3 too high for a historical analogy-origin link.", "fix": {"strength": 2}}
+{"id": "C2374", "verdict": "confirm"}
+{"id": "C2375", "verdict": "confirm"}
+{"id": "C2376", "verdict": "revise", "reason": "Record has breaks, so not an identity; it is a leading-order equivalence mechanism.", "fix": {"kind": "mechanism"}}
+{"id": "C2377", "verdict": "confirm"}
+{"id": "C2378", "verdict": "revise", "reason": "Strength 3 too high for a broad applied link.", "fix": {"strength": 2}}
+{"id": "C2379", "verdict": "confirm"}
+{"id": "C2380", "verdict": "confirm"}
+{"id": "C2381", "verdict": "confirm"}
+{"id": "C2382", "verdict": "confirm"}
+{"id": "C2383", "verdict": "reject", "reason": "Generic 'colliders use accelerator physics'; specific cases are covered by other records."}
+{"id": "C2384", "verdict": "confirm"}
+{"id": "C2385", "verdict": "confirm"}
+{"id": "C2386", "verdict": "confirm"}
+{"id": "C2387", "verdict": "confirm"}
+{"id": "C2388", "verdict": "confirm"}
+{"id": "C2389", "verdict": "revise", "reason": "p=0.3Bρ is a simple link; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C2390", "verdict": "confirm"}
+{"id": "C2391", "verdict": "confirm"}
+{"id": "C2392", "verdict": "revise", "reason": "No technique moved between fields; parallel symmetry-aware architectures, so analogy with weak strength.", "fix": {"kind": "analogy", "strength": 1, "breaks": "Different symmetry groups (Lorentz vs SE(3)) and no shared method or code; only the equivariance design principle is common."}}
+{"id": "C2393", "verdict": "confirm"}
+{"id": "C2394", "verdict": "revise", "reason": "Strength 3 too high for a specific device-physics link.", "fix": {"strength": 2}}
+{"id": "C2395", "verdict": "confirm"}
+{"id": "C2396", "verdict": "confirm"}
+{"id": "C2397", "verdict": "revise", "reason": "Strength 3 overrated; specific technology exchange.", "fix": {"strength": 2}}
+{"id": "C2398", "verdict": "confirm"}
+{"id": "C2399", "verdict": "revise", "reason": "JUNO is already taking data; 'soon' is outdated.", "fix": {"summary": "Antineutrinos from the U and Th decay chains, detected by inverse beta decay in KamLAND, Borexino and JUNO, directly measure radiogenic heat production in the crust and mantle. This complements seismic Earth models such as PREM on what powers mantle convection and the geodynamo. ⁴⁰K antineutrinos are below the detection threshold."}}
+{"id": "C2400", "verdict": "confirm"}
+{"id": "C2401", "verdict": "revise", "reason": "Record has breaks, so not identity; same level-crossing mechanism.", "fix": {"kind": "mechanism"}}
+{"id": "C2402", "verdict": "confirm"}
+{"id": "C2403", "verdict": "revise", "reason": "Has breaks (no topological charge), so not identity; shared Euclidean-saddle mechanism. Strength 3 overrated.", "fix": {"kind": "mechanism", "strength": 2}}
+{"id": "C2404", "verdict": "confirm"}
+{"id": "C2405", "verdict": "revise", "reason": "Strength 3 overrated for a historical borrowing of diagram techniques.", "fix": {"strength": 2}}
+{"id": "C2406", "verdict": "confirm"}
+{"id": "C2407", "verdict": "revise", "reason": "Has breaks (emergent, kinematic connection), so analogy not identity.", "fix": {"kind": "analogy"}}
+{"id": "C2408", "verdict": "confirm"}
+{"id": "C2409", "verdict": "confirm"}
+{"id": "C2410", "verdict": "confirm"}
+{"id": "C2411", "verdict": "confirm"}
+{"id": "C2412", "verdict": "confirm"}
+{"id": "C2413", "verdict": "confirm"}

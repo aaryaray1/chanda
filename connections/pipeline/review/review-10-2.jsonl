@@ -1,0 +1,100 @@
+{"id": "C1239", "verdict": "confirm"}
+{"id": "C1240", "verdict": "confirm"}
+{"id": "C1241", "verdict": "revise", "reason": "Strength overrated; absorb the Chihara decomposition from C1888.", "fix": {"strength": 2, "summary": "Thomson scattering from free electrons measures density, temperature and collective modes in plasmas. X-ray Thomson scattering extends it to warm dense matter, where the Chihara decomposition splits the spectrum into bound, free and screening parts."}}
+{"id": "C1242", "verdict": "confirm"}
+{"id": "C1550", "verdict": "confirm"}
+{"id": "C1551", "verdict": "revise", "reason": "The hydrogen plasma phase transition is contested; the summary overstates it.", "fix": {"summary": "Dusty-plasma crystals and OCP freezing are phase-coexistence problems, handled with free energies and equations of state. The first-order plasma phase transition in dense hydrogen is predicted by some models but remains contested."}}
+{"id": "C1552", "verdict": "confirm"}
+{"id": "C1553", "verdict": "confirm"}
+{"id": "C1554", "verdict": "reject", "reason": "Rechester–Rosenbluth is stochastic field-line diffusion, not percolation. The plasmoid-percolation claim is unsupported and vague."}
+{"id": "C1555", "verdict": "revise", "reason": "Strength overrated for a method link into one subfield.", "fix": {"strength": 2}}
+{"id": "C1556", "verdict": "revise", "reason": "Variational analogy to max-entropy, not a method transfer; relaxation is not thermal.", "fix": {"kind": "analogy"}}
+{"id": "C1557", "verdict": "confirm"}
+{"id": "C1558", "verdict": "confirm"}
+{"id": "C1559", "verdict": "revise", "reason": "Needs a breaks clause, so it is not an identity.", "fix": {"kind": "mechanism"}}
+{"id": "C1560", "verdict": "confirm"}
+{"id": "C1561", "verdict": "confirm"}
+{"id": "C1562", "verdict": "revise", "reason": "Shared-object link is substantial but not structural in both fields.", "fix": {"strength": 2}}
+{"id": "C1563", "verdict": "confirm"}
+{"id": "C1564", "verdict": "revise", "reason": "Hohlraum radiation belongs to the ICF note, not laser-plasma interactions.", "fix": {"b": "10-plasma-physics/inertial-and-laser-plasmas/inertial-confinement-fusion"}}
+{"id": "C1565", "verdict": "confirm"}
+{"id": "C1566", "verdict": "reject", "reason": "duplicate of C1572", "duplicate_of": "C1572"}
+{"id": "C1567", "verdict": "confirm"}
+{"id": "C1568", "verdict": "reject", "reason": "Generic cascade-as-NESS comparison with KPZ names no technique or consequence; trivial."}
+{"id": "C1569", "verdict": "confirm"}
+{"id": "C1570", "verdict": "confirm"}
+{"id": "C1571", "verdict": "confirm"}
+{"id": "C1572", "verdict": "confirm"}
+{"id": "C1573", "verdict": "reject", "reason": "duplicate of C1572", "duplicate_of": "C1572"}
+{"id": "C1574", "verdict": "revise", "reason": "Parker's wind is a fluid model; exospheric kinetic models are Lemaire–Scherer, not Parker.", "fix": {"summary": "The solar wind has a large Knudsen number, so exospheric kinetic models solving the collisionless Boltzmann/Vlasov equation (Lemaire–Scherer) predict non-Maxwellian electron halos and heat flux beyond fluid closures."}}
+{"id": "C1575", "verdict": "revise", "reason": "Strength overrated for a narrow diagnostic link.", "fix": {"strength": 2}}
+{"id": "C1576", "verdict": "revise", "reason": "Spitzer comes from kinetic theory; Kubo is a formal route only, so the link is narrow.", "fix": {"strength": 1}}
+{"id": "C1577", "verdict": "confirm"}
+{"id": "C1578", "verdict": "confirm"}
+{"id": "C1579", "verdict": "confirm"}
+{"id": "C1580", "verdict": "confirm"}
+{"id": "C1581", "verdict": "confirm"}
+{"id": "C1582", "verdict": "confirm"}
+{"id": "C1583", "verdict": "reject", "reason": "duplicate of C1557", "duplicate_of": "C1557"}
+{"id": "C1584", "verdict": "confirm"}
+{"id": "C1585", "verdict": "confirm"}
+{"id": "C1586", "verdict": "confirm"}
+{"id": "C1855", "verdict": "revise", "reason": "IPD is contested: Ciricosta favoured Ecker–Kröll over Stewart–Pyatt; Hoarty found Stewart–Pyatt adequate. The summary overstates.", "fix": {"summary": "Dense plasma shifts atomic levels and lowers ionization thresholds (IPD). XFEL experiments disagreed on whether Stewart–Pyatt or Ecker–Kröll fits, and Z-machine iron opacities exceed atomic-model predictions. Both remain open tests of atomic structure in plasmas."}}
+{"id": "C1856", "verdict": "confirm"}
+{"id": "C1857", "verdict": "confirm"}
+{"id": "C1858", "verdict": "confirm"}
+{"id": "C1859", "verdict": "reject", "reason": "duplicate of C1562", "duplicate_of": "C1562"}
+{"id": "C1860", "verdict": "reject", "reason": "duplicate of C1563", "duplicate_of": "C1563"}
+{"id": "C1861", "verdict": "confirm"}
+{"id": "C1862", "verdict": "confirm"}
+{"id": "C1863", "verdict": "confirm"}
+{"id": "C1864", "verdict": "revise", "reason": "The record carries a breaks clause (ion-acoustic response, classical envelope), so it is not an identity.", "fix": {"kind": "analogy"}}
+{"id": "C1865", "verdict": "confirm"}
+{"id": "C1866", "verdict": "confirm"}
+{"id": "C1867", "verdict": "confirm"}
+{"id": "C1868", "verdict": "revise", "reason": "The Madelung/Bohm potential comes from the Schrödinger formalism, not interpretations; node mismatch.", "fix": {"a": "04-quantum-physics/quantum-mechanics-core/postulates-and-formalism"}}
+{"id": "C1869", "verdict": "confirm"}
+{"id": "C1870", "verdict": "revise", "reason": "Krein collision is Hamiltonian; calling it the same PT-breaking transition overclaims. Make it an analogy.", "fix": {"kind": "analogy", "breaks": "Ideal plasma linearization is Hamiltonian with Krein signature, not a gain/loss PT-symmetric system; the shared feature is only the exceptional-point collision."}}
+{"id": "C1871", "verdict": "confirm"}
+{"id": "C1872", "verdict": "confirm"}
+{"id": "C1873", "verdict": "confirm"}
+{"id": "C1874", "verdict": "revise", "reason": "Has a breaks clause, so not an identity; strength overrated.", "fix": {"kind": "mechanism", "strength": 2}}
+{"id": "C1875", "verdict": "confirm"}
+{"id": "C1876", "verdict": "confirm"}
+{"id": "C1877", "verdict": "confirm"}
+{"id": "C1878", "verdict": "confirm"}
+{"id": "C1879", "verdict": "revise", "reason": "Needs a breaks clause (flows break self-adjointness), so not an identity.", "fix": {"kind": "analogy", "breaks": "Equilibrium flows break self-adjointness of the force operator (Frieman–Rotenberg), so ω² can be complex; the quantum Hamiltonian stays Hermitian."}}
+{"id": "C1880", "verdict": "revise", "reason": "Narrow RF-heating link; strength overrated.", "fix": {"strength": 2}}
+{"id": "C1881", "verdict": "revise", "reason": "Has a breaks clause, so not an identity; classical and quantum invariants differ in conservation.", "fix": {"kind": "mechanism", "strength": 2}}
+{"id": "C1882", "verdict": "confirm"}
+{"id": "C1883", "verdict": "confirm"}
+{"id": "C1884", "verdict": "confirm"}
+{"id": "C1885", "verdict": "confirm"}
+{"id": "C1886", "verdict": "confirm"}
+{"id": "C1887", "verdict": "confirm"}
+{"id": "C1888", "verdict": "reject", "reason": "duplicate of C1241", "duplicate_of": "C1241"}
+{"id": "C1889", "verdict": "confirm"}
+{"id": "C1890", "verdict": "confirm"}
+{"id": "C1891", "verdict": "confirm"}
+{"id": "C1892", "verdict": "revise", "reason": "The effective mass is a medium effect with a stated break, so it is not an identity.", "fix": {"kind": "analogy"}}
+{"id": "C1893", "verdict": "confirm"}
+{"id": "C2092", "verdict": "revise", "reason": "A broad 'uses ideal MHD' method link is not strength 3.", "fix": {"strength": 2}}
+{"id": "C2093", "verdict": "confirm"}
+{"id": "C2094", "verdict": "confirm"}
+{"id": "C2095", "verdict": "confirm"}
+{"id": "C2096", "verdict": "confirm"}
+{"id": "C2097", "verdict": "confirm"}
+{"id": "C2098", "verdict": "confirm"}
+{"id": "C2099", "verdict": "confirm"}
+{"id": "C2100", "verdict": "confirm"}
+{"id": "C2101", "verdict": "confirm"}
+{"id": "C2102", "verdict": "confirm"}
+{"id": "C2103", "verdict": "confirm"}
+{"id": "C2104", "verdict": "confirm"}
+{"id": "C2105", "verdict": "confirm"}
+{"id": "C2106", "verdict": "confirm"}
+{"id": "C2107", "verdict": "confirm"}
+{"id": "C2108", "verdict": "revise", "reason": "Simulations give ~10^15–10^16 G; 10^16 G is above magnetar strength.", "fix": {"map": "\\sigma_{\\rm KH}\\sim k\\Delta v,\\ B\\to10^{15}\\text{–}10^{16}\\,\\text{G in}\\ \\sim\\text{ms}"}}
+{"id": "C2109", "verdict": "confirm"}
+{"id": "C2110", "verdict": "revise", "reason": "A method port to GR codes is not structural in both fields.", "fix": {"strength": 2}}
+{"id": "C2111", "verdict": "confirm"}

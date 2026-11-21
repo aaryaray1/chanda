@@ -195,3 +195,252 @@
 2026-11-05 12:23:04  snapshot: interim registry of 2933 connections; map and codices rebuilt
 2026-11-05 14:08:42  handoff: the review stage runs on linux, not on this win32 machine (config.json stage_gate); removing this machine's scheduled task
 2026-11-05 14:08:42  ALERT Physics pipeline handed off: the review stage runs on linux, not on this win32 machine (config.json stage_gate)
+2026-11-06 02:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-06 04:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-06 06:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-06 08:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-06 10:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-06 12:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-06 14:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-06 16:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-06 18:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-06 20:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-06 22:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-07 00:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-07 02:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-07 04:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-07 06:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-07 08:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-07 10:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-07 12:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-07 14:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-07 16:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-07 18:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-07 20:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-07 22:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-08 00:13:12  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-08 02:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-08 04:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-08 06:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-08 08:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-08 10:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-08 12:13:48  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-08 14:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-08 16:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-08 18:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-08 20:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-08 22:13:47  waiting: the review stage is held until 2026-11-09 00:00 (config.json stage_gate)
+2026-11-09 00:13:48  start review-00-1 on opus at medium effort
+2026-11-09 00:17:48  review-00-1: done (100/100 verdicts, 4 additions · 1 turns, 0k in + 57k cache-write + 3k cache-read, 28k out, ~$1.01) (exit 0)
+2026-11-09 00:17:48  start review-00-2 on opus at medium effort
+2026-11-09 00:21:59  review-00-2: done (100/100 verdicts, 5 additions · 1 turns, 0k in + 57k cache-write + 5k cache-read, 29k out, ~$1.02) (exit 0)
+2026-11-09 00:21:59  start review-00-3 on opus at medium effort
+2026-11-09 00:26:08  review-00-3: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 55k cache-write + 5k cache-read, 27k out, ~$0.98) (exit 0)
+2026-11-09 00:26:08  start review-00-4 on opus at medium effort
+2026-11-09 00:30:24  review-00-4: done (100/100 verdicts, 1 additions · 1 turns, 0k in + 52k cache-write + 5k cache-read, 28k out, ~$0.97) (exit 0)
+2026-11-09 00:30:34  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-09 02:13:48  start review-00-5 on opus at medium effort
+2026-11-09 02:16:56  review-00-5: done (57/57 verdicts, 3 additions · 1 turns, 0k in + 36k cache-write + 3k cache-read, 20k out, ~$0.69) (exit 0)
+2026-11-09 02:16:56  start review-01-1 on opus at medium effort
+2026-11-09 02:21:37  review-01-1: done (100/100 verdicts, 4 additions · 1 turns, 0k in + 62k cache-write + 5k cache-read, 32k out, ~$1.14) (exit 0)
+2026-11-09 02:21:37  start review-01-2 on opus at medium effort
+2026-11-09 02:27:24  review-01-2: done (99/100 verdicts, 1 additions · 1 turns, 0k in + 69k cache-write + 5k cache-read, 38k out, ~$1.32) (exit 0)
+2026-11-09 02:27:25  start review-01-3 on opus at medium effort
+2026-11-09 02:31:37  review-01-3: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 66k cache-write + 5k cache-read, 28k out, ~$1.09) (exit 0)
+2026-11-09 02:31:47  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-09 04:13:48  start review-01-4 on opus at medium effort
+2026-11-09 04:19:43  review-01-4: done (100/100 verdicts, 2 additions · 1 turns, 0k in + 61k cache-write + 3k cache-read, 39k out, ~$1.26) (exit 0)
+2026-11-09 04:19:43  start review-01-5 on opus at medium effort
+2026-11-09 04:24:44  review-01-5: done (85/85 verdicts, 3 additions · 1 turns, 0k in + 48k cache-write + 5k cache-read, 33k out, ~$1.03) (exit 0)
+2026-11-09 04:24:44  start review-02-1 on opus at medium effort
+2026-11-09 04:28:23  review-02-1: done (100/100 verdicts, 4 additions · 1 turns, 0k in + 66k cache-write + 5k cache-read, 24k out, ~$1.02) (exit 0)
+2026-11-09 04:28:23  start review-02-2 on opus at medium effort
+2026-11-09 04:32:30  review-02-2: done (100/100 verdicts, 3 additions · 1 turns, 0k in + 64k cache-write + 5k cache-read, 27k out, ~$1.06) (exit 0)
+2026-11-09 04:32:39  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-09 06:13:48  start review-02-3 on opus at medium effort
+2026-11-09 06:17:48  review-02-3: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 66k cache-write + 3k cache-read, 27k out, ~$1.07) (exit 0)
+2026-11-09 06:17:48  start review-02-4 on opus at medium effort
+2026-11-09 06:22:34  review-02-4: done (100/100 verdicts, 4 additions · 1 turns, 0k in + 60k cache-write + 5k cache-read, 31k out, ~$1.11) (exit 0)
+2026-11-09 06:22:34  start review-02-5 on opus at medium effort
+2026-11-09 06:26:28  review-02-5: done (69/69 verdicts, 0 additions · 1 turns, 0k in + 41k cache-write + 5k cache-read, 26k out, ~$0.84) (exit 0)
+2026-11-09 06:26:28  start review-03-1 on opus at medium effort
+2026-11-09 06:31:45  review-03-1: done (100/100 verdicts, 6 additions · 1 turns, 0k in + 61k cache-write + 5k cache-read, 36k out, ~$1.20) (exit 0)
+2026-11-09 06:31:54  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-09 08:13:48  start review-03-2 on opus at medium effort
+2026-11-09 08:19:06  review-03-2: done (100/100 verdicts, 7 additions · 1 turns, 0k in + 61k cache-write + 3k cache-read, 36k out, ~$1.21) (exit 0)
+2026-11-09 08:19:06  start review-03-3 on opus at medium effort
+2026-11-09 08:24:27  review-03-3: done (100/100 verdicts, 2 additions · 1 turns, 0k in + 59k cache-write + 5k cache-read, 35k out, ~$1.18) (exit 0)
+2026-11-09 08:24:27  start review-03-4 on opus at medium effort
+2026-11-09 08:29:27  review-03-4: done (100/100 verdicts, 3 additions · 1 turns, 0k in + 62k cache-write + 5k cache-read, 33k out, ~$1.16) (exit 0)
+2026-11-09 08:29:27  start review-03-5 on opus at medium effort
+2026-11-09 08:34:01  review-03-5: done (66/66 verdicts, 3 additions · 1 turns, 0k in + 40k cache-write + 5k cache-read, 30k out, ~$0.91) (exit 0)
+2026-11-09 08:34:10  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-09 10:13:48  start review-04-1 on opus at medium effort
+2026-11-09 10:18:18  review-04-1: done (100/100 verdicts, 1 additions · 1 turns, 0k in + 70k cache-write + 3k cache-read, 30k out, ~$1.15) (exit 0)
+2026-11-09 10:18:18  start review-04-2 on opus at medium effort
+2026-11-09 10:23:12  review-04-2: done (100/100 verdicts, 1 additions · 1 turns, 0k in + 65k cache-write + 5k cache-read, 32k out, ~$1.17) (exit 0)
+2026-11-09 10:23:12  start review-04-3 on opus at medium effort
+2026-11-09 10:26:58  review-04-3: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 60k cache-write + 5k cache-read, 24k out, ~$0.97) (exit 0)
+2026-11-09 10:26:58  start review-04-4 on opus at medium effort
+2026-11-09 10:27:00  review-04-4: usage limit (exit 1)
+2026-11-09 10:27:00  stopped by a usage limit; cooling down until 2026-11-09T13:13:00
+2026-11-09 10:27:10  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-09 12:13:47  waiting: cooling down until 2026-11-09 13:13 (limit: You've hit your 5-hour limit · resets 1:10pm (Europe/Brussels))
+2026-11-09 14:13:48  start review-04-4 on opus at medium effort
+2026-11-09 14:17:25  review-04-4: done (100/100 verdicts, 1 additions · 1 turns, 0k in + 58k cache-write + 3k cache-read, 24k out, ~$0.95) (exit 0)
+2026-11-09 14:17:25  start review-04-5 on opus at medium effort
+2026-11-09 14:21:46  review-04-5: done (89/89 verdicts, 2 additions · 1 turns, 0k in + 56k cache-write + 5k cache-read, 27k out, ~$1.00) (exit 0)
+2026-11-09 14:21:47  start review-05-1 on opus at medium effort
+2026-11-09 14:26:14  review-05-1: done (100/100 verdicts, 4 additions · 1 turns, 0k in + 62k cache-write + 5k cache-read, 30k out, ~$1.10) (exit 0)
+2026-11-09 14:26:14  start review-05-2 on opus at medium effort
+2026-11-09 14:31:50  review-05-2: done (100/100 verdicts, 2 additions · 1 turns, 0k in + 58k cache-write + 5k cache-read, 36k out, ~$1.19) (exit 0)
+2026-11-09 14:31:59  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-09 16:13:48  start review-05-3 on opus at medium effort
+2026-11-09 16:18:27  review-05-3: done (100/100 verdicts, 3 additions · 1 turns, 0k in + 61k cache-write + 3k cache-read, 31k out, ~$1.11) (exit 0)
+2026-11-09 16:18:27  start review-05-4 on opus at medium effort
+2026-11-09 16:23:12  review-05-4: done (100/100 verdicts, 1 additions · 1 turns, 0k in + 58k cache-write + 5k cache-read, 32k out, ~$1.10) (exit 0)
+2026-11-09 16:23:12  start review-05-5 on opus at medium effort
+2026-11-09 16:24:25  review-05-5: done (16/16 verdicts, 0 additions · 1 turns, 0k in + 21k cache-write + 5k cache-read, 7k out, ~$0.32) (exit 0)
+2026-11-09 16:24:35  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-09 18:13:47  daily unit cap reached; resuming tomorrow
+2026-11-09 20:13:48  daily unit cap reached; resuming tomorrow
+2026-11-09 22:13:47  daily unit cap reached; resuming tomorrow
+2026-11-10 00:13:48  start review-06-1 on opus at medium effort
+2026-11-10 00:18:17  review-06-1: done (100/100 verdicts, 1 additions · 1 turns, 0k in + 68k cache-write + 3k cache-read, 30k out, ~$1.14) (exit 0)
+2026-11-10 00:18:17  start review-06-2 on opus at medium effort
+2026-11-10 00:22:55  review-06-2: done (100/100 verdicts, 1 additions · 1 turns, 0k in + 65k cache-write + 5k cache-read, 31k out, ~$1.14) (exit 0)
+2026-11-10 00:22:55  start review-06-3 on opus at medium effort
+2026-11-10 00:26:31  review-06-3: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 65k cache-write + 5k cache-read, 24k out, ~$1.00) (exit 0)
+2026-11-10 00:26:32  start review-06-4 on opus at medium effort
+2026-11-10 00:30:29  review-06-4: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 61k cache-write + 5k cache-read, 26k out, ~$1.02) (exit 0)
+2026-11-10 00:30:38  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-10 02:13:48  start review-06-5 on sonnet at medium effort
+2026-11-10 02:15:07  review-06-5: done (75/75 verdicts, 0 additions · 1 turns, 0k in + 59k cache-write + 3k cache-read, 11k out, ~$0.35) (exit 0)
+2026-11-10 02:15:07  start review-07-1 on sonnet at medium effort
+2026-11-10 02:16:44  review-07-1: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 64k cache-write + 5k cache-read, 14k out, ~$0.40) (exit 0)
+2026-11-10 02:16:44  start review-07-2 on sonnet at medium effort
+2026-11-10 02:24:17  review-07-2: done (100/100 verdicts, 1 additions · 1 turns, 0k in + 60k cache-write + 5k cache-read, 30k out, ~$0.54) (exit 0)
+2026-11-10 02:24:19  start review-07-3 on sonnet at medium effort
+2026-11-10 02:26:03  review-07-3: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 58k cache-write + 5k cache-read, 13k out, ~$0.37) (exit 0)
+2026-11-10 02:26:13  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-10 04:13:48  daily unit cap reached; resuming tomorrow
+2026-11-10 06:13:48  daily unit cap reached; resuming tomorrow
+2026-11-10 08:13:48  daily unit cap reached; resuming tomorrow
+2026-11-10 10:13:48  daily unit cap reached; resuming tomorrow
+2026-11-10 12:13:48  daily unit cap reached; resuming tomorrow
+2026-11-10 14:13:47  daily unit cap reached; resuming tomorrow
+2026-11-10 16:13:54  daily unit cap reached; resuming tomorrow
+2026-11-10 16:24:02  runner error: pipeline 'doctor' failed (exit -1): no output
+2026-11-10 16:24:05  ALERT Chanda pipeline failed: runner error: pipeline 'doctor' failed (exit -1): no output
+2026-11-10 18:13:47  daily unit cap reached; resuming tomorrow
+2026-11-10 20:13:47  daily unit cap reached; resuming tomorrow
+2026-11-10 22:13:48  daily unit cap reached; resuming tomorrow
+2026-11-11 00:13:48  start review-07-4 on sonnet at medium effort
+2026-11-11 00:15:50  review-07-4: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 63k cache-write + 3k cache-read, 17k out, ~$0.42) (exit 0)
+2026-11-11 00:15:50  start review-07-5 on sonnet at medium effort
+2026-11-11 00:16:34  review-07-5: done (38/38 verdicts, 0 additions · 1 turns, 0k in + 32k cache-write + 5k cache-read, 6k out, ~$0.19) (exit 0)
+2026-11-11 00:16:34  start review-08-1 on sonnet at medium effort
+2026-11-11 00:18:15  review-08-1: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 62k cache-write + 5k cache-read, 15k out, ~$0.39) (exit 0)
+2026-11-11 00:18:15  start review-08-2 on sonnet at medium effort
+2026-11-11 00:20:02  review-08-2: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 66k cache-write + 5k cache-read, 15k out, ~$0.41) (exit 0)
+2026-11-11 00:20:12  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-11 02:13:48  start review-08-3 on sonnet at medium effort
+2026-11-11 02:15:44  review-08-3: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 63k cache-write + 3k cache-read, 16k out, ~$0.42) (exit 0)
+2026-11-11 02:15:44  start review-08-4 on sonnet at medium effort
+2026-11-11 02:17:51  review-08-4: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 66k cache-write + 5k cache-read, 18k out, ~$0.44) (exit 0)
+2026-11-11 02:17:51  start review-08-5 on sonnet at medium effort
+2026-11-11 02:18:39  review-08-5: done (59/59 verdicts, 0 additions · 1 turns, 0k in + 45k cache-write + 5k cache-read, 7k out, ~$0.25) (exit 0)
+2026-11-11 02:18:39  start review-09-1 on sonnet at medium effort
+2026-11-11 02:20:21  review-09-1: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 55k cache-write + 5k cache-read, 15k out, ~$0.37) (exit 0)
+2026-11-11 02:20:30  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-11 04:13:48  daily unit cap reached; resuming tomorrow
+2026-11-11 06:13:48  daily unit cap reached; resuming tomorrow
+2026-11-11 08:13:48  daily unit cap reached; resuming tomorrow
+2026-11-11 10:13:48  daily unit cap reached; resuming tomorrow
+2026-11-11 12:13:35  daily unit cap reached; resuming tomorrow
+2026-11-11 14:13:48  daily unit cap reached; resuming tomorrow
+2026-11-11 16:13:48  daily unit cap reached; resuming tomorrow
+2026-11-11 18:13:48  daily unit cap reached; resuming tomorrow
+2026-11-11 20:13:48  daily unit cap reached; resuming tomorrow
+2026-11-11 22:13:48  daily unit cap reached; resuming tomorrow
+2026-11-12 00:13:48  start review-09-2 on sonnet at medium effort
+2026-11-12 00:15:22  review-09-2: done (98/100 verdicts, 0 additions · 1 turns, 0k in + 64k cache-write + 3k cache-read, 14k out, ~$0.39) (exit 0)
+2026-11-12 00:15:22  start review-09-3 on sonnet at medium effort
+2026-11-12 00:17:05  review-09-3: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 62k cache-write + 5k cache-read, 15k out, ~$0.40) (exit 0)
+2026-11-12 00:17:05  start review-09-4 on sonnet at medium effort
+2026-11-12 00:18:36  review-09-4: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 58k cache-write + 5k cache-read, 13k out, ~$0.36) (exit 0)
+2026-11-12 00:18:36  start review-09-5 on sonnet at medium effort
+2026-11-12 00:19:16  review-09-5: done (33/33 verdicts, 0 additions · 1 turns, 0k in + 30k cache-write + 5k cache-read, 5k out, ~$0.18) (exit 0)
+2026-11-12 00:19:25  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-12 02:13:48  start review-10-1 on sonnet at medium effort
+2026-11-12 02:16:22  review-10-1: done (100/100 verdicts, 3 additions · 1 turns, 0k in + 51k cache-write + 3k cache-read, 22k out, ~$0.43) (exit 0)
+2026-11-12 02:16:22  start review-10-2 on sonnet at medium effort
+2026-11-12 02:17:50  review-10-2: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 57k cache-write + 5k cache-read, 13k out, ~$0.36) (exit 0)
+2026-11-12 02:17:51  start review-10-3 on sonnet at medium effort
+2026-11-12 02:20:28  review-10-3: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 63k cache-write + 5k cache-read, 22k out, ~$0.47) (exit 0)
+2026-11-12 02:20:28  start review-10-4 on sonnet at medium effort
+2026-11-12 02:22:02  review-10-4: done (98/98 verdicts, 0 additions · 1 turns, 0k in + 50k cache-write + 5k cache-read, 13k out, ~$0.33) (exit 0)
+2026-11-12 02:22:13  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-12 04:13:47  daily unit cap reached; resuming tomorrow
+2026-11-12 06:13:47  daily unit cap reached; resuming tomorrow
+2026-11-12 08:13:47  daily unit cap reached; resuming tomorrow
+2026-11-12 10:14:52  daily unit cap reached; resuming tomorrow
+2026-11-12 10:25:37  runner error: pipeline 'doctor' failed (exit -1): no output
+2026-11-12 10:26:04  ALERT Chanda pipeline failed: runner error: pipeline 'doctor' failed (exit -1): no output
+2026-11-12 12:13:48  daily unit cap reached; resuming tomorrow
+2026-11-12 14:13:48  daily unit cap reached; resuming tomorrow
+2026-11-12 16:13:48  daily unit cap reached; resuming tomorrow
+2026-11-12 18:13:48  daily unit cap reached; resuming tomorrow
+2026-11-12 20:13:48  daily unit cap reached; resuming tomorrow
+2026-11-12 22:13:47  daily unit cap reached; resuming tomorrow
+2026-11-13 00:13:48  start review-11-1 on sonnet at medium effort
+2026-11-13 00:14:17  review-11-1: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 50k cache-write + 3k cache-read, 5k out, ~$0.25) (exit 0)
+2026-11-13 00:14:17  start review-11-2 on sonnet at medium effort
+2026-11-13 00:16:41  review-11-2: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 50k cache-write + 5k cache-read, 20k out, ~$0.40) (exit 0)
+2026-11-13 00:16:41  start review-11-3 on sonnet at medium effort
+2026-11-13 00:18:08  review-11-3: done (100/100 verdicts, 0 additions · 1 turns, 0k in + 58k cache-write + 5k cache-read, 12k out, ~$0.35) (exit 0)
+2026-11-13 00:18:08  start review-11-4 on sonnet at medium effort
+2026-11-13 00:20:50  review-11-4: done (100/100 verdicts, 5 additions · 1 turns, 0k in + 50k cache-write + 5k cache-read, 23k out, ~$0.43) (exit 0)
+2026-11-13 00:21:00  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-13 02:13:48  start review-11-5 on sonnet at medium effort
+2026-11-13 02:14:14  review-11-5: done (33/33 verdicts, 1 additions · 1 turns, 0k in + 33k cache-write + 3k cache-read, 4k out, ~$0.17) (exit 0)
+2026-11-13 02:14:24  snapshot: interim registry of 2933 connections; map and codices rebuilt
+2026-11-13 04:14:29  1941/1968 references passed
+2026-11-13 04:14:29  tree check: 3932 structural problem(s).
+2026-11-13 04:14:29  finalized: 2884 connections in the registry, 128 rejected (104 as duplicates), 27 unverifiable sources dropped
+2026-11-13 04:14:29  pipeline finished; disabling the timer
+2026-11-13 04:14:29  ALERT Chanda: connection pipeline finished: 2884 connections in connections/registry.jsonl; the map is connections/map.html.
+2026-11-20 23:22:38  DRY audit-001 model=sonnet effort=medium budget=$2 timeout=45min :: 31910 chars in /home/abyss/chanda/connections/pipeline/work/audit-001.prompt.md
+2026-11-20 23:22:42  start audit-001 on sonnet at medium effort
+2026-11-20 23:23:27  audit-001: done (40/40 audited: 0 error, 1 minor, 11 ok, 28 none; 0 arithmetic mismatches · 1 turns, 0k in + 23k cache-write + 3k cache-read, 6k out, ~$0.16) (exit 0)
+2026-11-20 23:23:27  pipeline finished; registry is final
+2026-11-20 23:24:02  start audit-002 on sonnet at medium effort
+2026-11-20 23:25:17  audit-002: done (40/40 audited: 0 error, 1 minor, 33 ok, 6 none; 1 arithmetic mismatches · 1 turns, 0k in + 21k cache-write + 5k cache-read, 11k out, ~$0.19) (exit 0)
+2026-11-20 23:25:17  pipeline finished; registry is final
+2026-11-21 00:13:48  start audit-003 on sonnet at medium effort
+2026-11-21 00:14:32  audit-003: done (38/40 audited: 0 error, 0 minor, 24 ok, 14 none; 1 arithmetic mismatches · 1 turns, 0k in + 25k cache-write + 5k cache-read, 7k out, ~$0.17) (exit 0)
+2026-11-21 00:14:33  start audit-004 on sonnet at medium effort
+2026-11-21 00:15:31  audit-004: done (38/40 audited: 1 error, 0 minor, 35 ok, 2 none; 0 arithmetic mismatches · 1 turns, 0k in + 25k cache-write + 5k cache-read, 9k out, ~$0.19) (exit 0)
+2026-11-21 00:15:31  start audit-005 on sonnet at medium effort
+2026-11-21 00:16:31  audit-005: done (40/40 audited: 0 error, 0 minor, 36 ok, 4 none; 1 arithmetic mismatches · 1 turns, 0k in + 22k cache-write + 5k cache-read, 9k out, ~$0.18) (exit 0)
+2026-11-21 00:16:32  start audit-006 on sonnet at medium effort
+2026-11-21 00:17:33  audit-006: done (40/40 audited: 0 error, 0 minor, 40 ok, 0 none; 0 arithmetic mismatches · 1 turns, 0k in + 24k cache-write + 5k cache-read, 9k out, ~$0.19) (exit 0)
+2026-11-21 00:17:33  registry is final; no snapshot (numerical audit running)
+2026-11-21 02:13:48  start audit-007 on sonnet at medium effort
+2026-11-21 02:14:36  audit-007: done (40/40 audited: 0 error, 0 minor, 18 ok, 22 none; 2 arithmetic mismatches · 1 turns, 0k in + 26k cache-write + 3k cache-read, 7k out, ~$0.17) (exit 0)
+2026-11-21 02:14:36  start audit-008 on sonnet at medium effort
+2026-11-21 02:15:22  audit-008: done (40/40 audited: 0 error, 0 minor, 26 ok, 14 none; 0 arithmetic mismatches · 1 turns, 0k in + 23k cache-write + 5k cache-read, 7k out, ~$0.16) (exit 0)
+2026-11-21 02:15:22  start audit-009 on sonnet at medium effort
+2026-11-21 02:16:23  audit-009: done (40/40 audited: 0 error, 1 minor, 16 ok, 23 none; 0 arithmetic mismatches · 1 turns, 0k in + 23k cache-write + 5k cache-read, 8k out, ~$0.18) (exit 0)
+2026-11-21 02:16:23  start audit-010 on sonnet at medium effort
+2026-11-21 02:16:58  audit-010: done (40/40 audited: 1 error, 0 minor, 10 ok, 29 none; 0 arithmetic mismatches · 1 turns, 0k in + 20k cache-write + 5k cache-read, 5k out, ~$0.13) (exit 0)
+2026-11-21 02:16:58  registry is final; no snapshot (numerical audit running)
+2026-11-21 04:13:48  start audit-011 on sonnet at medium effort
+2026-11-21 04:14:40  audit-011: done (40/40 audited: 0 error, 0 minor, 12 ok, 28 none; 0 arithmetic mismatches · 1 turns, 0k in + 25k cache-write + 3k cache-read, 7k out, ~$0.17) (exit 0)
+2026-11-21 04:14:40  start audit-012 on sonnet at medium effort
+2026-11-21 04:15:58  audit-012: done (39/40 audited: 0 error, 0 minor, 28 ok, 11 none; 0 arithmetic mismatches · 1 turns, 0k in + 22k cache-write + 5k cache-read, 11k out, ~$0.20) (exit 0)
+2026-11-21 04:15:58  registry is final; no snapshot (numerical audit running)
+2026-11-21 06:13:47  daily unit cap reached; resuming tomorrow
+2026-11-21 08:13:48  daily unit cap reached; resuming tomorrow
+2026-11-21 10:13:47  daily unit cap reached; resuming tomorrow
+2026-11-21 12:13:48  daily unit cap reached; resuming tomorrow

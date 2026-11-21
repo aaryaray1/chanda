@@ -1,0 +1,100 @@
+{"id": "C2196", "verdict": "revise", "reason": "Not a method transfer; BBN is a shared testing ground for BSM physics.", "fix": {"kind": "shared object"}}
+{"id": "C2197", "verdict": "revise", "reason": "Degenerate NN bremsstrahlung axion emissivity scales as T^6, not T^{4-6}.", "fix": {"map": "N+N\\to N+N+a;\\ \\epsilon_a\\propto g_{aN}^2\\,T^{6}\\ (\\text{degenerate})"}}
+{"id": "C2198", "verdict": "confirm"}
+{"id": "C2199", "verdict": "revise", "reason": "BBN fixes eta, which baryogenesis must reproduce. That is a specific constraint but not structural in both fields, so strength 2.", "fix": {"strength": 2}}
+{"id": "C2200", "verdict": "confirm"}
+{"id": "C2201", "verdict": "confirm"}
+{"id": "C2202", "verdict": "confirm"}
+{"id": "C2203", "verdict": "confirm"}
+{"id": "C2204", "verdict": "confirm"}
+{"id": "C2205", "verdict": "revise", "reason": "Space-like and time-like splitting functions coincide only at LO and differ beyond it, so this is not an identity.", "fix": {"kind": "mechanism", "summary": "The splitting functions P(z) that evolve PDFs in ln mu^2 also generate collinear emissions in parton showers. Space-like and time-like kernels agree at leading order and differ at higher orders."}}
+{"id": "C2206", "verdict": "revise", "reason": "Broad 'pp tools used in PbPb' link; specific but not structural in both fields.", "fix": {"strength": 2}}
+{"id": "C2207", "verdict": "confirm"}
+{"id": "C2208", "verdict": "confirm"}
+{"id": "C2209", "verdict": "confirm"}
+{"id": "C2210", "verdict": "reject", "reason": "duplicate of C2211, which is more specific", "duplicate_of": "C2211"}
+{"id": "C2211", "verdict": "confirm"}
+{"id": "C2212", "verdict": "confirm"}
+{"id": "C2213", "verdict": "confirm"}
+{"id": "C2214", "verdict": "confirm"}
+{"id": "C2215", "verdict": "confirm"}
+{"id": "C2216", "verdict": "revise", "reason": "Specific but one-sided; strength 3 is not warranted.", "fix": {"strength": 2}}
+{"id": "C2217", "verdict": "confirm"}
+{"id": "C2218", "verdict": "revise", "reason": "Ab initio 0nubb matrix elements are still developing and carry caveats, so strength 2.", "fix": {"strength": 2}}
+{"id": "C2219", "verdict": "confirm"}
+{"id": "C2220", "verdict": "confirm"}
+{"id": "C2221", "verdict": "confirm"}
+{"id": "C2222", "verdict": "revise", "reason": "The neutron EDM is only one-sided in the nuclear note; strength 2.", "fix": {"strength": 2}}
+{"id": "C2223", "verdict": "confirm"}
+{"id": "C2224", "verdict": "confirm"}
+{"id": "C2225", "verdict": "confirm"}
+{"id": "C2226", "verdict": "confirm"}
+{"id": "C2227", "verdict": "confirm"}
+{"id": "C2228", "verdict": "confirm"}
+{"id": "C2229", "verdict": "confirm"}
+{"id": "C2230", "verdict": "confirm"}
+{"id": "C2231", "verdict": "confirm"}
+{"id": "C2232", "verdict": "confirm"}
+{"id": "C2233", "verdict": "confirm"}
+{"id": "C2234", "verdict": "revise", "reason": "Lattice NN results at physical pion mass are not settled; this is not textbook consensus.", "fix": {"confidence": "current research"}}
+{"id": "C2235", "verdict": "revise", "reason": "SRG is a unitary flow of one Hamiltonian, not a Wilsonian coarse-graining with beta functions; this is an analogy.", "fix": {"kind": "analogy", "breaks": "SRG is a unitary transformation of a fixed Hamiltonian, not a coarse-graining with fixed points and beta functions. Induced many-body forces are not irrelevant operators in the Wilsonian sense."}}
+{"id": "C2236", "verdict": "confirm"}
+{"id": "C2237", "verdict": "revise", "reason": "The two crossovers have different causes (Higgs mass vs quark masses); a parallel result, not a shared mechanism.", "fix": {"kind": "analogy", "strength": 1, "breaks": "The EW crossover arises from the large Higgs mass in a gauge-Higgs system. The QCD crossover arises from light quark masses and chiral dynamics. The causes differ."}}
+{"id": "C2238", "verdict": "confirm"}
+{"id": "C2239", "verdict": "confirm"}
+{"id": "C2240", "verdict": "reject", "reason": "duplicate of C2241, which is more specific", "duplicate_of": "C2241"}
+{"id": "C2241", "verdict": "confirm"}
+{"id": "C2242", "verdict": "confirm"}
+{"id": "C2243", "verdict": "confirm"}
+{"id": "C2244", "verdict": "revise", "reason": "Hyperon onset follows from chemical equilibrium and hyperon masses, not from SU(3) flavor predicting it.", "fix": {"summary": "Hyperons (Lambda, Sigma) appear at about 2-3 n_0 once mu_Lambda = mu_n, softening the EOS below what 2 M_sun pulsars allow. SU(3) flavor constrains the couplings, and hyperon-nucleon and three-baryon forces are the proposed resolution."}}
+{"id": "C2245", "verdict": "revise", "reason": "The molecular interpretation of X(3872) is disputed; breaks must say so.", "fix": {"breaks": "Compact tetraquark or mixed charmonium-molecule pictures compete for X(3872). Compositeness Z is model-dependent and the deuteron-like picture is contested."}}
+{"id": "C2246", "verdict": "confirm"}
+{"id": "C2247", "verdict": "confirm"}
+{"id": "C2248", "verdict": "confirm"}
+{"id": "C2249", "verdict": "revise", "reason": "Broad 'heavy-ion collisions study QCD' link is never strength 3.", "fix": {"strength": 2}}
+{"id": "C2250", "verdict": "revise", "reason": "Center symmetry is exact only for infinite quark mass, and CFL is model-dependent; strength 2.", "fix": {"strength": 2, "summary": "QCD symmetries organize its phase diagram: chiral restoration and a crossover at high T, an unestablished critical point, and color-superconducting (CFL) phases at asymptotic density. Center symmetry is exact only in the pure-gauge limit."}}
+{"id": "C2251", "verdict": "confirm"}
+{"id": "C2252", "verdict": "confirm"}
+{"id": "C2253", "verdict": "confirm"}
+{"id": "C2414", "verdict": "confirm"}
+{"id": "C2415", "verdict": "confirm"}
+{"id": "C2416", "verdict": "confirm"}
+{"id": "C2417", "verdict": "confirm"}
+{"id": "C2418", "verdict": "confirm"}
+{"id": "C2419", "verdict": "confirm"}
+{"id": "C2420", "verdict": "confirm"}
+{"id": "C2421", "verdict": "revise", "reason": "The EIC measures saturation; the link to flow initial conditions is indirect and model-dependent, so strength 2.", "fix": {"strength": 2}}
+{"id": "C2422", "verdict": "revise", "reason": "The record states a scheme-dependent, disputed link, so it is a mechanism rather than an identity.", "fix": {"kind": "mechanism"}}
+{"id": "C2423", "verdict": "confirm"}
+{"id": "C2424", "verdict": "revise", "reason": "Specific, but nPDFs are an input, not a structural link in both fields; strength 2.", "fix": {"strength": 2}}
+{"id": "C2425", "verdict": "confirm"}
+{"id": "C2426", "verdict": "revise", "reason": "Flow constraints are model-dependent and the symmetry-energy gap limits the link; strength 2.", "fix": {"strength": 2}}
+{"id": "C2427", "verdict": "revise", "reason": "A new technique that is still developing, not taught in graduate courses; strength 2.", "fix": {"strength": 2}}
+{"id": "C2428", "verdict": "revise", "reason": "A defunct scenario with narrow current relevance; strength 1.", "fix": {"strength": 1}}
+{"id": "C2429", "verdict": "confirm"}
+{"id": "C2430", "verdict": "confirm"}
+{"id": "C2431", "verdict": "confirm"}
+{"id": "C2432", "verdict": "confirm"}
+{"id": "C2433", "verdict": "confirm"}
+{"id": "C2434", "verdict": "revise", "reason": "The record carries a breaks field, so it cannot be an identity; same pairing mechanism.", "fix": {"kind": "mechanism"}}
+{"id": "C2435", "verdict": "confirm"}
+{"id": "C2436", "verdict": "confirm"}
+{"id": "C2437", "verdict": "confirm"}
+{"id": "C2438", "verdict": "confirm"}
+{"id": "C2439", "verdict": "confirm"}
+{"id": "C2440", "verdict": "confirm"}
+{"id": "C2441", "verdict": "confirm"}
+{"id": "C2442", "verdict": "revise", "reason": "Active research with caveats; strength 2.", "fix": {"strength": 2}}
+{"id": "C2443", "verdict": "confirm"}
+{"id": "C2444", "verdict": "confirm"}
+{"id": "C2445", "verdict": "confirm"}
+{"id": "C2446", "verdict": "revise", "reason": "The effective-range expansion is valid only at low energy, so it is not an identity; the cold-atom parallel is universality.", "fix": {"kind": "method transfer"}}
+{"id": "C2447", "verdict": "confirm"}
+{"id": "C2448", "verdict": "confirm"}
+{"id": "C2449", "verdict": "confirm"}
+{"id": "C2450", "verdict": "confirm"}
+{"id": "C2451", "verdict": "confirm"}
+{"id": "C2452", "verdict": "revise", "reason": "The record has substantial breaks (2D, charged, impurities), so it is not an identity.", "fix": {"kind": "analogy"}}
+{"id": "C2453", "verdict": "revise", "reason": "Dense-quark CFL pairing is unconfirmed and model-dependent at neutron-star densities; confidence cannot be established.", "fix": {"confidence": "current research"}}
+{"id": "C2454", "verdict": "confirm"}
+{"id": "C2455", "verdict": "confirm"}

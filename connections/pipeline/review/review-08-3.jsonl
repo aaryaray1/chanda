@@ -1,0 +1,100 @@
+{"id": "C1805", "verdict": "confirm"}
+{"id": "C1806", "verdict": "revise", "reason": "Broad 'spintronics uses spin QM'; only the specific spin-orbit/torque links carry content. Downgrade.", "fix": {"kind": "mechanism", "strength": 1, "summary": "Spin-transfer torque and spin-orbit torque are spin precession (Landau-Lifshitz-Gilbert) plus Rashba/Thomas spin-orbit coupling acting on spin angular momentum transported by electrons."}}
+{"id": "C1807", "verdict": "revise", "reason": "Kitaev-model solution is established, but its realization in alpha-RuCl3 and iridates is active and contested research.", "fix": {"confidence": "current research", "breaks": "Real Kitaev materials have Heisenberg and Gamma terms and order magnetically; a spin liquid in alpha-RuCl3 is not established."}}
+{"id": "C1808", "verdict": "revise", "reason": "The oscillator map is exact, but plateaus also need disorder localization; the summary overclaims.", "fix": {"summary": "A charged particle in a uniform B field reduces to a harmonic oscillator in guiding-centre and cyclotron variables, giving Landau levels. Integer plateaus then need Landau-level filling plus disorder localization."}}
+{"id": "C1809", "verdict": "confirm"}
+{"id": "C1810", "verdict": "confirm"}
+{"id": "C1811", "verdict": "revise", "reason": "Mechanism is right, but strength 3 is inflated for a specific effect in magnets; also adiabatic limit needed.", "fix": {"strength": 2, "breaks": "Requires adiabatic spin following (strong Hund coupling); fails for fast or small textures."}}
+{"id": "C1812", "verdict": "confirm"}
+{"id": "C1813", "verdict": "revise", "reason": "Too generic; name the specific migrations.", "fix": {"summary": "Berry phase reframed the Karplus-Luttinger anomalous Hall effect, gave modern polarization theory (King-Smith-Vanderbilt) and the Chern-number reading of TKNN, which predates but was unified with Berry's work.", "map": "\\mathbf P=\\frac{e}{2\\pi}\\int\\mathcal A\\,dk;\\ \\sigma_{xy}\\propto\\int\\Omega"}}
+{"id": "C1814", "verdict": "confirm"}
+{"id": "C1815", "verdict": "confirm"}
+{"id": "C1816", "verdict": "confirm"}
+{"id": "C1817", "verdict": "revise", "reason": "Not an identity: Born (kinematic) diffraction fails for electrons and thick crystals (dynamical diffraction).", "fix": {"kind": "mechanism", "summary": "X-ray and neutron diffraction are first-Born (kinematic) scattering: cross section is the Fourier transform of scattering density, and inelastic neutron scattering measures S(q,omega).", "breaks": "Electron diffraction and dynamical X-ray diffraction involve multiple scattering and go beyond the first Born approximation."}}
+{"id": "C1818", "verdict": "confirm"}
+{"id": "C1819", "verdict": "confirm"}
+{"id": "C1820", "verdict": "revise", "reason": "N-emitter collective coupling is Tavis-Cummings, not Jaynes-Cummings.", "fix": {"summary": "Excitons in microcavities reach strong coupling, forming polaritons with vacuum Rabi splitting sqrt(N) g: the Tavis-Cummings (collective Jaynes-Cummings) physics of cavity QED."}}
+{"id": "C1821", "verdict": "confirm"}
+{"id": "C1822", "verdict": "confirm"}
+{"id": "C1823", "verdict": "revise", "reason": "Strength 3 requires structural role in both fields; this is an important but specific device link.", "fix": {"strength": 2}}
+{"id": "C1824", "verdict": "confirm"}
+{"id": "C1825", "verdict": "confirm"}
+{"id": "C2025", "verdict": "revise", "reason": "Linking entanglement area law to Bekenstein-Hawking entropy is a proposal, not established; only the area law itself is.", "fix": {"confidence": "current research"}}
+{"id": "C2026", "verdict": "revise", "reason": "SYK/JT match is a low-energy emergent-symmetry correspondence, not an exact duality; strength 3 inflated.", "fix": {"kind": "mechanism", "strength": 2, "breaks": "Match holds only in the low-energy Schwarzian sector at large N; SYK is non-local and has no full gravity dual."}}
+{"id": "C2027", "verdict": "revise", "reason": "Speculative proposal; downgrade strength.", "fix": {"strength": 1}}
+{"id": "C2028", "verdict": "confirm"}
+{"id": "C2029", "verdict": "confirm"}
+{"id": "C2030", "verdict": "confirm"}
+{"id": "C2031", "verdict": "confirm"}
+{"id": "C2032", "verdict": "confirm"}
+{"id": "C2033", "verdict": "confirm"}
+{"id": "C2034", "verdict": "confirm"}
+{"id": "C2035", "verdict": "confirm"}
+{"id": "C2036", "verdict": "revise", "reason": "Relativistic hydro describes the Dirac fluid; holographic hydrodynamics is not established to describe graphene.", "fix": {"summary": "Near neutrality graphene electrons form a Dirac fluid described by relativistic hydrodynamics (as for the QGP) with small eta/s and violated Wiedemann-Franz; holographic models are used only as strong-coupling guides."}}
+{"id": "C2037", "verdict": "revise", "reason": "MERA-as-AdS is suggestive and debated; strength 3 inflated.", "fix": {"strength": 2, "breaks": "MERA geometry is a discrete network with no dynamics; the hyperbolic-space identification is heuristic and debated."}}
+{"id": "C2038", "verdict": "confirm"}
+{"id": "C2039", "verdict": "revise", "reason": "Sign error: g^{tt}<0, so effective mass is m^2 + g^{tt}q^2Phi^2.", "fix": {"map": "m_{\\rm eff}^2=m^2+g^{tt}q^2\\Phi^2<m_{\\rm BF}^2\\ \\Rightarrow\\ \\langle\\mathcal O\\rangle\\propto(1-T/T_c)^{1/2},\\ \\omega_g/T_c\\approx8"}}
+{"id": "C2040", "verdict": "revise", "reason": "Programme-level speculation; strength 1.", "fix": {"strength": 1}}
+{"id": "C2041", "verdict": "confirm"}
+{"id": "C2042", "verdict": "revise", "reason": "Attribution of NbP signal to the gravitational anomaly is disputed; should be proposed, narrow.", "fix": {"confidence": "proposed", "strength": 1}}
+{"id": "C2043", "verdict": "confirm"}
+{"id": "C2044", "verdict": "confirm"}
+{"id": "C2254", "verdict": "confirm"}
+{"id": "C2255", "verdict": "confirm"}
+{"id": "C2256", "verdict": "confirm"}
+{"id": "C2257", "verdict": "revise", "reason": "Factual error: William Bardeen (top condensation) is not John Bardeen of BCS.", "fix": {"summary": "Technicolor and top-quark condensation replace the elementary Higgs by a fermion-pair condensate set by a gap equation, following the BCS/NJL template; the Higgs would be composite."}}
+{"id": "C2258", "verdict": "confirm"}
+{"id": "C2259", "verdict": "confirm"}
+{"id": "C2260", "verdict": "confirm"}
+{"id": "C2261", "verdict": "confirm"}
+{"id": "C2262", "verdict": "revise", "reason": "80/um is the most probable MIP yield; mean is ~108/um.", "fix": {"map": "w=\\sqrt{\\frac{2\\epsilon_{Si}(V+V_{bi})}{qN_{\\text{eff}}}};\\ N_{eh}^{\\rm MPV}\\approx76\\ \\mu\\text{m}^{-1},\\ \\langle N_{eh}\\rangle\\approx108\\ \\mu\\text{m}^{-1}"}}
+{"id": "C2263", "verdict": "confirm"}
+{"id": "C2264", "verdict": "confirm"}
+{"id": "C2265", "verdict": "confirm"}
+{"id": "C2266", "verdict": "confirm"}
+{"id": "C2267", "verdict": "revise", "reason": "Not every topological phase is an anomaly classification; messy map. Mechanism, not identity.", "fix": {"kind": "mechanism", "summary": "Gapless boundary modes of topological phases carry 't Hooft anomalies cancelled by bulk response (Callan-Harvey inflow); for SPT and quantum Hall phases, classifying phases amounts to classifying anomalies.", "map": "\\partial_\\mu j^\\mu_{\\rm edge}=\\frac{\\nu e^2}{h}E\\ \\leftrightarrow\\ \\text{bulk CS }\\frac{\\nu}{4\\pi}AdA"}}
+{"id": "C2268", "verdict": "confirm"}
+{"id": "C2269", "verdict": "confirm"}
+{"id": "C2270", "verdict": "confirm"}
+{"id": "C2271", "verdict": "confirm"}
+{"id": "C2272", "verdict": "revise", "reason": "Node count is not fixed by lattice; only net chirality vanishes.", "fix": {"breaks": "Solid-state Weyl nodes can be tilted (type II), anisotropic and energy-offset, with no Lorentz symmetry; only net chirality sums to zero, not the node number."}}
+{"id": "C2273", "verdict": "confirm"}
+{"id": "C2274", "verdict": "confirm"}
+{"id": "C2275", "verdict": "confirm"}
+{"id": "C2276", "verdict": "confirm"}
+{"id": "C2277", "verdict": "confirm"}
+{"id": "C2278", "verdict": "confirm"}
+{"id": "C2279", "verdict": "revise", "reason": "Emergent QED holds only approximately at low energy (breaks listed), so not an identity.", "fix": {"kind": "mechanism"}}
+{"id": "C2280", "verdict": "confirm"}
+{"id": "C2281", "verdict": "confirm"}
+{"id": "C2282", "verdict": "confirm"}
+{"id": "C2283", "verdict": "confirm"}
+{"id": "C2284", "verdict": "confirm"}
+{"id": "C2285", "verdict": "confirm"}
+{"id": "C2286", "verdict": "confirm"}
+{"id": "C2287", "verdict": "confirm"}
+{"id": "C2288", "verdict": "revise", "reason": "Breaks listed, so not an identity; same RG structure, different physics.", "fix": {"kind": "mechanism"}}
+{"id": "C2289", "verdict": "confirm"}
+{"id": "C2290", "verdict": "confirm"}
+{"id": "C2291", "verdict": "confirm"}
+{"id": "C2292", "verdict": "revise", "reason": "Breaks listed (composite, non-relativistic, abelian), so mechanism not identity; Delta is not the Higgs vev.", "fix": {"kind": "mechanism", "map": "m_\\gamma c^2=\\frac{\\hbar c}{\\lambda_L},\\ \\lambda_L^{-2}=\\mu_0n_se^2/m\\ \\leftrightarrow\\ m_W=\\tfrac12gv"}}
+{"id": "C2293", "verdict": "revise", "reason": "Mass formulas do not map one to one; breaks listed. Mechanism: shared amplitude mode.", "fix": {"kind": "mechanism", "map": "\\delta|\\psi|\\ \\text{amplitude mode:}\\ \\omega_H=2\\Delta\\ \\leftrightarrow\\ m_h^2=2\\lambda v^2"}}
+{"id": "C2294", "verdict": "confirm"}
+{"id": "C2295", "verdict": "confirm"}
+{"id": "C2296", "verdict": "confirm"}
+{"id": "C2449", "verdict": "confirm"}
+{"id": "C2450", "verdict": "confirm"}
+{"id": "C2451", "verdict": "revise", "reason": "Specific device link, not structural in both fields; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C2452", "verdict": "revise", "reason": "Breaks listed so not an identity; it is hydrodynamics method transfer. Overlaps C2036 but different node.", "fix": {"kind": "method transfer", "strength": 2}}
+{"id": "C2453", "verdict": "revise", "reason": "Only established at asymptotic density; neutron-star relevance is model-dependent. Strength 3 inflated.", "fix": {"confidence": "current research", "strength": 2}}
+{"id": "C2454", "verdict": "confirm"}
+{"id": "C2455", "verdict": "confirm"}
+{"id": "C2456", "verdict": "confirm"}
+{"id": "C2457", "verdict": "confirm"}
+{"id": "C2458", "verdict": "revise", "reason": "Same anomaly, but QGP effect is unobserved and sources differ; mechanism, not identity.", "fix": {"kind": "mechanism", "strength": 2}}
+{"id": "C2459", "verdict": "confirm"}
+{"id": "C2460", "verdict": "confirm"}
+{"id": "C2461", "verdict": "confirm"}
+{"id": "C2462", "verdict": "confirm"}
+{"id": "C2463", "verdict": "confirm"}
+{"id": "C2464", "verdict": "confirm"}

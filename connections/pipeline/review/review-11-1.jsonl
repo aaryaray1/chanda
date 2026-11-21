@@ -1,0 +1,100 @@
+{"id": "C0429", "verdict": "revise", "reason": "Two distinct ideas bundled; AlphaFold is learned structure prediction, MLFFs are surrogates for QM; strength overrated.", "fix": {"summary": "Deep networks (AlphaFold) predict protein structure from sequence, and machine-learned force fields fit to quantum data replace explicit potentials in MD; surrogates trained on data, not derived physics.", "strength": 2}}
+{"id": "C0430", "verdict": "confirm"}
+{"id": "C0431", "verdict": "confirm"}
+{"id": "C0432", "verdict": "revise", "reason": "Duplicate-ish with C0433; keep this as method transfer but strength fine; summary wording 'connecting landscapes to equations' vague.", "fix": {"summary": "Force-field MD with enhanced sampling and special hardware (Anton) integrates Newton's equations to simulate folding, binding and conformational change of proteins."}}
+{"id": "C0433", "verdict": "reject", "reason": "duplicate of C0432", "duplicate_of": "C0432"}
+{"id": "C0434", "verdict": "revise", "reason": "Rare-event methods needed for rates; strength 3 inflated; established OK.", "fix": {"strength": 2}}
+{"id": "C0435", "verdict": "revise", "reason": "kinetic Monte Carlo is not MD; ab initio MD is current research for catalysis timescales.", "fix": {"summary": "DFT-based ab initio MD models adsorption, diffusion and reactions on catalyst surfaces; kinetic Monte Carlo extends to longer timescales.", "confidence": "current research"}}
+{"id": "C0436", "verdict": "confirm"}
+{"id": "C0437", "verdict": "revise", "reason": "Metropolis-era wording inaccurate; MC particle transport origin is Los Alamos (Ulam, von Neumann); strength 3 inflated.", "fix": {"summary": "Monte Carlo sampling of particle transport (EGS, GEANT4, TOPAS) is the gold standard for dose calculation in photon and proton therapy, tracking showers event by event.", "strength": 2}}
+{"id": "C0438", "verdict": "confirm"}
+{"id": "C0439", "verdict": "revise", "reason": "Broad 'models use numerics'; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C0440", "verdict": "confirm"}
+{"id": "C0441", "verdict": "confirm"}
+{"id": "C0442", "verdict": "revise", "reason": "ML-MCTDH is a tree tensor network (Vendrell–Meyer); 'equivalent' should be softened; strength fine.", "fix": {"summary": "Multilayer MCTDH for quantum nuclear dynamics on potential energy surfaces uses a hierarchical tensor decomposition that is a tree tensor network."}}
+{"id": "C0443", "verdict": "revise", "reason": "CT sinograms obey Fourier slice theorem but it's about parallel-beam projections; MRI k-space is a Fourier sample. Filed under complex analysis; fine but identity for MRI only.", "fix": {"kind": "mechanism", "strength": 2}}
+{"id": "C0444", "verdict": "confirm"}
+{"id": "C0445", "verdict": "confirm"}
+{"id": "C0446", "verdict": "revise", "reason": "Gauss–Bonnet makes the Gaussian term topological; it does not constrain shape wholesale; kind should be method transfer.", "fix": {"summary": "Membrane shapes are surfaces whose mean and Gaussian curvature enter the Helfrich energy; by Gauss–Bonnet the Gaussian-curvature term is a topological constant for fixed topology.", "kind": "method transfer"}}
+{"id": "C0447", "verdict": "confirm"}
+{"id": "C0448", "verdict": "confirm"}
+{"id": "C0449", "verdict": "confirm"}
+{"id": "C0450", "verdict": "confirm"}
+{"id": "C0451", "verdict": "confirm"}
+{"id": "C0452", "verdict": "confirm"}
+{"id": "C0453", "verdict": "revise", "reason": "Liouville/CS invariant follows from symplectic structure, not Noether directly; Noether is the wrong source.", "fix": {"strength": 1, "summary": "Linear betatron motion conserves the Courant–Snyder invariant; Liouville emittance conservation stems from symplectic structure, not directly from Noether symmetry."}}
+{"id": "C0454", "verdict": "confirm"}
+{"id": "C0455", "verdict": "confirm"}
+{"id": "C0456", "verdict": "revise", "reason": "Buckingham-π does not itself justify geostrophy; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C0457", "verdict": "revise", "reason": "Josephson/QHE standards are not quantum sensing per se; atomic clocks fit better.", "fix": {"strength": 2}}
+{"id": "C0853", "verdict": "revise", "reason": "Correct for linear uncoupled motion only; J=ε/2 with 2J form fine, but strength 3 duplicates Hamiltonian record.", "fix": {"strength": 2}}
+{"id": "C0854", "verdict": "revise", "reason": "Not exactly identity: Liouville emittance conservation fails with radiation damping, space charge nonlinearity; use mechanism.", "fix": {"kind": "mechanism"}}
+{"id": "C0855", "verdict": "confirm"}
+{"id": "C0856", "verdict": "reject", "reason": "Bloch equation is not Hamiltonian formalism; Hamiltonian framing is wrong and record is thin."}
+{"id": "C0857", "verdict": "confirm"}
+{"id": "C0858", "verdict": "reject", "reason": "Delay-and-sum is not Fermat-based per se; vague, one-sided, duplicates C0857 idea."}
+{"id": "C0859", "verdict": "revise", "reason": "Geophysical fluid dynamics is a reduction, so not an identity; the equations are shared but approximations differ.", "fix": {"kind": "mechanism", "strength": 3}}
+{"id": "C0860", "verdict": "confirm"}
+{"id": "C0861", "verdict": "confirm"}
+{"id": "C0862", "verdict": "confirm"}
+{"id": "C0863", "verdict": "confirm"}
+{"id": "C0864", "verdict": "confirm"}
+{"id": "C0865", "verdict": "confirm"}
+{"id": "C0866", "verdict": "revise", "reason": "Rayleigh–Bénard has no moist convection criterion; N² given is for stratification stability only.", "fix": {"summary": "Atmospheric convection is buoyancy-driven instability; Rayleigh–Bénard gives the Lorenz model, and N² (Brunt–Väisälä) negative signals dry convective instability.", "strength": 2}}
+{"id": "C0867", "verdict": "confirm"}
+{"id": "C0868", "verdict": "revise", "reason": "Near duplicate of C0869 pair.", "fix": {"strength": 1}}
+{"id": "C0869", "verdict": "confirm"}
+{"id": "C0870", "verdict": "confirm"}
+{"id": "C0871", "verdict": "revise", "reason": "Synoptic scales show k^-3 enstrophy-range and k^-5/3 mesoscale; inverse cascade claim is contested.", "fix": {"strength": 2, "confidence": "current research"}}
+{"id": "C0872", "verdict": "confirm"}
+{"id": "C0873", "verdict": "confirm"}
+{"id": "C0874", "verdict": "confirm"}
+{"id": "C0875", "verdict": "confirm"}
+{"id": "C0876", "verdict": "revise", "reason": "Dispersion relation shown is Doppler-shifted Rossby; waves propagate westward relative to mean flow, fine. Duplicate-ish with C0875 only partly; minor: kind ok but strength fine.", "fix": {"strength": 3}}
+{"id": "C0877", "verdict": "confirm"}
+{"id": "C0878", "verdict": "confirm"}
+{"id": "C0879", "verdict": "confirm"}
+{"id": "C0880", "verdict": "revise", "reason": "Lorenz 1963 was truncation of Saltzman convection; chaos in weather predictability established; fix kind to historical fine but 'first strange attractor' hedge.", "fix": {"summary": "Lorenz's 1963 truncated convection model showed sensitive dependence, an early strange attractor, setting the ~2-week weather predictability horizon via error growth."}}
+{"id": "C0881", "verdict": "confirm"}
+{"id": "C0882", "verdict": "revise", "reason": "Tsunamis are mostly linear shallow-water waves; KdV applies to internal solitary waves.", "fix": {"summary": "Internal solitary waves in the ocean are described by KdV solitons, balancing nonlinear steepening and dispersion; tsunamis are mostly linear long waves.", "strength": 2}}
+{"id": "C0883", "verdict": "confirm"}
+{"id": "C0884", "verdict": "confirm"}
+{"id": "C0885", "verdict": "confirm"}
+{"id": "C0886", "verdict": "confirm"}
+{"id": "C0887", "verdict": "confirm"}
+{"id": "C0888", "verdict": "revise", "reason": "Bloch equations are quantum-ensemble but classical in form; strength fine; analogy mislabeled—Larmor precession is actually exact for expectation values.", "fix": {"kind": "mechanism", "breaks": ""}}
+{"id": "C0889", "verdict": "confirm"}
+{"id": "C0890", "verdict": "confirm"}
+{"id": "C0891", "verdict": "confirm"}
+{"id": "C0892", "verdict": "reject", "duplicate_of": "C0891", "reason": "duplicate of C0891"}
+{"id": "C0893", "verdict": "confirm"}
+{"id": "C0894", "verdict": "revise", "reason": "Not historical migration; both measure Sagnac rotation, different physics; Sagnac formula as written fits light/atoms with v.", "fix": {"kind": "analogy", "breaks": "Mechanical gyros use angular momentum conservation; atom gyros use matter-wave Sagnac phase."}}
+{"id": "C0895", "verdict": "confirm"}
+{"id": "C0896", "verdict": "confirm"}
+{"id": "C1243", "verdict": "confirm"}
+{"id": "C1244", "verdict": "confirm"}
+{"id": "C1245", "verdict": "reject", "reason": "Superficial: HBT correlations and quantum metrology noise are different; no named technique transfer."}
+{"id": "C1246", "verdict": "confirm"}
+{"id": "C1247", "verdict": "confirm"}
+{"id": "C1248", "verdict": "reject", "reason": "Duplicate of C1249/C1243 at parent node; generic.", "duplicate_of": "C1249"}
+{"id": "C1249", "verdict": "revise", "reason": "A lens FT is Fraunhofer-regime only; CT uses Fourier slice; identity overclaims.", "fix": {"kind": "mechanism", "strength": 3}}
+{"id": "C1250", "verdict": "revise", "reason": "MTF/NPS are same formalism; strength fine, 'exactly' overclaims.", "fix": {"summary": "Modulation transfer function and noise power spectrum quantify medical image quality using the same linear-systems formalism as optical imaging."}}
+{"id": "C1251", "verdict": "confirm"}
+{"id": "C1252", "verdict": "confirm"}
+{"id": "C1253", "verdict": "confirm"}
+{"id": "C1254", "verdict": "confirm"}
+{"id": "C1255", "verdict": "reject", "reason": "Generic; no named technique or consequence."}
+{"id": "C1256", "verdict": "confirm"}
+{"id": "C1257", "verdict": "confirm"}
+{"id": "C1258", "verdict": "confirm"}
+{"id": "C1259", "verdict": "reject", "reason": "Generic 'sensors measure B fields'; trivial."}
+{"id": "C1260", "verdict": "confirm"}
+{"id": "C1261", "verdict": "confirm"}
+{"id": "C1262", "verdict": "confirm"}
+{"id": "C1263", "verdict": "confirm"}
+{"id": "C1264", "verdict": "confirm"}
+{"id": "C1265", "verdict": "confirm"}
+{"id": "C1266", "verdict": "confirm"}
+{"id": "C1267", "verdict": "confirm"}
+{"id": "C1268", "verdict": "reject", "reason": "duplicate of C1267", "duplicate_of": "C1267"}
+{"id": "C1269", "verdict": "confirm"}

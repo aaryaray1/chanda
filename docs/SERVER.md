@@ -22,7 +22,7 @@ bash ~/chanda/scripts/server/setup.sh
 ```
 `setup.sh` is safe to run again. It does the following:
 - installs the missing packages (`python-is-python3`, `tmux`, `curl`, `unzip`, `python3-sympy`, `python3-numpy`);
-- installs Claude Code and Bun with their official installers;
+- installs Claude Code and Bun with their official installers (the native Claude Code build in `~/.local/bin`, because the systemd units can't see an nvm/npm install);
 - creates `~/.config/chanda/env` (mode 600) from `scripts/server/env.example`;
 - installs `.claude/settings.json`, the tool permissions for the unattended agent;
 - copies Claude's project memory;
@@ -95,8 +95,8 @@ python3 -I scripts/connections_runner.py --health --test-discord
 
 ## Quota
 The pipeline and the agent share your subscription.
-- **Review:** a packet costs about $0.5–0.9 at API prices on Opus. 47 packets are left, capped at 4 per run and 30 per day.
-- **Questions:** a question costs what it needs. Each specialist it consults preloads a 30–50k-token codex.
+- **Review:** a packet costs about $0.5–0.9 at API prices on Opus. 47 packets are left, capped at 4 per run and 8 per day.
+- **Questions:** a question costs what it needs. Each specialist it consults preloads a 30–50k-token codex. To keep this light, the agent answers on Sonnet (`CHANDA_AGENT_ARGS=--model sonnet …`) and its specialists draft on Haiku (`CHANDA_AGENT_SUBAGENT_MODEL=haiku`, forced over `model: inherit`). Review runs on Sonnet (Opus only on a last retry) (`model.review` in `config.json`).
 
 If the two compete, lower `max_units_per_day` in `config.json`.
 

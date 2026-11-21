@@ -1,0 +1,100 @@
+{"id": "C2456", "verdict": "confirm"}
+{"id": "C2457", "verdict": "confirm"}
+{"id": "C2458", "verdict": "revise", "reason": "Needs a breaks field, so not an identity; observed in Weyl metals but not in QGP, so strength 3 is inflated.", "fix": {"kind": "mechanism", "strength": 2}}
+{"id": "C2459", "verdict": "confirm"}
+{"id": "C2460", "verdict": "confirm"}
+{"id": "C2461", "verdict": "confirm"}
+{"id": "C2462", "verdict": "revise", "reason": "Breaks is wrong: electron screening makes the longitudinal branch acoustic, not a plasma-frequency branch.", "fix": {"breaks": "The electron background screens the ions, making the longitudinal mode acoustic with a different sound speed; superfluid neutrons add mixed modes and magnetic fields modify the shear modes."}}
+{"id": "C2463", "verdict": "confirm"}
+{"id": "C2464", "verdict": "revise", "reason": "Pasta is theoretical and not directly observed, so the analogy is current research rather than established.", "fix": {"confidence": "current research"}}
+{"id": "C2465", "verdict": "revise", "reason": "Gaps are unmeasured and proton type-II status is disputed; 3P2 is not the same simple gap equation. Overrated.", "fix": {"confidence": "current research", "strength": 2, "breaks": "Gaps are not measured and depend on medium polarization and three-nucleon forces; 3P2 pairing is anisotropic; proton type-I/II-1.5 behaviour is disputed (Alford, Good); entrainment couples protons and neutrons."}}
+{"id": "C2466", "verdict": "confirm"}
+{"id": "C2467", "verdict": "revise", "reason": "Map field is empty; supply the order-parameter correspondence.", "fix": {"map": "A_{\\mu i}\\ \\text{(3He-B: }\\Delta\\delta_{\\mu i}\\text{)}\\leftrightarrow\\ \\text{3P2 symmetric traceless tensor }A_{\\mu i}"}}
+{"id": "C2468", "verdict": "confirm"}
+{"id": "C2469", "verdict": "confirm"}
+{"id": "C2470", "verdict": "confirm"}
+{"id": "C2471", "verdict": "revise", "reason": "Dissipative macroscopic-tunnelling treatment of fission is a modelling analogy, not textbook; link is narrow.", "fix": {"confidence": "current research", "strength": 1}}
+{"id": "C2472", "verdict": "confirm"}
+{"id": "C2473", "verdict": "revise", "reason": "Neutron scattering is a standard condensed-matter probe but a narrow application of nuclear scattering theory; strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C2474", "verdict": "confirm"}
+{"id": "C2475", "verdict": "confirm"}
+{"id": "C2476", "verdict": "confirm"}
+{"id": "C2477", "verdict": "revise", "reason": "Use of neutron-matter QMC to constrain EDFs is active research, not established consensus.", "fix": {"confidence": "current research"}}
+{"id": "C2478", "verdict": "confirm"}
+{"id": "C2479", "verdict": "revise", "reason": "Shared QMC toolkit is a specific method link but not a graduate-course structural link in both fields; strength 3 is inflated.", "fix": {"strength": 2}}
+{"id": "C2480", "verdict": "revise", "reason": "Skyrme Hartree-Fock predates Kohn-Sham; formal parallel rather than a technique that moved across.", "fix": {"kind": "analogy"}}
+{"id": "C2481", "verdict": "confirm"}
+{"id": "C2482", "verdict": "revise", "reason": "Nuclear and cluster pictures differ; Goldhaber-Teller/Steinwedel-Jensen are nuclear models, so 'same pictures' overclaims.", "fix": {"summary": "The nuclear giant dipole resonance (protons against neutrons) and the Mie surface plasmon of metal clusters are collective dipole modes that nearly exhaust the Thomas-Reiche-Kuhn sum rule and are treated with RPA and hydrodynamic models."}}
+{"id": "C2483", "verdict": "confirm"}
+{"id": "C2484", "verdict": "confirm"}
+{"id": "C2485", "verdict": "confirm"}
+{"id": "C2486", "verdict": "confirm"}
+{"id": "C2487", "verdict": "confirm"}
+{"id": "C2488", "verdict": "confirm"}
+{"id": "C2489", "verdict": "confirm"}
+{"id": "C2490", "verdict": "confirm"}
+{"id": "C2491", "verdict": "confirm"}
+{"id": "C2492", "verdict": "confirm"}
+{"id": "C2493", "verdict": "confirm"}
+{"id": "C2494", "verdict": "confirm"}
+{"id": "C2495", "verdict": "confirm"}
+{"id": "C2496", "verdict": "confirm"}
+{"id": "C2497", "verdict": "confirm"}
+{"id": "C2498", "verdict": "confirm"}
+{"id": "C2499", "verdict": "revise", "reason": "Broad 'nuclear burning powers stars' link between subfield nodes is never strength 3.", "fix": {"strength": 2}}
+{"id": "C2500", "verdict": "confirm"}
+{"id": "C2501", "verdict": "confirm"}
+{"id": "C2502", "verdict": "confirm"}
+{"id": "C2503", "verdict": "revise", "reason": "Overclaim: it shows the early-universe H0 inference needs no CMB anisotropies, not that the tension is not a CMB systematic.", "fix": {"summary": "Deuterium-calibrated BBN fixes the baryon density, which sets the BAO sound horizon without CMB anisotropies; the resulting H0 agrees with Planck, so that inference does not rely on the CMB. BBN also limits extra-radiation fixes through N_eff."}}
+{"id": "C2504", "verdict": "confirm"}
+{"id": "C2505", "verdict": "revise", "reason": "'Stellar depletion now favoured' overstates; problem is unresolved and uniform Spite plateau is hard for depletion.", "fix": {"summary": "Standard BBN predicts 7Li/H about three times the Spite plateau in metal-poor halo stars; nuclear (7Be destruction), stellar (diffusion and mixing) and new-physics explanations each face difficulties and the problem is unresolved."}}
+{"id": "C2506", "verdict": "revise", "reason": "Same physics (DM-nucleon scattering) in both, so it is a mechanism, not an analogy.", "fix": {"kind": "mechanism"}}
+{"id": "C2507", "verdict": "confirm"}
+{"id": "C2508", "verdict": "confirm"}
+{"id": "C2509", "verdict": "confirm"}
+{"id": "C2510", "verdict": "confirm"}
+{"id": "C2511", "verdict": "confirm"}
+{"id": "C2512", "verdict": "confirm"}
+{"id": "C2513", "verdict": "confirm"}
+{"id": "C2514", "verdict": "confirm"}
+{"id": "C2515", "verdict": "confirm"}
+{"id": "C2516", "verdict": "confirm"}
+{"id": "C2517", "verdict": "confirm"}
+{"id": "C2518", "verdict": "revise", "reason": "Broad stellar-evolution/nucleosynthesis link; strength 3 is inflated.", "fix": {"strength": 2}}
+{"id": "C2519", "verdict": "confirm"}
+{"id": "C2520", "verdict": "confirm"}
+{"id": "C2521", "verdict": "revise", "reason": "Trapped Y_e at bounce is ~0.3-0.35, and the initial value is ~0.45; fix the map range.", "fix": {"map": "\\lambda_{\\rm EC}=\\frac{\\ln2}{K}\\sum_{if}\\frac{(2J_i+1)e^{-E_i/kT}}{G}B_{if}(GT)\\,\\Phi_{if}(T,\\rho Y_e);\\ Y_e:\\sim0.45\\to\\sim0.3\\text{–}0.35"}}
+{"id": "C2522", "verdict": "confirm"}
+{"id": "C2523", "verdict": "confirm"}
+{"id": "C2524", "verdict": "confirm"}
+{"id": "C2525", "verdict": "confirm"}
+{"id": "C2526", "verdict": "confirm"}
+{"id": "C2527", "verdict": "confirm"}
+{"id": "C2528", "verdict": "confirm"}
+{"id": "C2529", "verdict": "confirm"}
+{"id": "C2530", "verdict": "confirm"}
+{"id": "C2531", "verdict": "confirm"}
+{"id": "C2532", "verdict": "confirm"}
+{"id": "C2533", "verdict": "revise", "reason": "Dark-matter rates use nuclear form factors, a one-sided 'Y uses X' link; strength 3 not justified.", "fix": {"strength": 2}}
+{"id": "C2534", "verdict": "confirm"}
+{"id": "C2535", "verdict": "confirm"}
+{"id": "C2536", "verdict": "confirm"}
+{"id": "C2537", "verdict": "confirm"}
+{"id": "C2538", "verdict": "confirm"}
+{"id": "C2539", "verdict": "confirm"}
+{"id": "C2540", "verdict": "revise", "reason": "Plasma frequency is m_D/√3 ~ gT/√3, not gT/3.", "fix": {"summary": "Above T_c the QGP screens colour charge and supports collective plasma oscillations like an electromagnetic plasma, with Debye mass m_D ~ gT and plasma frequency m_D/√3; plasma language organizes its thermodynamics and transport."}}
+{"id": "C2541", "verdict": "revise", "reason": "Quarkonium melting is not taught in a plasma course; Debye screening is the shared concept, so strength 3 inflated.", "fix": {"strength": 2}}
+{"id": "C2542", "verdict": "confirm"}
+{"id": "C2543", "verdict": "revise", "reason": "Record lists breaks (weak coupling, non-abelian), so it cannot be an identity; it is the same mechanism.", "fix": {"kind": "mechanism"}}
+{"id": "C2544", "verdict": "confirm"}
+{"id": "C2545", "verdict": "revise", "reason": "Breaks listed so not an identity; both fields study the same one-component plasma system. Overlaps C2460 crystal, so strength 2.", "fix": {"kind": "shared object", "strength": 2}}
+{"id": "C2546", "verdict": "reject", "reason": "Generic parent-level link ('fusion plasmas run fusion reactions'); specifics covered by C2552 and C2554.", "duplicate_of": "C2552"}
+{"id": "C2547", "verdict": "confirm"}
+{"id": "C2548", "verdict": "confirm"}
+{"id": "C2549", "verdict": "confirm"}
+{"id": "C2550", "verdict": "confirm"}
+{"id": "C2551", "verdict": "confirm"}
+{"id": "C2552", "verdict": "confirm"}
+{"id": "C2553", "verdict": "confirm"}
+{"id": "C2554", "verdict": "confirm"}
+{"id": "C2555", "verdict": "confirm"}

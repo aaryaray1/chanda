@@ -1012,6 +1012,8 @@ def tree_problems(nodes: list[dict]) -> list[str]:
         for md in [base / "README.md", *sorted((base / "reviews").glob("*.md"))]:
             problems += [f"{md.relative_to(ROOT).as_posix()}: broken link → {t}" for t in check_links(md)]
     for md in sorted(CONNECTIONS_DIR.rglob("*.md")) if CONNECTIONS_DIR.exists() else []:
+        if "work" in md.relative_to(CONNECTIONS_DIR).parts[:-1]:
+            continue  # pipeline scratch prompts quote notes out of place
         problems += [f"{md.relative_to(ROOT).as_posix()}: broken link → {t}" for t in check_links(md)]
         if md.parent == THEMES_DIR:
             meta = parse_frontmatter(md.read_text(encoding="utf-8"))[0]

@@ -1,0 +1,64 @@
+{"id": "C0401", "verdict": "revise", "reason": "Takizuka–Abe binary pairing reproduces the Landau–Fokker–Planck operator statistically; Langevin schemes are a separate, equivalent route, not the same algorithm.", "fix": {"summary": "Coulomb collisions are a Landau–Fokker–Planck diffusion in velocity space. PIC codes model them with Monte Carlo binary-collision pairing (Takizuka–Abe, Nanbu), which reproduces the operator statistically, or with equivalent Langevin stochastic kicks."}}
+{"id": "C0402", "verdict": "confirm"}
+{"id": "C0403", "verdict": "revise", "reason": "Gauss's law alone doesn't capture PIC; the map should show the deposit–field solve–push cycle.", "fix": {"map": "\\text{deposit }(\\rho,\\mathbf J)\\to\\text{Maxwell solve}\\to m\\,d\\mathbf v/dt=q(\\mathbf E+\\mathbf v\\times\\mathbf B)"}}
+{"id": "C0404", "verdict": "revise", "reason": "Godunov/Riemann solvers came from gas dynamics and were extended to MHD; only constrained transport and divergence cleaning are MHD-native.", "fix": {"summary": "Numerical MHD must preserve ∇·B=0. Constrained transport and divergence cleaning were developed for this, while Godunov/Riemann solvers were carried over from gas dynamics. Together they underpin astrophysical MHD codes."}}
+{"id": "C0405", "verdict": "confirm"}
+{"id": "C0406", "verdict": "confirm"}
+{"id": "C0407", "verdict": "confirm"}
+{"id": "C0408", "verdict": "revise", "reason": "Kramers–Kronig holds at fixed k, and a conducting plasma's ε has an ω=0 pole needing separate treatment; this is an application, not an identity.", "fix": {"summary": "Causality makes the plasma dielectric ε(k,ω) analytic in the upper half ω-plane at fixed k. So Kramers–Kronig links its reactive and dissipative (Landau) parts, once the free-carrier pole at ω=0 is subtracted.", "kind": "mechanism"}}
+{"id": "C0409", "verdict": "confirm"}
+{"id": "C0410", "verdict": "reject", "reason": "The DSA spectrum follows from elementary steady advection–diffusion matching across the shock; nothing essential comes from complex analysis or special functions."}
+{"id": "C0411", "verdict": "confirm"}
+{"id": "C0412", "verdict": "confirm"}
+{"id": "C0413", "verdict": "revise", "reason": "Self-adjointness holds with the density-weighted (kinetic-energy) inner product, and only for static equilibria; flows give the non-self-adjoint Frieman–Rotenberg problem.", "fix": {"summary": "For static equilibria the MHD force operator is self-adjoint under the ρ-weighted inner product. So ω² is real and the spectrum has discrete parts plus Alfvén and slow continua. Equilibrium flows break this (Frieman–Rotenberg)."}}
+{"id": "C0414", "verdict": "confirm"}
+{"id": "C0415", "verdict": "confirm"}
+{"id": "C0416", "verdict": "confirm"}
+{"id": "C0417", "verdict": "confirm"}
+{"id": "C0418", "verdict": "revise", "reason": "Quasi-symmetry conserves canonical momentum only at guiding-centre order, and exact global quasi-symmetry is impossible (Garren–Boozer). This is an application of Noether, not an identity.", "fix": {"kind": "mechanism", "summary": "Quasi-symmetry makes |B| depend on ψ and Mθ−Nφ in Boozer coordinates. Guiding-centre motion then has a Noether-conserved canonical momentum and tokamak-like confinement. It holds only approximately (Garren–Boozer), and omnigeneity generalizes it."}}
+{"id": "C0419", "verdict": "confirm"}
+{"id": "C0420", "verdict": "revise", "reason": "Cross-helicity is the Noether charge of fluid relabelling symmetry; magnetic helicity is a topological Casimir from frozen-in flux, not the same origin.", "fix": {"kind": "mechanism", "summary": "Ideal MHD conserves magnetic helicity, a topological Casimir of frozen-in flux, and cross-helicity, tied to fluid-relabelling symmetry (Noether). These invariants constrain reconnection, dynamos and turbulent cascades."}}
+{"id": "C0421", "verdict": "confirm"}
+{"id": "C0422", "verdict": "revise", "reason": "The α-effect needs explicitly broken mirror symmetry (helical forcing); the genuine spontaneous breaking is the B→−B symmetry selected by the saturated dynamo.", "fix": {"summary": "MHD is invariant under B→−B, and a saturated dynamo spontaneously picks a polarity, so geodynamo reversals are hops between degenerate states. The α-effect instead needs explicitly broken mirror symmetry (helicity). Dynamo onset is a bifurcation."}}
+{"id": "C0423", "verdict": "revise", "reason": "The closer counterpart is the thermal-QFT Debye (electric) mass, not Higgs/Meissner; the analogy to symmetry breaking is weak.", "fix": {"summary": "Debye screening gives a Yukawa potential with range λ_D, the classical form of the thermal-field-theory Debye mass. It only superficially resembles Meissner penetration depth or Higgs-phase gauge-boson range.", "strength": 1}}
+{"id": "C0424", "verdict": "confirm"}
+{"id": "C0425", "verdict": "confirm"}
+{"id": "C0426", "verdict": "confirm"}
+{"id": "C0427", "verdict": "confirm"}
+{"id": "C0428", "verdict": "confirm"}
+{"id": "C0429", "verdict": "confirm"}
+{"id": "C0430", "verdict": "confirm"}
+{"id": "C0431", "verdict": "revise", "reason": "Node b covers thermoelectrics too; Green–Kubo MD for lattice thermal conductivity is the main link and is established practice.", "fix": {"summary": "MD, including machine-learned potentials, computes ionic conductivity and diffusion in solid electrolytes. Through Green–Kubo or nonequilibrium methods it also gives lattice thermal conductivity for thermoelectric materials.", "confidence": "established"}}
+{"id": "C0432", "verdict": "confirm"}
+{"id": "C0433", "verdict": "reject", "reason": "Duplicates C0432 (same nodes, same MD–protein-folding link); merge any extra content there."}
+{"id": "C0434", "verdict": "confirm"}
+{"id": "C0435", "verdict": "confirm"}
+{"id": "C0436", "verdict": "confirm"}
+{"id": "C0437", "verdict": "revise", "reason": "Dose engines use direct analog/condensed-history transport sampling (EGSnrc, Geant4, TOPAS), not Metropolis Markov-chain sampling.", "fix": {"summary": "Monte Carlo particle transport, analog for photons and condensed-history for charged particles (EGSnrc, Geant4, TOPAS), is the gold standard for dose calculation in photon and proton therapy. It tracks showers particle by particle."}}
+{"id": "C0438", "verdict": "confirm"}
+{"id": "C0439", "verdict": "confirm"}
+{"id": "C0440", "verdict": "confirm"}
+{"id": "C0441", "verdict": "confirm"}
+{"id": "C0442", "verdict": "confirm"}
+{"id": "C0443", "verdict": "revise", "reason": "Fourier transforms belong to the differential-equations note's scope; no contour-integral or analyticity content is used here.", "fix": {"a": "00-foundations/mathematical-methods/differential-equations-and-greens-functions", "kind": "mechanism"}}
+{"id": "C0444", "verdict": "confirm"}
+{"id": "C0445", "verdict": "confirm"}
+{"id": "C0446", "verdict": "confirm"}
+{"id": "C0447", "verdict": "confirm"}
+{"id": "C0448", "verdict": "confirm"}
+{"id": "C0449", "verdict": "confirm"}
+{"id": "C0450", "verdict": "confirm"}
+{"id": "C0451", "verdict": "confirm"}
+{"id": "C0452", "verdict": "confirm"}
+{"id": "C0453", "verdict": "revise", "reason": "The Courant–Snyder invariant comes from Floquet theory of Hill's equation (Ermakov–Lewis invariant), not a Noether symmetry; Liouville comes from Hamiltonian flow.", "fix": {"a": "01-classical-mechanics/analytical-mechanics/hamiltonian-mechanics", "summary": "Liouville's theorem conserves emittance under Hamiltonian beam transport. Floquet theory of Hill's equation gives the Courant–Snyder (Ermakov–Lewis) invariant for linear optics, and symplectic maps constrain the evolution. Radiation damping breaks both."}}
+{"id": "C0454", "verdict": "confirm"}
+{"id": "C0455", "verdict": "confirm"}
+{"id": "C0456", "verdict": "confirm"}
+{"id": "C0457", "verdict": "confirm"}
+{"verdict": "add", "record": {"a": "00-foundations/symmetry-and-group-theory/lie-groups-and-representations", "b": "11-interdisciplinary-physics/accelerator-physics/beam-dynamics", "name": "Lie-algebraic transfer maps (Dragt–Finn)", "kind": "method transfer", "summary": "Beamline maps are written as products of exponentials of Lie operators :f: acting on phase space. This factorization, with normal forms, gives symplectic nonlinear maps, resonance analysis and dynamic-aperture estimates.", "map": "\\mathcal M=e^{:f_2:}e^{:f_3:}e^{:f_4:}\\cdots", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"verdict": "add", "record": {"a": "00-foundations/computational-physics/monte-carlo-methods", "b": "10-plasma-physics/magnetic-confinement-fusion/turbulent-transport-and-gyrokinetics", "name": "δf PIC as Monte Carlo variance reduction", "kind": "method transfer", "summary": "Gyrokinetic δf particle-in-cell codes evolve only the perturbation weights, a control-variate form of importance sampling. Statistical noise scales as N^{-1/2}, and weight growth and noise accumulation limit long turbulence runs.", "map": "f=f_0+\\delta f,\\quad \\delta f\\approx\\sum_i w_i\\,\\delta(z-z_i)", "breaks": "", "confidence": "established", "strength": 2, "sources": []}}
+{"verdict": "add", "record": {"a": "00-foundations/measurement-and-data-analysis/statistical-inference-in-physics", "b": "10-plasma-physics/magnetic-confinement-fusion/tokamaks", "name": "Bayesian integrated data analysis in fusion", "kind": "method transfer", "summary": "Fusion experiments combine heterogeneous diagnostics (Thomson, interferometry, magnetics) into joint Bayesian posteriors for profiles and equilibria. Forward models and nuisance parameters handle systematics.", "map": "p(\\theta|D_1,D_2,\\ldots)\\propto p(\\theta)\\prod_k p(D_k|\\theta)", "breaks": "", "confidence": "established", "strength": 2, "sources": []}}
+{"verdict": "add", "record": {"a": "00-foundations/units-and-constants/dimensional-analysis-and-scaling", "b": "10-plasma-physics/space-and-astrophysical-plasmas/astrophysical-plasmas-and-shocks", "name": "Sedov–Taylor phase of supernova remnants", "kind": "method transfer", "summary": "Dimensional analysis with only E, ρ and t fixes the self-similar blast-wave radius R∝(Et²/ρ)^{1/5}. This describes the adiabatic phase of supernova-remnant shocks where particles are accelerated.", "map": "R(t)\\approx\\xi_0(Et^2/\\rho)^{1/5}", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
+{"verdict": "add", "record": {"a": "00-foundations/computational-physics/machine-learning-for-physics", "b": "10-plasma-physics/magnetic-confinement-fusion/tokamaks", "name": "ML disruption prediction and RL plasma control", "kind": "method transfer", "summary": "Neural classifiers predict tokamak disruptions from diagnostic time series. Deep reinforcement learning has been used to control plasma shape and position on the coils, and cross-machine transfer remains open.", "map": "", "breaks": "", "confidence": "current research", "strength": 2, "sources": []}}
+{"verdict": "add", "record": {"a": "00-foundations/computational-physics/tensor-network-methods", "b": "10-plasma-physics/plasma-fundamentals/kinetic-theory-vlasov-and-landau-damping", "name": "Tensor-train compression of Vlasov phase space", "kind": "method transfer", "summary": "Representing the 6D distribution function as a tensor train or MPS compresses phase-space grids. Low-rank structure enables Vlasov–Poisson solvers far below full-grid cost, with filamentation raising the rank.", "map": "f(x,v)\\approx\\sum A^{x_1}\\cdots A^{v_d}", "breaks": "", "confidence": "current research", "strength": 1, "sources": []}}
+{"verdict": "add", "record": {"a": "00-foundations/mathematical-methods/tensors-and-differential-geometry", "b": "10-plasma-physics/magnetic-confinement-fusion/stellarators", "name": "Flux coordinates and magnetic-field geometry", "kind": "method transfer", "summary": "Stellarator design uses curvilinear flux coordinates (Boozer, Hamada), metric tensors and Jacobians to express |B| and field-line curvature. Geodesic curvature controls neoclassical drifts and the Mercier stability terms.", "map": "\\mathbf B=\\nabla\\psi\\times\\nabla\\theta+\\iota\\,\\nabla\\varphi\\times\\nabla\\psi", "breaks": "", "confidence": "established", "strength": 2, "sources": []}}

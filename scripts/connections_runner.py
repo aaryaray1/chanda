@@ -163,12 +163,20 @@ def findings(units: list[str]) -> str:
                 lines.append(f"  + {r.get('name', '?')} ({short(r.get('a'))} ↔ {short(r.get('b'))})")
             for v in [v for v in vs if v.get("verdict") == "reject"][:2]:
                 lines.append(f"  − {names.get(v.get('id')) or v.get('id')}: {str(v.get('reason', ''))[:160]}")
+        elif unit.startswith("audit-"):
+            vs = cp.read_jsonl(cp.AUDIT / f"{unit}.jsonl")
+            c = Counter(v.get("verdict") for v in vs)
+            names = {r.get("id"): r.get("name", "") for r in cp.read_jsonl(cp.REGISTRY)}
+            lines.append(f"**{unit}** · numerical audit: {c['error']} error, {c['minor']} minor, {c['ok']} ok, {c['none']} nothing to check; "
+                         f"{sum(1 for v in vs if v.get('machine') == 'mismatch')} arithmetic mismatch(es)")
+            for v in [v for v in vs if v.get("verdict") == "error"][:3]:
+                lines.append(f"  ✗ {v.get('id')} {names.get(v.get('id'), '')}: {str(v.get('issue', ''))[:160]}")
         else:
             batch = cp.read_jsonl(cp.DISC / f"batch-{unit.removeprefix('discover-')}.jsonl")
             lines.append(f"**{unit}**: {len(batch)} connections")
             lines += [f"  + {r.get('name')} ({short(r.get('a'))} ↔ {short(r.get('b'))})" for r in batch if r.get("strength") == 3][:3]
     status = py(["status", "-n", "0"])
-    progress = next((x for x in status if x.startswith("review:")), status[0] if status else "")
+    progress = next((x for x in status if x.startswith("audit:")), "") or next((x for x in status if x.startswith("review:")), status[0] if status else "")
     return "\n".join([f"🔭 **Chanda pipeline** · {progress}"] + lines)
 
 
@@ -218,7 +226,8 @@ def work(units: int, dry: bool) -> int:
         elif f[0] == "DONE":
             log("pipeline finished; disabling the timer")
             notify("done", "Chanda: connection pipeline finished",
-                   f"{len(cp.read_jsonl(cp.REGISTRY))} connections in connections/registry.jsonl; the map is connections/map.html.")
+                   f"{len(cp.read_jsonl(cp.REGISTRY))} connections in connections/registry.jsonl; the map is connections/map.html."
+                   + (" The numerical audit is in connections/pipeline/audit/report.md." if (cp.AUDIT / "report.md").exists() else ""))
             if not dry:
                 systemctl("disable", "--now", TIMER)
             return 0

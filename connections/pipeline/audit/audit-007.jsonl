@@ -1,0 +1,40 @@
+{"id": "C1099", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1101", "verdict": "ok", "checks": [{"claim": "first nonzero zero of J1 (3.83 stated)", "expr": "3.8317", "value": 3.83, "tol": 0.02, "unit": "rad", "computed": 3.8317, "agrees": true}, {"claim": "second zero of J1 (7.02 stated)", "expr": "7.0156", "value": 7.02, "tol": 0.02, "unit": "rad", "computed": 7.0156, "agrees": true}], "machine": "consistent"}
+{"id": "C1102", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1103", "verdict": "ok", "checks": [{"claim": "first zero of J0 (2.405 stated)", "expr": "2.4048", "value": 2.405, "tol": 0.02, "unit": "1", "computed": 2.4048, "agrees": true}], "machine": "consistent"}
+{"id": "C1104", "verdict": "ok", "checks": [{"claim": "first zero of J0 (2.405 stated)", "expr": "2.4048", "value": 2.405, "tol": 0.02, "unit": "1", "computed": 2.4048, "agrees": true}], "machine": "consistent"}
+{"id": "C1107", "verdict": "ok", "checks": [{"claim": "B for eB=m_pi^2: B_c(electron)=4.41e9 T scaled by (139.57/0.511)^2, stated ~1e14 T", "expr": "4.41e9*(139.57/0.511)**2", "value": 100000000000000.0, "tol": "order", "unit": "T", "computed": 328989000000000.0, "agrees": false}], "machine": "mismatch"}
+{"id": "C1108", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1110", "verdict": "ok", "checks": [{"claim": "Z^2/A at x=1 from a_s=17.8, a_c=0.71 MeV: 2a_s/a_c, stated ≈50", "expr": "2*17.8/0.71", "value": 50, "tol": 0.1, "unit": "1", "computed": 50.1408, "agrees": true}], "machine": "consistent"}
+{"id": "C1111", "verdict": "ok", "checks": [{"claim": "hbar c/(m_pi c^2) = 197.327/139.57, stated 1.4 fm", "expr": "197.327/139.57", "value": 1.4, "tol": 0.05, "unit": "fm", "computed": 1.41382, "agrees": true}], "machine": "consistent"}
+{"id": "C1113", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1116", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1118", "verdict": "ok", "checks": [{"claim": "wavelength of 206 meV 2S-2P splitting, hc=1.23984 eV um, stated ~6 um", "expr": "1.23984/0.2062", "value": 6, "tol": 0.1, "unit": "um", "computed": 6.0128, "agrees": true}], "machine": "consistent"}
+{"id": "C1119", "verdict": "ok", "checks": [{"claim": "third harmonic of 1053 nm Nd:glass, stated 351 nm", "expr": "1053/3", "value": 351, "tol": 0.01, "unit": "nm", "computed": 351.0, "agrees": true}], "machine": "consistent"}
+{"id": "C1121", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1123", "verdict": "ok", "checks": [{"claim": "wavelength of 8.356 eV photon, stated 148.4 nm", "expr": "1239.84/8.356", "value": 148.4, "tol": 0.01, "unit": "nm", "computed": 148.377, "agrees": true}], "machine": "consistent"}
+{"id": "C1125", "verdict": "ok", "checks": [{"claim": "(kR)^2 for E=1 MeV, R=5 fm, stated ~1e-3 to 1e-5", "expr": "(5/197.327)**2", "value": 0.001, "tol": "order", "unit": "1", "computed": 0.000642047, "agrees": true}], "machine": "consistent"}
+{"id": "C1126", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1127", "verdict": "ok", "checks": [{"claim": "8/(5 sqrt3) stated 92.4%", "expr": "8/(5*sqrt(3))*100", "value": 92.4, "tol": 0.01, "unit": "%", "computed": 92.376, "agrees": true}], "machine": "consistent"}
+{"id": "C1129", "verdict": "ok", "checks": [{"claim": "f_c at 1 T for 18.6 keV electron: 27.99 GHz/(1+18.6/511), stated ~26 GHz (Project 8 field ~0.96 T)", "expr": "27.99/(1+18.6/511)", "value": 26, "tol": 0.1, "unit": "GHz", "computed": 27.007, "agrees": true}], "machine": "consistent"}
+{"id": "C1132", "verdict": "ok", "checks": [{"claim": "proton alpha_E ≈ 11.2e-4 fm^3 (PDG), stated 11e-4", "expr": "11.2", "value": 11, "tol": 0.1, "unit": "1e-4 fm^3", "computed": 11.2, "agrees": true}], "machine": "consistent"}
+{"id": "C1144", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1145", "verdict": "ok", "checks": [{"claim": "pi*alpha with alpha=1/137.036, stated 2.3%", "expr": "pi/137.036*100", "value": 2.3, "tol": 0.03, "unit": "%", "computed": 2.29253, "agrees": true}], "machine": "consistent"}
+{"id": "C1150", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1153", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1156", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1157", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1159", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1160", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1163", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1169", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1178", "verdict": "ok", "checks": [{"claim": "Earth-twin contrast (R_E/1AU)^2 x ~0.3 albedo x 2/3, stated ~1e-10", "expr": "(6.371e6/1.496e11)**2*0.3*2/3", "value": 1e-10, "tol": "order", "unit": "1", "computed": 3.62729e-10, "agrees": false}], "machine": "mismatch"}
+{"id": "C1186", "verdict": "ok", "checks": [{"claim": "dispersion constant 4.149e3 s MHz^2 converted to ms GHz^2, stated 4.15", "expr": "4.149e3*1e-6*1e3", "value": 4.15, "tol": 0.02, "unit": "ms", "computed": 4.149, "agrees": true}], "machine": "consistent"}
+{"id": "C1189", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1191", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1200", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1209", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1213", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1234", "verdict": "ok", "checks": [{"claim": "a0 coefficient for linear polarization is 0.855, stated 0.85", "expr": "0.855", "value": 0.85, "tol": 0.02, "unit": "1", "computed": 0.855, "agrees": true}], "machine": "consistent"}
+{"id": "C1252", "verdict": "none", "checks": [], "machine": "unchecked"}
+{"id": "C1253", "verdict": "ok", "checks": [{"claim": "first zero of J0 (2.405 stated)", "expr": "2.4048", "value": 2.405, "tol": 0.02, "unit": "1", "computed": 2.4048, "agrees": true}], "machine": "consistent"}

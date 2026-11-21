@@ -1,28 +1,28 @@
 {"id": "C0201", "verdict": "confirm"}
-{"id": "C0202", "verdict": "confirm"}
+{"id": "C0202", "verdict": "revise", "reason": "\"Every observable\" holds only at T=0; at finite T observables are universal functions of T/T_F. Neutron matter is universal only approximately.", "fix": {"summary": "At a Feshbach resonance the scattering length diverges and drops out. With negligible range, density (k_F) and T are the only scales, so thermodynamics is universal: at T=0 a number times the free-Fermi-gas value (Bertsch ξ), otherwise a function of T/T_F. Dilute neutron matter is approximately unitary."}}
 {"id": "C0203", "verdict": "confirm"}
-{"id": "C0204", "verdict": "confirm"}
+{"id": "C0204", "verdict": "revise", "reason": "No technique moves between fields here: clock comparisons are the shared measurement. The link is specialised, not graduate-course structural in both.", "fix": {"kind": "shared object", "strength": 2}}
 {"id": "C0205", "verdict": "confirm"}
 {"id": "C0206", "verdict": "confirm"}
-{"id": "C0207", "verdict": "confirm"}
+{"id": "C0207", "verdict": "reject", "reason": "duplicate of C0211, which states the same computing-to-numerical-relativity link specifically; this one is a broad 'Y uses X' at strength 3", "duplicate_of": "C0211"}
 {"id": "C0208", "verdict": "confirm"}
-{"id": "C0209", "verdict": "confirm"}
+{"id": "C0209", "verdict": "revise", "reason": "Nested sampling is not a descendant of Metropolis; it only uses MCMC internally to draw constrained samples.", "fix": {"summary": "Posteriors over the ~15 parameters of a precessing compact binary are sampled with Metropolis-type MCMC and with nested sampling (LALInference, Bilby with dynesty), which draws constrained samples by MCMC. Nested sampling also gives the Bayesian evidence used for model selection and tests of GR."}}
 {"id": "C0210", "verdict": "confirm"}
-{"id": "C0211", "verdict": "confirm"}
+{"id": "C0211", "verdict": "revise", "reason": "'Iff' is strictly true only for linear constant-coefficient systems. Quasilinear systems need strong hyperbolicity with a smooth symmetrizer.", "fix": {"map": "\\partial_t u=A^i(u)\\,\\partial_i u+S(u):\\ \\text{well-posed if strongly hyperbolic (smooth symmetrizer); ADM is only weakly hyperbolic}"}}
 {"id": "C0212", "verdict": "confirm"}
-{"id": "C0213", "verdict": "revise", "reason": "The substantivalism–relationism debate goes back to Newton and Leibniz; the hole argument revived it through Earman–Norton (1987). 'No identity apart from metric' is one reading.", "fix": {"summary": "Einstein's 1913 hole argument says diffeomorphism-related solutions that agree outside a region but differ inside it make generally covariant equations look indeterministic. His 1915 point-coincidence resolution let him accept general covariance. Earman and Norton (1987) revived the argument as the centre of the modern substantivalism–relationism debate."}}
+{"id": "C0213", "verdict": "revise", "reason": "The hole argument did not start the substantivalism–relationism debate (Newton–Leibniz). It revived that debate via Stachel (1980) and Earman–Norton (1987).", "fix": {"summary": "Einstein's 1913 hole argument made generally covariant field equations look indeterministic: diffeomorphism-related solutions agree outside a region and differ inside it. His 1915 point-coincidence resolution (points have no identity apart from the metric) let him accept covariance. Stachel and Earman–Norton revived it as the centre of the modern substantivalism debate."}}
 {"id": "C0214", "verdict": "confirm"}
-{"id": "C0215", "verdict": "confirm"}
-{"id": "C0216", "verdict": "confirm"}
-{"id": "C0217", "verdict": "confirm"}
-{"id": "C0218", "verdict": "confirm"}
-{"id": "C0219", "verdict": "confirm"}
-{"id": "C0220", "verdict": "confirm"}
-{"id": "C0221", "verdict": "confirm"}
+{"id": "C0215", "verdict": "reject", "reason": "A generic 'GR uses mathematical methods' with no single named transfer. C0219 and C0221–C0225 already cover each specific link."}
+{"id": "C0216", "verdict": "revise", "reason": "The complex-analysis contribution is a technique (Wick rotation plus regularity at the Euclidean horizon), not the same law in both notes.", "fix": {"kind": "method transfer"}}
+{"id": "C0217", "verdict": "revise", "reason": "Poles, branch cuts and continued fractions are complex-analysis tools applied to ringdown. That is a method transfer, not an identity.", "fix": {"kind": "method transfer"}}
+{"id": "C0218", "verdict": "revise", "reason": "Worldsheet CFT is complex-analysis machinery (holomorphy, contour OPEs, moduli) put to work in strings. That is a method transfer, not an identity.", "fix": {"kind": "method transfer"}}
+{"id": "C0219", "verdict": "revise", "reason": "The match holds only for linearized gravity and fails in the strong-field, nonlinear regime. Since it needs a caveat, it is a method transfer.", "fix": {"kind": "method transfer", "breaks": "Valid only for weak fields and slow sources; nonlinear strong-field mergers need post-Newtonian or numerical-relativity methods."}}
+{"id": "C0220", "verdict": "revise", "reason": "Haar-averaged entanglement is not core linear-algebra material, so this link is not structural in both fields.", "fix": {"strength": 2}}
+{"id": "C0221", "verdict": "revise", "reason": "The theorems prove geodesic incompleteness, not curvature blow-up, and they need a causal assumption (a non-compact Cauchy surface).", "fix": {"summary": "Global Lorentzian geometry (Raychaudhuri focusing, trapped surfaces, Penrose diagrams) gives Penrose's 1965 theorem: a trapped surface, the null energy condition and a non-compact Cauchy surface imply null geodesic incompleteness. Collapse therefore generically produces incompleteness and is not an artifact of symmetry, although the theorems do not prove that curvature diverges."}}
 {"id": "C0222", "verdict": "confirm"}
 {"id": "C0223", "verdict": "confirm"}
-{"id": "C0224", "verdict": "confirm"}
-{"id": "C0225", "verdict": "confirm"}
+{"id": "C0224", "verdict": "revise", "reason": "Petrov and Newman–Penrose classification is specific to GR, not core differential geometry, so strength 3 is inflated.", "fix": {"strength": 2}}
+{"id": "C0225", "verdict": "revise", "reason": "A geometric theorem used to classify theories is a method transfer, not an identity. The escape routes also include Lorentz violation (e.g. Hořava), so 'every' was too strong.", "fix": {"kind": "method transfer", "summary": "In four dimensions the only divergence-free rank-2 tensor built from the metric and its first two derivatives is aG_μν + b g_μν (Lovelock). Modified-gravity theories evade this by adding fields (scalar-tensor, Horndeski, massive gravity), higher derivatives (f(R)), extra dimensions, Lorentz violation or nonlocality."}}
 {"id": "C0226", "verdict": "confirm"}
 {"id": "C0227", "verdict": "confirm"}
 {"id": "C0228", "verdict": "confirm"}
@@ -30,63 +30,63 @@
 {"id": "C0230", "verdict": "confirm"}
 {"id": "C0231", "verdict": "confirm"}
 {"id": "C0232", "verdict": "confirm"}
-{"id": "C0233", "verdict": "confirm"}
+{"id": "C0233", "verdict": "revise", "reason": "The CPT theorem also needs a Hermitian Hamiltonian and the spectral condition. Greenberg's 'CPT violation implies Lorentz violation' is contested (Chaichian et al.).", "fix": {"summary": "The CPT theorem follows from Lorentz invariance, locality and a Hermitian Hamiltonian. Greenberg (2002) argued that in interacting local QFT any CPT violation implies Lorentz violation. Kaon mass differences, antihydrogen spectroscopy and Penning-trap particle–antiparticle comparisons therefore constrain the CPT-odd coefficients of the Standard-Model Extension.", "breaks": "Greenberg's implication has been challenged by Chaichian, Dolgov, Novikov and Tureanu (2011). Some CPT tests constrain the SME only within that framework.", "strength": 2}}
 {"id": "C0234", "verdict": "confirm"}
-{"id": "C0235", "verdict": "confirm"}
+{"id": "C0235", "verdict": "revise", "reason": "Representation theory is the tool used to build LQG states; the record does not show the same object in both notes. The area spectrum is not tested.", "fix": {"kind": "method transfer"}}
 {"id": "C0236", "verdict": "confirm"}
 {"id": "C0237", "verdict": "confirm"}
-{"id": "C0238", "verdict": "confirm"}
+{"id": "C0238", "verdict": "revise", "reason": "∇T=0 follows from diffeomorphism invariance only when the matter field equations hold (on-shell). The map omits this.", "fix": {"map": "\\delta_\\xi S_m=0\\ \\text{and matter EOM}\\ \\Rightarrow\\ \\nabla_\\mu T^{\\mu\\nu}=0"}}
 {"id": "C0239", "verdict": "confirm"}
-{"id": "C0240", "verdict": "confirm"}
+{"id": "C0240", "verdict": "revise", "reason": "Spontaneous Lorentz violation is speculative: no Lorentz violation has been observed. Confidence should be proposed.", "fix": {"confidence": "proposed", "breaks": "No Lorentz violation has been detected, and SME bounds are extremely tight. Bumblebee models are theoretical proposals, and Nambu–Goldstone photons or gravitons are unconfirmed."}}
 {"id": "C0241", "verdict": "confirm"}
 {"id": "C0242", "verdict": "confirm"}
-{"id": "C0243", "verdict": "confirm"}
-{"id": "C0244", "verdict": "confirm"}
+{"id": "C0243", "verdict": "revise", "reason": "Writing the entropy in Planck units is not a shared law. The link is a shared object, the Planck area as the unit of horizon entropy.", "fix": {"kind": "shared object", "strength": 2}}
+{"id": "C0244", "verdict": "revise", "reason": "'Every programme' is false: ADD-type models put the fundamental gravity scale near a TeV.", "fix": {"summary": "Combining G, ħ and c gives the Planck length, time and energy, where gravitational and quantum effects are both order one. Most quantum-gravity programmes are organized around this scale; extra-dimension models are the exception, lowering the fundamental scale. The ~10^15 gap above LHC energies is why direct tests are so hard."}}
 {"id": "C0245", "verdict": "confirm"}
 {"id": "C0246", "verdict": "confirm"}
-{"id": "C0247", "verdict": "confirm"}
-{"id": "C0248", "verdict": "confirm"}
+{"id": "C0247", "verdict": "revise", "reason": "A broad 'lattice QCD uses the computing toolkit' link cannot be strength 3. C0249 and C0251 carry the specific transfers.", "fix": {"strength": 2}}
+{"id": "C0248", "verdict": "reject", "reason": "Trivial parent–child overlap ('both use neural networks') with no named technique and consequence. C0268 covers the specific SBI transfer."}
 {"id": "C0249", "verdict": "confirm"}
 {"id": "C0250", "verdict": "confirm"}
 {"id": "C0251", "verdict": "confirm"}
 {"id": "C0252", "verdict": "confirm"}
-{"id": "C0253", "verdict": "confirm"}
+{"id": "C0253", "verdict": "revise", "reason": "Particle physics did not alone 'define' big science; the Manhattan Project and radar labs share that origin. 'Exemplifies' is accurate.", "fix": {"summary": "The path from cosmic-ray and accelerator discoveries to the Standard Model is a central case study in the history of physics. With wartime projects, the field shaped and exemplifies 'big science': Lawrence's cyclotron laboratory, CERN (1954) as international collaboration, and LHC collaborations with thousands of authors."}}
 {"id": "C0254", "verdict": "confirm"}
 {"id": "C0255", "verdict": "confirm"}
-{"id": "C0256", "verdict": "confirm"}
-{"id": "C0257", "verdict": "confirm"}
+{"id": "C0256", "verdict": "revise", "reason": "2D CFT applies complex-analysis machinery: a method transfer. Local conformal maps are holomorphic or antiholomorphic; the global group is only SL(2,C).", "fix": {"kind": "method transfer", "summary": "In two dimensions local conformal maps are holomorphic (or antiholomorphic), so the stress tensor splits into T(z) and T̄(z̄). Radial quantization turns charges into contour integrals, Ward identities and operator-product expansions follow from the residue theorem, and the Virasoro generators are Laurent coefficients."}}
+{"id": "C0257", "verdict": "revise", "reason": "Analyticity from causality is proved only in limited cases (forward, some fixed-t), and dispersion relations generally need subtractions.", "fix": {"summary": "Causality and unitarity imply analyticity of scattering amplitudes in the energy variables (proved for forward and some fixed-t cases, postulated more generally). Amplitudes therefore obey dispersion relations, possibly subtracted: the relativistic Kramers–Kronig. Optical theorem and Cutkosky rules give cut discontinuities; the unitarity method rebuilds loop amplitudes from cuts."}}
 {"id": "C0258", "verdict": "confirm"}
-{"id": "C0259", "verdict": "confirm"}
+{"id": "C0259", "verdict": "revise", "reason": "MSW is not in general adiabatic passage; adiabatic conversion is the solar-neutrino regime of the matter effect.", "fix": {"summary": "Flavour and mass eigenstates are related by the unitary PMNS matrix, so oscillation is the time evolution of a superposition of energy eigenstates. The two-flavour formula is the two-level Rabi-type formula. In the Sun, the MSW effect acts as adiabatic passage through an avoided crossing of the matter Hamiltonian's eigenvalues."}}
 {"id": "C0260", "verdict": "confirm"}
 {"id": "C0261", "verdict": "confirm"}
-{"id": "C0262", "verdict": "confirm"}
-{"id": "C0263", "verdict": "confirm"}
+{"id": "C0262", "verdict": "revise", "reason": "An identity cannot carry a breaks. 'Gauge field = connection' is exact; the GR comparison belongs in the summary as a qualified parallel.", "fix": {"summary": "A gauge potential is a connection on a principal bundle, its field strength is the curvature, Wilson loops are holonomies, and the Bianchi identity DF=0 holds. GR's spin connection and Riemann tensor are the same structures, except that the gravitational connection is soldered to the tangent bundle and fixed by the metric.", "breaks": ""}}
+{"id": "C0263", "verdict": "reject", "reason": "duplicate of C0267, which is revised to absorb HEP's statistics contributions; calibration is covered by C0265", "duplicate_of": "C0267"}
 {"id": "C0264", "verdict": "confirm"}
 {"id": "C0265", "verdict": "confirm"}
 {"id": "C0266", "verdict": "confirm"}
-{"id": "C0267", "verdict": "confirm"}
+{"id": "C0267", "verdict": "revise", "reason": "Absorbs the duplicate C0263: HEP originated much of the shared statistics toolkit.", "fix": {"summary": "LHC searches are hypothesis tests: profile-likelihood ratios with systematics as nuisance parameters, Wilks/Wald asymptotics giving Z = √q₀, CLs for exclusions, and look-elsewhere corrections, as in the 2012 Higgs discovery. HEP also originated much of this toolkit: Feldman–Cousins intervals, CLs and the Cowan–Cranmer–Gross–Vitells asymptotic formulae."}}
 {"id": "C0268", "verdict": "confirm"}
 {"id": "C0269", "verdict": "confirm"}
 {"id": "C0270", "verdict": "confirm"}
 {"id": "C0271", "verdict": "confirm"}
-{"id": "C0272", "verdict": "revise", "reason": "This is not an identity: the CPT theorem turns observed CP violation into a T-violation prediction. The summary's grammar is also broken.", "fix": {"kind": "mechanism", "summary": "CP violation in kaons and B mesons is the experimental side of discrete-symmetry theory. By the CPT theorem it implies T violation, which has been seen directly in both systems (CPLEAR 1998, BaBar 2012). With three generations the CKM matrix carries exactly one physical CP phase."}}
+{"id": "C0272", "verdict": "revise", "reason": "Observed CP violation and the CPT theorem are not the same law. Measured CP violation is a shared object both notes study.", "fix": {"kind": "shared object"}}
 {"id": "C0273", "verdict": "confirm"}
 {"id": "C0274", "verdict": "confirm"}
-{"id": "C0275", "verdict": "confirm"}
+{"id": "C0275", "verdict": "revise", "reason": "'Only loophole' holds only under the theorem's assumptions (massive particles, d>2, nontrivial S-matrix); conformal symmetry escapes when massless. This is method transfer, not identity.", "fix": {"kind": "method transfer", "summary": "Coleman–Mandula forbids Lie-group S-matrix symmetries that mix spacetime and internal symmetries non-trivially, given a mass gap, d>2 and nontrivial scattering. Haag–Łopuszański–Sohnius showed that graded algebras with fermionic generators (supersymmetry, closing on momentum) are the only extension; massless theories also allow conformal symmetry."}}
 {"id": "C0276", "verdict": "confirm"}
 {"id": "C0277", "verdict": "confirm"}
 {"id": "C0278", "verdict": "confirm"}
 {"id": "C0279", "verdict": "confirm"}
 {"id": "C0280", "verdict": "confirm"}
 {"id": "C0281", "verdict": "confirm"}
-{"id": "C0282", "verdict": "confirm"}
+{"id": "C0282", "verdict": "revise", "reason": "Pure power-law scaling with an anomalous dimension holds only at a fixed point. Away from one, scaling is governed by the running coupling.", "fix": {"summary": "Quantum loops break naive dimensional analysis: the renormalization scale μ enters, so at a fixed point correlators scale with engineering plus anomalous dimension (Barenblatt's incomplete similarity). Away from fixed points the running coupling governs scaling. Classically scale-free massless QCD generates Λ_QCD, a few hundred MeV, from a dimensionless coupling."}}
 {"id": "C0283", "verdict": "confirm"}
 {"id": "C0284", "verdict": "confirm"}
 {"id": "C0285", "verdict": "confirm"}
 {"id": "C0286", "verdict": "confirm"}
 {"id": "C0287", "verdict": "confirm"}
-{"id": "C0288", "verdict": "revise", "reason": "The map garbles the Horowitz pasta potential. The ∓ separates like pairs (b+c) from np (b−c), so labelling it V_np is wrong.", "fix": {"map": "V_{ij}(r)=ae^{-r^2/\\Lambda}+[b\\pm c]e^{-r^2/2\\Lambda}\\ (+:\\ nn,pp;\\ -:\\ np);\\ V_{pp}\\ni\\frac{e^2}{r}e^{-r/\\lambda_e}"}}
-{"id": "C0289", "verdict": "confirm"}
+{"id": "C0288", "verdict": "confirm"}
+{"id": "C0289", "verdict": "revise", "reason": "The Metropolis algorithm (1953) came from equation-of-state statistical mechanics, not neutron transport. The text implies otherwise.", "fix": {"summary": "Ulam, von Neumann and Metropolis created the Monte Carlo method in 1946–49 to follow neutron chains in fissile assemblies. MC neutron transport (MCNP, Serpent, OpenMC) still computes reactor k_eff. The approach then spread across physics, including the 1953 Metropolis algorithm for statistical mechanics."}}
 {"id": "C0290", "verdict": "confirm"}
 {"id": "C0291", "verdict": "confirm"}
 {"id": "C0292", "verdict": "confirm"}
@@ -94,11 +94,7 @@
 {"id": "C0294", "verdict": "confirm"}
 {"id": "C0295", "verdict": "confirm"}
 {"id": "C0296", "verdict": "confirm"}
-{"id": "C0297", "verdict": "revise", "reason": "It is a philosophical case study, not a historical link, and readings of autonomy versus reduction are contested.", "fix": {"kind": "shared object", "confidence": "current research"}}
-{"id": "C0298", "verdict": "confirm"}
+{"id": "C0297", "verdict": "revise", "reason": "A case study is not an idea migrating, so not historical. Contested philosophical readings make it current research.", "fix": {"kind": "shared object", "confidence": "current research"}}
+{"id": "C0298", "verdict": "revise", "reason": "An identity cannot need a breaks. Pole and Coulomb-function analysis applied to nuclear reactions is a method transfer.", "fix": {"kind": "method transfer"}}
 {"id": "C0299", "verdict": "confirm"}
 {"id": "C0300", "verdict": "confirm"}
-{"verdict": "add", "record": {"a": "00-foundations/measurement-and-data-analysis/statistical-inference-in-physics", "b": "04-quantum-physics/atomic-molecular-and-optical-physics/atomic-clocks-and-precision-measurement", "name": "Quantum Cramér–Rao bound and clock stability", "kind": "method transfer", "summary": "The quantum Fisher information of a probe state sets a quantum Cramér–Rao bound on phase estimation. N uncorrelated atoms reach the standard quantum limit 1/√N (atom projection noise in clocks), and spin-squeezed or entangled states approach the Heisenberg limit 1/N.", "map": "\\Delta\\phi\\ge\\frac{1}{\\sqrt{\\nu F_Q}},\\ F_Q\\le N\\ (\\text{separable}),\\ F_Q\\le N^2", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
-{"verdict": "add", "record": {"a": "00-foundations/symmetry-and-group-theory/discrete-symmetries-and-cpt", "b": "04-quantum-physics/atomic-molecular-and-optical-physics/atomic-structure-and-spectroscopy", "name": "Electron EDM searches in polar molecules", "kind": "method transfer", "summary": "A permanent electron EDM violates P and T, and through CPT also CP. Spectroscopy of polar molecules (ThO for ACME, HfF+ for JILA) exploits huge internal effective fields to bound |d_e| ≲ 4×10⁻³⁰ e cm (2023), probing CP-violating physics at multi-TeV scales.", "map": "H=-d_e\\,\\boldsymbol\\sigma\\cdot\\mathbf E_{\\rm eff},\\ E_{\\rm eff}\\sim10^{10}\\text{–}10^{11}\\,\\mathrm{V/cm}", "breaks": "", "confidence": "current research", "strength": 3, "sources": []}}
-{"verdict": "add", "record": {"a": "00-foundations/symmetry-and-group-theory/spontaneous-symmetry-breaking", "b": "07-nuclear-physics/nuclear-structure/nuclear-forces-and-chiral-eft", "name": "Pions as Goldstones organize nuclear forces", "kind": "mechanism", "summary": "Spontaneous chiral symmetry breaking makes pions light pseudo-Goldstone bosons that couple derivatively. Chiral EFT uses this to power-count nuclear forces: one-pion exchange is the long-range part, and three-nucleon forces enter at a predicted order (N2LO).", "map": "\\mathcal L_{\\pi N}\\ni\\frac{g_A}{2f_\\pi}\\bar N\\gamma^\\mu\\gamma_5\\tau^aN\\,\\partial_\\mu\\pi^a,\\ Q/\\Lambda_\\chi\\ \\text{expansion}", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
-{"verdict": "add", "record": {"a": "00-foundations/symmetry-and-group-theory/spontaneous-symmetry-breaking", "b": "04-quantum-physics/atomic-molecular-and-optical-physics/bose-einstein-condensates-and-degenerate-gases", "name": "BEC phase: U(1) breaking and the Bogoliubov phonon", "kind": "mechanism", "summary": "A condensate's order parameter ⟨ψ⟩ = √n e^{iθ} breaks the global U(1) of particle number. The Bogoliubov spectrum is gapless and linear, which is the Goldstone mode, and superfluid flow is the phase gradient. In low dimensions Mermin–Wagner forbids true condensation at T > 0.", "map": "\\epsilon_k=\\sqrt{\\epsilon_k^0(\\epsilon_k^0+2gn)}\\to c_s\\hbar k,\\ \\mathbf v_s=\\frac{\\hbar}{m}\\nabla\\theta", "breaks": "", "confidence": "established", "strength": 3, "sources": []}}
