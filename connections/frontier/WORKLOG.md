@@ -11,11 +11,12 @@
 - **Quota:** the pipeline audit runs on its own (cap raised to 10 units a day on 2026-11-20; set `audit.per_day` back to 2 after Sunday if any packets remain). Interactive work uses the main session. Subagents are kept for referee passes and specialist checks.
 
 ## Queue (top = next)
-1. **Audit follow-up (recurring):** after each batch of audit packets, run `audit-report`. Check each `error`, and each arithmetic mismatch, by hand: recompute, read the source. Record each verdict in `connections/pipeline/audit/audit-manual.jsonl` and apply verified fixes with `apply-audit`.
+1. **Audit follow-up (recurring):** after each batch of audit packets, run `audit-report`. Check each `error`, each arithmetic mismatch and each skipped record (no verdict) by hand: recompute, read the source. Packets 13–20 run after midnight on Sunday. Record each verdict in `connections/pipeline/audit/audit-manual.jsonl` and apply verified fixes with `apply-audit`.
 2. **Open forecast:** after MJD 61506 (2027-04-11), score Grover et al.'s Vela window with a fresh catalogue (T04 `--catalogue`). After 2031-11-20, or once 10 pairs exist, run T02. Neither falls in this weekend.
 3. **Test track: no open candidates** (closed 2026-11-21 15:00; see the log). A new slot needs a published *falsifiable forecast* with public data that nobody has scored yet.
 4. **Map additions:** `map-additions.jsonl` (23 records) awaits the user's OK. Next step if approved: a pipeline path to add records (an `add-records` command, which writes and verifies sources like finalize does).
-5. **Sunday wrap-up:** a summary at the top of this file, then a final report to the user.
+5. **Filing results in the tree (F6, awaits the user's OK):** T01, T03 and T04 have passed the referee, but none is filed in `knowledge/`. `docs/CONVENTIONS.md` defines `reviews/` only for literature reviews, so a note format for frontier results is a decision for the user. The suggested home is `09-astrophysics-and-cosmology/stellar-astrophysics/compact-objects`. Posting to Discord also waits for the user.
+6. **Sunday wrap-up:** a summary at the top of this file, then a final report to the user.
 
 ## Done
 - 2026-11-20:
