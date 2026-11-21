@@ -47,6 +47,11 @@ def verdict(f: dict, nxt: float | None) -> dict:
                    "lower_bound": float("inf"), "window": f.get("before", 0), "window_between": f.get("hi", 0)}[f["kind"]]
         r["verdict"] = "pending" if SNAPSHOT_MJD < horizon else ("false (window passed, none catalogued)" if f["kind"].startswith("window")
                                                                    else "overdue beyond 2σ (or not catalogued)")
+        quiet = f.get("no_glitch_until_mjd")  # post hoc (referee round 2): the source's own data show no glitch up to this date
+        if f["kind"] == "point" and quiet and quiet > horizon:
+            r.update(verdict="overdue beyond 2σ (confirmed by the source's own data)", z_lower_bound=(quiet - f["center"]) / f["sigma"])
+        if r["verdict"].startswith("overdue") and f["kind"] == "point":
+            r["overdue_at_publication"] = f["published_mjd"] > horizon
         return r
     if f["kind"] == "point":
         z = (nxt - f["center"]) / f["sigma"]
@@ -114,9 +119,14 @@ def summarise(rows: list[dict], primary_only: bool, registered_pool: bool) -> di
            "within_2": sum(abs(r["z"]) <= 2 for r in zs),
            "mean_z": float(np.mean([r["z"] for r in zs])) if zs else None, "median_z": float(np.median([r["z"] for r in zs])) if zs else None,
            "forecast_closer": sum(r.get("closer") == "forecast" for r in zs), "with_baseline": sum("closer" in r for r in zs)}
-    pro = [r for r in zs if r["prospective_strict"]]
-    out.update(prospective_strict_numeric=len(pro), prospective_strict_within_1=sum(abs(r["z"]) <= 1 for r in pro),
-               prospective_strict_within_2=sum(abs(r["z"]) <= 2 for r in pro))
+    for key, flag in (("prospective_registered", "prospective"), ("prospective_strict", "prospective_strict")):
+        pro = [r for r in zs if r[flag]]
+        out.update({f"{key}_numeric": len(pro), f"{key}_within_1": sum(abs(r["z"]) <= 1 for r in pro),
+                    f"{key}_within_2": sum(abs(r["z"]) <= 2 for r in pro)})
+    over = [r for r in use if r["kind"] == "point" and r["verdict"].startswith("overdue")]
+    out.update(overdue_point=len(over), overdue_point_ids=[r["id"] for r in over],
+               overdue_point_prospective=sum(not r["overdue_at_publication"] for r in over),
+               past_horizon_numeric=len(zs) + len(over))
     if zs:
         s = sum(r["z"] ** 2 for r in zs)
         out["posthoc_sum_z2"] = s
@@ -142,10 +152,29 @@ def main() -> int:
         f = {"id": "x", "pulsar": "Jtest", "published_mjd": 52000, "after_mjd": 51600, "target": "large", "kind": "point", "center": 52100, "sigma": 100}
         r = score(f, g)
         assert r["actual"] == 52000 and abs(r["z"] + 1) < 1e-9 and r["verdict"] == "within 1σ", r
+        assert r["prospective"] is True and r["prospective_strict"] is False, r  # glitch on the publication day: registered yes, strict no
+        assert score(dict(f, published_mjd=51999.5), g)["prospective_strict"] is True
         r = score(dict(f, kind="window", before=52100, after_mjd=51999, published_mjd=51999), g)
         assert r["verdict"].startswith("true"), r
+        r = score(dict(f, kind="window_between", lo=52300, hi=52500), g)
+        assert r["actual"] == 52000 and r["verdict"] == "false (outside window)", r
+        assert score(dict(f, kind="window_between", lo=51900, hi=52100), g)["verdict"] == "true (inside window)"
         r = score(dict(f, after_mjd=53600, center=54000), g)
-        assert r["verdict"] in ("pending", "overdue beyond 2σ (or not catalogued)"), r
+        assert r["verdict"] == "overdue beyond 2σ (or not catalogued)" and r["overdue_at_publication"] is False, r
+        r = score(dict(f, after_mjd=53600, center=54000, no_glitch_until_mjd=54500), g)
+        assert r["verdict"].startswith("overdue beyond 2σ (confirmed") and abs(r["z_lower_bound"] - 5) < 1e-9, r
+        mixed = [(50000.0 + 400 * i, 500.0 if i % 2 else 5.0) for i in range(10)]
+        r = score(dict(f, target="any", alt_target="large", after_mjd=50000, center=50400, sigma=50, published_mjd=50450), mixed)
+        assert r["actual"] == 50400 and r["alt_target"]["actual"] == 50400, r
+        r = score(dict(f, target="any", alt_target="large", after_mjd=50400, center=50800, sigma=50, published_mjd=50850), mixed)
+        assert r["actual"] == 50800 and r["alt_target"]["actual"] == 51200, r
+        r = score(dict(f, kind="lower_bound", bound=53900, after_mjd=53600, data_end_mjd=53800), g)
+        assert abs(r["hp_probability_bound_holds_given_data_end"] - math.exp(-100 / 400)) < 1e-9, r
+        rows = [score(dict(f, id=k, primary=pr, addendum=ad, center=c, after_mjd=an), g) for k, pr, ad, c, an in
+                (("a", True, False, 52100, 51600), ("b", False, False, 52000, 51600), ("c", True, True, 52500, 51600), ("d", True, False, 54000, 53600))]
+        s1, s2 = summarise(rows, primary_only=False, registered_pool=True), summarise(rows, primary_only=True, registered_pool=False)
+        assert (s1["forecasts"], s1["scored_numeric"], s1["within_1"], s1["overdue_point"], s1["past_horizon_numeric"]) == (3, 2, 2, 1, 3), s1
+        assert (s2["forecasts"], s2["scored_numeric"], s2["within_2"], s2["overdue_point"], s2["overdue_point_ids"]) == (3, 2, 1, 1, ["d"]), s2
         assert abs(chi2_sf(18.92, 6) - 0.0043) < 0.0005, chi2_sf(18.92, 6)
         print("selftest OK")
         return 0

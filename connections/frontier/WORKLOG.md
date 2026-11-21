@@ -13,7 +13,7 @@
 ## Queue (top = next)
 1. **Audit follow-up (recurring):** after each batch of audit packets, run `audit-report`. Check each `error`, and each arithmetic mismatch, by hand: recompute, read the source. Record each verdict in `connections/pipeline/audit/audit-manual.jsonl` and apply verified fixes with `apply-audit`.
 2. **Open forecast:** after MJD 61506 (2027-04-11), score Grover et al.'s Vela window with a fresh catalogue (T04 `--catalogue`). After 2031-11-20, or once 10 pairs exist, run T02. Neither falls in this weekend.
-3. **Test track (lower yield; see the 00:32 log entry):** only a published *falsifiable forecast* with public data that nobody has scored yet is worth a slot. Ideas still unchecked: Millhouse et al. (2022) glitch-rate law against post-2021 glitch counts (beware catalogue lag), and Carlin & Melatos (2020) ρ₊ > 0.25 on unseen glitches (T02 machinery).
+3. **Test track: no open candidates** (closed 2026-11-21 15:00; see the log). A new slot needs a published *falsifiable forecast* with public data that nobody has scored yet.
 4. **Map additions:** `map-additions.jsonl` (23 records) awaits the user's OK. Next step if approved: a pipeline path to add records (an `add-records` command, which writes and verifies sources like finalize does).
 5. **Sunday wrap-up:** a summary at the top of this file, then a final report to the user.
 
@@ -28,7 +28,7 @@
 - 2026-11-21: T04 forecast scorecard pre-registered (`5b6f6a8`) and scored; T03 framing corrected (retrospective, not prospective).
 - 2026-11-21: map additions drafted (23 records, `map-additions.jsonl`); frontier track screened (no new claims).
 - 2026-11-20 (late): T01 referee (F6) applied (`020a9f1`); T03 reading corrected (`611eea7`).
-- 2026-11-21: T04 and T03 refereed (F6) and revised: 7 forecasts added as an addendum, one-per-event counting, strict prospective labels, both headlines withdrawn.
+- 2026-11-21: T04 and T03 refereed (F6) and revised: 7 forecasts added as an addendum, one-per-event counting, strict prospective labels, both headlines withdrawn. Second referee round applied the same day (text fixes; every number reproduced).
 
 ## Log
 - **2026-11-20 23:50:**
@@ -90,4 +90,15 @@
   - **Skipped records:** the model silently returned no verdict for 5 records (C0493 and C0536 in packet 3, C0656 and C0706 in packet 4, C2013 in packet 12). All 5 were audited by hand, and all are correct. `audit-report` now lists any record in a finished packet that has no verdict.
   - **Brief:** `brief-audit.md` gains one false-alarm pattern (wrong observing geometry) and one under-call (a convention mismatch that changes an exponent is an `error`).
   - Registry and pipeline changes are uncommitted, per the commit rule.
+- **2026-11-21 15:00:** test track, the last two ideas closed without a test.
+  - **Carlin & Melatos (2020), ρ₊ > 0.25 in every pulsar:** T01 already checked it on the 2026 catalogue (exploratory, since T01 had seen those values). A clean test needs unseen glitches, which is what T02 waits for. Nothing to add this weekend.
+  - **Millhouse et al. (2022), arXiv:2202.01930, λ = A(τ/1 yr)^(−γ):** a population-average rate law. Testing it on post-2021 counts needs each pulsar's monitoring span. The catalogue does not list spans, so a zero count cannot be read as zero glitches, and catalogue lag adds to it. Not testable cleanly with public data reachable here.
+  - **T04 second-round referee:** running in the background on the revision (`bc81173`).
+- **2026-11-21 15:40:** T04 second referee round, verdict "needs revision" for text only. Every number reproduced, and every first-round item was fixed or partly fixed. Applied:
+  - **The Answer now reports the four overdue primary forecasts.** If they are real misses, 5 of 10 are within 2σ, and the misses are four late and one early. The referee wrote "all misses are late", which overlooks the early Akbal miss.
+  - **LI24b is a confirmed miss.** Liu et al.'s own post-glitch timing solution for J1420−6048 runs to MJD 59453 with no glitch, so z ≥ +4.7. The code now handles this case through a `no_glitch_until_mjd` field (declared post hoc).
+  - **Primary rule stated**, with a sensitivity line: if Zhu's 2025 window is primary, 1 of 5 are within 1σ (P = 0.038).
+  - **ZH25b's baseline win is weak.** Conditioned on no glitch before publication, the baseline misses by −289 d and the forecast by −316 d.
+  - **Quotes made verbatim:** AK17b and AK17m are relabelled by the paper's own scenario names, and the GR25vc quote now uses [...]. The LI24c conflicts between text and table, and between paper and catalogue, are noted.
+  - **Code:** summaries report the registered and the strict prospective rules, and overdue counts. The self-test now covers the strict boundary, both window kinds, the alternative target, lower-bound HP, the confirmed-miss rule and the summary filters.
 

@@ -182,7 +182,8 @@
    "catalogued_glitches": 2,
    "prospective": null,
    "prospective_strict": null,
-   "verdict": "overdue beyond 2\u03c3 (or not catalogued)"
+   "verdict": "overdue beyond 2\u03c3 (or not catalogued)",
+   "overdue_at_publication": false
   },
   {
    "id": "GU20c",
@@ -218,6 +219,7 @@
    "prospective": null,
    "prospective_strict": null,
    "verdict": "overdue beyond 2\u03c3 (or not catalogued)",
+   "overdue_at_publication": false,
    "baseline": {
     "n_past": 6,
     "anchor": 58823.0,
@@ -371,7 +373,9 @@
    "catalogued_glitches": 8,
    "prospective": null,
    "prospective_strict": null,
-   "verdict": "overdue beyond 2\u03c3 (or not catalogued)",
+   "verdict": "overdue beyond 2\u03c3 (confirmed by the source's own data)",
+   "z_lower_bound": 4.6875,
+   "overdue_at_publication": true,
    "baseline": {
     "n_past": 8,
     "anchor": 58555.0,
@@ -392,6 +396,7 @@
    "prospective": null,
    "prospective_strict": null,
    "verdict": "overdue beyond 2\u03c3 (or not catalogued)",
+   "overdue_at_publication": true,
    "baseline": {
     "n_past": 5,
     "anchor": 56339.0,
@@ -459,9 +464,19 @@
   "median_z": 0.6393414211438501,
   "forecast_closer": 4,
   "with_baseline": 7,
+  "prospective_registered_numeric": 4,
+  "prospective_registered_within_1": 2,
+  "prospective_registered_within_2": 3,
   "prospective_strict_numeric": 2,
   "prospective_strict_within_1": 1,
   "prospective_strict_within_2": 2,
+  "overdue_point": 2,
+  "overdue_point_ids": [
+   "GU20b",
+   "GU22d"
+  ],
+  "overdue_point_prospective": 2,
+  "past_horizon_numeric": 9,
   "posthoc_sum_z2": 19.173471283236115,
   "posthoc_sum_z2_p": 0.00766094328029665,
   "posthoc_logscore_forecast_wins": 4,
@@ -483,9 +498,21 @@
   "median_z": 0.6436665554472702,
   "forecast_closer": 3,
   "with_baseline": 6,
+  "prospective_registered_numeric": 3,
+  "prospective_registered_within_1": 1,
+  "prospective_registered_within_2": 2,
   "prospective_strict_numeric": 2,
   "prospective_strict_within_1": 1,
   "prospective_strict_within_2": 2,
+  "overdue_point": 4,
+  "overdue_point_ids": [
+   "GU20b",
+   "GU22d",
+   "LI24b",
+   "LI24c"
+  ],
+  "overdue_point_prospective": 2,
+  "past_horizon_numeric": 10,
   "posthoc_sum_z2": 18.91839598476623,
   "posthoc_sum_z2_p": 0.004303692359272748,
   "posthoc_logscore_forecast_wins": 3,
@@ -497,7 +524,7 @@
    "GR25": "pending",
    "ZH26": "false (window passed, none catalogued)",
    "LI24a": "pending",
-   "LI24b": "overdue beyond 2\u03c3 (or not catalogued)",
+   "LI24b": "overdue beyond 2\u03c3 (confirmed by the source's own data)",
    "LI24c": "overdue beyond 2\u03c3 (or not catalogued)"
   }
  }

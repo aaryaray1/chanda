@@ -13,23 +13,25 @@
   "prospective_label": "contemporaneous: v1 posted 17:37 UTC, the glitch at 11:38 UTC; the authors state the forecast predates it",
   "anchor_note": "anchor: 'the last observed glitch' of 2014 (MJD 56922, catalogue Δν/ν = 0.4e-9); corrected after the referee",
   "event": "Vela-2016",
-  "primary": true
+  "primary": true,
+  "note": "§Conclusions: 'tg = 1364 ± 164 days after the last observed glitch of 2014 [...] if no persistent shift was associated with the 2014 glitch'"
  },
  {
   "id": "AK17b",
   "pulsar": "J0835-4510",
-  "source": "Akbal et al. (2017), arXiv:1612.03805v1 (alternative)",
+  "source": "Akbal et al. (2017), arXiv:1612.03805v1 (large persistent-shift scenario)",
   "published_mjd": 57734.734,
   "after_mjd": 56922,
   "target": "large",
   "kind": "point",
   "center": 57836,
   "sigma": 201,
-  "quote": "but could occur as early as March 24, 2017, ±201 days if the 2014 glitch gave rise to a typical Vela persistent shift (persistent-shift scenario, tg = 914 ± 201 d)",
+  "quote": "but could occur as early as March 24, 2017, ±201 days if the 2014 glitch gave rise to a typical Vela persistent shift",
   "prospective_label": "contemporaneous: v1 posted 17:37 UTC, the glitch at 11:38 UTC; the authors state the forecast predates it",
   "anchor_note": "anchor: 'the last observed glitch' of 2014 (MJD 56922, catalogue Δν/ν = 0.4e-9); corrected after the referee",
   "event": "Vela-2016",
-  "primary": false
+  "primary": false,
+  "note": "abstract wording; §Conclusions: 'If the 2014 glitch induced a large persistent shift [...] within an interval of tg = 914 ± 201 days'"
  },
  {
   "id": "MD19a",
@@ -160,7 +162,8 @@
   "quote": "the next glitch should occur around 2024 July 13, ±577 d",
   "event": "Crab-2025",
   "primary": true,
-  "alt_target": "large"
+  "alt_target": "large",
+  "note": "primary for this event: the point forecast is the most informative statement (rule stated in the results); sensitivity with ZH25a as primary is reported"
  },
  {
   "id": "GR25",
@@ -181,7 +184,7 @@
  {
   "id": "AK17m",
   "pulsar": "J0835-4510",
-  "source": "Akbal et al. (2017), arXiv:1612.03805v1 (second scenario)",
+  "source": "Akbal et al. (2017), arXiv:1612.03805v1 (Crab-like persistent-shift scenario)",
   "published_mjd": 57734.734,
   "after_mjd": 56922,
   "target": "large",
@@ -192,7 +195,7 @@
   "primary": false,
   "addendum": true,
   "prospective_label": "contemporaneous: v1 posted 17:37 UTC, the glitch at 11:38 UTC; the authors state the forecast predates it",
-  "quote": "the glitch interval is tg = 1313 ± 433 days, predicting the arrival of the next glitch around April 27, 2018"
+  "quote": "If a persistent shift of the order of those observed in the Crab pulsar occurred then the glitch interval is tg = 1313 ± 433 days, predicting the arrival of the next glitch around April 27, 2018"
  },
  {
   "id": "ZH26",
@@ -238,8 +241,9 @@
   "event": "J1420-next",
   "primary": true,
   "addendum": true,
-  "note": "centre passed 1171 d before publication; the paper's Fermi span reaches MJD 59453 with no glitch",
-  "quote": "G8: tth = 823(16) d, tobs: -"
+  "note": "centre passed 1171 d before publication; Liu et al. Table 2 has a post-G8 timing solution spanning MJD 58557–59453 with no glitch, so the forecast had failed in the paper's own data",
+  "quote": "G8: tth = 823(16) d, tobs: -",
+  "no_glitch_until_mjd": 59453
  },
  {
   "id": "LI24c",
@@ -255,8 +259,9 @@
   "event": "J1709-next",
   "primary": true,
   "addendum": true,
-  "note": "centre passed 524 d before publication",
-  "quote": "G6: tth = 1850(26) d, tobs: -"
+  "note": "centre passed 524 d before publication; the text gives G6 tth = 1861(25) d (the same as G5's), Table 4 gives 1850(26) d; Table 4 is used",
+  "quote": "G6: tth = 1850(26) d, tobs: -",
+  "anchor_note": "paper G6 at MJD 58175(2) with Δν/ν = 2438(3)e-9 (Table 3); the catalogue lists 58176 at 52.4e-9, below the large class, so the baseline anchors on 56339; no verdict depends on it"
  },
  {
   "id": "GR25vc",
@@ -272,7 +277,8 @@
   "event": "Vela-next",
   "primary": false,
   "addendum": true,
-  "quote": "The time for the next glitch is predicted as 2287.08 days; the predicted time for the next glitch lies between t0 − 3τnl to t0 + 3τnl (τnl = 255.0 d)"
+  "quote": "This gives us a theoretical prediction for the time to the next glitch in terms of the vortex creep model, which lies between the range t0 − 3τnl to t0 + 3τnl. [...] The fractional moment of inertia for the non-linear creep region is 4.2 × 10−3 with a recoupling timescale of 254.98 days. The time for the next glitch is predicted as 2287.08 days.",
+  "note": "Table II: t0 = 2287.1 (+160.1/−480.2) d, τnl = 255.0 d; window = anchor + t0 ± 3τnl"
  },
  {
   "id": "GU20e",
