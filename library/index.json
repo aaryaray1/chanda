@@ -3683,6 +3683,7 @@
   "depth": 2,
   "parent": "05-relativity-and-gravitation",
   "children": [
+   "05-relativity-and-gravitation/quantum-gravity/analogue-gravity",
    "05-relativity-and-gravitation/quantum-gravity/holography-and-ads-cft",
    "05-relativity-and-gravitation/quantum-gravity/loop-quantum-gravity",
    "05-relativity-and-gravitation/quantum-gravity/other-approaches-to-quantum-gravity",
@@ -3700,6 +3701,25 @@
   "papers_partial": false,
   "papers_updated": "2026-10-29",
   "level": "subfield"
+ },
+ {
+  "path": "05-relativity-and-gravitation/quantum-gravity/analogue-gravity",
+  "title": "Analogue gravity",
+  "summary": "Laboratory systems whose excitations see an effective curved spacetime — acoustic and optical horizons, analogue Hawking and Unruh radiation, superradiance, expanding-universe simulators and gravitational anomalies in Weyl semimetals.",
+  "depth": 3,
+  "parent": "05-relativity-and-gravitation/quantum-gravity",
+  "children": [],
+  "query": "analogue gravity; analog gravity; acoustic black hole; analogue Hawking radiation",
+  "arxiv": [
+   "gr-qc",
+   "cond-mat.quant-gas"
+  ],
+  "source": "inspire",
+  "agent": "relativist",
+  "papers": 15,
+  "papers_partial": false,
+  "papers_updated": "2026-11-20",
+  "level": "topic"
  },
  {
   "path": "05-relativity-and-gravitation/quantum-gravity/holography-and-ads-cft",

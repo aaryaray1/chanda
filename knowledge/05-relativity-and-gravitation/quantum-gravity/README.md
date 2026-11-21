@@ -16,6 +16,7 @@ GR treated as a quantum field theory is non-renormalizable: it works as an effec
 - [Holography and AdS/CFT](holography-and-ads-cft/README.md) — gravity in AdS as a CFT on its boundary; entanglement and geometry.
 - [Loop quantum gravity](loop-quantum-gravity/README.md) — Ashtekar variables, spin networks, spin foams, loop cosmology.
 - [QFT in curved spacetime](qft-in-curved-spacetime/README.md) — particle creation, Unruh effect, semiclassical gravity.
+- [Analogue gravity](analogue-gravity/README.md) — sonic and optical horizons, analogue Hawking and Unruh radiation, Weyl-semimetal anomalies.
 - [Other approaches to quantum gravity](other-approaches-to-quantum-gravity/README.md) — asymptotic safety, CDT, causal sets, tabletop tests.
 
 ## Key equations

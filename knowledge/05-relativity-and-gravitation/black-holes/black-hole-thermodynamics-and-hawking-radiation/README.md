@@ -18,4 +18,4 @@ $$dM=\frac{\kappa}{8\pi G}dA+\Omega_HdJ+\Phi_HdQ,\qquad t_{\text{evap}}\approx\f
 
 **Landmarks.** Bekenstein (1973); Hawking (1975) — see [subfield landmarks](../README.md).
 
-**See also.** [Laws of thermodynamics](../../../03-thermodynamics-and-statistical-mechanics/classical-thermodynamics/laws-of-thermodynamics/README.md) · [QFT in curved spacetime](../../quantum-gravity/qft-in-curved-spacetime/README.md)
+**See also.** [Laws of thermodynamics](../../../03-thermodynamics-and-statistical-mechanics/classical-thermodynamics/laws-of-thermodynamics/README.md) · [QFT in curved spacetime](../../quantum-gravity/qft-in-curved-spacetime/README.md) · [Analogue gravity](../../quantum-gravity/analogue-gravity/README.md)

@@ -18,4 +18,4 @@ $$H_W=\pm\hbar v_F\,\boldsymbol\sigma\cdot\mathbf k,\qquad \frac{dN_\pm}{dt}=\pm
 
 **Landmark.** Xu et al. (2015) — see [subfield landmarks](../README.md).
 
-**See also.** [Anomalies](../../../06-particle-physics/quantum-field-theory/anomalies-instantons-and-topology/README.md) · [Graphene (2D Dirac)](../../low-dimensional-and-quantum-materials/graphene-and-2d-materials/README.md)
+**See also.** [Anomalies](../../../06-particle-physics/quantum-field-theory/anomalies-instantons-and-topology/README.md) · [Graphene (2D Dirac)](../../low-dimensional-and-quantum-materials/graphene-and-2d-materials/README.md) · [Analogue gravity](../../../05-relativity-and-gravitation/quantum-gravity/analogue-gravity/README.md)

@@ -18,4 +18,4 @@ $$T_U=\frac{\hbar a}{2\pi ck_B}\approx4\times10^{-21}\ \text{K}\left(\frac{a}{1\
 
 **Landmark.** Unruh (1976) — see [subfield landmarks](../README.md).
 
-**See also.** [Hawking radiation](../../black-holes/black-hole-thermodynamics-and-hawking-radiation/README.md) · [Inflation](../../../09-astrophysics-and-cosmology/cosmology/inflation/README.md)
+**See also.** [Hawking radiation](../../black-holes/black-hole-thermodynamics-and-hawking-radiation/README.md) · [Inflation](../../../09-astrophysics-and-cosmology/cosmology/inflation/README.md) · [Analogue gravity](../analogue-gravity/README.md)
