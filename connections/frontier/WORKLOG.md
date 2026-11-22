@@ -1,5 +1,54 @@
 # Frontier work log and queue (autonomous run, 2026-11-20 → 2026-11-22)
 
+## Wrap-up (2026-11-22 02:27): the queue is empty, so the loop stops here
+**Breakthrough: none.** The strongest results are careful, refereed and pre-registered, but each is either partly known or awaits a decisive test. All work is committed and pushed (public repo `aaryaray1/chanda`, latest commits listed below).
+
+**Results, all pre-registered before scoring and refereed:**
+- **V1, the most consequential.** Published vortex-creep "times to the next glitch" track the observed intervals in-sample: within-pulsar ρ = +0.66, and better than the pulsar's own mean in 25 of 34 pairs.
+  - Glitch size alone tracks the intervals almost as well (ρ = +0.46).
+  - The fits span the interval, so this is consistency, not forecast skill.
+  - The one clean forecast made beforehand did worse than the baseline.
+  - **The decisive test**, a blind fit to the early recovery from public Fermi-LAT timing, needs timing software not installed here.
+- **G1–G3, method transfer from earthquake forecasting** (CSEP-style out-of-sample information gain, new for glitches):
+  - Glitch timing is significantly non-Poisson against a calibrated null.
+  - A two-parameter renewal forecast is calibrated: 208 of 231 inside its 90% intervals.
+  - Large glitches carry the reservoir sign (7 of 7 pulsars; 14 of 14 with a looser cut). Small glitches look Poisson.
+  - There are no aftershocks beyond about a month. The earlier "refractory" headline was withdrawn: it was the catalogue's resolution.
+- **T04, a scorecard of every published next-glitch forecast.**
+  - 2 of 6 primary forecasts fell within 1σ, and 4 are overdue, one a confirmed miss.
+  - It added a missed failed forecast, and withdrew two headlines.
+- **T01, T03:** done before this weekend's mandate update (see the Done section).
+
+**Registered, to be checked:**
+- next-glitch forecasts for 34 pulsars (G1);
+- next-large-glitch forecasts for 7 pulsars (G2-P);
+- **a Vela head-to-head that resolves by 2027-04-11**: Grover et al. 0.71, empirical renewal 0.31, our models 0.13;
+- T02.
+
+`analysis/score_registered.py run` scores them all against the live catalogue.
+
+**Map and audit:**
+- **Audit complete:** 789 quantitative records checked. 6 registry errors fixed (C0064, C0657, C1506, C1737, C2021, C2479), 12 false alarms dismissed, and 7 records the model skipped audited by hand.
+- **Map:** 23 new connections, including an analogue-gravity node. The registry holds 2907 connections.
+- **Filing:** results are filed in `knowledge/.../compact-objects/reviews/pulsar-glitch-statistics.md`.
+
+**Toolkit:**
+- `physlib verify` now requires title words in order, with the journal title via DOI as a fallback. It caught one of my wrong arXiv IDs on Saturday.
+- New commands: `add-records`, and an `audit-report` that lists skipped records.
+
+**Errors I made and caught:**
+- I logged wrong times twice; they are corrected from git.
+- I gave one wrong arXiv ID and one wrong paper title; the verifier caught both.
+- I mis-stated a computed mass in an audit note; it is corrected.
+- I extracted two wrong V1 pairs; the referee caught them.
+
+**Next steps for the user:**
+- Run the scorer monthly.
+- For V1, install timing software (PINT) to run the blind early-recovery test.
+- Optionally ask the vortex-creep authors for pre-glitch-only fits.
+
+Key commits: T04 `bc81173`/`7d39a96`; G1–G3 `a95b9cb`…`ac8cf79`; Vela registration `df1f37a`; V1 `71011da`/`5c3540f`/`2e5096e`/`25c2431`; audit `bf7f1a0`; map `30c537f`; verifier `447d07e`.
+
 **Mandate.** On 2026-11-20 (~23:30 CET) the user asked for work to continue overnight and through the weekend, until the end of Sunday 2026-11-22, resuming after usage limits reset, with the rest of the week's budget. Each loop iteration reads this file first, takes the top open item, works on it, and logs the result here before scheduling the next wake-up.
 
 **Mandate update (2026-11-21 ~15:50, from the user):** "commit and push, and continue. stop asking for my input, find a breakthrough, or advance enough to find one." So decide the queued questions myself (map additions, filing results), push after each commit, and put the main effort into a candidate breakthrough.

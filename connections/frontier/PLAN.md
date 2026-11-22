@@ -23,15 +23,15 @@ Link prediction over a map of established physics mostly rediscovers established
 | **Test** (T) | Pre-registered tests, on public data, of cross-branch claims the specialists left at *current research* or *proposed*. 73 such quantitative claims exist. | `cards/T01-pulsar-glitch-avalanches.md`: vortex avalanches versus stress release, on 737 glitches in 226 pulsars. |
 | **Frontier** (P/T + N) | Link prediction with an arXiv co-occurrence prefilter, then cards, prior art and a check | Branch 00 (methods) is excluded from the prefilter: abstracts rarely name the method they use, so its pairs look falsely uncharted. |
 
-## Status (2026-11-21)
-- **Map:** added the [analogue gravity](../../knowledge/05-relativity-and-gravitation/quantum-gravity/analogue-gravity/README.md) node, with 13 verified landmarks and cross-links. 23 more connections were drafted with verified sources (`map-additions.jsonl`).
-- **Audit:** automated as stage 4 of the connection pipeline (`../pipeline/PLAN.md`): 790 quantitative records in 20 packets. 12 packets are hand-reviewed: 5 registry errors fixed, 6 false alarms dismissed, 5 skipped records audited by hand. Findings are in `../pipeline/audit/report.md`.
-- **Test:** four pre-registered tests, all on pulsar glitches; the running record is `WORKLOG.md`.
-  - **T01:** the 2018 glitch size–waiting-time predictions. P1 survives; P2 is inconclusive.
-  - **T02:** whether three forward correlations persist. Registered now, to be tested on future glitches.
-  - **T03:** the 2019 forecasts pass, out-of-sample.
-  - **T04:** a scorecard of every published next-glitch forecast. Refereed twice: coverage is low, and one miss is confirmed.
-- **Frontier:** the top 24 link-prediction pairs were all known links. The next approach is method transfer: CSEP-style earthquake-forecast testing applied to pulsar glitches.
+## Status (2026-11-22)
+- **Map:** the analogue gravity node, plus 23 connections added through `add-records`. The registry holds 2907 connections.
+- **Audit: complete.** 789 records checked: 6 fixed, 12 false alarms, 7 skipped records audited by hand. The report is `../pipeline/audit/report.md`.
+- **Test:**
+  - T01–T04 on pulsar glitches. T04 is a scorecard of published forecasts, refereed twice.
+  - G1–G3: CSEP-style forecast scoring, size classes and aftershocks.
+  - V1: a meta-analysis of vortex-creep interglitch predictions.
+  - Registered forecasts are scored by `analysis/score_registered.py`.
+- **Frontier:** link prediction found only known links. Method transfer (CSEP to glitches) and meta-analysis of published model claims (V1) produced the useful results. That is the recommended direction.
 
 ## Stages
 | Step | Unit of work | Who | Cost |
