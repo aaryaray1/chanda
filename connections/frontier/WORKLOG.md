@@ -13,7 +13,7 @@
 - **Quota:** the pipeline audit runs on its own (cap raised to 10 units a day on 2026-11-20; set `audit.per_day` back to 2 after Sunday if any packets remain). Interactive work uses the main session. Subagents are kept for referee passes and specialist checks.
 
 ## Queue (top = next)
-1. **Audit follow-up (recurring):** after each batch of audit packets, run `audit-report`. Check each `error`, each arithmetic mismatch and each skipped record (no verdict) by hand: recompute, read the source. Packets 13–20 run after midnight on Sunday. Record each verdict in `connections/pipeline/audit/audit-manual.jsonl` and apply verified fixes with `apply-audit`.
+1. **Audit follow-up: done** (2026-11-22 02:26). All 20 packets audited (789 records). 6 registry errors fixed, 12 false alarms dismissed, 7 skipped records audited by hand. The pipeline reports DONE. Earlier text: after each batch of audit packets, run `audit-report`. Check each `error`, each arithmetic mismatch and each skipped record (no verdict) by hand: recompute, read the source. Packets 13–20 run after midnight on Sunday. Record each verdict in `connections/pipeline/audit/audit-manual.jsonl` and apply verified fixes with `apply-audit`.
 2. **Registered forecasts (recurring, from now until they resolve):** run `python3 -I analysis/score_registered.py run` about monthly. It fetches the live catalogue and scores G1 (34 pulsars), G2-P (7) and the Vela head-to-head, which resolves by 2027-04-11. The baseline run on 2026-11-21 has everything open. T04 and T02 have their own runs, printed by the scorer.
    **Open forecast:** after MJD 61506 (2027-04-11), score Grover et al.'s Vela window with a fresh catalogue (T04 `--catalogue`). After 2031-11-20, or once 10 pairs exist, run T02. Neither falls in this weekend.
 3. **Test track: no open candidates** (closed 2026-11-21 15:00; see the log). A new slot needs a published *falsifiable forecast* with public data that nobody has scored yet.
@@ -178,4 +178,14 @@
     - C2355: the Raether limit e²⁰ = 4.9×10⁸ matches the literature's "~10⁸", a factor of 5.
   - **One skipped record:** C2175 (the MSSM Higgs bound), audited by hand and correct. With v = 246 GeV the one-loop term peaks at X_t = √6 M_S.
   - My first note quoted the wrong one-loop masses (124 and 136 GeV). The code gives 127 and 151 GeV, and the note is corrected.
+- **2026-11-22 02:25–02:26:** audit packets 17–20 hand-checked. The audit stage is complete (20/20; the pipeline reports DONE).
+  - **Fixed C2479** (quantum Monte Carlo): the Hubbard–Stratonovich identity as written integrates to exp(+Cρ²τ³/2), with the wrong sign and τ cubed (sympy). Corrected to ∫ds e^(−s²/2) e^(i√(Cτ)sρ), with a real coupling for attractive C < 0. The auditor had called it *minor*.
+  - **Dismissed three false alarms:**
+    - C2582: "Γ ~ neV" is a scale label; ⁵⁷Fe's linewidth is 4.7 neV.
+    - C2583: the record's fC is Q_crit, which the auditor compared with the deposited charge.
+    - C2631: n_e ~ 10³⁰ spans white-dwarf densities.
+  - **C2458** (chiral anomaly) was skipped by the model, audited by hand, and is correct (Gaussian and natural units).
+  - **Duplicate verdicts:** packet 18 returned two each for C2524 and C2583. The report keeps one per record.
+  - **Audit totals:** 6 errors fixed (C0064, C0657, C1506, C1737, C2021, C2479) and 12 false alarms dismissed out of 789 records. 7 skipped records were audited by hand, all correct.
+  - **Config:** `audit.per_day` is set back to 2 (it was raised to 10 for this weekend).
 

@@ -457,3 +457,12 @@
 2026-11-22 00:17:27  start audit-016 on sonnet at medium effort
 2026-11-22 00:18:23  audit-016: done (40/40 audited: 0 error, 0 minor, 33 ok, 7 none; 1 arithmetic mismatches · 1 turns, 0k in + 23k cache-write + 5k cache-read, 9k out, ~$0.18) (exit 0)
 2026-11-22 00:18:24  registry is final; no snapshot (numerical audit running)
+2026-11-22 02:13:42  start audit-017 on sonnet at medium effort
+2026-11-22 02:14:42  audit-017: done (39/40 audited: 0 error, 1 minor, 37 ok, 1 none; 1 arithmetic mismatches · 1 turns, 0k in + 24k cache-write + 3k cache-read, 9k out, ~$0.19) (exit 0)
+2026-11-22 02:14:42  start audit-018 on sonnet at medium effort
+2026-11-22 02:15:39  audit-018: done (40/40 audited: 0 error, 0 minor, 36 ok, 6 none; 3 arithmetic mismatches · 1 turns, 0k in + 22k cache-write + 5k cache-read, 9k out, ~$0.18) (exit 0)
+2026-11-22 02:15:39  start audit-019 on sonnet at medium effort
+2026-11-22 02:16:32  audit-019: done (40/40 audited: 0 error, 0 minor, 36 ok, 4 none; 1 arithmetic mismatches · 1 turns, 0k in + 20k cache-write + 5k cache-read, 8k out, ~$0.16) (exit 0)
+2026-11-22 02:16:32  start audit-020 on sonnet at medium effort
+2026-11-22 02:17:12  audit-020: done (30/30 audited: 0 error, 0 minor, 25 ok, 5 none; 0 arithmetic mismatches · 1 turns, 0k in + 18k cache-write + 5k cache-read, 6k out, ~$0.13) (exit 0)
+2026-11-22 02:17:12  registry is final; no snapshot (numerical audit running)

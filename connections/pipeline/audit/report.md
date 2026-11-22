@@ -1,7 +1,7 @@
 # Numerical audit of the connection registry
 
-Generated 2026-11-22 00:26 from 20 audit packets (16 done). Records audited: 640.
-- 5 error, 0 minor, 438 ok, 197 with nothing to check.
+Generated 2026-11-22 02:26 from 20 audit packets (20 done). Records audited: 790.
+- 6 error, 0 minor, 571 ok, 213 with nothing to check.
 - 0 more have an arithmetic mismatch that the auditor did not call an error: either the record or the auditor's check is wrong.
 - Every record in a finished packet has a verdict.
 
@@ -13,7 +13,7 @@ Nothing here is applied automatically. Check a record, preview its fix with `pyt
 ## Arithmetic mismatches to look at (0)
 
 
-## Fixed in the registry (5)
+## Fixed in the registry (6)
 
 - **C0064** Fictitious forces as connection coefficients: sign convention mixed: the Coriolis term is written as a force (-2 Omega x v) but the centrifugal term as the equation-of-motion term (+Omega x (Omega x r)); as a force it is -Omega x (Omega x r)
   - fix: {"map": "\\ddot x^i+\\Gamma^i_{\\mu\\nu}\\dot x^\\mu\\dot x^\\nu=F^i/m,\\ x^0=t;\\ \\Gamma^i_{0j}=\\epsilon_{ijk}... \\Rightarrow -2\\boldsymbol\\Omega\\times\\mathbf v,\\ \\Gamma^i_{00}\\Rightarrow-\\boldsymbol\\Omega\\times(\\boldsymbol\\Omega\\times\\mathbf r)"}
@@ -29,8 +29,10 @@ Nothing here is applied automatically. Check a record, preview its fix with `pyt
   - registry summary: T = sqrt(sigma)/2pi with sigma = 0.16-0.20 GeV^2, vs the stated 160 MeV: `sqrt(0.18)/(2*pi)` = 0.0675237 vs stated 0.16 GeV → MISMATCH
   - source eqs 57-58 (arXiv:0704.1426): T = sqrt(sigma/(2 pi)) with sigma = 0.18 GeV^2: `sqrt(0.18/(2*pi))` = 0.169257 vs stated 0.17 GeV → agrees
   - fix: {"summary": "Thermal hadron yields with a universal T near 160 MeV in e+e-, pp and AA have been modelled as Unruh radiation from quarks decelerated by the string tension at a confinement horizon, with T = a/2π and a ≃ √(2πσ), so T ≃ √(σ/2π) ≈ 160–180 MeV."}
+- **C2479** Shared quantum Monte Carlo toolkit and sign problem: the Hubbard-Stratonovich identity as written integrates to exp(+C rho^2 tau^3/2) (sympy, 2026-11-22): wrong sign for C > 0 and tau cubed; exp(-tau C rho^2/2) = (2 pi)^(-1/2) Int ds exp(-s^2/2) exp(i sqrt(C tau) s rho), with a real coupling sqrt(-C tau) for attractive C < 0 (the nuclear lattice-EFT case)
+  - fix: {"map": "e^{-\\tau\\frac C2\\rho^2}\\propto\\int ds\\,e^{-\\frac{s^2}{2}}e^{i\\sqrt{C\\tau}\\,s\\rho}\\ (\\text{attractive }C<0:\\ e^{\\sqrt{-C\\tau}\\,s\\rho})\\ \\Rightarrow\\ Z=\\int\\mathcal Ds\\,\\det M[s]"}
 
-## Dismissed after a hand check (9)
+## Dismissed after a hand check (12)
 
 - **C0229** VLBI: heterodyne receivers, maser clocks and correlators: false alarm, 2026-11-21: the auditor's expression has stray unit factors; 1.3e-3/1.27e7 rad = 1.02e-10 rad = 21.1 μas, as the record states
 - **C0245** Planck-suppressed dispersion and GRB time-of-flight bounds: false alarm, 2026-11-21: for E^2 = p^2c^2(1 + xi E/E_P) the group velocity is c(1 + xi E/E_P) (sympy), so Delta t = xi (E/E_P)(D/c) as the record states; the auditor's factor 1/2 is wrong
@@ -41,3 +43,6 @@ Nothing here is applied automatically. Check a record, preview its fix with `pyt
 - **C2129** Synchrotron radiation: light sources and the M87* ring: false alarm, 2026-11-22: the record states no number; nu_c = (3/4pi) gamma^2 eB/m_e sin(alpha) is the standard critical frequency; the auditor's own value is 4.2e12 Hz (= 4199 GHz), a unit slip
 - **C2321** Neutrino fog: CEvNS in dark-matter detectors: false alarm, 2026-11-22: the record states no value for Q_W; Q_W = N - (1 - 4 sin^2 theta_W) Z is standard and gives 72.9 for Xe-131; the auditor compared it with N = 77, a number the record does not state
 - **C2355** Gaseous detectors are controlled Townsend discharges: false alarm, 2026-11-22: 'alpha d ~ 20, ~1e8 electrons' is the Raether limit as the detector literature states it; e^20 = 4.9e8, within the record's order of magnitude (a factor of 5)
+- **C2582** Nuclear resonant scattering at synchrotrons and XFELs: false alarm, 2026-11-22: 'Gamma ~ neV' is a scale label, not a 1 neV claim; the 57Fe 14.4 keV linewidth hbar/141 ns = 4.7 neV is in the neV range
+- **C2583** Alpha-particle soft errors in integrated circuits: false alarm, 2026-11-22: the record's '~fC' is the critical charge Q_crit; the auditor compared it with the charge a 5 MeV alpha deposits (5e6/3.6 pairs = 222 fC), a different quantity, consistent with upsets (Q_dep >> Q_crit)
+- **C2631** Degenerate Fermi gas: metals and white dwarfs: false alarm, 2026-11-22: 'n_e ~ 1e30 cm^-3' spans typical white-dwarf densities (3e29 at 1e6 g/cm^3 and mu_e = 2, 3e30 at 1e7); P = (2/5) n E_F agrees

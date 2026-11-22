@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21",
+ "generated": "2026-11-22",
  "edges": [
   [
    "00-foundations/computational-physics",
@@ -7927,9 +7927,9 @@
    "score": 0.51,
    "shared": [
     "Magnetism and exchange",
-    "Topological invariants",
     "Ising and lattice models",
-    "Disorder and localization"
+    "Disorder and localization",
+    "Topological invariants"
    ]
   },
   {
@@ -7938,8 +7938,8 @@
    "score": 0.497,
    "shared": [
     "Magnetism and exchange",
-    "Disorder and localization",
-    "Ising and lattice models"
+    "Ising and lattice models",
+    "Disorder and localization"
    ]
   },
   {
@@ -47172,7 +47172,7 @@
    "kind": "method transfer",
    "status": "new",
    "summary": "GFMC/AFDMC and nuclear lattice EFT (auxiliary-field Monte Carlo after a Hubbard-Stratonovich transformation) are the projector and determinant QMC used for Hubbard models; approximate SU(4) Wigner symmetry suppresses the nuclear sign problem as particle-hole symmetry does at half filling, and neural-network states now enter both.",
-   "map": "e^{-\\tau\\frac C2\\rho^2}\\propto\\int ds\\,e^{-\\frac{s^2}{2C\\tau}}e^{-\\tau s\\rho}\\ \\Rightarrow\\ Z=\\int\\mathcal Ds\\,\\det M[s]",
+   "map": "e^{-\\tau\\frac C2\\rho^2}\\propto\\int ds\\,e^{-\\frac{s^2}{2}}e^{i\\sqrt{C\\tau}\\,s\\rho}\\ (\\text{attractive }C<0:\\ e^{\\sqrt{-C\\tau}\\,s\\rho})\\ \\Rightarrow\\ Z=\\int\\mathcal Ds\\,\\det M[s]",
    "breaks": "Nuclear Hamiltonians have strong spin-isospin and three-body operators that cannot be written as one-body densities, which forces constrained-path approximations; CM lattice models have a simple on-site U.",
    "confidence": "established",
    "strength": 2,
@@ -47181,7 +47181,7 @@
     "Lee (2009). \"Lattice simulations for few- and many-body systems\". *Prog. Part. Nucl. Phys.* 63, 117. [arXiv:0804.3501](https://arxiv.org/abs/0804.3501)",
     "Carleo & Troyer (2017). \"Solving the quantum many-body problem with artificial neural networks\". *Science* 355, 602. [arXiv:1606.02318](https://arxiv.org/abs/1606.02318)"
    ],
-   "review": "checked by condensed-matter-physicist and nuclear-physicist (revised by condensed-matter-physicist, nuclear-physicist)"
+   "review": "checked by condensed-matter-physicist and nuclear-physicist (revised by condensed-matter-physicist, nuclear-physicist); audit 2026-11-22: corrected map (the Hubbard-Stratonovich identity as written integrates to exp(+C rho^2 tau^3/2) (sympy, 2026-11-22): wrong sign for C > 0 and tau cubed; exp(-tau C rho^2/2) = )"
   },
   {
    "id": "C2480",
