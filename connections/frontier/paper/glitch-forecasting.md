@@ -12,11 +12,12 @@ Pulsar glitch models are increasingly used to forecast when a pulsar will glitch
    - Small glitches are consistent with Poisson, and their sizes carry no forward information.
    - This confirms out of sample, at one fixed threshold, a two-trigger picture proposed in-sample by Fuentes et al. (2019). *(G2; current research)*
 4. **No aftershocks at catalogue resolution.** Quick follow-up glitches neither cluster after large glitches nor come out smaller, as earthquake aftershocks do. An apparent deficit of quick follow-ups is entirely below about a month, the catalogue's effective resolution. *(G3; current research)*
-5. **Vortex-creep "times to the next glitch" are consistent in hindsight, not yet shown to forecast.**
+5. **Vortex-creep "times to the next glitch" are consistent in hindsight, but fail a blind test.**
    - Across 35 published pairs, the model's t_th tracks the observed interval within pulsars (ρ = +0.66) and beats the pulsar's own mean interval in 25 of 34 cases.
    - But glitch size alone tracks the intervals almost as well (ρ = +0.46), and the fits use data through the next glitch.
    - The one clean forecast made beforehand did worse than the pulsar's own mean.
-   - *(V1; current research)*
+   - **Blind test on Vela (B1).** Measured from Fermi-LAT photons using only data within 410 d after each glitch, the simplest form of the relation, t₀ = (ν̇_pre − ν̇_post)/ν̈, beat Vela's own mean interval in only 2 of 5 Fermi-era intervals (median |ln| error 0.22 against 0.19). It predicted every next glitch too early (5 of 5, p = 0.03).
+   - *(V1, B1; current research)*
 
 ## Data and methods
 - **Catalogue.** Jodrell Bank glitch catalogue, snapshot 2026-11-20 (SHA-256 `e811419f…`; Basu et al. 2022 describe the catalogue). Unseen later glitches are reserved for the registered forecasts.
@@ -86,7 +87,7 @@ The reservoir sign is robust per pulsar in J0537−6910, Vela, J1413−6141 and 
   - In V1, the fits use data spanning the interval, and model components are chosen with the outcome known.
 
 ## Decisive next tests
-1. **Blind vortex-creep fits.**
+1. **Blind vortex-creep fits.** *Done for the simplest model form, on Vela (B1, `../results/B1-blind-vela-recovery.md`): not supported, with a systematic early bias. Still open: a blind fit of the full multi-component model.*
    - **The test:** fit only the first part of each post-glitch recovery (for example, half the interval) and forecast the rest. Score against the pulsar's own baseline.
    - **What it needs:** Fermi-LAT photons and spacecraft files, plus photon timing (PINT). The 3PC timing models are public, but they carry one global ν̈ and timing-noise terms, so they cannot substitute for the per-interval fits.
    - **The alternative:** the modelling groups could run their own fits truncated at a fixed time, blind to the next glitch.

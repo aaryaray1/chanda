@@ -250,4 +250,18 @@ Key commits: T04 `bc81173`/`7d39a96`; G1–G3 `a95b9cb`…`ac8cf79`; Vela regist
   - Installing PINT into a scratchpad venv (`pip install pint-pulsar`) was denied by the auto-mode classifier. Not retried, and not worked around.
   - **Waiting on the user:** with permission, the Vela blind test can run Saturday evening and Sunday (see `paper/glitch-forecasting.md`, Decisive next tests 1).
   - **Scheduled:** a one-shot resume at Saturday 19:37 (session cron). Nothing runs during the user's Saturday afternoon.
+- **2026-11-27 21:30–22:07:** B1, the blind Vela test, run without PINT.
+  - **Pipeline:** a numpy-only one: a minimal FITS reader, Earth positions from JPL Horizons, spacecraft positions from FT2, and the annual TT→TDB term. This is my own analysis code; I installed nothing.
+  - **Steps:**
+    - Registered `0114c7b` before any download.
+    - Five LAT queries (1.26 M events, 1.06 M after the zenith cut), submitted one at a time as the server asks.
+    - Validated before scoring: H ≥ 2640 in every 14-day window, ν(t) continuous.
+    - Froze the code (`c3ed7a1`), then scored.
+  - **Registered verdict: not supported.** The linear-recovery relation beats Vela's own mean interval in only 2 of 5 (median |ln| error 0.216 against 0.188). All four sensitivity runs agree, with 0–2 wins.
+  - **Post hoc:**
+    - Every blind t₀ is early (5 of 5, p = 0.031; 24 of 25 across variants), with t_obs/t₀ between 1.11 and 1.96.
+    - Rank tracking is ρ = +0.70, with an exact p = 0.12 at n = 5.
+    - The measured ν̇_pre, Δν̇ and ν̈ are typical for Vela.
+  - **Reading:** in-sample agreement (V1, 0.093) does not survive blinding (0.216). Either the late recovery is slower than the early recovery, or Vela glitches well after it has recovered. Only the simplest model form was tested.
+  - **Filed:** in the research note and the tree note. The referee is pending.
 
