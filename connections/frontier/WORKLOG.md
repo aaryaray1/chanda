@@ -53,6 +53,8 @@ Key commits: T04 `bc81173`/`7d39a96`; G1–G3 `a95b9cb`…`ac8cf79`; Vela regist
 
 **Mandate update (2026-11-21 ~15:50, from the user):** "commit and push, and continue. stop asking for my input, find a breakthrough, or advance enough to find one." So decide the queued questions myself (map additions, filing results), push after each commit, and put the main effort into a candidate breakthrough.
 
+**Mandate update (2026-11-27 21:20, from the user):** "continue, you have till this sundays reset to use. i want to use claude tomorrow in the afternoon, so be aware of that and factor it." So: spend the remaining weekly quota before Sunday's reset, but no work during Saturday afternoon; keep usage lean (local computation, few subagents).
+
 ## Standing rules
 - **Commits:** commit all work, using `git -c user.name="Aarya Ray Chaudhuri" -c user.email="aaryaray2502@gmail.com"` and the session attribution lines. **Push after commits** (user, 2026-11-21). HTTPS has no credentials here, so push over SSH: `GIT_SSH_COMMAND="ssh -o BatchMode=yes -o StrictHostKeyChecking=yes" git push git@github.com:aaryaray1/chanda.git master`. The repo is public: scan for secrets before every push. Never commit `.claude/settings.json` or `library/fulltext/`.
 - **Pre-registration first:** a test's plan and code are committed *before* its data are read. Deviations are reported in the results.
@@ -238,3 +240,10 @@ Key commits: T04 `bc81173`/`7d39a96`; G1–G3 `a95b9cb`…`ac8cf79`; Vela regist
   - **Audit totals:** 6 errors fixed (C0064, C0657, C1506, C1737, C2021, C2479) and 12 false alarms dismissed out of 789 records. 7 skipped records were audited by hand, all correct.
   - **Config:** `audit.per_day` is set back to 2 (it was raised to 10 for this weekend).
 
+
+- **2026-11-27 21:23–21:28:** resumed under the new mandate.
+  - **Scorer run on the live catalogue:** no glitch since the 2026-11-20 snapshot, so all 41 forecasts and the Vela head-to-head are still open.
+  - **OpenAlex** (down last weekend): no prior scorecard of glitch forecasts. It surfaced Gügercinoğlu et al. (2025, arXiv:2506.22936, *A&A* 706, A216). For J0537−6910 that paper *assumes* each glitch comes at full recovery and solves for persistent shifts, so it adds no V1 pairs. One sentence is added to V1.
+  - **Feasibility of the blind V1 test:** pip, venv, PyPI, the Fermi FSSC and the LAT data server are all reachable, with 180 GB free. The 3PC timing models are public (304 .par files) but carry one global ν̈ plus timing-noise terms, and no TOAs, so they cannot replace per-interval fits. A real test needs LAT photons plus the spacecraft file plus PINT. Target: Vela, whose 5 Fermi-era intervals have published t_th.
+  - **Research note:** `paper/glitch-forecasting.md` consolidates T04, G1–G3 and V1 for experts, with 22/22 citations verified.
+\n

@@ -52,6 +52,7 @@ Knowing the outcome did not force agreement.
   - **Fit windows.** Most fits use timing data through to the next glitch: Akbal et al.'s triangle fits, and the full-interval fits of Gügercinoğlu et al., Liu et al. and Grover et al. For t₀ the offset time is set by the recovery slope over that window. Grover et al. state that their t₀ prior's initial guess was "often chosen close to the observed time to the next glitch".
   - **Model choice.** The model components are also chosen glitch by glitch with the outcome known.
   - **This does not make agreement automatic.** t₀ marks when the spin-down rate has recovered. That this coincides with the next glitch is the model's empirical claim, not an identity. There are clear counterexamples: Vela 2013 (1862 d against 1178 d), J1420−6048 G7 and G8, and the Vela 2013/14 revision that stayed 375 d late.
+  - **Sometimes the relation is assumed outright.** For J0537−6910, Gügercinoğlu et al. (2025) take each next-glitch time as the time to full recovery, then solve for the persistent spin-down shifts that make this hold. They note that the glitch-size–interval correlation alone gives a 10–20 d window for the next glitch.
   - **The one partial-data case went the model's way.** Gügercinoğlu & Alpar (2020) used Xu et al.'s fit to the first 416 days after the 2016 Vela glitch and got t₀ = 781 d, against 782 d observed. It was not blind: they wrote after the 2019 glitch.
 - **What would settle it.** Fit only the early part of each recovery, blind to the next glitch, then score the predicted interval against the pulsar's own baseline. The timing data for the Fermi-LAT pulsars are public. The two open prospective forecasts (J1023−5746 and J2111+4606), and the registered forecasts in T04 and G2-P, will add cases.
 
@@ -71,3 +72,4 @@ Knowing the outcome did not force agreement.
 - Akbal et al. (2021). "Glitch analysis and braking index determination of the unique source PSR J0537-6910". *arXiv preprint*. [arXiv:2106.03341](https://arxiv.org/abs/2106.03341)
 - Liu et al. (2024). "A multi-band study of pulsar glitches with Fermi-LAT and Parkes". *arXiv preprint*. [arXiv:2408.15022](https://arxiv.org/abs/2408.15022)
 - Grover et al. (2026). "Post-glitch Recovery and the Neutron Star Structure: The Vela Pulsar". *PASA*. [arXiv:2506.02100](https://arxiv.org/abs/2506.02100)
+- Gügercinoğlu et al. (2025). "Braking index of the frequently glitching PSR J0537-6910". *A&A* 706, A216. [arXiv:2506.22936](https://arxiv.org/abs/2506.22936)

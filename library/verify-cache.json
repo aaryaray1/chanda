@@ -2776,6 +2776,13 @@
   "title": "SPT-3G D1: CMB temperature and polarization power spectra and cosmology from 2019 and 2020 observations of the SPT-3G Main field",
   "year": 2025
  },
+ "arxiv:2506.22936": {
+  "checked": "2026-11-27",
+  "doi": "10.1051/0004-6361/202556157",
+  "ok": true,
+  "title": "Braking index of the frequently glitching PSR J0537$-$6910",
+  "year": 2025
+ },
  "arxiv:2507.20705": {
   "checked": "2026-10-30",
   "ok": true,

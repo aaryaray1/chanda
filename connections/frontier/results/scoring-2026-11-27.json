@@ -1,0 +1,315 @@
+{
+ "catalogue": "/home/abyss/chanda/connections/frontier/data/scoring/gTable-2026-11-27.html",
+ "sha256": "e811419f2037080bd2c99c1db30555dd4ee6f462f36b91796908f0fe90aabeb4",
+ "today_mjd": 61371.0,
+ "G1": {
+  "rows": {
+   "J0205+6449": {
+    "last_mjd": 58320.0,
+    "model": "M1",
+    "primary": "unconditional",
+    "status": "open",
+    "survival_now": 0.0474
+   },
+   "J0534+2200": {
+    "last_mjd": 60893.9,
+    "model": "M1",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.3854
+   },
+   "J0537-6910": {
+    "last_mjd": 60762.0,
+    "model": "M3",
+    "primary": "unconditional",
+    "status": "open",
+    "survival_now": 0.0003
+   },
+   "J0631+1036": {
+    "last_mjd": 58352.13,
+    "model": "M0",
+    "primary": "unconditional",
+    "status": "open",
+    "survival_now": 0.0065
+   },
+   "J0729-1448": {
+    "last_mjd": 58266.6,
+    "model": "M1",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.1808
+   },
+   "J0742-2822": {
+    "last_mjd": 59839.4,
+    "model": "M0",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.3887
+   },
+   "J0835-4510": {
+    "last_mjd": 60429.9,
+    "model": "M0",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.3194
+   },
+   "J1023-5746": {
+    "last_mjd": 58823.0,
+    "model": "M1",
+    "primary": "unconditional",
+    "status": "open",
+    "survival_now": 0.0015
+   },
+   "J1048-5832": {
+    "last_mjd": 60406.6,
+    "model": "M3",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.8149
+   },
+   "J1105-6107": {
+    "last_mjd": 55288.0,
+    "model": "M1",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.1036
+   },
+   "J1341-6220": {
+    "last_mjd": 58214.0,
+    "model": "M3",
+    "primary": "unconditional",
+    "status": "open",
+    "survival_now": 0.0002
+   },
+   "J1357-6429": {
+    "last_mjd": 58148.0,
+    "model": "M1",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.202
+   },
+   "J1413-6141": {
+    "last_mjd": 57838.0,
+    "model": "M3",
+    "primary": "unconditional",
+    "status": "open",
+    "survival_now": 0.0032
+   },
+   "J1420-6048": {
+    "last_mjd": 58555.0,
+    "model": "M1",
+    "primary": "unconditional",
+    "status": "open",
+    "survival_now": 0.001
+   },
+   "J1617-5055": {
+    "last_mjd": 56267.0,
+    "model": "M1",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.1348
+   },
+   "J1708-4008": {
+    "last_mjd": 53636.0,
+    "model": "M1",
+    "primary": "unconditional",
+    "status": "open",
+    "survival_now": 0.0188
+   },
+   "J1709-4429": {
+    "last_mjd": 58176.0,
+    "model": "M1",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.075
+   },
+   "J1731-4744": {
+    "last_mjd": 57984.0,
+    "model": "M1",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.1079
+   },
+   "J1737-3137": {
+    "last_mjd": 59848.0,
+    "model": "M1",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.3569
+   },
+   "J1740-3015": {
+    "last_mjd": 60980.0,
+    "model": "M0",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.3606
+   },
+   "J1801-2304": {
+    "last_mjd": 58993.5,
+    "model": "M0",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.0809
+   },
+   "J1801-2451": {
+    "last_mjd": 58564.76,
+    "model": "M1",
+    "primary": "unconditional",
+    "status": "open",
+    "survival_now": 0.0486
+   },
+   "J1803-2137": {
+    "last_mjd": 58958.0,
+    "model": "M1",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.3734
+   },
+   "J1814-1744": {
+    "last_mjd": 55626.0,
+    "model": "M1",
+    "primary": "unconditional",
+    "status": "open",
+    "survival_now": 0.0065
+   },
+   "J1825-0935": {
+    "last_mjd": 58486.2,
+    "model": "M1",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.1639
+   },
+   "J1826-1334": {
+    "last_mjd": 58879.0,
+    "model": "M1",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.3339
+   },
+   "J1833-0827": {
+    "last_mjd": 60897.0,
+    "model": "M1",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.8512
+   },
+   "J1841-0524": {
+    "last_mjd": 59111.6,
+    "model": "M1",
+    "primary": "unconditional",
+    "status": "open",
+    "survival_now": 0.0454
+   },
+   "J1902+0615": {
+    "last_mjd": 58675.0,
+    "model": "M1",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.1954
+   },
+   "J1952+3252": {
+    "last_mjd": 55328.0,
+    "model": "M1",
+    "primary": "unconditional",
+    "status": "open",
+    "survival_now": 0.006
+   },
+   "J2021+3651": {
+    "last_mjd": 60289.0,
+    "model": "M1",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.8096
+   },
+   "J2225+6535": {
+    "last_mjd": 60280.0,
+    "model": "M1",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.6386
+   },
+   "J2229+6114": {
+    "last_mjd": 61071.0,
+    "model": "M1",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.9223
+   },
+   "J2301+5852": {
+    "last_mjd": 54880.0,
+    "model": "M1",
+    "primary": "unconditional",
+    "status": "open",
+    "survival_now": 0.0443
+   }
+  },
+  "summary": {
+   "resolved": 0,
+   "open": 34,
+   "pits": []
+  }
+ },
+ "G2P": {
+  "rows": {
+   "J0537-6910": {
+    "last_mjd": 60762.0,
+    "model": "M3",
+    "primary": "unconditional",
+    "status": "open",
+    "survival_now": 0.0
+   },
+   "J0835-4510": {
+    "last_mjd": 60429.9,
+    "model": "M0",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.4013
+   },
+   "J1341-6220": {
+    "last_mjd": 57647.0,
+    "model": "M0",
+    "primary": "unconditional",
+    "status": "open",
+    "survival_now": 0.002
+   },
+   "J1413-6141": {
+    "last_mjd": 57838.0,
+    "model": "M3",
+    "primary": "unconditional",
+    "status": "open",
+    "survival_now": 0.0156
+   },
+   "J1420-6048": {
+    "last_mjd": 58555.0,
+    "model": "M1",
+    "primary": "unconditional",
+    "status": "open",
+    "survival_now": 0.001
+   },
+   "J1740-3015": {
+    "last_mjd": 60980.0,
+    "model": "M3",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.99
+   },
+   "J2229+6114": {
+    "last_mjd": 61071.0,
+    "model": "M1",
+    "primary": "conditional",
+    "status": "open",
+    "survival_now": 0.9802
+   }
+  },
+  "summary": {
+   "resolved": 0,
+   "open": 7,
+   "pits": []
+  }
+ },
+ "vela_head_to_head": {
+  "outcome": null,
+  "glitch_mjd": null,
+  "log_scores": null
+ }
+}
