@@ -264,4 +264,18 @@ Key commits: T04 `bc81173`/`7d39a96`; G1–G3 `a95b9cb`…`ac8cf79`; Vela regist
     - The measured ν̇_pre, Δν̇ and ν̈ are typical for Vela.
   - **Reading:** in-sample agreement (V1, 0.093) does not survive blinding (0.216). Either the late recovery is slower than the early recovery, or Vela glitches well after it has recovered. Only the simplest model form was tested.
   - **Filed:** in the research note and the tree note. The referee is pending.
+- **2026-11-27 22:20–22:50:** the B1 referee, and B2.
+  - **The B1 referee** ("minor revision"): the registered verdict holds, and the barycentring is verified. Applied:
+    - **A fair comparison:** the published in-sample fits on the same five Vela intervals score 2–3 of 5 (medians 0.153–0.159). "Does not survive blinding" is dropped.
+    - **The physical reading:** Akbal et al.'s full-interval Model 1 for 2010 has a lower ν̈ (0.86 against 1.43×10⁻²¹) and comes out 134 d late, so the recovery slows.
+    - **Wording:** "no blind skill" rather than "fails". The baseline is named as the geometric mean. The sign test is reported two-sided (p = 0.063).
+    - **Systematics** (`b1_systematics.py`): my 0.10″ Dec slip, the missing proper motion and centroid epochs give t₀ = 889, 892, 648, 767, 536, still 2/5 and all early. Bootstrap errors are ±8–25 d.
+    - **Deviations listed:** the sensitivity files were not frozen; the <200-photon skip; the 2014 mini-glitch; the 2016 interval is 781.1 d.
+  - **B2:** registered `5edb1c0` after B1, before any later photon; froze `7b0466b`; extended all five intervals (206 more windows).
+    - **H_B2a supported:** t₀ grows with the fit window in 5 of 5 (p = 0.031), so the recovery slows.
+    - **H_B2b not supported:** full-interval fits are closer in only 3 of 5, with a median error of 0.148.
+    - **Reading:** the recovery decelerates, and even fits over the whole interval do not time Vela's glitches.
+    - The pipeline reproduces Grover et al.'s 921.6 d (922 d) and nearly reproduces Gügercinoğlu et al.'s 1862 d (1749 d).
+    - Robust to the systematics: 5 of 5, with a median error of 0.129.
+  - **Filed:** the research note and the tree note are updated.
 

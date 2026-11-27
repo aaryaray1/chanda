@@ -12,12 +12,13 @@ Pulsar glitch models are increasingly used to forecast when a pulsar will glitch
    - Small glitches are consistent with Poisson, and their sizes carry no forward information.
    - This confirms out of sample, at one fixed threshold, a two-trigger picture proposed in-sample by Fuentes et al. (2019). *(G2; current research)*
 4. **No aftershocks at catalogue resolution.** Quick follow-up glitches neither cluster after large glitches nor come out smaller, as earthquake aftershocks do. An apparent deficit of quick follow-ups is entirely below about a month, the catalogue's effective resolution. *(G3; current research)*
-5. **Vortex-creep "times to the next glitch" are consistent in hindsight, but fail a blind test.**
+5. **Vortex-creep "times to the next glitch": partly consistent in hindsight, no blind skill on Vela.**
    - Across 35 published pairs, the model's t_th tracks the observed interval within pulsars (ρ = +0.66) and beats the pulsar's own mean interval in 25 of 34 cases.
    - But glitch size alone tracks the intervals almost as well (ρ = +0.46), and the fits use data through the next glitch.
    - The one clean forecast made beforehand did worse than the pulsar's own mean.
-   - **Blind test on Vela (B1).** Measured from Fermi-LAT photons using only data within 410 d after each glitch, the simplest form of the relation, t₀ = (ν̇_pre − ν̇_post)/ν̈, beat Vela's own mean interval in only 2 of 5 Fermi-era intervals (median |ln| error 0.22 against 0.19). It predicted every next glitch too early (5 of 5, p = 0.03).
-   - *(V1, B1; current research)*
+   - **Blind test on Vela (B1).** Measured from Fermi-LAT photons using only data within 410 d after each glitch, the constant-ν̈ form t₀ = (ν̇_pre − ν̇_post)/ν̈ shows no blind skill: it beats Vela's own geometric-mean interval in 2 of 5 (median |ln| error 0.22 against 0.19). It predicts every next glitch early (5 of 5, exploratory).
+   - **Why (B2).** In all five intervals t₀ grows as the fit window extends (5 of 5, p = 0.031): Vela's post-glitch recovery slows. Even full-interval fits err by a median of 0.15, close to the published fits on the same intervals (0.15–0.16).
+   - *(V1, B1, B2; current research)*
 
 ## Data and methods
 - **Catalogue.** Jodrell Bank glitch catalogue, snapshot 2026-11-20 (SHA-256 `e811419f…`; Basu et al. 2022 describe the catalogue). Unseen later glitches are reserved for the registered forecasts.
