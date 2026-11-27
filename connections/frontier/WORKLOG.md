@@ -278,4 +278,7 @@ Key commits: T04 `bc81173`/`7d39a96`; G1–G3 `a95b9cb`…`ac8cf79`; Vela regist
     - The pipeline reproduces Grover et al.'s 921.6 d (922 d) and nearly reproduces Gügercinoğlu et al.'s 1862 d (1749 d).
     - Robust to the systematics: 5 of 5, with a median error of 0.129.
   - **Filed:** the research note and the tree note are updated.
+- **2026-11-27 22:50:** paused for the night, to keep quota for the user's Saturday afternoon.
+  - **Saturday 19:37** (session cron, replacing the earlier one): run the scorer, referee B2, apply its fixes, report. Then continue until Sunday's reset.
+  - **Not feasible with this method:** a second-pulsar blind test. J1023−5746 and the other vortex-creep γ-ray pulsars are about 60 times fainter than Vela, too faint for 14-day H-test windows without photon weighting and coherent timing, which need packages that cannot be installed.
 
