@@ -246,4 +246,3 @@ Key commits: T04 `bc81173`/`7d39a96`; G1–G3 `a95b9cb`…`ac8cf79`; Vela regist
   - **OpenAlex** (down last weekend): no prior scorecard of glitch forecasts. It surfaced Gügercinoğlu et al. (2025, arXiv:2506.22936, *A&A* 706, A216). For J0537−6910 that paper *assumes* each glitch comes at full recovery and solves for persistent shifts, so it adds no V1 pairs. One sentence is added to V1.
   - **Feasibility of the blind V1 test:** pip, venv, PyPI, the Fermi FSSC and the LAT data server are all reachable, with 180 GB free. The 3PC timing models are public (304 .par files) but carry one global ν̈ plus timing-noise terms, and no TOAs, so they cannot replace per-interval fits. A real test needs LAT photons plus the spacecraft file plus PINT. Target: Vela, whose 5 Fermi-era intervals have published t_th.
   - **Research note:** `paper/glitch-forecasting.md` consolidates T04, G1–G3 and V1 for experts, with 22/22 citations verified.
-\n
